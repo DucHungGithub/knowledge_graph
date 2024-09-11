@@ -1,0 +1,10 @@
+pandas
+json-repair
+networkx
+langchain
+langchain-community
+langchain-openai
+lancedb
+graspologic
+future
+unstructured
