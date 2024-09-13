@@ -207,21 +207,27 @@ The Online Distributed Proofreading Team contributed to the production of the Pr
 <node id="SCROOGE">
   <data key="d0">PERSON</data>
   <data key="d1">Old Information---
+Old Information---
 Scrooge is a character known for his caustic and cold demeanor, often associated with Christmas themes in literature.
 New Information---
+Scrooge is a character known for his caustic and cold demeanor, often associated with the themes of Christmas and redemption.
+New Information---
 Scrooge is a character known for his caustic and cold demeanor, often associated with the themes of Christmas and redemption.</data>
-  <data key="d2">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8</data>
-  <data key="d3">2</data>
+  <data key="d2">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8,58fdf4a853af4c47b5a0aaef8f33d820</data>
+  <data key="d3">3</data>
   <data key="d4">11</data>
   <data key="d5">44293057126f406f8e0793b042436d56</data>
 </node>
 <node id="BOB CRATCHIT">
   <data key="d0">PERSON</data>
   <data key="d1">Old Information---
+Old Information---
 Bob Cratchit is a character who is depicted as a hardworking employee of Scrooge, often struggling to provide for his family.
 New Information---
-Bob Cratchit is a character who works for Scrooge and is depicted as a kind and caring father, celebrating Christmas with his family.</data>
-  <data key="d2">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8</data>
+Bob Cratchit is a character who works for Scrooge and is depicted as a kind and caring father, celebrating Christmas with his family.
+New Information---
+Bob Cratchit is a character who works for Scrooge and is depicted as a loving father, celebrating Christmas Eve with his family.</data>
+  <data key="d2">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8,58fdf4a853af4c47b5a0aaef8f33d820</data>
   <data key="d3">3</data>
   <data key="d4">12</data>
   <data key="d5">f5778db485c7412fa6c9137480ff1dc6</data>
@@ -229,10 +235,13 @@ Bob Cratchit is a character who works for Scrooge and is depicted as a kind and 
 <node id="CHRISTMAS EVE">
   <data key="d0">EVENT</data>
   <data key="d1">Old Information---
+Old Information---
 Christmas Eve is the day before Christmas, often celebrated with various traditions and gatherings.
 New Information---
-Christmas Eve is the evening or day before Christmas Day, celebrated in various ways, including family gatherings and festive activities.</data>
-  <data key="d2">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8</data>
+Christmas Eve is the evening or day before Christmas Day, celebrated in various ways, including family gatherings and festive activities.
+New Information---
+Christmas Eve is the day before Christmas, celebrated with various traditions and gatherings, significant in the narrative.</data>
+  <data key="d2">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8,58fdf4a853af4c47b5a0aaef8f33d820</data>
   <data key="d3">4</data>
   <data key="d4">13</data>
   <data key="d5">3dab854a12ea4a2dad7418e22382925b</data>
@@ -240,21 +249,27 @@ Christmas Eve is the evening or day before Christmas Day, celebrated in various 
 <node id="FEZZIWIG">
   <data key="d0">PERSON</data>
   <data key="d1">Old Information---
+Old Information---
 Fezziwig is a character known for his jovial and generous nature, particularly during Christmas celebrations.
 New Information---
-Fezziwig is a character known for his jovial nature and hosting festive dances, representing the spirit of generosity and joy during Christmas.</data>
-  <data key="d2">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8</data>
-  <data key="d3">2</data>
+Fezziwig is a character known for his jovial nature and hosting festive dances, representing the spirit of generosity and joy during Christmas.
+New Information---
+Fezziwig is a character known for his jovial nature and hosting festive dances, representing the spirit of Christmas.</data>
+  <data key="d2">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8,58fdf4a853af4c47b5a0aaef8f33d820</data>
+  <data key="d3">3</data>
   <data key="d4">14</data>
   <data key="d5">bf2dac792c904addab76430500bdf45b</data>
 </node>
 <node id="MRS. FEZZIWIG">
   <data key="d0">PERSON</data>
   <data key="d1">Old Information---
+Old Information---
 Mrs. Fezziwig is the wife of Fezziwig, known for participating in festive dances and celebrations.
 New Information---
-Mrs. Fezziwig is the wife of Fezziwig, who participates in the festive celebrations and dances.</data>
-  <data key="d2">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8</data>
+Mrs. Fezziwig is the wife of Fezziwig, who participates in the festive celebrations and dances.
+New Information---
+</data>
+  <data key="d2">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8,58fdf4a853af4c47b5a0aaef8f33d820</data>
   <data key="d3">2</data>
   <data key="d4">15</data>
   <data key="d5">925c4c8cb484461187f0f77d99ad9048</data>
@@ -270,11 +285,14 @@ Mrs. Fezziwig is the wife of Fezziwig, who participates in the festive celebrati
 <node id="JOE">
   <data key="d0">PERSON</data>
   <data key="d1">Old Information---
+Old Information---
 Joe is a character involved in a conversation about bed-curtains, indicating a darker aspect of life and death.
 New Information---
-</data>
-  <data key="d2">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8</data>
-  <data key="d3">1</data>
+
+New Information---
+Joe is a character who interacts with another character regarding the morbid topic of bed-curtains, adding a dark humor element to the narrative.</data>
+  <data key="d2">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8,58fdf4a853af4c47b5a0aaef8f33d820</data>
+  <data key="d3">2</data>
   <data key="d4">17</data>
   <data key="d5">6497580153aa456899fcd1faa4e2e93d</data>
 </node>
@@ -292,10 +310,13 @@ Bed-curtains are mentioned in a context that highlights themes of death and the 
 <node id="PHANTOMS">
   <data key="d0"></data>
   <data key="d1">Old Information---
+Old Information---
 
 New Information---
-Phantoms represent the supernatural elements in the story, embodying the restless spirits that haunt Scrooge.</data>
-  <data key="d2">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8</data>
+Phantoms represent the supernatural elements in the story, embodying the restless spirits that haunt Scrooge.
+New Information---
+Phantoms are spectral figures that represent the restless spirits of the past, contributing to the themes of redemption and reflection.</data>
+  <data key="d2">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8,58fdf4a853af4c47b5a0aaef8f33d820</data>
   <data key="d3">1</data>
   <data key="d4">19</data>
   <data key="d5">01d480e9e7fe4049abf1bb44013bf320</data>
@@ -307,6 +328,14 @@ Phantoms represent the supernatural elements in the story, embodying the restles
   <data key="d3">1</data>
   <data key="d4">20</data>
   <data key="d5">ece40633f87a4e69aff8c8c6981b36b0</data>
+</node>
+<node id="UNKNOWN WOMAN">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">58fdf4a853af4c47b5a0aaef8f33d820</data>
+  <data key="d3">1</data>
+  <data key="d4">21</data>
+  <data key="d5">da7b90ddb5214859894b74502b2f8ee1</data>
 </node>
 <edge source="PROJECT GUTENBERG" target="A CHRISTMAS CAROL">
   <data key="d8">8.0</data>
@@ -321,7 +350,7 @@ Project Gutenberg provides free access to 'A Christmas Carol' as part of its dig
 New---
 Project Gutenberg provides the eBook version of 'A Christmas Carol' for free to the public.</data>
   <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05,4d86cac849db4682aca088bb0fcc71a3</data>
-  <data key="d11">da7b90ddb5214859894b74502b2f8ee1</data>
+  <data key="d11">5447a6d934d54b6aa753bfba04f65f37</data>
   <data key="d12">0</data>
   <data key="d13">0</data>
 </edge>
@@ -338,7 +367,7 @@ Charles Dickens is the author of 'A Christmas Carol', which is a significant wor
 New---
 Charles Dickens is the author of 'A Christmas Carol', which is a significant literary work.</data>
   <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05,4d86cac849db4682aca088bb0fcc71a3</data>
-  <data key="d11">5447a6d934d54b6aa753bfba04f65f37</data>
+  <data key="d11">de291d5d4b924b95a99bd238dbd6ca50</data>
   <data key="d12">1</data>
   <data key="d13">0</data>
 </edge>
@@ -355,7 +384,7 @@ Arthur Rackham illustrated the edition of 'A Christmas Carol' referenced in the 
 New---
 Arthur Rackham illustrated 'A Christmas Carol', enhancing its artistic appeal.</data>
   <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05,4d86cac849db4682aca088bb0fcc71a3</data>
-  <data key="d11">de291d5d4b924b95a99bd238dbd6ca50</data>
+  <data key="d11">bddd0bd5281c44dea8acb2d222535300</data>
   <data key="d12">2</data>
   <data key="d13">0</data>
 </edge>
@@ -372,7 +401,7 @@ J. B. Lippincott Company published the original edition of 'A Christmas Carol'
 New---
 J. B. Lippincott Company published 'A Christmas Carol' in 1915.</data>
   <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05,4d86cac849db4682aca088bb0fcc71a3</data>
-  <data key="d11">bddd0bd5281c44dea8acb2d222535300</data>
+  <data key="d11">5570703f900444758e2985a8aeff3070</data>
   <data key="d12">3</data>
   <data key="d13">0</data>
 </edge>
@@ -389,7 +418,7 @@ The eBook version of 'A Christmas Carol' was released on December 24, 2007
 New---
 The eBook version of 'A Christmas Carol' was released on December 24, 2007.</data>
   <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05,4d86cac849db4682aca088bb0fcc71a3</data>
-  <data key="d11">5570703f900444758e2985a8aeff3070</data>
+  <data key="d11">f863be903dc94188af3b0053ba17472d</data>
   <data key="d12">4</data>
   <data key="d13">0</data>
 </edge>
@@ -403,7 +432,7 @@ Suzanne Shell contributed to the production of the Project Gutenberg eBook versi
 New---
 Suzanne Shell contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'</data>
   <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05</data>
-  <data key="d11">f863be903dc94188af3b0053ba17472d</data>
+  <data key="d11">30b5aeea55c64972b17deabe622a45b0</data>
   <data key="d12">5</data>
   <data key="d13">0</data>
 </edge>
@@ -417,7 +446,7 @@ Janet Blenkinship contributed to the production of the Project Gutenberg eBook v
 New---
 Janet Blenkinship contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'</data>
   <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05</data>
-  <data key="d11">30b5aeea55c64972b17deabe622a45b0</data>
+  <data key="d11">b71e4485103548f8bccf571dd4625f72</data>
   <data key="d12">6</data>
   <data key="d13">0</data>
 </edge>
@@ -431,7 +460,7 @@ The Online Distributed Proofreading Team was involved in producing the Project G
 New---
 The Online Distributed Proofreading Team contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'</data>
   <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05</data>
-  <data key="d11">b71e4485103548f8bccf571dd4625f72</data>
+  <data key="d11">4b375986c57f4e549d6f85fcc8e41fa8</data>
   <data key="d12">7</data>
   <data key="d13">0</data>
 </edge>
@@ -439,7 +468,7 @@ The Online Distributed Proofreading Team contributed to the production of the Pr
   <data key="d8">6.0</data>
   <data key="d9">Philadelphia is one of the cities where 'A Christmas Carol' was originally published.</data>
   <data key="d10">4d86cac849db4682aca088bb0fcc71a3</data>
-  <data key="d11">4b375986c57f4e549d6f85fcc8e41fa8</data>
+  <data key="d11">eb1aaf0af32446cc938e1322c1a7a23a</data>
   <data key="d12">8</data>
   <data key="d13">0</data>
 </edge>
@@ -447,87 +476,110 @@ The Online Distributed Proofreading Team contributed to the production of the Pr
   <data key="d8">1.0</data>
   <data key="d9">New York is another city where 'A Christmas Carol' was originally published.</data>
   <data key="d10">4d86cac849db4682aca088bb0fcc71a3</data>
-  <data key="d11">eb1aaf0af32446cc938e1322c1a7a23a</data>
+  <data key="d11">fd60d591eb8d409c97d177ff9474718b</data>
   <data key="d12">9</data>
   <data key="d13">0</data>
 </edge>
 <edge source="SCROOGE" target="BOB CRATCHIT">
   <data key="d8">7.0</data>
   <data key="d9">Old---
+Old---
 Scrooge is Bob Cratchit's employer, representing a contrast between wealth and poverty during the Christmas season.
 New---
-Scrooge is Bob Cratchit's employer, representing a relationship of authority and employment</data>
-  <data key="d10">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8</data>
-  <data key="d11">fd60d591eb8d409c97d177ff9474718b</data>
+Scrooge is Bob Cratchit's employer, representing a relationship of authority and employment
+New---
+Bob Cratchit is an employee of Scrooge, highlighting the relationship between employer and employee</data>
+  <data key="d10">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8,58fdf4a853af4c47b5a0aaef8f33d820</data>
+  <data key="d11">7f05163cbbd647549586e0ec8d9497eb</data>
   <data key="d12">10</data>
   <data key="d13">0</data>
 </edge>
 <edge source="SCROOGE" target="PHANTOMS">
   <data key="d8">7.0</data>
   <data key="d9">Old---
+Old---
 Phantoms are associated with Scrooge, representing his past mistakes and the consequences of his actions.
 New---
-Scrooge encounters phantoms that represent his past and future, serving as a catalyst for his transformation</data>
-  <data key="d10">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8</data>
-  <data key="d11">7f05163cbbd647549586e0ec8d9497eb</data>
+Scrooge encounters phantoms that represent his past and future, serving as a catalyst for his transformation
+New---
+The phantoms represent the consequences of Scrooge's past actions, serving as a catalyst for his transformation</data>
+  <data key="d10">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8,58fdf4a853af4c47b5a0aaef8f33d820</data>
+  <data key="d11">f15edf7f02aa4dab9c53d84b9de317df</data>
   <data key="d12">11</data>
+  <data key="d13">0</data>
+</edge>
+<edge source="SCROOGE" target="FEZZIWIG">
+  <data key="d8">5.0</data>
+  <data key="d9">Fezziwig represents a contrast to Scrooge's character, showcasing a more generous and festive spirit</data>
+  <data key="d10">58fdf4a853af4c47b5a0aaef8f33d820</data>
+  <data key="d11">7dba2c6d54bf4f739ba3daaed58496bf</data>
+  <data key="d12">12</data>
   <data key="d13">0</data>
 </edge>
 <edge source="BOB CRATCHIT" target="CHRISTMAS EVE">
   <data key="d8">5.0</data>
   <data key="d9">Old---
+Old---
 Bob Cratchit celebrates Christmas Eve, highlighting the importance of family and togetherness despite financial struggles.
 New---
-Bob Cratchit celebrates Christmas Eve with his family, highlighting the importance of family and tradition</data>
-  <data key="d10">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8</data>
-  <data key="d11">f15edf7f02aa4dab9c53d84b9de317df</data>
-  <data key="d12">12</data>
+Bob Cratchit celebrates Christmas Eve with his family, highlighting the importance of family and tradition
+New---
+Bob Cratchit celebrates Christmas Eve with his family, emphasizing the importance of the holiday</data>
+  <data key="d10">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8,58fdf4a853af4c47b5a0aaef8f33d820</data>
+  <data key="d11">191bfe7973844ba99a32a23eae229fbf</data>
+  <data key="d12">13</data>
   <data key="d13">0</data>
 </edge>
 <edge source="BOB CRATCHIT" target="CORNHILL">
   <data key="d8">1.0</data>
   <data key="d9">Bob Cratchit engages in festive activities at Cornhill, highlighting the joy of Christmas celebrations.</data>
   <data key="d10">54d756f0ffaa4cc28e0161ed31df1356</data>
-  <data key="d11">7dba2c6d54bf4f739ba3daaed58496bf</data>
-  <data key="d12">13</data>
+  <data key="d11">ffa3f57b64e34237bceb0091cc6b0dc7</data>
+  <data key="d12">14</data>
   <data key="d13">0</data>
 </edge>
 <edge source="CHRISTMAS EVE" target="FEZZIWIG">
   <data key="d8">6.0</data>
   <data key="d9">Old---
+Old---
 Fezziwig is associated with Christmas Eve celebrations, representing the joy and generosity of the season.
 New---
-Fezziwig's dance is a celebration of Christmas Eve, embodying the spirit of the holiday</data>
-  <data key="d10">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8</data>
-  <data key="d11">191bfe7973844ba99a32a23eae229fbf</data>
-  <data key="d12">14</data>
+Fezziwig's dance is a celebration of Christmas Eve, embodying the spirit of the holiday
+New---
+Fezziwig hosts a dance on Christmas Eve, embodying the festive spirit of the holiday</data>
+  <data key="d10">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8,58fdf4a853af4c47b5a0aaef8f33d820</data>
+  <data key="d11">5da5dbcda6b54816a5bfc2b273aea622</data>
+  <data key="d12">15</data>
   <data key="d13">0</data>
 </edge>
 <edge source="CHRISTMAS EVE" target="MRS. FEZZIWIG">
   <data key="d8">6.0</data>
   <data key="d9">Mrs. Fezziwig participates in Christmas Eve festivities, embodying the spirit of celebration and community.</data>
   <data key="d10">54d756f0ffaa4cc28e0161ed31df1356</data>
-  <data key="d11">ffa3f57b64e34237bceb0091cc6b0dc7</data>
-  <data key="d12">15</data>
+  <data key="d11">5bf988d6a05b41d1b11d4aada53e3072</data>
+  <data key="d12">16</data>
   <data key="d13">0</data>
 </edge>
 <edge source="CHRISTMAS EVE" target="CHRISTMAS TOYS">
   <data key="d8">1.0</data>
   <data key="d9">Christmas toys are part of the celebrations that occur on Christmas Eve, symbolizing joy and giving</data>
   <data key="d10">ac84989fbfe14af2aacadac4313620f8</data>
-  <data key="d11">5da5dbcda6b54816a5bfc2b273aea622</data>
-  <data key="d12">16</data>
+  <data key="d11">c331fb9cc27e4876a164062a27430447</data>
+  <data key="d12">17</data>
   <data key="d13">0</data>
 </edge>
 <edge source="FEZZIWIG" target="MRS. FEZZIWIG">
   <data key="d8">8.0</data>
   <data key="d9">Old---
+Old---
 Fezziwig and Mrs. Fezziwig are partners in celebrating Christmas, showcasing a joyful and festive spirit.
 New---
-Fezziwig and Mrs. Fezziwig are partners in hosting festive dances, showcasing their joyful relationship</data>
-  <data key="d10">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8</data>
-  <data key="d11">5bf988d6a05b41d1b11d4aada53e3072</data>
-  <data key="d12">17</data>
+Fezziwig and Mrs. Fezziwig are partners in hosting festive dances, showcasing their joyful relationship
+New---
+Mrs. Fezziwig dances with Fezziwig, showcasing their partnership and the joy of their festive gatherings</data>
+  <data key="d10">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8,58fdf4a853af4c47b5a0aaef8f33d820</data>
+  <data key="d11">290a8b2850114c49ade4404d61dea73d</data>
+  <data key="d12">18</data>
   <data key="d13">0</data>
 </edge>
 <edge source="JOE" target="BED-CURTAINS">
@@ -537,8 +589,16 @@ Joe discusses the bed-curtains with another character, highlighting the morbid h
 New---
 Joe discusses the bed-curtains in a humorous yet morbid context, reflecting on the darker aspects of life and death</data>
   <data key="d10">54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8</data>
-  <data key="d11">c331fb9cc27e4876a164062a27430447</data>
-  <data key="d12">18</data>
+  <data key="d11">1a2c8422626f4de1b9a5e075dd2654e9</data>
+  <data key="d12">19</data>
+  <data key="d13">0</data>
+</edge>
+<edge source="JOE" target="UNKNOWN WOMAN">
+  <data key="d8">6.0</data>
+  <data key="d9">Joe interacts with a woman about the bed-curtains, highlighting a darkly humorous exchange regarding death and belongings</data>
+  <data key="d10">58fdf4a853af4c47b5a0aaef8f33d820</data>
+  <data key="d11">46fe7b7cb2084659bacbb31231c91f48</data>
+  <data key="d12">20</data>
   <data key="d13">0</data>
 </edge>
 </graph></graphml>

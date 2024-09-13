@@ -1,10 +1,10 @@
 {
-  "CHRISTMAS TOYS": {
-    "type": "EVENT",
-    "description": "Christmas toys are gifts exchanged during the Christmas season, symbolizing joy and celebration among families.",
-    "source_id": "ac84989fbfe14af2aacadac4313620f8",
+  "UNKNOWN WOMAN": {
+    "type": "",
+    "description": "",
+    "source_id": "58fdf4a853af4c47b5a0aaef8f33d820",
     "degree": 1,
-    "human_readable_id": 20,
-    "id": "ece40633f87a4e69aff8c8c6981b36b0"
+    "human_readable_id": 21,
+    "id": "da7b90ddb5214859894b74502b2f8ee1"
   }
 }
