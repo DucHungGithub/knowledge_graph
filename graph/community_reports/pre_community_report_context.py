@@ -33,8 +33,6 @@ def prep_community_report_context(
     - Check if local context fits within the limit, if yes use local context
     - If local context exceeds the limit, iteratively replace local context with sub-community reports, starting from the biggest sub-community
     """
-    if report_df is None:
-        report_df = pd.DataFrame()
 
     level = int(level)
     level_context_df = _at_level(level, local_context_df)

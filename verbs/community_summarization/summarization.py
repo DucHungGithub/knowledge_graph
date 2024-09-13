@@ -70,7 +70,7 @@ async def create_community_reports(
     
     for level in levels:
         level_contexts = prep_community_report_context(
-            pd.DataFrame(reports),
+            report_df=pd.DataFrame(reports),
             local_context_df=local_context,
             community_hierarchy_df=community_hierarchy,
             level=level,
@@ -86,6 +86,7 @@ async def create_community_reports(
     
     
     data = []
+    
     for _, rep in enumerate(reports):
         rep_dict = rep.dict()
         data.append(rep_dict)    

@@ -1,8 +1,8 @@
 {
   "PROJECT GUTENBERG": {
     "type": "ORGANIZATION",
-    "description": "Old Information---\nProject Gutenberg is a digital library offering free eBooks, including 'A Christmas Carol' by Charles Dickens, for anyone to use without restrictions.\nNew Information---\nProject Gutenberg is a digital library offering free eBooks, including 'A Christmas Carol' by Charles Dickens, available to anyone worldwide.",
-    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "description": "Old Information---\nOld Information---\nOld Information---\nProject Gutenberg is a digital library offering free eBooks, including 'A Christmas Carol' by Charles Dickens, for anyone to use without restrictions.\nNew Information---\nProject Gutenberg is a digital library offering free eBooks, including 'A Christmas Carol' by Charles Dickens, available to anyone worldwide.\nNew Information---\nProject Gutenberg is a digital library offering free eBooks, including 'A Christmas Carol' by Charles Dickens, available to anyone in the United States and most parts of the world.\nNew Information---\nProject Gutenberg is a digital library offering free eBooks, including 'A Christmas Carol' by Charles Dickens, available for anyone to use without restrictions.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05,4d86cac849db4682aca088bb0fcc71a3",
     "degree": 1,
     "human_readable_id": 0,
     "id": "cb82fcaaf5114a22a496f8e211df3413",
@@ -11,8 +11,8 @@
   },
   "CHARLES DICKENS": {
     "type": "PERSON",
-    "description": "Old Information---\nCharles Dickens is the author of 'A Christmas Carol', a classic novella published in 1915.\nNew Information---\nCharles Dickens is the author of 'A Christmas Carol', a classic novella published in 1915.",
-    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "description": "Old Information---\nOld Information---\nOld Information---\nCharles Dickens is the author of 'A Christmas Carol', a classic novella published in 1915.\nNew Information---\nCharles Dickens is the author of 'A Christmas Carol', a classic novella published in 1915.\nNew Information---\nCharles Dickens is the author of 'A Christmas Carol', a classic novella originally published in 1915.\nNew Information---\nCharles Dickens is the author of 'A Christmas Carol', a classic novel originally published in 1915.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05,4d86cac849db4682aca088bb0fcc71a3",
     "degree": 1,
     "human_readable_id": 1,
     "id": "821c0677110e48888596eda95cadfb4f",
@@ -21,8 +21,8 @@
   },
   "ARTHUR RACKHAM": {
     "type": "PERSON",
-    "description": "Old Information---\nArthur Rackham is the illustrator of 'A Christmas Carol', contributing to its visual presentation.\nNew Information---\nArthur Rackham is the illustrator of 'A Christmas Carol', contributing to its visual representation.",
-    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "description": "Old Information---\nOld Information---\nOld Information---\nArthur Rackham is the illustrator of 'A Christmas Carol', contributing to its visual presentation.\nNew Information---\nArthur Rackham is the illustrator of 'A Christmas Carol', contributing to its visual representation.\nNew Information---\nArthur Rackham is the illustrator of the edition of 'A Christmas Carol' referenced in the Project Gutenberg eBook.\nNew Information---\nArthur Rackham is the illustrator of 'A Christmas Carol', contributing to its visual representation.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05,4d86cac849db4682aca088bb0fcc71a3",
     "degree": 1,
     "human_readable_id": 2,
     "id": "1917fe1b1f2743b0b681cbbf565bf7af",
@@ -31,9 +31,9 @@
   },
   "A CHRISTMAS CAROL": {
     "type": "EVENT",
-    "description": "Old Information---\nA Christmas Carol is a novella by Charles Dickens, originally published in 1915, and is a significant work in English literature.\nNew Information---\nA Christmas Carol is a novella by Charles Dickens, originally published in 1915, which has become a classic Christmas story.",
-    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
-    "degree": 8,
+    "description": "Old Information---\nOld Information---\nOld Information---\nA Christmas Carol is a novella by Charles Dickens, originally published in 1915, and is a significant work in English literature.\nNew Information---\nA Christmas Carol is a novella by Charles Dickens, originally published in 1915, which has become a classic Christmas story.\nNew Information---\nA Christmas Carol is a novella by Charles Dickens that tells the story of Ebenezer Scrooge's transformation after being visited by three spirits on Christmas Eve.\nNew Information---\nA Christmas Carol is a novella by Charles Dickens that was originally published in 1915 and has been released as an eBook by Project Gutenberg.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05,4d86cac849db4682aca088bb0fcc71a3",
+    "degree": 10,
     "human_readable_id": 3,
     "id": "58acac32776d4c4faa720258c850feb7",
     "cluster": "0",
@@ -41,8 +41,8 @@
   },
   "DECEMBER 24, 2007": {
     "type": "EVENT",
-    "description": "Old Information---\nThe release date of the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew Information---\nThe release date of the Project Gutenberg eBook version of 'A Christmas Carol'.",
-    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "description": "Old Information---\nOld Information---\nOld Information---\nThe release date of the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew Information---\nThe release date of the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew Information---\nThe release date of the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew Information---\nThe release date of the eBook version of 'A Christmas Carol' by Project Gutenberg.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05,4d86cac849db4682aca088bb0fcc71a3",
     "degree": 1,
     "human_readable_id": 4,
     "id": "32e60eb642cd46b3817443828f96c944",
@@ -51,8 +51,8 @@
   },
   "J. B. LIPPINCOTT COMPANY": {
     "type": "ORGANIZATION",
-    "description": "Old Information---\nJ. B. Lippincott Company is the original publisher of 'A Christmas Carol' in 1915.\nNew Information---\nJ. B. Lippincott Company was the original publisher of 'A Christmas Carol' in 1915.",
-    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "description": "Old Information---\nOld Information---\nOld Information---\nJ. B. Lippincott Company is the original publisher of 'A Christmas Carol' in 1915.\nNew Information---\nJ. B. Lippincott Company was the original publisher of 'A Christmas Carol' in 1915.\nNew Information---\nJ. B. Lippincott Company was the publisher of the original edition of 'A Christmas Carol' in 1915.\nNew Information---\n",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05,4d86cac849db4682aca088bb0fcc71a3",
     "degree": 1,
     "human_readable_id": 5,
     "id": "68a36e2768654ee097c433a695299293",
@@ -61,16 +61,18 @@
   },
   "NEW YORK": {
     "type": "LOCATION",
-    "description": "Old Information---\nNew York is another city where 'A Christmas Carol' was originally published in 1915 by J. B. Lippincott Company.\nNew Information---\nNew York is another city where 'A Christmas Carol' was originally published in 1915.",
-    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
-    "degree": 0,
+    "description": "Old Information---\nOld Information---\nOld Information---\nNew York is another city where 'A Christmas Carol' was originally published in 1915 by J. B. Lippincott Company.\nNew Information---\nNew York is another city where 'A Christmas Carol' was originally published in 1915.\nNew Information---\nNew York is one of the cities where the original edition of 'A Christmas Carol' was published in 1915.\nNew Information---\nNew York is another original publication city for 'A Christmas Carol' by J. B. Lippincott Company in 1915.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05,4d86cac849db4682aca088bb0fcc71a3",
+    "degree": 1,
     "human_readable_id": 6,
-    "id": "c72595cfd9f64bc48d60f18c1c671acd"
+    "id": "c72595cfd9f64bc48d60f18c1c671acd",
+    "cluster": "0",
+    "level": 0
   },
   "SUZANNE SHELL": {
     "type": "PERSON",
-    "description": "Old Information---\nSuzanne Shell is one of the contributors who produced the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew Information---\nSuzanne Shell is one of the contributors who produced the Project Gutenberg eBook version of 'A Christmas Carol'.",
-    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "description": "Old Information---\nOld Information---\nSuzanne Shell is one of the contributors who produced the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew Information---\nSuzanne Shell is one of the contributors who produced the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew Information---\nSuzanne Shell is one of the producers credited for the Project Gutenberg eBook version of 'A Christmas Carol'.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05",
     "degree": 1,
     "human_readable_id": 7,
     "id": "0c260d4b5f284ac6bc26f74690b579f2",
@@ -79,8 +81,8 @@
   },
   "JANET BLENKINSHIP": {
     "type": "PERSON",
-    "description": "Old Information---\nJanet Blenkinship is another contributor who helped produce the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew Information---\nJanet Blenkinship is another contributor who helped produce the Project Gutenberg eBook version of 'A Christmas Carol'.",
-    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "description": "Old Information---\nOld Information---\nJanet Blenkinship is another contributor who helped produce the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew Information---\nJanet Blenkinship is another contributor who helped produce the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew Information---\nJanet Blenkinship is one of the producers credited for the Project Gutenberg eBook version of 'A Christmas Carol'.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05",
     "degree": 1,
     "human_readable_id": 8,
     "id": "baec6dc9e8104026abaf729760859e0a",
@@ -89,12 +91,94 @@
   },
   "ONLINE DISTRIBUTED PROOFREADING TEAM": {
     "type": "ORGANIZATION",
-    "description": "Old Information---\nThe Online Distributed Proofreading Team contributed to the production of the Project Gutenberg eBook of 'A Christmas Carol'.\nNew Information---\nThe Online Distributed Proofreading Team contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'.",
-    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "description": "Old Information---\nOld Information---\nThe Online Distributed Proofreading Team contributed to the production of the Project Gutenberg eBook of 'A Christmas Carol'.\nNew Information---\nThe Online Distributed Proofreading Team contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew Information---\nThe Online Distributed Proofreading Team contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117,1c1ffc9efce24c809aa092757be7ac05",
     "degree": 1,
     "human_readable_id": 9,
     "id": "1013281e9b734dbfa111b3ec2a6d3c31",
     "cluster": "0",
     "level": 0
+  },
+  "PHILADELPHIA": {
+    "type": "GEO",
+    "description": "Philadelphia is one of the original publication cities for 'A Christmas Carol' by J. B. Lippincott Company in 1915.",
+    "source_id": "4d86cac849db4682aca088bb0fcc71a3",
+    "cluster": "0",
+    "level": 0,
+    "degree": 1,
+    "human_readable_id": 10,
+    "id": "8d00e8b43aed446687a40160c45ba475"
+  },
+  "SCROOGE": {
+    "type": "PERSON",
+    "description": "Old Information---\nScrooge is a character known for his caustic and cold demeanor, often associated with Christmas themes in literature.\nNew Information---\nScrooge is a character known for his caustic and cold demeanor, often associated with the themes of Christmas and redemption.",
+    "source_id": "54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8",
+    "degree": 2,
+    "human_readable_id": 11,
+    "id": "44293057126f406f8e0793b042436d56"
+  },
+  "BOB CRATCHIT": {
+    "type": "PERSON",
+    "description": "Old Information---\nBob Cratchit is a character who is depicted as a hardworking employee of Scrooge, often struggling to provide for his family.\nNew Information---\nBob Cratchit is a character who works for Scrooge and is depicted as a kind and caring father, celebrating Christmas with his family.",
+    "source_id": "54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8",
+    "degree": 3,
+    "human_readable_id": 12,
+    "id": "f5778db485c7412fa6c9137480ff1dc6"
+  },
+  "CHRISTMAS EVE": {
+    "type": "EVENT",
+    "description": "Old Information---\nChristmas Eve is the day before Christmas, often celebrated with various traditions and gatherings.\nNew Information---\nChristmas Eve is the evening or day before Christmas Day, celebrated in various ways, including family gatherings and festive activities.",
+    "source_id": "54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8",
+    "degree": 4,
+    "human_readable_id": 13,
+    "id": "3dab854a12ea4a2dad7418e22382925b"
+  },
+  "FEZZIWIG": {
+    "type": "PERSON",
+    "description": "Old Information---\nFezziwig is a character known for his jovial and generous nature, particularly during Christmas celebrations.\nNew Information---\nFezziwig is a character known for his jovial nature and hosting festive dances, representing the spirit of generosity and joy during Christmas.",
+    "source_id": "54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8",
+    "degree": 2,
+    "human_readable_id": 14,
+    "id": "bf2dac792c904addab76430500bdf45b"
+  },
+  "MRS. FEZZIWIG": {
+    "type": "PERSON",
+    "description": "Old Information---\nMrs. Fezziwig is the wife of Fezziwig, known for participating in festive dances and celebrations.\nNew Information---\nMrs. Fezziwig is the wife of Fezziwig, who participates in the festive celebrations and dances.",
+    "source_id": "54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8",
+    "degree": 2,
+    "human_readable_id": 15,
+    "id": "925c4c8cb484461187f0f77d99ad9048"
+  },
+  "CORNHILL": {
+    "type": "GEO",
+    "description": "Cornhill is a location mentioned where Bob Cratchit went down a slide, associated with festive activities.",
+    "source_id": "54d756f0ffaa4cc28e0161ed31df1356",
+    "degree": 1,
+    "human_readable_id": 16,
+    "id": "89a50847587545c6930f10eae240e030"
+  },
+  "JOE": {
+    "type": "PERSON",
+    "description": "Old Information---\nJoe is a character involved in a conversation about bed-curtains, indicating a darker aspect of life and death.\nNew Information---\n",
+    "source_id": "54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8",
+    "degree": 1,
+    "human_readable_id": 17,
+    "id": "6497580153aa456899fcd1faa4e2e93d"
+  },
+  "BED-CURTAINS": {
+    "type": "ITEM",
+    "description": "Old Information---\nBed-curtains are items mentioned in the context of a conversation, symbolizing the remnants of a deceased person's belongings.\nNew Information---\nBed-curtains are mentioned in a context that highlights themes of death and the macabre, contrasting with the festive spirit of Christmas.",
+    "source_id": "54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8",
+    "degree": 1,
+    "human_readable_id": 18,
+    "id": "cc6aa88215854131a0db7018e0a835e9"
+  },
+  "PHANTOMS": {
+    "type": "",
+    "description": "Old Information---\n\nNew Information---\nPhantoms represent the supernatural elements in the story, embodying the restless spirits that haunt Scrooge.",
+    "source_id": "54d756f0ffaa4cc28e0161ed31df1356,ac84989fbfe14af2aacadac4313620f8",
+    "degree": 1,
+    "human_readable_id": 19,
+    "id": "01d480e9e7fe4049abf1bb44013bf320"
   }
 }

@@ -1,1 +1,10 @@
-{}
+{
+  "CHRISTMAS EVE-CHRISTMAS TOYS": {
+    "weight": 1.0,
+    "description": "Christmas toys are part of the celebrations that occur on Christmas Eve, symbolizing joy and giving",
+    "source_id": "ac84989fbfe14af2aacadac4313620f8",
+    "id": "5da5dbcda6b54816a5bfc2b273aea622",
+    "human_readable_id": 16,
+    "level": 0
+  }
+}

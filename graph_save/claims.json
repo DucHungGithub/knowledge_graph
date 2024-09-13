@@ -1,0 +1,522 @@
+[
+    {
+        "covariate_type": null,
+        "subject_id": "BOB CRATCHIT",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "CHRISTMAS CELEBRATION",
+        "status": "TRUE",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve",
+        "source_text": [
+            "Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "41b8cbae53f94823a7828ff4975eb295"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "FEZZIWIG",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "DANCE",
+        "status": "TRUE",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "Then old Fezziwig stood out to dance with Mrs. Fezziwig",
+        "source_text": [
+            "Then old Fezziwig stood out to dance with Mrs. Fezziwig"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "ed289951b5b74df896378a0c98259100"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "OLD SCRATCH",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "MYTHICAL FIGURE",
+        "status": "SUSPECTED",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "Old Scratch has got his own at last, hey?",
+        "source_text": [
+            "Well!\" said the first. \"Old Scratch has got his own at last, hey?\""
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "f8b63c0d5e9f488eb6eb68ebb81591bf"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "UNKNOWN",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "MYSTERY",
+        "status": "SUSPECTED",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "Nobody under the bed; nobody in the closet; nobody in his dressing-gown, which was hanging up in a suspicious attitude against the wall",
+        "source_text": [
+            "Nobody under the bed; nobody in the closet; nobody in his dressing-gown, which was hanging up in a suspicious attitude against the wall"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "67938dfe3a814df59283679950f0e272"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "PHANTOMS",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "SUPERNATURAL",
+        "status": "SUSPECTED",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "The air was filled with phantoms, wandering hither and thither in restless haste and moaning as they went",
+        "source_text": [
+            "The air was filled with phantoms, wandering hither and thither in restless haste and moaning as they went"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "b2aad6fa2b7e4fcb81d93ab0ce87e3d9"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "BED-CURTAINS",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "ITEM",
+        "status": "SUSPECTED",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "You don't mean to say you took 'em down, rings and all, with him lying there?",
+        "source_text": [
+            "You don't mean to say you took 'em down, rings and all, with him lying there?"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "8a1df17b9c474e0b92041f63d6d0abff"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "",
+        "subject_type": null,
+        "object_id": null,
+        "object_type": null,
+        "type": null,
+        "status": null,
+        "start_date": null,
+        "end_date": null,
+        "description": null,
+        "source_text": null,
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "f3c55c80c1764a80b37733a70eb9792c"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "BOISTEROUS GROUP",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "GATHERING",
+        "status": "TRUE",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "A flushed and boisterous group",
+        "source_text": [
+            "A flushed and boisterous group"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "9f390f7ede1846bbafcb3c1b805c0655"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "CHRISTMAS TOYS",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "ITEM",
+        "status": "TRUE",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "Laden with Christmas toys and presents",
+        "source_text": [
+            "Laden with Christmas toys and presents"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "a31d483d9a92403a915189ecb69d6904"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "PLUMP SISTER",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "CHARACTER",
+        "status": "SUSPECTED",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "The way he went after that plump sister in the lace tucker!",
+        "source_text": [
+            "The way he went after that plump sister in the lace tucker!"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "326b871b24d946f7afbb07abf50b9ff5"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "JOE",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "MISCELLANEOUS",
+        "status": "TRUE",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "You don't mean to say you took 'em down, rings and all, with him lying there?",
+        "source_text": [
+            "You don't mean to say you took 'em down, rings and all, with him lying there?"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "1fddc8b4933946a4a20f229485ece0ba"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "Bob Cratchit",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "CHRISTMAS CELEBRATION",
+        "status": "TRUE",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve",
+        "source_text": [
+            "Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "35d9ab5d76ee4ca5901f519f929a6d9d"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "Fezziwig",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "DANCE",
+        "status": "TRUE",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "Then old Fezziwig stood out to dance with Mrs. Fezziwig",
+        "source_text": [
+            "Then old Fezziwig stood out to dance with Mrs. Fezziwig"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "87b0cf65d918455f998bb054afbeecf4"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "Old Scratch",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "MYSTICAL ENTITY",
+        "status": "TRUE",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "Old Scratch has got his own at last, hey?",
+        "source_text": [
+            "Well!\" said the first. \"Old Scratch has got his own at last, hey?\""
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "434c69b1c4714484b0342de9aaf9fa7f"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "Joe",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "MISCELLANEOUS",
+        "status": "TRUE",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "You don't mean to say you took 'em down, rings and all, with him lying there?",
+        "source_text": [
+            "You don't mean to say you took 'em down, rings and all, with him lying there?"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "6a6ce8286093435d8e97228e0c8f5b9b"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "Phantoms",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "SUPERNATURAL ENTITY",
+        "status": "TRUE",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "The air was filled with phantoms, wandering hither and thither in restless haste and moaning as they went",
+        "source_text": [
+            "The air was filled with phantoms, wandering hither and thither in restless haste and moaning as they went"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "cf6ce61f58bd4fcb8dde2edccedc5232"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "Bed-curtains",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "MISCELLANEOUS",
+        "status": "TRUE",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "What do you call this? said Joe. Bed-curtains! Ah! returned the woman, laughing.... Bed-curtains!",
+        "source_text": [
+            "What do you call this? said Joe. Bed-curtains! Ah! returned the woman, laughing.... Bed-curtains!"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "467b6f8a38bb4fb0a645edf1138b87ce"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "Christmas Eve",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "HOLIDAY",
+        "status": "TRUE",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve",
+        "source_text": [
+            "Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "2e9705a92acb484c83076dd8e0a37e0a"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "Plump sister",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "MISCELLANEOUS",
+        "status": "TRUE",
+        "start_date": "NONE",
+        "end_date": "NONE",
+        "description": "The way he went after that plump sister in the lace tucker!",
+        "source_text": [
+            "The way he went after that plump sister in the lace tucker!"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": "adc629f83c9c4c47be1d356f96b46a7a"
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "CHARLES DICKENS",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "AUTHORSHIP",
+        "status": "TRUE",
+        "start_date": "2007-12-24T00:00:00",
+        "end_date": "2007-12-24T00:00:00",
+        "description": "Charles Dickens is credited as the author of A Christmas Carol, which was released as an eBook on December 24, 2007",
+        "source_text": [
+            "Title: A Christmas Carol, Author: Charles Dickens, Release date: December 24, 2007 [eBook #24022]"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": ""
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "ARTHUR RACKHAM",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "ILLUSTRATION",
+        "status": "TRUE",
+        "start_date": "2007-12-24T00:00:00",
+        "end_date": "2007-12-24T00:00:00",
+        "description": "Arthur Rackham is credited as the illustrator of A Christmas Carol, which was released as an eBook on December 24, 2007",
+        "source_text": [
+            "Title: A Christmas Carol, Illustrator: Arthur Rackham, Release date: December 24, 2007 [eBook #24022]"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": ""
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "PROJECT GUTENBERG",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "DISTRIBUTION",
+        "status": "TRUE",
+        "start_date": "2007-12-24T00:00:00",
+        "end_date": "2007-12-24T00:00:00",
+        "description": "The Project Gutenberg eBook of A Christmas Carol is available for free use under the terms of the Project Gutenberg License",
+        "source_text": [
+            "This ebook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever."
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": ""
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "SUZANNE SHELL",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "CREDITS",
+        "status": "TRUE",
+        "start_date": "2007-12-24T00:00:00",
+        "end_date": "2007-12-24T00:00:00",
+        "description": "Suzanne Shell is credited for producing the Project Gutenberg eBook of A Christmas Carol",
+        "source_text": [
+            "Credits: Produced by Suzanne Shell, Janet Blenkinship and the Online Distributed Proofreading Team at http://www.pgdp.net"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": ""
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "JANET BLENKINSHIP",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "CREDITS",
+        "status": "TRUE",
+        "start_date": "2007-12-24T00:00:00",
+        "end_date": "2007-12-24T00:00:00",
+        "description": "Janet Blenkinship is credited for producing the Project Gutenberg eBook of A Christmas Carol",
+        "source_text": [
+            "Credits: Produced by Suzanne Shell, Janet Blenkinship and the Online Distributed Proofreading Team at http://www.pgdp.net"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": ""
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "ONLINE DISTRIBUTED PROOFREADING TEAM",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "CREDITS",
+        "status": "TRUE",
+        "start_date": "2007-12-24T00:00:00",
+        "end_date": "2007-12-24T00:00:00",
+        "description": "The Online Distributed Proofreading Team is credited for producing the Project Gutenberg eBook of A Christmas Carol",
+        "source_text": [
+            "Credits: Produced by Suzanne Shell, Janet Blenkinship and the Online Distributed Proofreading Team at http://www.pgdp.net"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": ""
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "J. B. LIPPINCOTT COMPANY",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "PUBLISHER",
+        "status": "TRUE",
+        "start_date": "2007-12-24T00:00:00",
+        "end_date": "2007-12-24T00:00:00",
+        "description": "J. B. Lippincott Company is credited as the original publisher of A Christmas Carol in 1915",
+        "source_text": [
+            "Original publication: Philadelphia and New York: J. B. Lippincott Company, 1915"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": ""
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "PHILADELPHIA",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "LOCATION",
+        "status": "TRUE",
+        "start_date": "2007-12-24T00:00:00",
+        "end_date": "2007-12-24T00:00:00",
+        "description": "Philadelphia is one of the locations where A Christmas Carol was originally published",
+        "source_text": [
+            "Original publication: Philadelphia and New York: J. B. Lippincott Company, 1915"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": ""
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "NEW YORK",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "LOCATION",
+        "status": "TRUE",
+        "start_date": "2007-12-24T00:00:00",
+        "end_date": "2007-12-24T00:00:00",
+        "description": "New York is one of the locations where A Christmas Carol was originally published",
+        "source_text": [
+            "Original publication: Philadelphia and New York: J. B. Lippincott Company, 1915"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": ""
+    },
+    {
+        "covariate_type": null,
+        "subject_id": "ENGLISH",
+        "subject_type": null,
+        "object_id": "NONE",
+        "object_type": null,
+        "type": "LANGUAGE",
+        "status": "TRUE",
+        "start_date": "2007-12-24T00:00:00",
+        "end_date": "2007-12-24T00:00:00",
+        "description": "The language of A Christmas Carol is English",
+        "source_text": [
+            "Language: English"
+        ],
+        "doc_id": "d0",
+        "record_id": null,
+        "id": ""
+    }
+]
