@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 
 from langchain_openai import OpenAIEmbeddings
@@ -74,10 +75,15 @@ covariates = {"claims": claims}
 
 
 # Community Report ----:
-report_df = pd.read_csv(f"{INPUT_DIR}/{COMMUNITY_REPORT_TABLE}")
+file_path = f"{INPUT_DIR}/{COMMUNITY_REPORT_TABLE}"
+if not os.path.exists(file_path) or os.stat(file_path).st_size == 0:
+    report_df = pd.DataFrame()
+else:
+    report_df = pd.read_csv(file_path)
+
 reports = read_indexer_reports(report_df, entity_df, COMMUNITY_LEVEL)
 
-print(report_df.head())
+
 
 
 # Text Unit ----:

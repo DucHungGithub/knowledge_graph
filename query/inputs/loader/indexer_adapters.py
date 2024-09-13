@@ -95,6 +95,10 @@ def read_indexer_reports(
     community_level: int,
 ) -> list[CommunityReport]:
     """Read in the Community Reports from the raw indexing outputs."""
+    
+    if final_community_reports is None or final_community_reports.empty:
+        return []
+    
     report_df = final_community_reports
     entity_df = final_nodes
     entity_df = _filter_under_community_level(entity_df, community_level)

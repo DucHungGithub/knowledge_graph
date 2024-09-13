@@ -1,0 +1,100 @@
+{
+  "PROJECT GUTENBERG": {
+    "type": "ORGANIZATION",
+    "description": "Old Information---\nProject Gutenberg is a digital library offering free eBooks, including 'A Christmas Carol' by Charles Dickens, for anyone to use without restrictions.\nNew Information---\nProject Gutenberg is a digital library offering free eBooks, including 'A Christmas Carol' by Charles Dickens, available to anyone worldwide.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "degree": 1,
+    "human_readable_id": 0,
+    "id": "cb82fcaaf5114a22a496f8e211df3413",
+    "cluster": "0",
+    "level": 0
+  },
+  "CHARLES DICKENS": {
+    "type": "PERSON",
+    "description": "Old Information---\nCharles Dickens is the author of 'A Christmas Carol', a classic novella published in 1915.\nNew Information---\nCharles Dickens is the author of 'A Christmas Carol', a classic novella published in 1915.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "degree": 1,
+    "human_readable_id": 1,
+    "id": "821c0677110e48888596eda95cadfb4f",
+    "cluster": "0",
+    "level": 0
+  },
+  "ARTHUR RACKHAM": {
+    "type": "PERSON",
+    "description": "Old Information---\nArthur Rackham is the illustrator of 'A Christmas Carol', contributing to its visual presentation.\nNew Information---\nArthur Rackham is the illustrator of 'A Christmas Carol', contributing to its visual representation.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "degree": 1,
+    "human_readable_id": 2,
+    "id": "1917fe1b1f2743b0b681cbbf565bf7af",
+    "cluster": "0",
+    "level": 0
+  },
+  "A CHRISTMAS CAROL": {
+    "type": "EVENT",
+    "description": "Old Information---\nA Christmas Carol is a novella by Charles Dickens, originally published in 1915, and is a significant work in English literature.\nNew Information---\nA Christmas Carol is a novella by Charles Dickens, originally published in 1915, which has become a classic Christmas story.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "degree": 8,
+    "human_readable_id": 3,
+    "id": "58acac32776d4c4faa720258c850feb7",
+    "cluster": "0",
+    "level": 0
+  },
+  "DECEMBER 24, 2007": {
+    "type": "EVENT",
+    "description": "Old Information---\nThe release date of the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew Information---\nThe release date of the Project Gutenberg eBook version of 'A Christmas Carol'.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "degree": 1,
+    "human_readable_id": 4,
+    "id": "32e60eb642cd46b3817443828f96c944",
+    "cluster": "0",
+    "level": 0
+  },
+  "J. B. LIPPINCOTT COMPANY": {
+    "type": "ORGANIZATION",
+    "description": "Old Information---\nJ. B. Lippincott Company is the original publisher of 'A Christmas Carol' in 1915.\nNew Information---\nJ. B. Lippincott Company was the original publisher of 'A Christmas Carol' in 1915.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "degree": 1,
+    "human_readable_id": 5,
+    "id": "68a36e2768654ee097c433a695299293",
+    "cluster": "0",
+    "level": 0
+  },
+  "NEW YORK": {
+    "type": "LOCATION",
+    "description": "Old Information---\nNew York is another city where 'A Christmas Carol' was originally published in 1915 by J. B. Lippincott Company.\nNew Information---\nNew York is another city where 'A Christmas Carol' was originally published in 1915.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "degree": 0,
+    "human_readable_id": 6,
+    "id": "c72595cfd9f64bc48d60f18c1c671acd"
+  },
+  "SUZANNE SHELL": {
+    "type": "PERSON",
+    "description": "Old Information---\nSuzanne Shell is one of the contributors who produced the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew Information---\nSuzanne Shell is one of the contributors who produced the Project Gutenberg eBook version of 'A Christmas Carol'.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "degree": 1,
+    "human_readable_id": 7,
+    "id": "0c260d4b5f284ac6bc26f74690b579f2",
+    "cluster": "0",
+    "level": 0
+  },
+  "JANET BLENKINSHIP": {
+    "type": "PERSON",
+    "description": "Old Information---\nJanet Blenkinship is another contributor who helped produce the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew Information---\nJanet Blenkinship is another contributor who helped produce the Project Gutenberg eBook version of 'A Christmas Carol'.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "degree": 1,
+    "human_readable_id": 8,
+    "id": "baec6dc9e8104026abaf729760859e0a",
+    "cluster": "0",
+    "level": 0
+  },
+  "ONLINE DISTRIBUTED PROOFREADING TEAM": {
+    "type": "ORGANIZATION",
+    "description": "Old Information---\nThe Online Distributed Proofreading Team contributed to the production of the Project Gutenberg eBook of 'A Christmas Carol'.\nNew Information---\nThe Online Distributed Proofreading Team contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "degree": 1,
+    "human_readable_id": 9,
+    "id": "1013281e9b734dbfa111b3ec2a6d3c31",
+    "cluster": "0",
+    "level": 0
+  }
+}

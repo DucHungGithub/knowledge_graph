@@ -53,7 +53,7 @@ async def init_workflow(args: Dict[str, Any]):
     
     
     # Community detection (Clustering graph)
-    communities_graph = await clustering_graph(graphml=ens_rels_summarize_graph, level=2, args=args)
+    communities_graph = await clustering_graph(graphml=ens_rels_summarize_graph, args=args)
     print("####communities_graph#####")
     print(communities_graph)
     nx.draw(communities_graph, with_labels = True)

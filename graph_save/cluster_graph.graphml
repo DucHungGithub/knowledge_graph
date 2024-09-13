@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="level" attr.type="long"/>
+<key id="d12" for="edge" attr.name="human_readable_id" attr.type="long"/>
+<key id="d11" for="edge" attr.name="id" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="description" attr.type="string"/>
+<key id="d8" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d7" for="node" attr.name="level" attr.type="long"/>
+<key id="d6" for="node" attr.name="cluster" attr.type="string"/>
+<key id="d5" for="node" attr.name="id" attr.type="string"/>
+<key id="d4" for="node" attr.name="human_readable_id" attr.type="long"/>
+<key id="d3" for="node" attr.name="degree" attr.type="long"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="PROJECT GUTENBERG">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Old Information---
+Project Gutenberg is a digital library offering free eBooks, including 'A Christmas Carol' by Charles Dickens, for anyone to use without restrictions.
+New Information---
+Project Gutenberg is a digital library offering free eBooks, including 'A Christmas Carol' by Charles Dickens, available to anyone worldwide.</data>
+  <data key="d2">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d3">1</data>
+  <data key="d4">0</data>
+  <data key="d5">cb82fcaaf5114a22a496f8e211df3413</data>
+  <data key="d6">0</data>
+  <data key="d7">0</data>
+</node>
+<node id="CHARLES DICKENS">
+  <data key="d0">PERSON</data>
+  <data key="d1">Old Information---
+Charles Dickens is the author of 'A Christmas Carol', a classic novella published in 1915.
+New Information---
+Charles Dickens is the author of 'A Christmas Carol', a classic novella published in 1915.</data>
+  <data key="d2">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d3">1</data>
+  <data key="d4">1</data>
+  <data key="d5">821c0677110e48888596eda95cadfb4f</data>
+  <data key="d6">0</data>
+  <data key="d7">0</data>
+</node>
+<node id="ARTHUR RACKHAM">
+  <data key="d0">PERSON</data>
+  <data key="d1">Old Information---
+Arthur Rackham is the illustrator of 'A Christmas Carol', contributing to its visual presentation.
+New Information---
+Arthur Rackham is the illustrator of 'A Christmas Carol', contributing to its visual representation.</data>
+  <data key="d2">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d3">1</data>
+  <data key="d4">2</data>
+  <data key="d5">1917fe1b1f2743b0b681cbbf565bf7af</data>
+  <data key="d6">0</data>
+  <data key="d7">0</data>
+</node>
+<node id="A CHRISTMAS CAROL">
+  <data key="d0">EVENT</data>
+  <data key="d1">Old Information---
+A Christmas Carol is a novella by Charles Dickens, originally published in 1915, and is a significant work in English literature.
+New Information---
+A Christmas Carol is a novella by Charles Dickens, originally published in 1915, which has become a classic Christmas story.</data>
+  <data key="d2">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d3">8</data>
+  <data key="d4">3</data>
+  <data key="d5">58acac32776d4c4faa720258c850feb7</data>
+  <data key="d6">0</data>
+  <data key="d7">0</data>
+</node>
+<node id="DECEMBER 24, 2007">
+  <data key="d0">EVENT</data>
+  <data key="d1">Old Information---
+The release date of the Project Gutenberg eBook version of 'A Christmas Carol'.
+New Information---
+The release date of the Project Gutenberg eBook version of 'A Christmas Carol'.</data>
+  <data key="d2">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d3">1</data>
+  <data key="d4">4</data>
+  <data key="d5">32e60eb642cd46b3817443828f96c944</data>
+  <data key="d6">0</data>
+  <data key="d7">0</data>
+</node>
+<node id="J. B. LIPPINCOTT COMPANY">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Old Information---
+J. B. Lippincott Company is the original publisher of 'A Christmas Carol' in 1915.
+New Information---
+J. B. Lippincott Company was the original publisher of 'A Christmas Carol' in 1915.</data>
+  <data key="d2">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d3">1</data>
+  <data key="d4">5</data>
+  <data key="d5">68a36e2768654ee097c433a695299293</data>
+  <data key="d6">0</data>
+  <data key="d7">0</data>
+</node>
+<node id="NEW YORK">
+  <data key="d0">LOCATION</data>
+  <data key="d1">Old Information---
+New York is another city where 'A Christmas Carol' was originally published in 1915 by J. B. Lippincott Company.
+New Information---
+New York is another city where 'A Christmas Carol' was originally published in 1915.</data>
+  <data key="d2">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d3">0</data>
+  <data key="d4">6</data>
+  <data key="d5">c72595cfd9f64bc48d60f18c1c671acd</data>
+</node>
+<node id="SUZANNE SHELL">
+  <data key="d0">PERSON</data>
+  <data key="d1">Old Information---
+Suzanne Shell is one of the contributors who produced the Project Gutenberg eBook version of 'A Christmas Carol'.
+New Information---
+Suzanne Shell is one of the contributors who produced the Project Gutenberg eBook version of 'A Christmas Carol'.</data>
+  <data key="d2">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d3">1</data>
+  <data key="d4">7</data>
+  <data key="d5">0c260d4b5f284ac6bc26f74690b579f2</data>
+  <data key="d6">0</data>
+  <data key="d7">0</data>
+</node>
+<node id="JANET BLENKINSHIP">
+  <data key="d0">PERSON</data>
+  <data key="d1">Old Information---
+Janet Blenkinship is another contributor who helped produce the Project Gutenberg eBook version of 'A Christmas Carol'.
+New Information---
+Janet Blenkinship is another contributor who helped produce the Project Gutenberg eBook version of 'A Christmas Carol'.</data>
+  <data key="d2">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d3">1</data>
+  <data key="d4">8</data>
+  <data key="d5">baec6dc9e8104026abaf729760859e0a</data>
+  <data key="d6">0</data>
+  <data key="d7">0</data>
+</node>
+<node id="ONLINE DISTRIBUTED PROOFREADING TEAM">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Old Information---
+The Online Distributed Proofreading Team contributed to the production of the Project Gutenberg eBook of 'A Christmas Carol'.
+New Information---
+The Online Distributed Proofreading Team contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'.</data>
+  <data key="d2">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d3">1</data>
+  <data key="d4">9</data>
+  <data key="d5">1013281e9b734dbfa111b3ec2a6d3c31</data>
+  <data key="d6">0</data>
+  <data key="d7">0</data>
+</node>
+<edge source="PROJECT GUTENBERG" target="A CHRISTMAS CAROL">
+  <data key="d8">8.0</data>
+  <data key="d9">Old---
+Project Gutenberg provides free access to 'A Christmas Carol' as part of its digital library offerings.
+New---
+Project Gutenberg provides free access to 'A Christmas Carol' as part of its digital library offerings.</data>
+  <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d11">8d00e8b43aed446687a40160c45ba475</data>
+  <data key="d12">0</data>
+  <data key="d13">0</data>
+</edge>
+<edge source="CHARLES DICKENS" target="A CHRISTMAS CAROL">
+  <data key="d8">9.0</data>
+  <data key="d9">Old---
+Charles Dickens is the author of 'A Christmas Carol', which is a significant literary work.
+New---
+Charles Dickens is the author of 'A Christmas Carol', which he wrote and published in 1915.</data>
+  <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d11">44293057126f406f8e0793b042436d56</data>
+  <data key="d12">1</data>
+  <data key="d13">0</data>
+</edge>
+<edge source="ARTHUR RACKHAM" target="A CHRISTMAS CAROL">
+  <data key="d8">7.0</data>
+  <data key="d9">Old---
+Arthur Rackham illustrated 'A Christmas Carol', enhancing its appeal through visual art.
+New---
+Arthur Rackham illustrated 'A Christmas Carol', enhancing its appeal through visual art.</data>
+  <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d11">f5778db485c7412fa6c9137480ff1dc6</data>
+  <data key="d12">2</data>
+  <data key="d13">0</data>
+</edge>
+<edge source="A CHRISTMAS CAROL" target="J. B. LIPPINCOTT COMPANY">
+  <data key="d8">6.0</data>
+  <data key="d9">Old---
+J. B. Lippincott Company originally published 'A Christmas Carol' in 1915.
+New---
+J. B. Lippincott Company was the original publisher of 'A Christmas Carol', responsible for its first print edition.</data>
+  <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d11">3dab854a12ea4a2dad7418e22382925b</data>
+  <data key="d12">3</data>
+  <data key="d13">0</data>
+</edge>
+<edge source="A CHRISTMAS CAROL" target="DECEMBER 24, 2007">
+  <data key="d8">1.0</data>
+  <data key="d9">Old---
+The eBook version of 'A Christmas Carol' was released on December 24, 2007 by Project Gutenberg.
+New---
+The eBook version of 'A Christmas Carol' was released on December 24, 2007, by Project Gutenberg.</data>
+  <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d11">bf2dac792c904addab76430500bdf45b</data>
+  <data key="d12">4</data>
+  <data key="d13">0</data>
+</edge>
+<edge source="A CHRISTMAS CAROL" target="SUZANNE SHELL">
+  <data key="d8">4.0</data>
+  <data key="d9">Old---
+Suzanne Shell contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'.
+New---
+Suzanne Shell contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'.</data>
+  <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d11">925c4c8cb484461187f0f77d99ad9048</data>
+  <data key="d12">5</data>
+  <data key="d13">0</data>
+</edge>
+<edge source="A CHRISTMAS CAROL" target="JANET BLENKINSHIP">
+  <data key="d8">3.0</data>
+  <data key="d9">Old---
+Janet Blenkinship contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'.
+New---
+Janet Blenkinship contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'.</data>
+  <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d11">89a50847587545c6930f10eae240e030</data>
+  <data key="d12">6</data>
+  <data key="d13">0</data>
+</edge>
+<edge source="A CHRISTMAS CAROL" target="ONLINE DISTRIBUTED PROOFREADING TEAM">
+  <data key="d8">2.0</data>
+  <data key="d9">Old---
+The Online Distributed Proofreading Team assisted in producing the Project Gutenberg eBook version of 'A Christmas Carol'.
+New---
+The Online Distributed Proofreading Team was involved in producing the Project Gutenberg eBook version of 'A Christmas Carol'.</data>
+  <data key="d10">b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117</data>
+  <data key="d11">6497580153aa456899fcd1faa4e2e93d</data>
+  <data key="d12">7</data>
+  <data key="d13">0</data>
+</edge>
+</graph></graphml>

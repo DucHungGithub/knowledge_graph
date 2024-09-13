@@ -1,0 +1,66 @@
+{
+  "PROJECT GUTENBERG-A CHRISTMAS CAROL": {
+    "weight": 8.0,
+    "description": "Old---\nProject Gutenberg provides free access to 'A Christmas Carol' as part of its digital library offerings.\nNew---\nProject Gutenberg provides free access to 'A Christmas Carol' as part of its digital library offerings.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "id": "8d00e8b43aed446687a40160c45ba475",
+    "human_readable_id": 0,
+    "level": 0
+  },
+  "CHARLES DICKENS-A CHRISTMAS CAROL": {
+    "weight": 9.0,
+    "description": "Old---\nCharles Dickens is the author of 'A Christmas Carol', which is a significant literary work.\nNew---\nCharles Dickens is the author of 'A Christmas Carol', which he wrote and published in 1915.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "id": "44293057126f406f8e0793b042436d56",
+    "human_readable_id": 1,
+    "level": 0
+  },
+  "ARTHUR RACKHAM-A CHRISTMAS CAROL": {
+    "weight": 7.0,
+    "description": "Old---\nArthur Rackham illustrated 'A Christmas Carol', enhancing its appeal through visual art.\nNew---\nArthur Rackham illustrated 'A Christmas Carol', enhancing its appeal through visual art.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "id": "f5778db485c7412fa6c9137480ff1dc6",
+    "human_readable_id": 2,
+    "level": 0
+  },
+  "A CHRISTMAS CAROL-J. B. LIPPINCOTT COMPANY": {
+    "weight": 6.0,
+    "description": "Old---\nJ. B. Lippincott Company originally published 'A Christmas Carol' in 1915.\nNew---\nJ. B. Lippincott Company was the original publisher of 'A Christmas Carol', responsible for its first print edition.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "id": "3dab854a12ea4a2dad7418e22382925b",
+    "human_readable_id": 3,
+    "level": 0
+  },
+  "A CHRISTMAS CAROL-DECEMBER 24, 2007": {
+    "weight": 1.0,
+    "description": "Old---\nThe eBook version of 'A Christmas Carol' was released on December 24, 2007 by Project Gutenberg.\nNew---\nThe eBook version of 'A Christmas Carol' was released on December 24, 2007, by Project Gutenberg.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "id": "bf2dac792c904addab76430500bdf45b",
+    "human_readable_id": 4,
+    "level": 0
+  },
+  "A CHRISTMAS CAROL-SUZANNE SHELL": {
+    "weight": 4.0,
+    "description": "Old---\nSuzanne Shell contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew---\nSuzanne Shell contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "id": "925c4c8cb484461187f0f77d99ad9048",
+    "human_readable_id": 5,
+    "level": 0
+  },
+  "A CHRISTMAS CAROL-JANET BLENKINSHIP": {
+    "weight": 3.0,
+    "description": "Old---\nJanet Blenkinship contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew---\nJanet Blenkinship contributed to the production of the Project Gutenberg eBook version of 'A Christmas Carol'.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "id": "89a50847587545c6930f10eae240e030",
+    "human_readable_id": 6,
+    "level": 0
+  },
+  "A CHRISTMAS CAROL-ONLINE DISTRIBUTED PROOFREADING TEAM": {
+    "weight": 2.0,
+    "description": "Old---\nThe Online Distributed Proofreading Team assisted in producing the Project Gutenberg eBook version of 'A Christmas Carol'.\nNew---\nThe Online Distributed Proofreading Team was involved in producing the Project Gutenberg eBook version of 'A Christmas Carol'.",
+    "source_id": "b3b6b35c68fa4f8ca5a21468308e3bcd,89df8e66513747c99b7752ef4e358117",
+    "id": "6497580153aa456899fcd1faa4e2e93d",
+    "human_readable_id": 7,
+    "level": 0
+  }
+}

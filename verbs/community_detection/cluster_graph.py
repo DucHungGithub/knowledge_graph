@@ -5,9 +5,10 @@ import logging
 
 import networkx as nx
 
-from utils.graph import load_graph
+from utils.graph import combine_graphs_for_clustering, combine_graphs_for_extract, load_graph, load_graph_from_file, save_files_graphml
 from utils.uuid import gen_uuid
 from verbs.community_detection.typing import Communities
+import config as defs
 
 logger = logging.getLogger(__name__)
 
@@ -25,17 +26,26 @@ async def clustering_graph(
     seed: int = 6969,
     **kwargs
 ) -> nx.Graph:
-    communities = await run_layout(graphml, args)
-    return await apply_clustering(communites=communities, graphml=graphml, level=level, seed=seed)
+    
+    graph = load_graph(graphml)
+    
+    old_graph = load_graph_from_file(checkpoint_dir=defs.CHECKPOINT_DIR, file_name="summarize_graph.graphml")
+    if old_graph:
+        graph = combine_graphs_for_extract(graph1=old_graph, graph2=graph, checkpoint_dir=defs.CHECKPOINT_DIR)
+    else:
+        save_files_graphml(checkpoint_dir=defs.CHECKPOINT_DIR, file_name="summarize_graph.graphml", graph_ml=graph)
+    
+    communities = await run_layout(graph, args)
+    return await apply_clustering(communites=communities, graphml=graph, level=level, seed=seed)
 
 async def apply_clustering(
-    graphml: str,
+    graphml: str | nx.Graph,
     communites: Communities,
     level: int,
     seed: int
 ) -> nx.Graph:
     random = Random(seed)
-    graph = nx.parse_graphml(graphml)
+    graph = load_graph(graphml)
     for community_level, community_id, nodes in communites:
         if level == community_level:
             for node in nodes:
@@ -56,6 +66,12 @@ async def apply_clustering(
         graph.edges[edge]["id"] = str(gen_uuid(random))
         graph.edges[edge]["human_readable_id"] = index
         graph.edges[edge]["level"] = level
+        
+    old_graph = load_graph_from_file(checkpoint_dir=defs.CHECKPOINT_DIR, file_name="cluster_graph.graphml")
+    if old_graph:
+        graph = combine_graphs_for_clustering(graph1=old_graph, graph2=graph, checkpoint_dir=defs.CHECKPOINT_DIR)
+    else:
+        save_files_graphml(checkpoint_dir=defs.CHECKPOINT_DIR, file_name="cluster_graph.graphml", graph_ml=graph)
     return graph
   
   
@@ -64,6 +80,7 @@ async def run_layout(
     args: Dict[str, Any],
 ) -> Communities:
     graph = load_graph(graphml_or_graph)
+    
     if len(graph.nodes) == 0:
         logger.warning("Graph has no nodes", exc_info=True)
         return []

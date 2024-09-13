@@ -3,6 +3,8 @@ INPUT_FOLDER_PATH = "inputs"
 
 OUTPUT_FOLDER_PATH = "outputs"
 
+CHECKPOINT_DIR = "graph_save"
+
 
 # encoding model config
 ENCODING_MODEL = "cl100k_base"
