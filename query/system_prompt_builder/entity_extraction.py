@@ -30,8 +30,8 @@ class EntityVectorStoreKey(str, Enum):
 def map_query_to_entities(
     query: str,
     text_embedding_vectorstore: VectorStore,
-    text_embedder: Embeddings,
     all_entities: List[Entity],
+    text_embedder: Optional[Embeddings] = None,
     embedding_vectorstore_key: str = EntityVectorStoreKey.ID,
     include_entity_names: Optional[List[str]] = None,
     exclude_entity_names: Optional[List[str]] = None,
