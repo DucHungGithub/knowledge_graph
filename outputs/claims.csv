@@ -1,31 +1,619 @@
 covariate_type,subject_id,subject_type,object_id,object_type,type,status,start_date,end_date,description,source_text,doc_id,record_id,id,human_readable_id,claim_details
-,,,,,,,,,,[],d0,,d2b305fc191544bf853543e77c1e82ee,0,"{'human_readable_id': 0, 'subject_id': '', 'type': None, 'status': None, 'description': ''}"
-,ARTHUR RACKHAM,,NONE,,ILLUSTRATION,TRUE,2007-12-24T00:00:00,2007-12-24T00:00:00,"Arthur Rackham is credited as the illustrator of A Christmas Carol, which was released as an eBook on December 24, 2007","['Title: A Christmas Carol, Illustrator: Arthur Rackham, Release date: December 24, 2007 [eBook #24022]']",d0,,936c6dc8e5cc42dfa971a16d7b47b2a8,1,"{'human_readable_id': 1, 'subject_id': 'ARTHUR RACKHAM', 'type': 'ILLUSTRATION', 'status': 'TRUE', 'description': 'Arthur Rackham is credited as the illustrator of A Christmas Carol, which was released as an eBook on December 24, 2007'}"
-,BED-CURTAINS,,NONE,,ITEM,SUSPECTED,NONE,NONE,"You don't mean to say you took 'em down, rings and all, with him lying there?","[""You don't mean to say you took 'em down, rings and all, with him lying there?""]",d0,,19cd38c60d8e4cc69de17ea1adf5723d,2,"{'human_readable_id': 2, 'subject_id': 'BED-CURTAINS', 'type': 'ITEM', 'status': 'SUSPECTED', 'description': ""You don't mean to say you took 'em down, rings and all, with him lying there?""}"
-,BOB CRATCHIT,,NONE,,CHRISTMAS CELEBRATION,TRUE,NONE,NONE,"Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve","['Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve']","d0, d0, d0",,aee7a9f67a2942f48d1d27c92b9ac346,3,"{'human_readable_id': 3, 'subject_id': 'BOB CRATCHIT', 'type': 'CHRISTMAS CELEBRATION', 'status': 'TRUE', 'description': 'Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve'}"
-,BOISTEROUS GROUP,,NONE,,CELEBRATION,TRUE,NONE,NONE,A flushed and boisterous group A flushed and boisterous group,['A flushed and boisterous group'],"d0, d0",,e99847d8f37b4ea19deeea4db2cf78a5,4,"{'human_readable_id': 4, 'subject_id': 'BOISTEROUS GROUP', 'type': 'CELEBRATION', 'status': 'TRUE', 'description': 'A flushed and boisterous group A flushed and boisterous group'}"
-,Bed-curtains,,NONE,,MISCELLANEOUS,TRUE,NONE,NONE,"What do you call this? said Joe. Bed-curtains! Ah! returned the woman, laughing.... Bed-curtains!","['What do you call this? said Joe. Bed-curtains! Ah! returned the woman, laughing.... Bed-curtains!']",d0,,6693b195790c414085386e6b868b52f0,5,"{'human_readable_id': 5, 'subject_id': 'Bed-curtains', 'type': 'MISCELLANEOUS', 'status': 'TRUE', 'description': 'What do you call this? said Joe. Bed-curtains! Ah! returned the woman, laughing.... Bed-curtains!'}"
-,Bob Cratchit,,NONE,,CHRISTMAS CELEBRATION,TRUE,NONE,NONE,"Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve","['Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve']",d0,,06c35de39ee34e6b84beaf414b10442b,6,"{'human_readable_id': 6, 'subject_id': 'Bob Cratchit', 'type': 'CHRISTMAS CELEBRATION', 'status': 'TRUE', 'description': 'Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve'}"
-,CHARLES DICKENS,,NONE,,AUTHORSHIP,TRUE,2007-12-24T00:00:00,2007-12-24T00:00:00,"Charles Dickens is credited as the author of A Christmas Carol, which was released as an eBook on December 24, 2007","['Title: A Christmas Carol, Author: Charles Dickens, Release date: December 24, 2007 [eBook #24022]']",d0,,24c8073148f54236b6a40ef3574ea4dc,7,"{'human_readable_id': 7, 'subject_id': 'CHARLES DICKENS', 'type': 'AUTHORSHIP', 'status': 'TRUE', 'description': 'Charles Dickens is credited as the author of A Christmas Carol, which was released as an eBook on December 24, 2007'}"
-,CHRISTMAS TOYS,,NONE,,PRESENTS,TRUE,NONE,NONE,Laden with Christmas toys and presents Laden with Christmas toys and presents,['Laden with Christmas toys and presents'],"d0, d0",,c23fd827056d486580344c8f0e644c0c,8,"{'human_readable_id': 8, 'subject_id': 'CHRISTMAS TOYS', 'type': 'PRESENTS', 'status': 'TRUE', 'description': 'Laden with Christmas toys and presents Laden with Christmas toys and presents'}"
-,CLOSET,,NONE,,HIDDEN,TRUE,NONE,NONE,"Nobody under the bed; nobody in the closet; nobody in his dressing-gown, which was hanging up in a suspicious attitude against the wall","['Nobody under the bed; nobody in the closet; nobody in his dressing-gown, which was hanging up in a suspicious attitude against the wall']",d0,,56eb200cc3cf45e5837a2d4428eed083,9,"{'human_readable_id': 9, 'subject_id': 'CLOSET', 'type': 'HIDDEN', 'status': 'TRUE', 'description': 'Nobody under the bed; nobody in the closet; nobody in his dressing-gown, which was hanging up in a suspicious attitude against the wall'}"
-,Christmas Eve,,NONE,,HOLIDAY,TRUE,NONE,NONE,"Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve","['Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve']",d0,,80a5eddc339f420481079d14ec70bf0f,10,"{'human_readable_id': 10, 'subject_id': 'Christmas Eve', 'type': 'HOLIDAY', 'status': 'TRUE', 'description': 'Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve'}"
-,ENGLISH,,NONE,,LANGUAGE,TRUE,2007-12-24T00:00:00,2007-12-24T00:00:00,The language of A Christmas Carol is English,['Language: English'],d0,,5a5a3e4c75a44d87a2abf7141bcde776,11,"{'human_readable_id': 11, 'subject_id': 'ENGLISH', 'type': 'LANGUAGE', 'status': 'TRUE', 'description': 'The language of A Christmas Carol is English'}"
-,FEZZIWIG,,NONE,,DANCE,TRUE,NONE,NONE,Then old Fezziwig stood out to dance with Mrs. Fezziwig Then old Fezziwig stood out to dance with Mrs. Fezziwig Then old Fezziwig stood out to dance with Mrs. Fezziwig,['Then old Fezziwig stood out to dance with Mrs. Fezziwig'],"d0, d0, d0",,35614325da3d4a819bd7f55d4387aec1,12,"{'human_readable_id': 12, 'subject_id': 'FEZZIWIG', 'type': 'DANCE', 'status': 'TRUE', 'description': 'Then old Fezziwig stood out to dance with Mrs. Fezziwig Then old Fezziwig stood out to dance with Mrs. Fezziwig Then old Fezziwig stood out to dance with Mrs. Fezziwig'}"
-,Fezziwig,,NONE,,DANCE,TRUE,NONE,NONE,Then old Fezziwig stood out to dance with Mrs. Fezziwig,['Then old Fezziwig stood out to dance with Mrs. Fezziwig'],d0,,52cacf878d654454bdc2e934c0ba4bdb,13,"{'human_readable_id': 13, 'subject_id': 'Fezziwig', 'type': 'DANCE', 'status': 'TRUE', 'description': 'Then old Fezziwig stood out to dance with Mrs. Fezziwig'}"
-,J. B. LIPPINCOTT COMPANY,,NONE,,PUBLISHER,TRUE,2007-12-24T00:00:00,2007-12-24T00:00:00,J. B. Lippincott Company is credited as the original publisher of A Christmas Carol in 1915,"['Original publication: Philadelphia and New York: J. B. Lippincott Company, 1915']",d0,,d3731a8247674b38a66272bb7d895905,14,"{'human_readable_id': 14, 'subject_id': 'J. B. LIPPINCOTT COMPANY', 'type': 'PUBLISHER', 'status': 'TRUE', 'description': 'J. B. Lippincott Company is credited as the original publisher of A Christmas Carol in 1915'}"
-,JANET BLENKINSHIP,,NONE,,CREDITS,TRUE,2007-12-24T00:00:00,2007-12-24T00:00:00,Janet Blenkinship is credited for producing the Project Gutenberg eBook of A Christmas Carol,"['Credits: Produced by Suzanne Shell, Janet Blenkinship and the Online Distributed Proofreading Team at http://www.pgdp.net']",d0,,f84910d2c9dd473591bc7bab71de67ff,15,"{'human_readable_id': 15, 'subject_id': 'JANET BLENKINSHIP', 'type': 'CREDITS', 'status': 'TRUE', 'description': 'Janet Blenkinship is credited for producing the Project Gutenberg eBook of A Christmas Carol'}"
-,JOE,,NONE,,BED-CURTAINS,TRUE,NONE,NONE,"What do you call this? said Joe. Bed-curtains! Ah! returned the woman, laughing.... Bed-curtains! You don't mean to say you took 'em down, rings and all, with him lying there? said Joe. You don't mean to say you took 'em down, rings and all, with him lying there?","[""You don't mean to say you took 'em down, rings and all, with him lying there? said Joe."", ""You don't mean to say you took 'em down, rings and all, with him lying there?"", 'What do you call this? said Joe. Bed-curtains! Ah! returned the woman, laughing.... Bed-curtains!']","d0, d0, d0",,e69c8f597ace449790564d8d00dd85fa,16,"{'human_readable_id': 16, 'subject_id': 'JOE', 'type': 'BED-CURTAINS', 'status': 'TRUE', 'description': ""What do you call this? said Joe. Bed-curtains! Ah! returned the woman, laughing.... Bed-curtains! You don't mean to say you took 'em down, rings and all, with him lying there? said Joe. You don't mean to say you took 'em down, rings and all, with him lying there?""}"
-,Joe,,NONE,,MISCELLANEOUS,TRUE,NONE,NONE,"You don't mean to say you took 'em down, rings and all, with him lying there?","[""You don't mean to say you took 'em down, rings and all, with him lying there?""]",d0,,ec93b9cbd13f40ffab8c0d482a7e2155,17,"{'human_readable_id': 17, 'subject_id': 'Joe', 'type': 'MISCELLANEOUS', 'status': 'TRUE', 'description': ""You don't mean to say you took 'em down, rings and all, with him lying there?""}"
-,NEW YORK,,NONE,,LOCATION,TRUE,2007-12-24T00:00:00,2007-12-24T00:00:00,New York is one of the locations where A Christmas Carol was originally published,"['Original publication: Philadelphia and New York: J. B. Lippincott Company, 1915']",d0,,0175a51de3f945f48ca4848e674833cd,18,"{'human_readable_id': 18, 'subject_id': 'NEW YORK', 'type': 'LOCATION', 'status': 'TRUE', 'description': 'New York is one of the locations where A Christmas Carol was originally published'}"
-,OLD SCRATCH,,NONE,,MYTHICAL FIGURE,SUSPECTED,NONE,NONE,"Old Scratch has got his own at last, hey?","['Well!"" said the first. ""Old Scratch has got his own at last, hey?""']",d0,,812286eb93524d5e924247315e533516,19,"{'human_readable_id': 19, 'subject_id': 'OLD SCRATCH', 'type': 'MYTHICAL FIGURE', 'status': 'SUSPECTED', 'description': 'Old Scratch has got his own at last, hey?'}"
-,ONLINE DISTRIBUTED PROOFREADING TEAM,,NONE,,CREDITS,TRUE,2007-12-24T00:00:00,2007-12-24T00:00:00,The Online Distributed Proofreading Team is credited for producing the Project Gutenberg eBook of A Christmas Carol,"['Credits: Produced by Suzanne Shell, Janet Blenkinship and the Online Distributed Proofreading Team at http://www.pgdp.net']",d0,,9e79cd0d2de94f278a77975da7f881b5,20,"{'human_readable_id': 20, 'subject_id': 'ONLINE DISTRIBUTED PROOFREADING TEAM', 'type': 'CREDITS', 'status': 'TRUE', 'description': 'The Online Distributed Proofreading Team is credited for producing the Project Gutenberg eBook of A Christmas Carol'}"
-,Old Scratch,,NONE,,MYSTICAL ENTITY,TRUE,NONE,NONE,"Old Scratch has got his own at last, hey?","['Well!"" said the first. ""Old Scratch has got his own at last, hey?""']",d0,,82ddb9800c8748089e06b5a957cedf58,21,"{'human_readable_id': 21, 'subject_id': 'Old Scratch', 'type': 'MYSTICAL ENTITY', 'status': 'TRUE', 'description': 'Old Scratch has got his own at last, hey?'}"
-,PHANTOMS,,NONE,,WANDERING,TRUE,NONE,NONE,"The air was filled with phantoms, wandering hither and thither in restless haste and moaning as they went The air was filled with phantoms, wandering hither and thither in restless haste and moaning as they went","['The air was filled with phantoms, wandering hither and thither in restless haste and moaning as they went']","d0, d0",,21a10c6c66f2481499c0ca102c9edc40,22,"{'human_readable_id': 22, 'subject_id': 'PHANTOMS', 'type': 'WANDERING', 'status': 'TRUE', 'description': 'The air was filled with phantoms, wandering hither and thither in restless haste and moaning as they went The air was filled with phantoms, wandering hither and thither in restless haste and moaning as they went'}"
-,PHILADELPHIA,,NONE,,LOCATION,TRUE,2007-12-24T00:00:00,2007-12-24T00:00:00,Philadelphia is one of the locations where A Christmas Carol was originally published,"['Original publication: Philadelphia and New York: J. B. Lippincott Company, 1915']",d0,,883cca1881504f9483cfca3473e0234a,23,"{'human_readable_id': 23, 'subject_id': 'PHILADELPHIA', 'type': 'LOCATION', 'status': 'TRUE', 'description': 'Philadelphia is one of the locations where A Christmas Carol was originally published'}"
-,PLUMP SISTER,,NONE,,CHASE,TRUE,NONE,NONE,The way he went after that plump sister in the lace tucker! The way he went after that plump sister in the lace tucker!,['The way he went after that plump sister in the lace tucker!'],"d0, d0",,259d6d048b054795ae6c0bdfef7e1c11,24,"{'human_readable_id': 24, 'subject_id': 'PLUMP SISTER', 'type': 'CHASE', 'status': 'TRUE', 'description': 'The way he went after that plump sister in the lace tucker! The way he went after that plump sister in the lace tucker!'}"
-,PROJECT GUTENBERG,,NONE,,DISTRIBUTION,TRUE,2007-12-24T00:00:00,2007-12-24T00:00:00,The Project Gutenberg eBook of A Christmas Carol is available for free use under the terms of the Project Gutenberg License,['This ebook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever.'],d0,,17c2a1fa94f442919e3f8533e6000811,25,"{'human_readable_id': 25, 'subject_id': 'PROJECT GUTENBERG', 'type': 'DISTRIBUTION', 'status': 'TRUE', 'description': 'The Project Gutenberg eBook of A Christmas Carol is available for free use under the terms of the Project Gutenberg License'}"
-,Phantoms,,NONE,,SUPERNATURAL ENTITY,TRUE,NONE,NONE,"The air was filled with phantoms, wandering hither and thither in restless haste and moaning as they went","['The air was filled with phantoms, wandering hither and thither in restless haste and moaning as they went']",d0,,d011798d46de4c0c99399d6e88266755,26,"{'human_readable_id': 26, 'subject_id': 'Phantoms', 'type': 'SUPERNATURAL ENTITY', 'status': 'TRUE', 'description': 'The air was filled with phantoms, wandering hither and thither in restless haste and moaning as they went'}"
-,Plump sister,,NONE,,MISCELLANEOUS,TRUE,NONE,NONE,The way he went after that plump sister in the lace tucker!,['The way he went after that plump sister in the lace tucker!'],d0,,2ca5507f35004596a16ee69a5082502c,27,"{'human_readable_id': 27, 'subject_id': 'Plump sister', 'type': 'MISCELLANEOUS', 'status': 'TRUE', 'description': 'The way he went after that plump sister in the lace tucker!'}"
-,SUZANNE SHELL,,NONE,,CREDITS,TRUE,2007-12-24T00:00:00,2007-12-24T00:00:00,Suzanne Shell is credited for producing the Project Gutenberg eBook of A Christmas Carol,"['Credits: Produced by Suzanne Shell, Janet Blenkinship and the Online Distributed Proofreading Team at http://www.pgdp.net']",d0,,bfb4401613ec4678b9a4cec7ba8fb962,28,"{'human_readable_id': 28, 'subject_id': 'SUZANNE SHELL', 'type': 'CREDITS', 'status': 'TRUE', 'description': 'Suzanne Shell is credited for producing the Project Gutenberg eBook of A Christmas Carol'}"
-,UNKNOWN,,NONE,,MYSTERY,SUSPECTED,NONE,NONE,"Nobody under the bed; nobody in the closet; nobody in his dressing-gown, which was hanging up in a suspicious attitude against the wall","['Nobody under the bed; nobody in the closet; nobody in his dressing-gown, which was hanging up in a suspicious attitude against the wall']",d0,,2ae5454c8605405ca3117b69eec8773a,29,"{'human_readable_id': 29, 'subject_id': 'UNKNOWN', 'type': 'MYSTERY', 'status': 'SUSPECTED', 'description': 'Nobody under the bed; nobody in the closet; nobody in his dressing-gown, which was hanging up in a suspicious attitude against the wall'}"
+,,,,,,,,,,[],"d5, d5, d6, d6, d10, d11, d11, d13, d22",,d35862095da54d10a656bca803d4f3cf,0,"{'human_readable_id': 0, 'subject_id': '', 'type': None, 'status': None, 'description': ''}"
+,"! And the magic words he used to say! ""Polly wants a cracker!"" Oh, how I loved that bird!'
+
+The Ghost smiled at Scrooge's enthusiasm, encouraging him to continue reminiscing about his childhood.
+
+'And look!' Scrooge pointed excitedly, 'there's the old schoolmaster, Mr. Fezziwig! He was so kind to us. Remember the Christmas parties he used to throw? The music, the dancing, the laughter! It was a time of joy and warmth.'
+
+The Spirit nodded, urging Scrooge to reflect on the happiness he once knew.
+
+'Oh, how I wish I could go back and relive those moments!' Scrooge sighed, a mixture of joy and sorrow in his voice. 'If only I had appreciated them more at the time!'
+
+As the memories flooded back, Scrooge felt a warmth in his heart that had long been absent. The laughter of children, the cheer of the season, and the kindness of friends surrounded him like a comforting blanket.
+
+'This is what Christmas is about,' he said softly, almost to himself. 'It's about love, friendship, and the joy of being together.'
+
+The Ghost looked at him with a knowing expression, as if to say that it was never too late to embrace the spirit of the season.
+
+'Come, let us see more,' the Spirit urged gently, leading Scrooge further into the past, where more cherished memories awaited.",,,,,,,,,[],d11,,dfa05d3778cc4c449dfc4050e2a1a9f6,1,"{'human_readable_id': 1, 'subject_id': '! And the magic words he used to say! ""Polly wants a cracker!"" Oh, how I loved that bird!\'\n\nThe Ghost smiled at Scrooge\'s enthusiasm, encouraging him to continue reminiscing about his childhood.\n\n\'And look!\' Scrooge pointed excitedly, \'there\'s the old schoolmaster, Mr. Fezziwig! He was so kind to us. Remember the Christmas parties he used to throw? The music, the dancing, the laughter! It was a time of joy and warmth.\'\n\nThe Spirit nodded, urging Scrooge to reflect on the happiness he once knew.\n\n\'Oh, how I wish I could go back and relive those moments!\' Scrooge sighed, a mixture of joy and sorrow in his voice. \'If only I had appreciated them more at the time!\'\n\nAs the memories flooded back, Scrooge felt a warmth in his heart that had long been absent. The laughter of children, the cheer of the season, and the kindness of friends surrounded him like a comforting blanket.\n\n\'This is what Christmas is about,\' he said softly, almost to himself. \'It\'s about love, friendship, and the joy of being together.\'\n\nThe Ghost looked at him with a knowing expression, as if to say that it was never too late to embrace the spirit of the season.\n\n\'Come, let us see more,\' the Spirit urged gently, leading Scrooge further into the past, where more cherished memories awaited.', 'type': None, 'status': None, 'description': ''}"
+,"# Extracted Claims:
+1. (BOB CRATCHIT",,NONE,,FAMILY DYNAMICS,TRUE,NONE,NONE,"Bob Cratchit expressed disappointment when he thought Martha was not coming upon Christmas Day, indicating his emotional investment in family gatherings. Bob Cratchit expressed disappointment when he thought Martha was not coming upon Christmas Day, indicating his emotional investment in family gatherings.","[""‘Not coming!’ said Bob, with a sudden declension in his high spirits; for he had been Tim's blood-horse all the way from church, and had come home rampant. 'Not coming upon Christmas Day!')\n2. (TINY TIM""]","d20, d20",,73c688adb7c54e7784371680f83e04be,2,"{'human_readable_id': 2, 'subject_id': '# Extracted Claims:\n1. (BOB CRATCHIT', 'type': 'FAMILY DYNAMICS', 'status': 'TRUE', 'description': 'Bob Cratchit expressed disappointment when he thought Martha was not coming upon Christmas Day, indicating his emotional investment in family gatherings. Bob Cratchit expressed disappointment when he thought Martha was not coming upon Christmas Day, indicating his emotional investment in family gatherings.'}"
+,"# Final Output:
+(BOB CRATCHIT",,NONE,,FAMILY DYNAMICS,TRUE,NONE,NONE,"Bob Cratchit expressed disappointment when he thought Martha was not coming upon Christmas Day, indicating his emotional investment in family gatherings. Bob Cratchit expressed disappointment when he thought Martha was not coming upon Christmas Day, indicating his emotional investment in family gatherings.","[""‘Not coming!’ said Bob, with a sudden declension in his high spirits; for he had been Tim's blood-horse all the way from church, and had come home rampant. 'Not coming upon Christmas Day!'""]","d20, d20",,d41c2958300f47d6b0ba2175e3d9b704,3,"{'human_readable_id': 3, 'subject_id': '# Final Output:\n(BOB CRATCHIT', 'type': 'FAMILY DYNAMICS', 'status': 'TRUE', 'description': 'Bob Cratchit expressed disappointment when he thought Martha was not coming upon Christmas Day, indicating his emotional investment in family gatherings. Bob Cratchit expressed disappointment when he thought Martha was not coming upon Christmas Day, indicating his emotional investment in family gatherings.'}"
+,**,,,,,,,,,[],"d14, d14, d14, d23, d23, d23",,2057e435db29433ea0fb62e351667332,4,"{'human_readable_id': 4, 'subject_id': '**', 'type': None, 'status': None, 'description': ''}"
+,"**
+
+**Entities:**
+- Scrooge
+- Spirit
+- miners
+- old man
+- old woman
+- children
+- Christmas song
+- moor
+- sea
+- lighthouse
+- seaweed
+- storm-birds
+- two men
+- grog
+- helmsman
+- look-out
+- officers
+- Christmas Day
+- Scrooge's nephew
+- Scrooge's niece
+- Fred
+- women",,,,,,,,,[],d23,,d99e8a9365e749a88936f99b56f75f2b,5,"{'human_readable_id': 5, 'subject_id': ""**\n\n**Entities:**\n- Scrooge\n- Spirit\n- miners\n- old man\n- old woman\n- children\n- Christmas song\n- moor\n- sea\n- lighthouse\n- seaweed\n- storm-birds\n- two men\n- grog\n- helmsman\n- look-out\n- officers\n- Christmas Day\n- Scrooge's nephew\n- Scrooge's niece\n- Fred\n- women"", 'type': None, 'status': None, 'description': ''}"
+,"**
+
+the end of the excerpt. 
+
+Entities missed in the last extraction:
+
+- Fezziwig
+- Mrs. Fezziwig
+- Sir Roger de Coverley
+- Scrooge
+- Dick (the 'prentice)
+- The Ghost (Ghost of Christmas Past)
+- The two apprentices
+- The clock
+- The back-shop
+- The Spirit",,,,,,,,,[],d14,,2a92718d62d64e11844210d4034080b5,6,"{'human_readable_id': 6, 'subject_id': ""**\n\nthe end of the excerpt. \n\nEntities missed in the last extraction:\n\n- Fezziwig\n- Mrs. Fezziwig\n- Sir Roger de Coverley\n- Scrooge\n- Dick (the 'prentice)\n- The Ghost (Ghost of Christmas Past)\n- The two apprentices\n- The clock\n- The back-shop\n- The Spirit"", 'type': None, 'status': None, 'description': ''}"
+,"**Entities:**
+
+- Jacob Marley
+- Ebenezer Scrooge
+- The Ghost
+- The Wise Men
+- The Star
+- The Three Spirits
+- The common welfare
+- Charity
+- Mercy
+- Forbearance
+- Benevolence
+- The rolling year
+- The spectre
+- The apparition
+- The window
+- The air
+- Phantoms
+- Lamentation
+- Regret
+- Wailings
+- Mournful dirge",,,,,,,,,[],d8,,8ba57ad6ec2442c5aea58f8b8edc46bd,7,"{'human_readable_id': 7, 'subject_id': '**Entities:**\n\n- Jacob Marley\n- Ebenezer Scrooge\n- The Ghost\n- The Wise Men\n- The Star\n- The Three Spirits\n- The common welfare\n- Charity\n- Mercy\n- Forbearance\n- Benevolence\n- The rolling year\n- The spectre\n- The apparition\n- The window\n- The air\n- Phantoms\n- Lamentation\n- Regret\n- Wailings\n- Mournful dirge', 'type': None, 'status': None, 'description': ''}"
+,"**Entities:**
+
+- Scrooge
+- Christmas Day
+- Spirits
+- Bob Cratchit
+- Tiny Tim
+- Joe Miller
+- Camden Town
+- Ghost of Christmas Present
+- portly gentleman
+- Marley",,,,,,,,,[],d34,,1fe561c3dd0240b28bde103c2e6f315a,8,"{'human_readable_id': 8, 'subject_id': '**Entities:**\n\n- Scrooge\n- Christmas Day\n- Spirits\n- Bob Cratchit\n- Tiny Tim\n- Joe Miller\n- Camden Town\n- Ghost of Christmas Present\n- portly gentleman\n- Marley', 'type': None, 'status': None, 'description': ''}"
+,"**Entities:**
+
+- Scrooge
+- Ghost
+- Jacob Marley
+- Christmas Eves
+- Ebenezer Scrooge
+- counting-house",,,,,,,,,[],d7,,d0902f1d49f149b9a70ad8c32007b6dc,9,"{'human_readable_id': 9, 'subject_id': '**Entities:**\n\n- Scrooge\n- Ghost\n- Jacob Marley\n- Christmas Eves\n- Ebenezer Scrooge\n- counting-house', 'type': None, 'status': None, 'description': ''}"
+,"**Entities:**
+
+- Scrooge
+- Marley's Ghost
+- Ebenezer Scrooge
+- the Ghost
+- the Invisible World
+- the First of Three Spirits
+- the church bell
+- the United States
+- the dressing-gown
+- the curtains of his bed",,,,,,,,,[],d9,,314f5632f23049a29206baa2df6d3a05,10,"{'human_readable_id': 10, 'subject_id': ""**Entities:**\n\n- Scrooge\n- Marley's Ghost\n- Ebenezer Scrooge\n- the Ghost\n- the Invisible World\n- the First of Three Spirits\n- the church bell\n- the United States\n- the dressing-gown\n- the curtains of his bed"", 'type': None, 'status': None, 'description': ''}"
+,"**Entities:**
+
+- Scrooge
+- Spirit
+- Ghost of Christmas Present
+- Marley
+- Plenty
+- Christmas
+- holly
+- mistletoe
+- ivy
+- turkeys
+- geese
+- game
+- poultry
+- brawn
+- joints of meat
+- sucking-pigs
+- sausages
+- mince-pies
+- plum-puddings
+- oysters
+- chestnuts
+- apples
+- oranges
+- pears
+- twelfth-cakes
+- punch
+- Christmas Present's family
+- eighteen hundred brothers",,,,,,,,,[],d17,,d578616c2a424f94b42aedbc84b0d4b7,11,"{'human_readable_id': 11, 'subject_id': ""**Entities:**\n\n- Scrooge\n- Spirit\n- Ghost of Christmas Present\n- Marley\n- Plenty\n- Christmas\n- holly\n- mistletoe\n- ivy\n- turkeys\n- geese\n- game\n- poultry\n- brawn\n- joints of meat\n- sucking-pigs\n- sausages\n- mince-pies\n- plum-puddings\n- oysters\n- chestnuts\n- apples\n- oranges\n- pears\n- twelfth-cakes\n- punch\n- Christmas Present's family\n- eighteen hundred brothers"", 'type': None, 'status': None, 'description': ''}"
+,"**Entities:**
+- Project Gutenberg
+- Project Gutenberg™
+- Project Gutenberg Literary Archive Foundation
+- United States
+- Plain Vanilla ASCII",,,,,,,,,[],d37,,6dc5edd4a1694b9291ca219615006b97,12,"{'human_readable_id': 12, 'subject_id': '**Entities:**\n- Project Gutenberg\n- Project Gutenberg™\n- Project Gutenberg Literary Archive Foundation\n- United States\n- Plain Vanilla ASCII', 'type': None, 'status': None, 'description': ''}"
+,"**Entities:**
+- Scrooge
+- Topper
+- Scrooge's nephew
+- Ghost of Christmas Present
+- plump sister
+- Scrooge's niece
+- Fred
+- Christmas",,,,,,,,,[],d25,,f3ea807c9ed34c3d8cd886a9f4b365a2,13,"{'human_readable_id': 13, 'subject_id': ""**Entities:**\n- Scrooge\n- Topper\n- Scrooge's nephew\n- Ghost of Christmas Present\n- plump sister\n- Scrooge's niece\n- Fred\n- Christmas"", 'type': None, 'status': None, 'description': ''}"
+,**NONE**,,,,,,,,,[],"d15, d30",,f7062bfa064a4e1f89f31120b6b79b48,14,"{'human_readable_id': 14, 'subject_id': '**NONE**', 'type': None, 'status': None, 'description': ''}"
+,**Output:**,,,,,,,,,[],"d1, d8, d17, d18, d28",,3f881b8485f848e5ab62c98d7bb61aec,15,"{'human_readable_id': 15, 'subject_id': '**Output:**', 'type': None, 'status': None, 'description': ''}"
+,"**Output:**
+
+(EBENEZER SCROOGE",,NONE,,TRANSFORMATION,TRUE,2023-12-25T00:00:00,2023-12-25T00:00:00,"Ebenezer Scrooge underwent a transformation after interacting with the spirits, realizing he could change his future and live a better life, as evidenced by his joyful declaration on Christmas Day.","['‘I will live in the Past, the Present, and the Future!’ Scrooge repeated as he scrambled out of bed. ‘The Spirits of all Three shall strive within me. O Jacob Marley! Heaven and the Christmas Time be praised for this!’']",d33,,486038555e9245b28f4787d96493855d,16,"{'human_readable_id': 16, 'subject_id': '**Output:**\n\n(EBENEZER SCROOGE', 'type': 'TRANSFORMATION', 'status': 'TRUE', 'description': 'Ebenezer Scrooge underwent a transformation after interacting with the spirits, realizing he could change his future and live a better life, as evidenced by his joyful declaration on Christmas Day.'}"
+,"**Output:**
+
+(SCROOGE",,NONE,,SOCIAL INDIFFERENCE,SUSPECTED,NONE,NONE,"Scrooge expressed a desire to be left alone and showed indifference towards the plight of the poor, suggesting that those who would rather die should do so to decrease the surplus population.","[""'I wish to be left alone,' said Scrooge. 'Since you ask me what I wish, gentlemen, that is my answer. I don't make merry myself at Christmas, and I can't afford to make idle people merry. I help to support the establishments I have mentioned--they cost enough: and those who are badly off must go there.' 'If they would rather die,' said Scrooge, 'they had better do it, and decrease the surplus population.'""]",d4,,c1b5c076c9864121a194978713106189,17,"{'human_readable_id': 17, 'subject_id': '**Output:**\n\n(SCROOGE', 'type': 'SOCIAL INDIFFERENCE', 'status': 'SUSPECTED', 'description': 'Scrooge expressed a desire to be left alone and showed indifference towards the plight of the poor, suggesting that those who would rather die should do so to decrease the surplus population.'}"
+,"**Output:**
+
+**Bob Cratchit**  
+**Mr. Scrooge**  
+**Tiny Tim**  
+**Mrs. Cratchit**  
+**Peter Cratchit**  
+**Ghost of Christmas Yet to Come**  
+**Scrooge**  
+**Phantom**  
+**Spirit**  
+**Churchyard**  
+**Grave**  
+**Wretched man**  
+**Iron gate**  
+**Houses**  
+**Grasses**  
+**Weeds**  
+**Vegetation**  
+**Death**  
+**Life**  
+**Men's courses**  
+**Shadows**  
+**Stone**  
+**Neglected**",,,,,,,,,[],d32,,307267f067944af585927f0780277e2d,18,"{'human_readable_id': 18, 'subject_id': ""**Output:**\n\n**Bob Cratchit**  \n**Mr. Scrooge**  \n**Tiny Tim**  \n**Mrs. Cratchit**  \n**Peter Cratchit**  \n**Ghost of Christmas Yet to Come**  \n**Scrooge**  \n**Phantom**  \n**Spirit**  \n**Churchyard**  \n**Grave**  \n**Wretched man**  \n**Iron gate**  \n**Houses**  \n**Grasses**  \n**Weeds**  \n**Vegetation**  \n**Death**  \n**Life**  \n**Men's courses**  \n**Shadows**  \n**Stone**  \n**Neglected**"", 'type': None, 'status': None, 'description': ''}"
+,"**Output:**
+
+**NONE**",,,,,,,,,[],"d7, d9, d12, d15, d25, d30, d32, d34, d37",,a8392e950d264d8c86a01d91ad0781e1,19,"{'human_readable_id': 19, 'subject_id': '**Output:**\n\n**NONE**', 'type': None, 'status': None, 'description': ''}"
+,"**Scrooge**  
+**Fan**  
+**Robin Crusoe**  
+**Friday**  
+**Ghost**  
+**Christmas**  
+**Father**  
+**Master Scrooge**  
+**schoolmaster**  
+**meagre servant**  
+**postboy**  
+**Spirit**  
+**nephew**",,,,,,,,,[],d12,,212ae490c1c44d4780778a47b0db8136,20,"{'human_readable_id': 20, 'subject_id': '**Scrooge**  \n**Fan**  \n**Robin Crusoe**  \n**Friday**  \n**Ghost**  \n**Christmas**  \n**Father**  \n**Master Scrooge**  \n**schoolmaster**  \n**meagre servant**  \n**postboy**  \n**Spirit**  \n**nephew**', 'type': None, 'status': None, 'description': ''}"
+,"- Caroline
+- Bob Cratchit
+- Tiny Tim
+- Mr. Scrooge
+- Spirit
+- Peter
+- Mrs. Cratchit
+- Christmas",,,,,,,,,[],d31,,e7e917c363c84e0d89140b94c7e5bd80,21,"{'human_readable_id': 21, 'subject_id': '- Caroline\n- Bob Cratchit\n- Tiny Tim\n- Mr. Scrooge\n- Spirit\n- Peter\n- Mrs. Cratchit\n- Christmas', 'type': None, 'status': None, 'description': ''}"
+,"- Old Scratch
+- Joe
+- Fred
+- Marley
+- Hamlet
+- St. Paul's Churchyard
+- Scrooge",,,,,,,,,[],d1,,254a1d107340483cafd3827a77bc960b,22,"{'human_readable_id': 22, 'subject_id': ""- Old Scratch\n- Joe\n- Fred\n- Marley\n- Hamlet\n- St. Paul's Churchyard\n- Scrooge"", 'type': None, 'status': None, 'description': ''}"
+,"- Project Gutenberg
+- A Christmas Carol
+- Charles Dickens
+- Arthur Rackham
+- J. B. Lippincott Company
+- Suzanne Shell
+- Janet Blenkinship
+- Online Distributed Proofreading Team
+- Bob Cratchit
+- Peter Cratchit
+- Tim Cratchit
+- Mr. Fezziwig
+- Fred
+- Ghost of Christmas Past
+- Ghost of Christmas Present
+- Ghost of Christmas Yet to Come
+- Ghost of Jacob Marley
+- Joe
+- Ebenezer Scrooge
+- Mr. Topper
+- Dick Wilkins
+- Belle
+- Caroline
+- Mrs. Cratchit
+- Belinda Cratchit
+- Martha Cratchit
+- Mrs. Dilber
+- Fan
+- Mrs. Fezziwig",,,,,,,,,[],d0,,2c54827411af4be191047305a925c9b1,23,"{'human_readable_id': 23, 'subject_id': '- Project Gutenberg\n- A Christmas Carol\n- Charles Dickens\n- Arthur Rackham\n- J. B. Lippincott Company\n- Suzanne Shell\n- Janet Blenkinship\n- Online Distributed Proofreading Team\n- Bob Cratchit\n- Peter Cratchit\n- Tim Cratchit\n- Mr. Fezziwig\n- Fred\n- Ghost of Christmas Past\n- Ghost of Christmas Present\n- Ghost of Christmas Yet to Come\n- Ghost of Jacob Marley\n- Joe\n- Ebenezer Scrooge\n- Mr. Topper\n- Dick Wilkins\n- Belle\n- Caroline\n- Mrs. Cratchit\n- Belinda Cratchit\n- Martha Cratchit\n- Mrs. Dilber\n- Fan\n- Mrs. Fezziwig', 'type': None, 'status': None, 'description': ''}"
+,"- Scrooge
+- Belle
+- Jacob Marley
+- Christmas
+- Spirit
+- Ghost",,,,,,,,,[],d16,,0655f5906a50434fa04b6a1cf70d29f1,24,"{'human_readable_id': 24, 'subject_id': '- Scrooge\n- Belle\n- Jacob Marley\n- Christmas\n- Spirit\n- Ghost', 'type': None, 'status': None, 'description': ''}"
+,"- Scrooge
+- Ghost of Christmas Yet to Come
+- Spirit
+- City
+- Change (referring to the Stock Exchange)
+- Old Scratch
+- Christmas-time",,,,,,,,,[],d27,,0b7feb69039b49b7af505c8ccd2a6f77,25,"{'human_readable_id': 25, 'subject_id': '- Scrooge\n- Ghost of Christmas Yet to Come\n- Spirit\n- City\n- Change (referring to the Stock Exchange)\n- Old Scratch\n- Christmas-time', 'type': None, 'status': None, 'description': ''}"
+,"1. **Extracted Entities**:
+   - Persons: Bob Cratchit, Tiny Tim, Martha, Master Peter, Miss Belinda
+   - Organizations: **NONE** (no organizations mentioned)
+   - Geographical locations: **NONE** (no geographical locations mentioned)
+   - Events: Christmas Day
+
+2. **Claims Associated with Extracted Entities**:
+   - For **Bob Cratchit**:
+     - Claim about his role as a father and his emotional state regarding Tiny Tim's condition.
+   - For **Tiny Tim**:
+     - Claim regarding his health and his hopeful perspective on being seen by others in church.
+   - For **Martha**:
+     - Claim regarding her arrival and contribution to the family dynamics.
+   - For **Master Peter** and **Miss Belinda**:
+     - Claims regarding their participation in the family dinner preparations.",,,,,,,,,[],d20,,471a7b4615cb4deda99738879b2fc4b9,26,"{'human_readable_id': 26, 'subject_id': ""1. **Extracted Entities**:\n   - Persons: Bob Cratchit, Tiny Tim, Martha, Master Peter, Miss Belinda\n   - Organizations: **NONE** (no organizations mentioned)\n   - Geographical locations: **NONE** (no geographical locations mentioned)\n   - Events: Christmas Day\n\n2. **Claims Associated with Extracted Entities**:\n   - For **Bob Cratchit**:\n     - Claim about his role as a father and his emotional state regarding Tiny Tim's condition.\n   - For **Tiny Tim**:\n     - Claim regarding his health and his hopeful perspective on being seen by others in church.\n   - For **Martha**:\n     - Claim regarding her arrival and contribution to the family dynamics.\n   - For **Master Peter** and **Miss Belinda**:\n     - Claims regarding their participation in the family dinner preparations."", 'type': None, 'status': None, 'description': ''}"
+,3. (DICK WILKINS,,SCROOGE,,RELATIONSHIP,TRUE,NONE,NONE,"Dick Wilkins is remembered fondly by Scrooge as a close companion during their apprenticeship under Fezziwig, highlighting their camaraderie.","['He was very much attached to me, was Dick. Poor Dick! Dear, dear!)\n\n4. (MRS. FEZZIWIG']",d13,,53f7f6c127e5441e884a49ecb581f97d,27,"{'human_readable_id': 27, 'subject_id': '3. (DICK WILKINS', 'type': 'RELATIONSHIP', 'status': 'TRUE', 'description': 'Dick Wilkins is remembered fondly by Scrooge as a close companion during their apprenticeship under Fezziwig, highlighting their camaraderie.'}"
+,"3. **Additional Extracted Entities**:
+   - **Persons**: Scrooge's nephew, the clerk, the gentlemen (two portly gentlemen)
+   - **Organizations**: Union workhouses, Poor Law
+   - **Geographical Locations**: None explicitly mentioned
+   - **Events**: Christmas-time, festive season
+
+4. **Claims Associated with Additional Extracted Entities**:
+   - For **Scrooge's nephew**:
+     - Claim regarding his invitation to Scrooge for Christmas dinner and his belief in the spirit of Christmas.
+   - For **the clerk**:
+     - Claim regarding his warm response to Christmas greetings despite his low salary and family responsibilities.
+   - For **the gentlemen**:
+     - Claim regarding their efforts to raise funds for the poor during the festive season.
+   - For **the Union workhouses**:
+     - Claim regarding their continued operation and the conditions of the poor.
+
+Output:
+
+(SCROOGE'S NEPHEW",,NONE,,CHRISTMAS INVITATION,TRUE,NONE,NONE,"Scrooge's nephew invited Scrooge to dine with him on Christmas, emphasizing the importance of family and the Christmas spirit.","['‘Nay, uncle, but you never came to see me before that happened. Why give it as a reason for not coming now?’']",d3,,a13de4a90d56427786f1d17160e12987,28,"{'human_readable_id': 28, 'subject_id': ""3. **Additional Extracted Entities**:\n   - **Persons**: Scrooge's nephew, the clerk, the gentlemen (two portly gentlemen)\n   - **Organizations**: Union workhouses, Poor Law\n   - **Geographical Locations**: None explicitly mentioned\n   - **Events**: Christmas-time, festive season\n\n4. **Claims Associated with Additional Extracted Entities**:\n   - For **Scrooge's nephew**:\n     - Claim regarding his invitation to Scrooge for Christmas dinner and his belief in the spirit of Christmas.\n   - For **the clerk**:\n     - Claim regarding his warm response to Christmas greetings despite his low salary and family responsibilities.\n   - For **the gentlemen**:\n     - Claim regarding their efforts to raise funds for the poor during the festive season.\n   - For **the Union workhouses**:\n     - Claim regarding their continued operation and the conditions of the poor.\n\nOutput:\n\n(SCROOGE'S NEPHEW"", 'type': 'CHRISTMAS INVITATION', 'status': 'TRUE', 'description': ""Scrooge's nephew invited Scrooge to dine with him on Christmas, emphasizing the importance of family and the Christmas spirit.""}"
+,"<|CHARACTER|>Scrooge<|CHARACTER|>
+<|CHARACTER|>Phantom<|CHARACTER|>
+<|CHARACTER|>Old Joe<|CHARACTER|>
+<|CHARACTER|>Charwoman<|CHARACTER|>
+<|CHARACTER|>Laundress<|CHARACTER|>
+<|CHARACTER|>Undertaker's Man<|CHARACTER|>
+<|CHARACTER|>Mrs. Dilber<|CHARACTER|>
+<|SETTING|>Obscure part of the town<|SETTING|>
+<|SETTING|>Low-browed shop<|SETTING|>
+<|SETTING|>Parlour behind the screen of rags<|SETTING|>
+<|ITEM|>Bundle<|ITEM|>
+<|ITEM|>Pipe<|ITEM|>
+<|ITEM|>Charcoal stove<|ITEM|>
+<|ITEM|>Old bricks<|ITEM|>
+<|ITEM|>Rusty keys<|ITEM|>
+<|ITEM|>Nails<|ITEM|>
+<|ITEM|>Chains<|ITEM|>
+<|ITEM|>Hinges<|ITEM|>
+<|ITEM|>Files<|ITEM|>
+<|ITEM|>Scales<|ITEM|>
+<|ITEM|>Weights<|ITEM|>
+<|ITEM|>Refuse iron<|ITEM|>
+<|ITEM|>Heavy bundle<|ITEM|>
+<|ITEM|>Fire<|ITEM|>
+<|ITEM|>Smoky lamp<|ITEM|>
+<|ITEM|>Stair-rod<|ITEM|>",,,,,,,,,[],d28,,5fd99916b17b4865a585c0e591df6ac8,29,"{'human_readable_id': 29, 'subject_id': ""<|CHARACTER|>Scrooge<|CHARACTER|>\n<|CHARACTER|>Phantom<|CHARACTER|>\n<|CHARACTER|>Old Joe<|CHARACTER|>\n<|CHARACTER|>Charwoman<|CHARACTER|>\n<|CHARACTER|>Laundress<|CHARACTER|>\n<|CHARACTER|>Undertaker's Man<|CHARACTER|>\n<|CHARACTER|>Mrs. Dilber<|CHARACTER|>\n<|SETTING|>Obscure part of the town<|SETTING|>\n<|SETTING|>Low-browed shop<|SETTING|>\n<|SETTING|>Parlour behind the screen of rags<|SETTING|>\n<|ITEM|>Bundle<|ITEM|>\n<|ITEM|>Pipe<|ITEM|>\n<|ITEM|>Charcoal stove<|ITEM|>\n<|ITEM|>Old bricks<|ITEM|>\n<|ITEM|>Rusty keys<|ITEM|>\n<|ITEM|>Nails<|ITEM|>\n<|ITEM|>Chains<|ITEM|>\n<|ITEM|>Hinges<|ITEM|>\n<|ITEM|>Files<|ITEM|>\n<|ITEM|>Scales<|ITEM|>\n<|ITEM|>Weights<|ITEM|>\n<|ITEM|>Refuse iron<|ITEM|>\n<|ITEM|>Heavy bundle<|ITEM|>\n<|ITEM|>Fire<|ITEM|>\n<|ITEM|>Smoky lamp<|ITEM|>\n<|ITEM|>Stair-rod<|ITEM|>"", 'type': None, 'status': None, 'description': ''}"
+,"<|Phantom|>  
+<|Scrooge|>  
+<|Ghost of Christmas Present|>  
+<|Holly|>  
+<|mistletoe|>  
+<|red berries|>  
+<|ivy|>  
+<|turkeys|>  
+<|geese|>  
+<|game|>  
+<|poultry|>  
+<|brawn|>  
+<|meat|>  
+<|pigs|>  
+<|sausages|>  
+<|oysters|>  
+<|pies|>  
+<|puddings|>  
+<|fruit|>  
+<|punch|>  
+<|Christmas morning|>  
+<|boys|>  
+<|house-fronts|>  
+<|windows|>  
+<|snow|>  
+<|pavement|>  
+<|carts|>  
+<|waggons|>  
+<|furrows|>  
+<|streets|>  
+<|mud|>  
+<|icy water|>  
+<|sky|>  
+<|mist|>  
+<|particles|>  
+<|chimneys|>  
+<|Great Britain|>  
+<|climate|>  
+<|town|>  
+<|cheerfulness|>  
+<|summer air|>  
+<|summer sun|>  
+<|people|>  
+<|parapets|>  
+<|snowball|>  
+<|poulterers' shops|>  
+<|fruiterers'|>  
+<|chestnuts|>  
+<|Spanish onions|>  
+<|girls|>  
+<|mistletoe|>  
+<|pears|>  
+<|apples|>  
+<|grapes|>  
+<|filberts|>  
+<|Norfolk Biffins|>  
+<|oranges|>  
+<|lemons|>  
+<|gold and silver fish|>  
+<|bowl|>  
+<|Grocers'|>  
+<|scales|>  
+<|twine|>  
+<|roller|>  
+<|canisters|>  
+<|tea|>  
+<|coffee|>  
+<|raisins|>  
+<|almonds|>  
+<|cinnamon|>  
+<|spices|>  
+<|candied fruits|>  
+<|figs|>  
+<|French plums|>  
+<|customers|>  
+<|wicker baskets|>  
+<|purchases|>  
+<|humour|>",,,,,,,,,[],d18,,229b75bd32e240858d92c45d4e95e152,30,"{'human_readable_id': 30, 'subject_id': ""<|Phantom|>  \n<|Scrooge|>  \n<|Ghost of Christmas Present|>  \n<|Holly|>  \n<|mistletoe|>  \n<|red berries|>  \n<|ivy|>  \n<|turkeys|>  \n<|geese|>  \n<|game|>  \n<|poultry|>  \n<|brawn|>  \n<|meat|>  \n<|pigs|>  \n<|sausages|>  \n<|oysters|>  \n<|pies|>  \n<|puddings|>  \n<|fruit|>  \n<|punch|>  \n<|Christmas morning|>  \n<|boys|>  \n<|house-fronts|>  \n<|windows|>  \n<|snow|>  \n<|pavement|>  \n<|carts|>  \n<|waggons|>  \n<|furrows|>  \n<|streets|>  \n<|mud|>  \n<|icy water|>  \n<|sky|>  \n<|mist|>  \n<|particles|>  \n<|chimneys|>  \n<|Great Britain|>  \n<|climate|>  \n<|town|>  \n<|cheerfulness|>  \n<|summer air|>  \n<|summer sun|>  \n<|people|>  \n<|parapets|>  \n<|snowball|>  \n<|poulterers' shops|>  \n<|fruiterers'|>  \n<|chestnuts|>  \n<|Spanish onions|>  \n<|girls|>  \n<|mistletoe|>  \n<|pears|>  \n<|apples|>  \n<|grapes|>  \n<|filberts|>  \n<|Norfolk Biffins|>  \n<|oranges|>  \n<|lemons|>  \n<|gold and silver fish|>  \n<|bowl|>  \n<|Grocers'|>  \n<|scales|>  \n<|twine|>  \n<|roller|>  \n<|canisters|>  \n<|tea|>  \n<|coffee|>  \n<|raisins|>  \n<|almonds|>  \n<|cinnamon|>  \n<|spices|>  \n<|candied fruits|>  \n<|figs|>  \n<|French plums|>  \n<|customers|>  \n<|wicker baskets|>  \n<|purchases|>  \n<|humour|>"", 'type': None, 'status': None, 'description': ''}"
+,APPLE SAUCE,,NONE,,DINNER DISH,TRUE,"Apple sauce was mentioned as part of the Christmas dinner, contributing to the meal's enjoyment and satisfaction.",NONE,"Eked out by apple sauce and mashed potatoes, it was a sufficient dinner for the whole family.",[],d21,,b1ac7a5efe4a40078b3696492bdca098,31,"{'human_readable_id': 31, 'subject_id': 'APPLE SAUCE', 'type': 'DINNER DISH', 'status': 'TRUE', 'description': 'Eked out by apple sauce and mashed potatoes, it was a sufficient dinner for the whole family.'}"
+,BED-CURTAINS,,NONE,,THEFT,SUSPECTED,NONE,NONE,"The bed-curtains are identified as stolen property taken from the deceased man's home, highlighting the disrespect shown to the dead.",['What do you call this? Bed-curtains?'],d29,,eb9cbba8ca9149d19155b081d7fca0e3,32,"{'human_readable_id': 32, 'subject_id': 'BED-CURTAINS', 'type': 'THEFT', 'status': 'SUSPECTED', 'description': ""The bed-curtains are identified as stolen property taken from the deceased man's home, highlighting the disrespect shown to the dead.""}"
+,BELINDA CRATCHIT,,NONE,,FAMILY SUPPORT,TRUE,"Belinda Cratchit assisted her mother in preparing the Christmas meal, emphasizing the role of family cooperation and support during festive times.","and she laid the cloth, assisted by Belinda Cratchit, second of her daughters, also brave in ribbons.",,[],d19,,2b1462c5e1a24272bde7b24fdf96dd45,33,"{'human_readable_id': 33, 'subject_id': 'BELINDA CRATCHIT', 'type': 'FAMILY SUPPORT', 'status': 'TRUE', 'description': ''}"
+,BELLS,,NONE,,HAUNTING NOISE,MENTIONED,NONE,NONE,"The bells in the house began to ring loudly, contributing to the eerie atmosphere as Scrooge encountered Marley's ghost.",['It swung so softly in the outset that it scarcely made a sound; but soon it rang out loudly.'],d6,,d1ec02412301472f8a9ba74d5e8906bd,34,"{'human_readable_id': 34, 'subject_id': 'BELLS', 'type': 'HAUNTING NOISE', 'status': 'MENTIONED', 'description': ""The bells in the house began to ring loudly, contributing to the eerie atmosphere as Scrooge encountered Marley's ghost.""}"
+,BOB CRATCHIT,,NONE,,CHRISTMAS CELEBRATION,SUSPECTED,NONE,NONE,"Bob Cratchit went down a slide on Cornhill in honour of Christmas Eve, showing a festive spirit despite his circumstances. Bob proposed: 'A merry Christmas to us all, my dears. God bless us! Which all the family re-echoed.' Bob Cratchit is depicted as a mild and caring father who is concerned about the children and the Christmas Day celebration. Bob Cratchit is depicted as a mild and caring father who is concerned about the children and the Christmas Day celebration. Scrooge raised Bob Cratchit's salary and endeavored to assist his struggling family, indicating a positive change in their employment relationship. Scrooge raised Bob Cratchit's salary and endeavored to assist his struggling family, indicating a positive change in their employment relationship.","[""I'll raise your salary, and endeavour to assist your struggling family, and we will discuss your affairs this very afternoon, over a Christmas bowl of smoking bishop, Bob! Make up the fires and buy another coal-scuttle before you dot another i, Bob Cratchit!"", ""'My dear!' was Bob's mild answer. 'Christmas Day.'"", ""'Bob Cratchit went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve'""]","d4, d19, d19, d21, d22, d22, d36, d36",,e6849fa8185a4d6abc10248e87b55326,35,"{'human_readable_id': 35, 'subject_id': 'BOB CRATCHIT', 'type': 'CHRISTMAS CELEBRATION', 'status': 'SUSPECTED', 'description': ""Bob Cratchit went down a slide on Cornhill in honour of Christmas Eve, showing a festive spirit despite his circumstances. Bob proposed: 'A merry Christmas to us all, my dears. God bless us! Which all the family re-echoed.' Bob Cratchit is depicted as a mild and caring father who is concerned about the children and the Christmas Day celebration. Bob Cratchit is depicted as a mild and caring father who is concerned about the children and the Christmas Day celebration. Scrooge raised Bob Cratchit's salary and endeavored to assist his struggling family, indicating a positive change in their employment relationship. Scrooge raised Bob Cratchit's salary and endeavored to assist his struggling family, indicating a positive change in their employment relationship.""}"
+,BOY IN SUNDAY CLOTHES,,NONE,,JOY,TRUE,2023-12-25T00:00:00,2023-12-25T00:00:00,"The boy in Sunday clothes symbolized the joy of Christmas and the spirit of celebration, which Scrooge embraced as he rediscovered the holiday spirit.","['‘What’s to-day, my fine fellow?’']",d33,,27e4b1bd91c54df69edd302db7493601,36,"{'human_readable_id': 36, 'subject_id': 'BOY IN SUNDAY CLOTHES', 'type': 'JOY', 'status': 'TRUE', 'description': 'The boy in Sunday clothes symbolized the joy of Christmas and the spirit of celebration, which Scrooge embraced as he rediscovered the holiday spirit.'}"
+,"Based on the provided text, here is the analysis:
+
+1. **Extracted Entities**:
+   - PERSON: Bob Cratchit, Tiny Tim, Mrs. Cratchit, Scrooge
+   - ORGANIZATION: **NONE**
+   - GEO: **NONE**
+   - EVENT: Christmas Day
+
+2. **Claims Extraction**:
+   - For each identified entity, I looked for claims that could be relevant to the description provided.
+
+Output:
+
+(BOB CRATCHIT",,NONE,,CHRISTMAS CELEBRATION,TRUE,"Bob Cratchit expressed joy and gratitude during the Christmas dinner, proposing a toast to the family, indicating a positive celebration of the holiday.",NONE,"Bob proposed: 'A merry Christmas to us all, my dears. God bless us! Which all the family re-echoed.'",[],d21,,13ea4c6a44a548f4901a7cbb21f0a699,37,"{'human_readable_id': 37, 'subject_id': 'Based on the provided text, here is the analysis:\n\n1. **Extracted Entities**:\n   - PERSON: Bob Cratchit, Tiny Tim, Mrs. Cratchit, Scrooge\n   - ORGANIZATION: **NONE**\n   - GEO: **NONE**\n   - EVENT: Christmas Day\n\n2. **Claims Extraction**:\n   - For each identified entity, I looked for claims that could be relevant to the description provided.\n\nOutput:\n\n(BOB CRATCHIT', 'type': 'CHRISTMAS CELEBRATION', 'status': 'TRUE', 'description': ""Bob proposed: 'A merry Christmas to us all, my dears. God bless us! Which all the family re-echoed.'""}"
+,Bob Cratchit,,NONE,,EMPLOYMENT PRACTICES,TRUE,NONE,NONE,"Scrooge raised Bob Cratchit's salary and expressed a desire to assist his struggling family, indicating a positive change in employment practices","[""“Now, I'll tell you what, my friend,” said Scrooge. “I am not going to stand this sort of thing any longer. And therefore, I am about to raise your salary!”""]",d35,,156a2db639814022b6ec22422cdd4386,38,"{'human_readable_id': 38, 'subject_id': 'Bob Cratchit', 'type': 'EMPLOYMENT PRACTICES', 'status': 'TRUE', 'description': ""Scrooge raised Bob Cratchit's salary and expressed a desire to assist his struggling family, indicating a positive change in employment practices""}"
+,CAMDEN TOWN,,NONE,,LOCATION,SUSPECTED,NONE,NONE,"Camden Town is mentioned as the destination of Bob Cratchit as he hurried home, indicating a specific location in London.","[""'...and then ran home to Camden Town as hard as he could pelt, to play at blind man's-buff.'""]",d4,,a5c67c3eecb44ce49e152ec99629d18b,39,"{'human_readable_id': 39, 'subject_id': 'CAMDEN TOWN', 'type': 'LOCATION', 'status': 'SUSPECTED', 'description': 'Camden Town is mentioned as the destination of Bob Cratchit as he hurried home, indicating a specific location in London.'}"
+,CHAINS,,NONE,,HAUNTING NOISE,MENTIONED,NONE,NONE,"The clanking noise of chains was heard, which Scrooge associated with ghosts in haunted houses.",['Scrooge then remembered to have heard that ghosts in haunted houses were described as dragging chains.'],d6,,17e6bff5dc5f4d23bc39e2d21dd40240,40,"{'human_readable_id': 40, 'subject_id': 'CHAINS', 'type': 'HAUNTING NOISE', 'status': 'MENTIONED', 'description': 'The clanking noise of chains was heard, which Scrooge associated with ghosts in haunted houses.'}"
+,CHESTNUTS,,NONE,,FESTIVE SNACK,TRUE,"Chestnuts were prepared on the fire as part of the Christmas celebration, adding to the festive atmosphere of the dinner.",NONE,Then all the Cratchit family drew round the hearth... and a shovel full of chestnuts on the fire.,[],d21,,56b2f7aa6e81471e9003edd9b1d6e515,41,"{'human_readable_id': 41, 'subject_id': 'CHESTNUTS', 'type': 'FESTIVE SNACK', 'status': 'TRUE', 'description': 'Then all the Cratchit family drew round the hearth... and a shovel full of chestnuts on the fire.'}"
+,CLERC,,NONE,,CHRISTMAS GREETING,TRUE,NONE,NONE,"The clerk returned Christmas greetings cordially, showcasing a warmer attitude towards the holiday compared to Scrooge.","['‘He stopped at the outer door to bestow the greetings of the season on the clerk, who, cold as he was, was warmer than Scrooge; for he returned them cordially.’']",d3,,1c8359e739484c308ad1462449e6b3c1,42,"{'human_readable_id': 42, 'subject_id': 'CLERC', 'type': 'CHRISTMAS GREETING', 'status': 'TRUE', 'description': 'The clerk returned Christmas greetings cordially, showcasing a warmer attitude towards the holiday compared to Scrooge.'}"
+,COLD,,NONE,,ILLNESS,MENTIONED,NONE,NONE,"Scrooge had a cold, which contributed to his discomfort on the bitter night.",['Scrooge had a cold in his head.'],d6,,4d3a9d1d8f6a4ec8bb9b5e0dd52efe97,43,"{'human_readable_id': 43, 'subject_id': 'COLD', 'type': 'ILLNESS', 'status': 'MENTIONED', 'description': 'Scrooge had a cold, which contributed to his discomfort on the bitter night.'}"
+,DECEASED MAN,,NONE,,THEFT,SUSPECTED,NONE,NONE,"The deceased man is the victim of the theft, as his belongings are being taken and appraised by those who have no regard for his memory.","[""If he wanted to keep 'em after he was dead, a wicked old screw.""]",d29,,e6b68a39dffe45ac849adaeef364c5d1,44,"{'human_readable_id': 44, 'subject_id': 'DECEASED MAN', 'type': 'THEFT', 'status': 'SUSPECTED', 'description': 'The deceased man is the victim of the theft, as his belongings are being taken and appraised by those who have no regard for his memory.'}"
+,DOOR,,NONE,,SECURITY,MENTIONED,NONE,NONE,"Scrooge locked himself in his room, securing the door against any surprises before encountering the ghost.","['he closed his door, and locked himself in; double locked himself in.']",d6,,73207813118240dfb7bc0726bf5b457c,45,"{'human_readable_id': 45, 'subject_id': 'DOOR', 'type': 'SECURITY', 'status': 'MENTIONED', 'description': 'Scrooge locked himself in his room, securing the door against any surprises before encountering the ghost.'}"
+,DRESSING-GOWN,,NONE,,CLOTHING,MENTIONED,NONE,NONE,Scrooge put on his dressing-gown and slippers as part of his nighttime routine before encountering the ghost.,"['put on his dressing-gown and slippers, and his nightcap.']",d6,,f93b8db1f617439f944238befdac29aa,46,"{'human_readable_id': 46, 'subject_id': 'DRESSING-GOWN', 'type': 'CLOTHING', 'status': 'MENTIONED', 'description': 'Scrooge put on his dressing-gown and slippers as part of his nighttime routine before encountering the ghost.'}"
+,EBENEZER SCROOGE,,NONE,,REDEMPTION,TRUE,2023-12-25T00:00:00,2023-12-25T00:00:00,"Scrooge expressed his intent to honor Christmas and change his ways, indicating a desire for redemption and a new beginning on Christmas Day. Scrooge realized the importance of the lessons taught by the spirits and acknowledged his past mistakes, leading to a newfound hope for the future.","['‘Am I that man who lay upon the bed?’ he cried upon his knees.', '‘I will honour Christmas in my heart, and try to keep it all the year.’']","d33, d33",,ea23a63f09f6443a95e9f20948922b3e,47,"{'human_readable_id': 47, 'subject_id': 'EBENEZER SCROOGE', 'type': 'REDEMPTION', 'status': 'TRUE', 'description': 'Scrooge expressed his intent to honor Christmas and change his ways, indicating a desire for redemption and a new beginning on Christmas Day. Scrooge realized the importance of the lessons taught by the spirits and acknowledged his past mistakes, leading to a newfound hope for the future.'}"
+,FIREPLACE,,NONE,,OLD DESIGN,MENTIONED,NONE,NONE,"The fireplace was an old one, built by some Dutch merchant long ago, and paved with Dutch tiles illustrating the Scriptures.","['The fireplace was an old one, built by some Dutch merchant long ago.']",d6,,f1e1c5ec3cd04c52abfde94e5ea21371,48,"{'human_readable_id': 48, 'subject_id': 'FIREPLACE', 'type': 'OLD DESIGN', 'status': 'MENTIONED', 'description': 'The fireplace was an old one, built by some Dutch merchant long ago, and paved with Dutch tiles illustrating the Scriptures.'}"
+,FRED,,NONE,,PERSONAL OPINION,SUSPECTED,NONE,NONE,"Fred's opinions about Scrooge's character and behavior were discussed among the family members, indicating a personal sentiment rather than a factual claim.","[""Fred!' said Scrooge's niece indignantly. Bless those women! they never do anything by halves. They are always in earnest.""]",d24,,35e8475f2b1e436a9271cd655aa72a68,49,"{'human_readable_id': 49, 'subject_id': 'FRED', 'type': 'PERSONAL OPINION', 'status': 'SUSPECTED', 'description': ""Fred's opinions about Scrooge's character and behavior were discussed among the family members, indicating a personal sentiment rather than a factual claim.""}"
+,GENTLEMEN,,NONE,,CHARITY EFFORTS,TRUE,NONE,NONE,"The gentlemen were seeking donations to help the poor and destitute during the festive season, highlighting the need for charity.","['‘A few of us are endeavouring to raise a fund to buy the Poor some meat and drink, and means of warmth.’']",d3,,2d7e608b39b24b1b895c55a94c538724,50,"{'human_readable_id': 50, 'subject_id': 'GENTLEMEN', 'type': 'CHARITY EFFORTS', 'status': 'TRUE', 'description': 'The gentlemen were seeking donations to help the poor and destitute during the festive season, highlighting the need for charity.'}"
+,GHOST,,NONE,,PROPHECY,TRUE,"The Ghost provided a prophetic warning about Tiny Tim's potential death, indicating the impact of future choices on his life.",NONE,"If these shadows remain unaltered by the Future, the child will die.",[],d21,,0c249a97ea104bd687d6aa1bed93086b,51,"{'human_readable_id': 51, 'subject_id': 'GHOST', 'type': 'PROPHECY', 'status': 'TRUE', 'description': 'If these shadows remain unaltered by the Future, the child will die.'}"
+,GHOST OF CHRISTMAS FUTURE,,NONE,,WARNING,TRUE,2023-12-25T00:00:00,2023-12-25T00:00:00,"The Ghost of Christmas Future served as a warning of the dire consequences of Scrooge's continued selfishness, prompting his desperate plea for change.","['‘Why show me this, if I am past all hope?’']",d33,,78f8bd70eada4a64bdbf648a105eab33,52,"{'human_readable_id': 52, 'subject_id': 'GHOST OF CHRISTMAS FUTURE', 'type': 'WARNING', 'status': 'TRUE', 'description': ""The Ghost of Christmas Future served as a warning of the dire consequences of Scrooge's continued selfishness, prompting his desperate plea for change.""}"
+,GHOST OF CHRISTMAS PAST,,NONE,,GUIDANCE,TRUE,2023-12-25T00:00:00,2023-12-25T00:00:00,"The Ghost of Christmas Past guided Scrooge through memories that highlighted his former self, prompting reflection and a desire for change.",['‘The Spirits of all Three shall strive within me.’'],d33,,3443aa3a45fe497c925e17e5949b2a22,53,"{'human_readable_id': 53, 'subject_id': 'GHOST OF CHRISTMAS PAST', 'type': 'GUIDANCE', 'status': 'TRUE', 'description': 'The Ghost of Christmas Past guided Scrooge through memories that highlighted his former self, prompting reflection and a desire for change.'}"
+,GHOST OF CHRISTMAS PRESENT,,NONE,,CHARITABLE ACTION,TRUE,"The Ghost of Christmas Present exemplified the spirit of generosity and kindness by sprinkling blessings on the Cratchit family, symbolizing the joy of giving during the holiday season.","For he stood with Scrooge beside him in a baker's doorway, and, taking off the covers as their bearers passed, sprinkled incense on their dinners from his torch.","The Ghost of Christmas Present is depicted as a joyful spirit who spreads mirth and generosity, embodying the spirit of Christmas and the warmth of family gatherings. The Ghost of Christmas Present provided insight into the lives of others, revealing the joy and struggles of those around Scrooge, which contributed to his transformation.","['‘There’s the corner where the Ghost of Christmas Present sat!’', 'How it bared its breadth of breast, and opened its capacious palm, and floated on, outpouring with a generous hand its bright and harmless mirth on everything within its reach!']","d19, d22, d33",,acb067598a284a898c9e102a30cddbcb,54,"{'human_readable_id': 54, 'subject_id': 'GHOST OF CHRISTMAS PRESENT', 'type': 'CHARITABLE ACTION', 'status': 'TRUE', 'description': 'The Ghost of Christmas Present is depicted as a joyful spirit who spreads mirth and generosity, embodying the spirit of Christmas and the warmth of family gatherings. The Ghost of Christmas Present provided insight into the lives of others, revealing the joy and struggles of those around Scrooge, which contributed to his transformation.'}"
+,GHOST OF CHRISTMAS YET TO COME,,NONE,,CHARACTER DEVELOPMENT,TRUE,NONE,NONE,I am in the presence of the Ghost of Christmas Yet to Come?,['I am in the presence of the Ghost of Christmas Yet to Come?'],d26,,97063606941344e691b7431a6b2f2e05,55,"{'human_readable_id': 55, 'subject_id': 'GHOST OF CHRISTMAS YET TO COME', 'type': 'CHARACTER DEVELOPMENT', 'status': 'TRUE', 'description': 'I am in the presence of the Ghost of Christmas Yet to Come?'}"
+,"Given the provided text, entity specification, and claim description, here is the extracted information:
+
+1. **Extracted Entities**:
+   - **Persons**: Scrooge, Marley
+   - **Organizations**: None explicitly mentioned
+   - **Geographical Locations**: None explicitly mentioned
+   - **Events**: Christmas, New Year
+
+2. **Claims Associated with Extracted Entities**:
+   - For **Scrooge**:
+     - Claim regarding his attitude towards Christmas and his refusal to contribute to charitable causes.
+   - For **Marley**:
+     - Claim regarding his death and its significance to Scrooge.
+
+Output:
+
+(SCROOGE",,NONE,,CHARITY REFUSAL,TRUE,NONE,NONE,"Scrooge expressed a refusal to contribute to the welfare of the poor and destitute during Christmas, indicating his lack of generosity and festive spirit.","['‘At this festive season of the year, Mr. Scrooge,’ said the gentleman, taking up a pen, ‘it is more than usually desirable that we should make some slight provision for the poor and destitute, who suffer greatly at the present time.’']",d3,,a59295d8194241a9a19039ece64ab9fe,56,"{'human_readable_id': 56, 'subject_id': 'Given the provided text, entity specification, and claim description, here is the extracted information:\n\n1. **Extracted Entities**:\n   - **Persons**: Scrooge, Marley\n   - **Organizations**: None explicitly mentioned\n   - **Geographical Locations**: None explicitly mentioned\n   - **Events**: Christmas, New Year\n\n2. **Claims Associated with Extracted Entities**:\n   - For **Scrooge**:\n     - Claim regarding his attitude towards Christmas and his refusal to contribute to charitable causes.\n   - For **Marley**:\n     - Claim regarding his death and its significance to Scrooge.\n\nOutput:\n\n(SCROOGE', 'type': 'CHARITY REFUSAL', 'status': 'TRUE', 'description': 'Scrooge expressed a refusal to contribute to the welfare of the poor and destitute during Christmas, indicating his lack of generosity and festive spirit.'}"
+,"Given the provided text, entity specification, and claim description, the analysis is as follows:
+
+1. **Extracted Entities**:
+   - Persons: Bob Cratchit, Tiny Tim, Martha, Master Peter, Miss Belinda
+   - Organizations: **NONE** (no organizations mentioned)
+   - Geographical locations: **NONE** (no geographical locations mentioned)
+   - Events: Christmas Day
+
+2. **Claims Associated with Extracted Entities**:
+   - For **Bob Cratchit**:
+     - Claim about his role as a father and his emotional state regarding Tiny Tim's condition.
+   - For **Tiny Tim**:
+     - Claim regarding his health and his hopeful perspective on being seen by others in church.
+   - For **Martha**:
+     - Claim regarding her arrival and contribution to the family dynamics.
+   - For **Master Peter** and **Miss Belinda**:
+     - Claims regarding their participation in the family dinner preparations.",,,,,,,,,[],d20,,68d858a951cb43cc9ea662f21defd88b,57,"{'human_readable_id': 57, 'subject_id': ""Given the provided text, entity specification, and claim description, the analysis is as follows:\n\n1. **Extracted Entities**:\n   - Persons: Bob Cratchit, Tiny Tim, Martha, Master Peter, Miss Belinda\n   - Organizations: **NONE** (no organizations mentioned)\n   - Geographical locations: **NONE** (no geographical locations mentioned)\n   - Events: Christmas Day\n\n2. **Claims Associated with Extracted Entities**:\n   - For **Bob Cratchit**:\n     - Claim about his role as a father and his emotional state regarding Tiny Tim's condition.\n   - For **Tiny Tim**:\n     - Claim regarding his health and his hopeful perspective on being seen by others in church.\n   - For **Martha**:\n     - Claim regarding her arrival and contribution to the family dynamics.\n   - For **Master Peter** and **Miss Belinda**:\n     - Claims regarding their participation in the family dinner preparations."", 'type': None, 'status': None, 'description': ''}"
+,"Given the provided text, entity specification, and claim description, the analysis yields the following claims:",,,,,,,,,[],d6,,bddb6a1b25614d989152cd88128a3b9b,58,"{'human_readable_id': 58, 'subject_id': 'Given the provided text, entity specification, and claim description, the analysis yields the following claims:', 'type': None, 'status': None, 'description': ''}"
+,"Given the provided text, entity specification, and claim description, the analysis yields the following results:
+
+1. **Extracted Entities**:
+   - **Persons**: Scrooge, Fezziwig, Dick Wilkins, Mrs. Fezziwig, the three Miss Fezziwigs
+   - **Events**: Christmas Eve celebration
+   - **Geographical references**: A city (not specifically named)
+
+2. **Claims Associated with Extracted Entities**:
+   - For **Fezziwig**:
+     - Claim about his character and actions during the Christmas Eve celebration.
+   - For **Scrooge**:
+     - Claim about his past and relationship with Dick Wilkins.
+
+The extracted claims are formatted as follows:
+
+1. (FEZZIWIG",,NONE,,CHARACTERISTICS,TRUE,2022-12-24T00:00:00,2022-12-24T00:00:00,"Fezziwig is portrayed as a jovial and generous employer who celebrates Christmas with his employees, creating a warm and festive atmosphere.","[""Old Fezziwig laid down his pen, and looked up at the clock... 'Yo ho, my boys!' said Fezziwig. 'No more work to-night. Christmas Eve, Dick. Christmas, Ebenezer! Let's have the shutters up...' )\n\n2. (SCROOGE""]",d13,,79cd7ed6154c49479b9263c6d96eef71,59,"{'human_readable_id': 59, 'subject_id': 'Given the provided text, entity specification, and claim description, the analysis yields the following results:\n\n1. **Extracted Entities**:\n   - **Persons**: Scrooge, Fezziwig, Dick Wilkins, Mrs. Fezziwig, the three Miss Fezziwigs\n   - **Events**: Christmas Eve celebration\n   - **Geographical references**: A city (not specifically named)\n\n2. **Claims Associated with Extracted Entities**:\n   - For **Fezziwig**:\n     - Claim about his character and actions during the Christmas Eve celebration.\n   - For **Scrooge**:\n     - Claim about his past and relationship with Dick Wilkins.\n\nThe extracted claims are formatted as follows:\n\n1. (FEZZIWIG', 'type': 'CHARACTERISTICS', 'status': 'TRUE', 'description': 'Fezziwig is portrayed as a jovial and generous employer who celebrates Christmas with his employees, creating a warm and festive atmosphere.'}"
+,IGNORANCE,,NONE,,SOCIAL ISSUES,TRUE,NONE,NONE,"This boy is Ignorance. Beware of them both, and all of their degree, but most of all beware this boy, for on his brow I see that written which is Doom, unless the writing be erased. This boy is Ignorance. Beware of them both, and all of their degree, but most of all beware this boy, for on his brow I see that written which is Doom, unless the writing be erased.","['Beware of them both, and all of their degree, but most of all beware this boy, for on his brow I see that written which is Doom, unless the writing be erased.']","d26, d26",,e2b2ffedca344964903727180c18c616,60,"{'human_readable_id': 60, 'subject_id': 'IGNORANCE', 'type': 'SOCIAL ISSUES', 'status': 'TRUE', 'description': 'This boy is Ignorance. Beware of them both, and all of their degree, but most of all beware this boy, for on his brow I see that written which is Doom, unless the writing be erased. This boy is Ignorance. Beware of them both, and all of their degree, but most of all beware this boy, for on his brow I see that written which is Doom, unless the writing be erased.'}"
+,JACOB MARLEY,,NONE,,GHOSTLY APPEARANCE,SUSPECTED,NONE,NONE,"Jacob Marley appeared as a ghost to Scrooge, claiming to be his former partner, though Scrooge remained skeptical of his existence. Jacob Marley appeared as a ghost to Scrooge, claiming to be his former partner, though Scrooge remained skeptical of his existence. He remembered the prediction of old Jacob Marley, and, lifting up his eyes, beheld a solemn Phantom, draped and hooded, coming like a mist along the ground towards him. Jacob Marley’s spirit influenced Scrooge’s transformation by warning him of the consequences of his actions and encouraging him to change.","['In life I was your partner, Jacob Marley.', 'He remembered the prediction of old Jacob Marley, and, lifting up his eyes, beheld a solemn Phantom, draped and hooded, coming like a mist along the ground towards him.', '‘O Jacob Marley! Heaven and the Christmas Time be praised for this!’']","d6, d6, d26, d33",,11e239b998fe4233adf262a07930ac8e,61,"{'human_readable_id': 61, 'subject_id': 'JACOB MARLEY', 'type': 'GHOSTLY APPEARANCE', 'status': 'SUSPECTED', 'description': 'Jacob Marley appeared as a ghost to Scrooge, claiming to be his former partner, though Scrooge remained skeptical of his existence. Jacob Marley appeared as a ghost to Scrooge, claiming to be his former partner, though Scrooge remained skeptical of his existence. He remembered the prediction of old Jacob Marley, and, lifting up his eyes, beheld a solemn Phantom, draped and hooded, coming like a mist along the ground towards him. Jacob Marley’s spirit influenced Scrooge’s transformation by warning him of the consequences of his actions and encouraging him to change.'}"
+,LAMPLIGHTER,,NONE,,POSITIVE CHARACTERIZATION,TRUE,NONE,NONE,"The lamplighter is portrayed as a cheerful figure who adds to the festive atmosphere, laughing as the Spirit passes by, embodying the joy of the season.","['The very lamplighter, who ran on before, dotting the dusky street with specks of light, and who was dressed to spend the evening somewhere, laughed out loudly as the Spirit passed...']",d22,,869f70f640094b21821bf4567b9b03bc,62,"{'human_readable_id': 62, 'subject_id': 'LAMPLIGHTER', 'type': 'POSITIVE CHARACTERIZATION', 'status': 'TRUE', 'description': 'The lamplighter is portrayed as a cheerful figure who adds to the festive atmosphere, laughing as the Spirit passes by, embodying the joy of the season.'}"
+,LORD MAYOR,,NONE,,CHRISTMAS CELEBRATION,SUSPECTED,NONE,NONE,"The Lord Mayor gave orders to his cooks and butlers to keep Christmas as a Lord Mayor's household should, indicating a commitment to the celebration of the holiday.","[""'The Lord Mayor, in the stronghold of the mighty Mansion House, gave orders to his fifty cooks and butlers to keep Christmas as a Lord Mayor's household should;'""]",d4,,f1352092f7464e7e971ea1be6a47e2d4,63,"{'human_readable_id': 63, 'subject_id': 'LORD MAYOR', 'type': 'CHRISTMAS CELEBRATION', 'status': 'SUSPECTED', 'description': ""The Lord Mayor gave orders to his cooks and butlers to keep Christmas as a Lord Mayor's household should, indicating a commitment to the celebration of the holiday.""}"
+,MAN IN FADED BLACK,,NONE,,THEFT,SUSPECTED,NONE,NONE,"The man in faded black is also involved in the theft, presenting his own plunder for appraisal, indicating complicity in the act.","[""That's your account, and I wouldn't give another sixpence, if I was to be boiled for not doing it.""]",d29,,c6b3e2d52aa14d0b9888437e658b5d88,64,"{'human_readable_id': 64, 'subject_id': 'MAN IN FADED BLACK', 'type': 'THEFT', 'status': 'SUSPECTED', 'description': 'The man in faded black is also involved in the theft, presenting his own plunder for appraisal, indicating complicity in the act.'}"
+,MARLEY,,NONE,,DEATH,TRUE,NONE,NONE,"Marley has been dead for seven years, which is a significant point in Scrooge's life as he reflects on his partner's absence.","['‘Mr. Marley has been dead these seven years,’ Scrooge replied. ‘He died seven years ago, this very night.’']",d3,,7fabd515ee50407fa05b896ecfb8c9c5,65,"{'human_readable_id': 65, 'subject_id': 'MARLEY', 'type': 'DEATH', 'status': 'TRUE', 'description': ""Marley has been dead for seven years, which is a significant point in Scrooge's life as he reflects on his partner's absence.""}"
+,MARTHA,,NONE,,FAMILY DYNAMICS,TRUE,NONE,NONE,"Martha's arrival was celebrated by her family, highlighting her importance in the family unit during Christmas. Martha's arrival was celebrated by her family, highlighting her importance in the family unit during Christmas.","['‘Here’s Martha, mother!’ said a girl, appearing as she spoke.']","d20, d20",,7c4b2a85e15d4cbf8cf16f5f1ed4bc2b,66,"{'human_readable_id': 66, 'subject_id': 'MARTHA', 'type': 'FAMILY DYNAMICS', 'status': 'TRUE', 'description': ""Martha's arrival was celebrated by her family, highlighting her importance in the family unit during Christmas. Martha's arrival was celebrated by her family, highlighting her importance in the family unit during Christmas.""}"
+,MARTHA CRATCHIT,,NONE,,WORKING CONDITIONS,TRUE,NONE,NONE,"Martha Cratchit describes her work conditions as a poor apprentice at a milliner's, highlighting the struggles of the family. Martha Cratchit describes her work conditions as a poor apprentice at a milliner's, highlighting the struggles of the family.","[""Martha, who was a poor apprentice at a milliner's, then told them what kind of work she had to do, and how many hours she worked at a stretch...""]","d22, d22",,b2e58260214b4b74a4b0eee0e7f9e191,67,"{'human_readable_id': 67, 'subject_id': 'MARTHA CRATCHIT', 'type': 'WORKING CONDITIONS', 'status': 'TRUE', 'description': ""Martha Cratchit describes her work conditions as a poor apprentice at a milliner's, highlighting the struggles of the family. Martha Cratchit describes her work conditions as a poor apprentice at a milliner's, highlighting the struggles of the family.""}"
+,MASTER PETER,,NONE,,FAMILY DYNAMICS,TRUE,NONE,NONE,"Master Peter participated actively in the family dinner preparations, showcasing his role in the family. Master Peter participated actively in the family dinner preparations, showcasing his role in the family.","['‘Master Peter and the two ubiquitous young Cratchits went to fetch the goose, with which they soon returned in high procession.’']","d20, d20",,d66126ca1ac0455f9a6f4ba1bf3609f6,68,"{'human_readable_id': 68, 'subject_id': 'MASTER PETER', 'type': 'FAMILY DYNAMICS', 'status': 'TRUE', 'description': 'Master Peter participated actively in the family dinner preparations, showcasing his role in the family. Master Peter participated actively in the family dinner preparations, showcasing his role in the family.'}"
+,MASTER PETER CRATCHIT,,NONE,,FAMILY SUPPORT,TRUE,"Master Peter Cratchit contributed to the family preparations, showcasing the involvement of children in family traditions during Christmas.","while Master Peter Cratchit plunged a fork into the saucepan of potatoes, and getting the corners of his monstrous shirt-collar (Bob's private property, conferred upon his son and heir in honour of the day,) into his mouth, rejoiced to find himself so gallantly attired.",,[],d19,,93dee217b4cd4ba48cb0552bec1e6668,69,"{'human_readable_id': 69, 'subject_id': 'MASTER PETER CRATCHIT', 'type': 'FAMILY SUPPORT', 'status': 'TRUE', 'description': ''}"
+,MINERS,,NONE,,WORKING CONDITIONS,TRUE,NONE,NONE,"The miners are described as laborers who work in harsh conditions underground, highlighting the struggles of those who work to provide for their families.","['A place where miners live, who labour in the bowels of the earth.']",d22,,e5031566b50b4749b87b83871c91bbce,70,"{'human_readable_id': 70, 'subject_id': 'MINERS', 'type': 'WORKING CONDITIONS', 'status': 'TRUE', 'description': 'The miners are described as laborers who work in harsh conditions underground, highlighting the struggles of those who work to provide for their families.'}"
+,MISS BELINDA,,NONE,,FAMILY DYNAMICS,TRUE,NONE,NONE,"Miss Belinda contributed to the family dinner preparations, indicating her involvement in family traditions. Miss Belinda contributed to the family dinner preparations, indicating her involvement in family traditions. The plates being changed by Miss Belinda.",['‘Miss Belinda sweetened up the apple sauce.’'],"d20, d20, d21",,2efcc523fc1b44e4a0c371d21412ca99,71,"{'human_readable_id': 71, 'subject_id': 'MISS BELINDA', 'type': 'FAMILY DYNAMICS', 'status': 'TRUE', 'description': 'Miss Belinda contributed to the family dinner preparations, indicating her involvement in family traditions. Miss Belinda contributed to the family dinner preparations, indicating her involvement in family traditions. The plates being changed by Miss Belinda.'}"
+,MRS. CRATCHIT,,NONE,,FAMILY SUPPORT,TRUE,"Mrs. Cratchit played a vital role in maintaining the family’s Christmas spirit and preparing the meal, showcasing the importance of family and togetherness during the holiday season.","Then up rose Mrs. Cratchit, Cratchit's wife, dressed out but poorly in a twice-turned gown, but brave in ribbons, which are cheap, and make a goodly show for sixpence; and she laid the cloth, assisted by Belinda Cratchit, second of her daughters, also brave in ribbons.","'The Founder of the Feast, indeed!' cried Mrs. Cratchit, reddening. 'I wish I had him here. I'd give him a piece of my mind to feast upon, and I hope he'd have a good appetite for it.' 'The Founder of the Feast, indeed!' cried Mrs. Cratchit, reddening. 'I wish I had him here. I'd give him a piece of my mind to feast upon, and I hope he'd have a good appetite for it.' Mrs. Cratchit expresses her wish for Scrooge to be present at their feast, showing her strong feelings about him and her desire for a better life for her family. Mrs. Cratchit expresses her wish for Scrooge to be present at their feast, showing her strong feelings about him and her desire for a better life for her family.","[""'I wish I had him here. I'd give him a piece of my mind to feast upon, and I hope he'd have a good appetite for it.'""]","d19, d21, d21, d22, d22",,93548dc3f10f45c6b48b68dbdef22f0b,72,"{'human_readable_id': 72, 'subject_id': 'MRS. CRATCHIT', 'type': 'FAMILY SUPPORT', 'status': 'TRUE', 'description': ""'The Founder of the Feast, indeed!' cried Mrs. Cratchit, reddening. 'I wish I had him here. I'd give him a piece of my mind to feast upon, and I hope he'd have a good appetite for it.' 'The Founder of the Feast, indeed!' cried Mrs. Cratchit, reddening. 'I wish I had him here. I'd give him a piece of my mind to feast upon, and I hope he'd have a good appetite for it.' Mrs. Cratchit expresses her wish for Scrooge to be present at their feast, showing her strong feelings about him and her desire for a better life for her family. Mrs. Cratchit expresses her wish for Scrooge to be present at their feast, showing her strong feelings about him and her desire for a better life for her family.""}"
+,MRS. DILBER,,NONE,,THEFT,SUSPECTED,NONE,NONE,"Mrs. Dilber is involved in the theft of items from the deceased, as she participates in the appraisal and discussion of the stolen goods.","[""It's a judgment on him.""]",d29,,3884f435c80e4f3694303eea9248676a,73,"{'human_readable_id': 73, 'subject_id': 'MRS. DILBER', 'type': 'THEFT', 'status': 'SUSPECTED', 'description': 'Mrs. Dilber is involved in the theft of items from the deceased, as she participates in the appraisal and discussion of the stolen goods.'}"
+,NIGHTCAP,,NONE,,CLOTHING,MENTIONED,NONE,NONE,Scrooge wore a nightcap as part of his attire while sitting before the fire.,"['put on his dressing-gown and slippers, and his nightcap.']",d6,,2e7390584ffa43ef8fed119965b45656,74,"{'human_readable_id': 74, 'subject_id': 'NIGHTCAP', 'type': 'CLOTHING', 'status': 'MENTIONED', 'description': 'Scrooge wore a nightcap as part of his attire while sitting before the fire.'}"
+,OLD CHURCH BELL,,NONE,,TIME PASSAGE,SUSPECTED,NONE,NONE,"The ancient tower of a church, whose bell struck the hours and quarters, became invisible in the fog, symbolizing the passage of time amidst the cold and darkness.","[""'The ancient tower of a church, whose gruff old bell was always peeping slyly down at Scrooge out of a Gothic window in the wall, became invisible, and struck the hours and quarters in the clouds...'""]",d4,,fbe734fc9e0c4069adc22445010764a1,75,"{'human_readable_id': 75, 'subject_id': 'OLD CHURCH BELL', 'type': 'TIME PASSAGE', 'status': 'SUSPECTED', 'description': 'The ancient tower of a church, whose bell struck the hours and quarters, became invisible in the fog, symbolizing the passage of time amidst the cold and darkness.'}"
+,OLD JOE,,NONE,,THEFT,SUSPECTED,NONE,NONE,"Old Joe is involved in the appraisal of stolen goods, suggesting a potential claim of theft, as he examines the plunder brought by the women. Old Joe is involved in the appraisal of stolen goods, suggesting a potential claim of theft, as he examines the plunder brought by the women.","[""Open that bundle, old Joe, and let me know the value of it. Speak out plain. I'm not afraid to be the first, nor afraid for them to see it. We knew pretty well that we were helping ourselves before we met here, I believe. It's no sin. Open the bundle, Joe.""]","d29, d29",,beaf5f545ac3494ea77c7d8d7966aeb6,76,"{'human_readable_id': 76, 'subject_id': 'OLD JOE', 'type': 'THEFT', 'status': 'SUSPECTED', 'description': 'Old Joe is involved in the appraisal of stolen goods, suggesting a potential claim of theft, as he examines the plunder brought by the women. Old Joe is involved in the appraisal of stolen goods, suggesting a potential claim of theft, as he examines the plunder brought by the women.'}"
+,OLD MARLEY,,NONE,,TRANSPARENT BODY,MENTIONED,NONE,NONE,"Marley's ghost appeared with a transparent body, allowing Scrooge to see through him, which heightened the supernatural experience.","['His body was transparent: so that Scrooge, observing him, and looking through his waistcoat, could see the two buttons on his coat behind.']",d6,,c29f4ae56692480eae58ba588f10768c,77,"{'human_readable_id': 77, 'subject_id': 'OLD MARLEY', 'type': 'TRANSPARENT BODY', 'status': 'MENTIONED', 'description': ""Marley's ghost appeared with a transparent body, allowing Scrooge to see through him, which heightened the supernatural experience.""}"
+,PETER CRATCHIT,,NONE,,FUTURE ASPIRATIONS,TRUE,NONE,NONE,"Peter Cratchit is mentioned as having a potential job opportunity that could bring in a weekly income, indicating his aspirations and the family's hopes for a better future. Peter Cratchit is mentioned as having a potential job opportunity that could bring in a weekly income, indicating his aspirations and the family's hopes for a better future.","['Bob Cratchit told them how he had a situation in his eye for Master Peter, which would bring in, if obtained, full five-and-sixpence weekly.']","d22, d22",,c4b910ea56c14e458e82a4ecaaa77dc1,78,"{'human_readable_id': 78, 'subject_id': 'PETER CRATCHIT', 'type': 'FUTURE ASPIRATIONS', 'status': 'TRUE', 'description': ""Peter Cratchit is mentioned as having a potential job opportunity that could bring in a weekly income, indicating his aspirations and the family's hopes for a better future. Peter Cratchit is mentioned as having a potential job opportunity that could bring in a weekly income, indicating his aspirations and the family's hopes for a better future.""}"
+,PROFESSOR MICHAEL S. HART,,NONE,,FOUNDATION ORIGINATION,TRUE,NONE,NONE,Professor Michael S. Hart was the originator of the Project Gutenberg™ concept of a library of electronic works that could be freely shared with anyone.,['Professor Michael S. Hart was the originator of the Project Gutenberg™ concept of a library of electronic works that could be freely shared with anyone.'],d39,,41d683794f254b7d886093c337b24bab,79,"{'human_readable_id': 79, 'subject_id': 'PROFESSOR MICHAEL S. HART', 'type': 'FOUNDATION ORIGINATION', 'status': 'TRUE', 'description': 'Professor Michael S. Hart was the originator of the Project Gutenberg™ concept of a library of electronic works that could be freely shared with anyone.'}"
+,PROJECT GUTENBERG,,NONE,,FREE DISTRIBUTION,TRUE,NONE,NONE,Project Gutenberg is synonymous with the free distribution of electronic works in formats readable by the widest variety of computers.,"['Project Gutenberg™ is synonymous with the free distribution of electronic works in formats readable by the widest variety of computers including obsolete, old, middle-aged and new computers.']",d38,,9aa164512b014c3dbed3dd91b6228e17,80,"{'human_readable_id': 80, 'subject_id': 'PROJECT GUTENBERG', 'type': 'FREE DISTRIBUTION', 'status': 'TRUE', 'description': 'Project Gutenberg is synonymous with the free distribution of electronic works in formats readable by the widest variety of computers.'}"
+,PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION,,NONE,,EDUCATIONAL CORPORATION,TRUE,NONE,NONE,"The Project Gutenberg Literary Archive Foundation is a non-profit 501(c)(3) educational corporation organized under the laws of the state of Mississippi. The Project Gutenberg Literary Archive Foundation is committed to complying with the laws regulating charities and charitable donations in all 50 states of the United States, which involves considerable effort, paperwork, and fees. The Project Gutenberg Literary Archive Foundation is a non-profit 501(c)(3) educational corporation organized under the laws of the state of Mississippi and granted tax exempt status by the Internal Revenue Service.","['The Project Gutenberg Literary Archive Foundation is a non-profit 501(c)(3) educational corporation organized under the laws of the state of Mississippi and granted tax exempt status by the Internal Revenue Service.', 'The Foundation is committed to complying with the laws regulating charities and charitable donations in all 50 states of the United States. Compliance requirements are not uniform and it takes a considerable effort, much paperwork and many fees to meet and keep up with these requirements.', 'The Foundation’s EIN or federal tax identification number is 64-6221541. Contributions to the Project Gutenberg Literary Archive Foundation are tax deductible to the full extent permitted by U.S. federal laws and your state’s laws.)\n  \n(SALT LAKE CITY, UT']","d38, d39, d39",,939482c2c19f4e9da7184228a66db982,81,"{'human_readable_id': 81, 'subject_id': 'PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION', 'type': 'EDUCATIONAL CORPORATION', 'status': 'TRUE', 'description': 'The Project Gutenberg Literary Archive Foundation is a non-profit 501(c)(3) educational corporation organized under the laws of the state of Mississippi. The Project Gutenberg Literary Archive Foundation is committed to complying with the laws regulating charities and charitable donations in all 50 states of the United States, which involves considerable effort, paperwork, and fees. The Project Gutenberg Literary Archive Foundation is a non-profit 501(c)(3) educational corporation organized under the laws of the state of Mississippi and granted tax exempt status by the Internal Revenue Service.'}"
+,PROJECT GUTENBERG™ LICENSE,,NONE,,LICENSE AGREEMENT,TRUE,NONE,NONE,The Project Gutenberg™ License outlines the terms and conditions for the use and distribution of Project Gutenberg electronic works.,"['The Project Gutenberg™ License sets forth the terms under which users may access, distribute, and utilize Project Gutenberg works.)\n\n(DEFECTS']",d38,,66510b21d6254e3abcd6726a5d47713a,82,"{'human_readable_id': 82, 'subject_id': 'PROJECT GUTENBERG™ LICENSE', 'type': 'LICENSE AGREEMENT', 'status': 'TRUE', 'description': 'The Project Gutenberg™ License outlines the terms and conditions for the use and distribution of Project Gutenberg electronic works.'}"
+,Project GUTENBERG LITERARY ARCHIVE FOUNDATION,,NONE,,NON-PROFIT ORGANIZATION,TRUE,2001-01-01T00:00:00,2001-12-31T00:00:00,The Project Gutenberg Literary Archive Foundation was created in 2001 to provide a secure and permanent future for Project Gutenberg and future generations.,"['In 2001, the Project Gutenberg Literary Archive Foundation was created to provide a secure and permanent future for Project Gutenberg™ and future generations.']",d38,,620984689c5f4481aa6465034fe5d58a,83,"{'human_readable_id': 83, 'subject_id': 'Project GUTENBERG LITERARY ARCHIVE FOUNDATION', 'type': 'NON-PROFIT ORGANIZATION', 'status': 'TRUE', 'description': 'The Project Gutenberg Literary Archive Foundation was created in 2001 to provide a secure and permanent future for Project Gutenberg and future generations.'}"
+,RAGGED MEN AND BOYS,,NONE,,WARMTH SEEKING,SUSPECTED,NONE,NONE,"A group of ragged men and boys gathered around a fire in a brazier to warm themselves, illustrating the harsh conditions of the cold winter.","[""'...a party of ragged men and boys were gathered: warming their hands and winking their eyes before the blaze in rapture.'""]",d4,,3663862e80614e0d8bcbdb1d41901d27,84,"{'human_readable_id': 84, 'subject_id': 'RAGGED MEN AND BOYS', 'type': 'WARMTH SEEKING', 'status': 'SUSPECTED', 'description': 'A group of ragged men and boys gathered around a fire in a brazier to warm themselves, illustrating the harsh conditions of the cold winter.'}"
+,SCROOGE,,NONE,,DISMISSIVE ATTITUDE,TRUE,NONE,NONE,"Scrooge displayed a dismissive attitude towards Christmas, stating that it was a time for paying bills without money and expressing disdain for those who celebrate it. Scrooge's behavior indicated a preference for isolation, as he warned human sympathy to keep its distance and was never approached by others in a friendly manner. Scrooge exhibited a morose disposition, rejecting the idea of Christmas cheer and expressing his belief that it had no value to him. The setting around Scrooge was cold and bleak, reflecting his own demeanor and attitude towards life and Christmas. Scrooge dismissed his nephew's cheerful approach and the idea of family connection, indicating a lack of warmth in his relationships. Scrooge demonstrated a lack of empathy towards others, particularly regarding the joy and spirit of Christmas that his nephew embraced. Scrooge actively rejected the joy and merriment associated with Christmas, viewing it as a burden rather than a celebration. Scrooge's cynical viewpoint on life and Christmas was evident in his harsh words and dismissive attitude towards his nephew's optimism. Scrooge expressed disbelief in the ghostly appearance of Jacob Marley, questioning the reality of the situation. Scrooge expressed disbelief in the ghostly appearance of Jacob Marley, questioning the reality of the situation. Scrooge hung his head to hear his own words quoted by the Spirit, and was overcome with penitence and grief. Scrooge hung his head to hear his own words quoted by the Spirit, and was overcome with penitence and grief. Scrooge is described as an odious, stingy, hard, unfeeling man according to Mrs. Cratchit. Scrooge is described as an odious, stingy, hard, unfeeling man according to Mrs. Cratchit. Scrooge's character was discussed by family members, reflecting their opinions rather than factual claims about him. The family's laughter at the idea of Scrooge being shaken reflected their personal views on his character and behavior. Scrooge became a second father to Tiny Tim, showing a significant improvement in their familial relationship. Scrooge was described as becoming a good friend, master, and man, indicating a positive transformation in his character. It was said of Scrooge that he knew how to keep Christmas well, reflecting his spiritual transformation. Scrooge became a second father to Tiny Tim, showing a significant improvement in their familial relationship. Scrooge was described as becoming a good friend, master, and man, indicating a positive transformation in his character. It was said of Scrooge that he knew how to keep Christmas well, reflecting his spiritual transformation. Some people laughed at Scrooge's transformation, highlighting the social perception of his change. Scrooge's heart laughed, indicating a newfound inner happiness and contentment. Scrooge adopted the Total-Abstinence Principle, reflecting a significant change in his life philosophy. Scrooge's ability to keep Christmas well signifies his embrace of the Christmas spirit.","['‘Nobody ever stopped him in the street to say… “My dear Scrooge, how are you? When will you come to see me?”’', ""I don't believe in me."", '‘Merry Christmas! What right have you to be merry? What reason have you to be merry? You’re poor enough.’ ‘Out upon merry Christmas! What’s Christmas-time to you but a time for paying bills without money; a time for finding yourself a year older, and not an hour richer; a time for balancing your books…’', '‘What right have you to be dismal? What reason have you to be morose? You’re rich enough.’', '‘If I could work my will… every idiot who goes about with “Merry Christmas” on his lips should be boiled with his own pudding…’', 'His own heart laughed, and that was quite enough for him.', 'to Tiny Tim, who did NOT die, he was a second father.', 'He became as good a friend, as good a master, and as good a man as the good old City knew.', '‘Bah! Humbug!’', 'Some people laughed to see the alteration in him, but he let them laugh, and little heeded them.', '‘What’s Christmas-time to you but a time for paying bills without money…’', ""'on which one drinks the health of such an odious, stingy, hard, unfeeling man as Mr. Scrooge. You know he is, Robert! Nobody knows it better than you do, poor fellow!'"", 'it was always said of him that he knew how to keep Christmas well, if any man alive possessed the knowledge.', ""I am very glad to hear it,' said Scrooge's nephew, 'because I haven't any great faith in these young housekeepers."", 'May that be truly said of us, and all of us!', '‘Nephew!’ returned the uncle sternly, ‘keep Christmas in your own way, and let me keep it in mine.’', 'But being thoroughly good-natured, and not much caring what they laughed at, so that they laughed at any rate, he encouraged them in their merriment.', 'He had no further intercourse with Spirits, but lived upon the Total-Abstinence Principle ever afterwards.', '‘It was cold, bleak, biting weather; foggy withal; and he could hear the people in the court outside go wheezing up and down…’']","d2, d2, d2, d2, d2, d2, d2, d2, d6, d6, d21, d21, d22, d22, d24, d24, d36, d36, d36, d36, d36, d36, d36, d36, d36, d36",,4fe260c2ae4a4de2b2d400bf002d0c37,85,"{'human_readable_id': 85, 'subject_id': 'SCROOGE', 'type': 'DISMISSIVE ATTITUDE', 'status': 'TRUE', 'description': ""Scrooge displayed a dismissive attitude towards Christmas, stating that it was a time for paying bills without money and expressing disdain for those who celebrate it. Scrooge's behavior indicated a preference for isolation, as he warned human sympathy to keep its distance and was never approached by others in a friendly manner. Scrooge exhibited a morose disposition, rejecting the idea of Christmas cheer and expressing his belief that it had no value to him. The setting around Scrooge was cold and bleak, reflecting his own demeanor and attitude towards life and Christmas. Scrooge dismissed his nephew's cheerful approach and the idea of family connection, indicating a lack of warmth in his relationships. Scrooge demonstrated a lack of empathy towards others, particularly regarding the joy and spirit of Christmas that his nephew embraced. Scrooge actively rejected the joy and merriment associated with Christmas, viewing it as a burden rather than a celebration. Scrooge's cynical viewpoint on life and Christmas was evident in his harsh words and dismissive attitude towards his nephew's optimism. Scrooge expressed disbelief in the ghostly appearance of Jacob Marley, questioning the reality of the situation. Scrooge expressed disbelief in the ghostly appearance of Jacob Marley, questioning the reality of the situation. Scrooge hung his head to hear his own words quoted by the Spirit, and was overcome with penitence and grief. Scrooge hung his head to hear his own words quoted by the Spirit, and was overcome with penitence and grief. Scrooge is described as an odious, stingy, hard, unfeeling man according to Mrs. Cratchit. Scrooge is described as an odious, stingy, hard, unfeeling man according to Mrs. Cratchit. Scrooge's character was discussed by family members, reflecting their opinions rather than factual claims about him. The family's laughter at the idea of Scrooge being shaken reflected their personal views on his character and behavior. Scrooge became a second father to Tiny Tim, showing a significant improvement in their familial relationship. Scrooge was described as becoming a good friend, master, and man, indicating a positive transformation in his character. It was said of Scrooge that he knew how to keep Christmas well, reflecting his spiritual transformation. Scrooge became a second father to Tiny Tim, showing a significant improvement in their familial relationship. Scrooge was described as becoming a good friend, master, and man, indicating a positive transformation in his character. It was said of Scrooge that he knew how to keep Christmas well, reflecting his spiritual transformation. Some people laughed at Scrooge's transformation, highlighting the social perception of his change. Scrooge's heart laughed, indicating a newfound inner happiness and contentment. Scrooge adopted the Total-Abstinence Principle, reflecting a significant change in his life philosophy. Scrooge's ability to keep Christmas well signifies his embrace of the Christmas spirit.""}"
+,SCROOGE'S NEPHEW,,NONE,,PERSONAL OPINION,SUSPECTED,NONE,NONE,"Scrooge's nephew shared his thoughts on Scrooge's character, indicating a subjective view rather than a verifiable fact. Scrooge's nephew's reflections on Scrooge's behavior and its consequences indicated a personal sentiment rather than an objective assessment.","[""He's a comical old fellow,' said Scrooge's nephew, 'that's the truth; and not so pleasant as he might be."", 'I mean to give him the same chance every year, whether he likes it or not, for I pity him.']","d24, d24",,475723f07ce3453087cf6b6393082c84,86,"{'human_readable_id': 86, 'subject_id': ""SCROOGE'S NEPHEW"", 'type': 'PERSONAL OPINION', 'status': 'SUSPECTED', 'description': ""Scrooge's nephew shared his thoughts on Scrooge's character, indicating a subjective view rather than a verifiable fact. Scrooge's nephew's reflections on Scrooge's behavior and its consequences indicated a personal sentiment rather than an objective assessment.""}"
+,SCROOGE'S NIECE,,NONE,,PERSONAL OPINION,SUSPECTED,NONE,NONE,"Scrooge's niece expressed her feelings about Scrooge's wealth and behavior, suggesting a personal judgment rather than an objective claim. Scrooge's niece's encouragement of Fred's storytelling showed her personal feelings towards the situation and the people involved.","[""Do go on, Fred,' said Scrooge's niece, clapping her hands."", ""I'm sure he is very rich, Fred,' hinted Scrooge's niece. 'At least, you always tell _me_ so.'""]","d24, d24",,21f6fec63f5c4cafb35b0c5b01819454,87,"{'human_readable_id': 87, 'subject_id': ""SCROOGE'S NIECE"", 'type': 'PERSONAL OPINION', 'status': 'SUSPECTED', 'description': ""Scrooge's niece expressed her feelings about Scrooge's wealth and behavior, suggesting a personal judgment rather than an objective claim. Scrooge's niece's encouragement of Fred's storytelling showed her personal feelings towards the situation and the people involved.""}"
+,SCROOGE'S NIECE'S PLUMP SISTER,,NONE,,PERSONAL OPINION,SUSPECTED,NONE,NONE,The plump sister's reaction to Topper's comment indicated her feelings and opinions about the discussion.,"[""Whereat Scrooge's niece's sister--the plump one with the lace tucker: not the one with the roses--blushed.""]",d24,,49ee3a891d4846f0a8d00bbaeb10b1e7,88,"{'human_readable_id': 88, 'subject_id': ""SCROOGE'S NIECE'S PLUMP SISTER"", 'type': 'PERSONAL OPINION', 'status': 'SUSPECTED', 'description': ""The plump sister's reaction to Topper's comment indicated her feelings and opinions about the discussion.""}"
+,SCROOGE'S NIECE'S SISTERS,,NONE,,PERSONAL OPINION,SUSPECTED,NONE,NONE,"The opinions of Scrooge's niece's sisters were expressed, indicating a shared sentiment about Scrooge's character and behavior.","[""Scrooge's niece's sisters, and all the other ladies, expressed the same opinion.""]",d24,,3321e9541fbe4cfa9e71fbf5b6af3fdf,89,"{'human_readable_id': 89, 'subject_id': ""SCROOGE'S NIECE'S SISTERS"", 'type': 'PERSONAL OPINION', 'status': 'SUSPECTED', 'description': ""The opinions of Scrooge's niece's sisters were expressed, indicating a shared sentiment about Scrooge's character and behavior.""}"
+,SMALLER CRATCHITS,,NONE,,FAMILY SUPPORT,TRUE,"The smaller Cratchits expressed joy and excitement about the Christmas meal, highlighting the innocence and enthusiasm of children during the holiday season.","And now two smaller Cratchits, boy and girl, came tearing in, screaming that outside the baker's they had smelt the goose, and known it for their own; and basking in luxurious thoughts of sage and onion, these young Cratchits danced about the table.",,[],d19,,75b7c2ab22ab4ff78f26348e6c251c5a,90,"{'human_readable_id': 90, 'subject_id': 'SMALLER CRATCHITS', 'type': 'FAMILY SUPPORT', 'status': 'TRUE', 'description': ''}"
+,SPIRIT OF CHRISTMAS PRESENT,,NONE,,CHARITABLE ACTION,TRUE,"The Spirit of Christmas Present demonstrated a kind and generous nature by blessing Bob Cratchit's home, highlighting the importance of charity and goodwill during the festive season.","And on the threshold of the door the Spirit smiled, and stopped to bless Bob Cratchit's dwelling with the sprinklings of his torch.",,[],"d19, d19",,46f457b7d7e64781934f071f69cf3c42,91,"{'human_readable_id': 91, 'subject_id': 'SPIRIT OF CHRISTMAS PRESENT', 'type': 'CHARITABLE ACTION', 'status': 'TRUE', 'description': ''}"
+,ST. DUNSTAN,,NONE,,SPIRITUAL FIGURE,SUSPECTED,NONE,NONE,"St. Dunstan is referenced as a figure who could have dealt with the Evil Spirit, suggesting a connection to folklore and the battle against malevolent forces.","[""'If the good St. Dunstan had but nipped the Evil Spirit's nose with a touch of such weather as that...'""]",d4,,883a75edd9164f99abbe638fddeade40,92,"{'human_readable_id': 92, 'subject_id': 'ST. DUNSTAN', 'type': 'SPIRITUAL FIGURE', 'status': 'SUSPECTED', 'description': 'St. Dunstan is referenced as a figure who could have dealt with the Evil Spirit, suggesting a connection to folklore and the battle against malevolent forces.'}"
+,Scrooge,,NONE,,CHARITABLE ACTION,TRUE,NONE,NONE,"Scrooge demonstrated charitable action by expressing his intention to assist Bob Cratchit's struggling family and raising his salary Scrooge visited his nephew Fred for dinner, indicating a positive family relationship Scrooge raised Bob Cratchit's salary and expressed a desire to assist his struggling family, indicating a positive change in employment practices Scrooge demonstrated charitable action by expressing his intention to assist Bob Cratchit's struggling family and raising his salary Scrooge visited his nephew Fred for dinner, indicating a positive family relationship","[""“Now, I'll tell you what, my friend,” said Scrooge. “I am not going to stand this sort of thing any longer. And therefore, I am about to raise your salary!”"", ""“It's I, your uncle Scrooge. I have come to dinner. Will you let me in, Fred?”"", ""“A merry Christmas, Bob!” said Scrooge, with an earnestness that could not be mistaken, as he clapped him on the back. “A merrier Christmas, Bob, my good fellow, than I have given you for many a year! I'll raise your salary, and endeavour to assist your struggling family…”""]","d35, d35, d35, d35, d35",,ccb71ded7c6a4ba39860821c0db57c75,93,"{'human_readable_id': 93, 'subject_id': 'Scrooge', 'type': 'CHARITABLE ACTION', 'status': 'TRUE', 'description': ""Scrooge demonstrated charitable action by expressing his intention to assist Bob Cratchit's struggling family and raising his salary Scrooge visited his nephew Fred for dinner, indicating a positive family relationship Scrooge raised Bob Cratchit's salary and expressed a desire to assist his struggling family, indicating a positive change in employment practices Scrooge demonstrated charitable action by expressing his intention to assist Bob Cratchit's struggling family and raising his salary Scrooge visited his nephew Fred for dinner, indicating a positive family relationship""}"
+,TINY TIM,,NONE,,HEALTH,TRUE,NONE,NONE,"Tiny Tim expressed a hopeful sentiment about being seen in church, indicating his awareness of his condition and its impact on others. Tiny Tim expressed a hopeful sentiment about being seen in church, indicating his awareness of his condition and its impact on others. I see a vacant seat,' replied the Ghost, 'in the poor chimney corner, and a crutch without an owner, carefully preserved. If these shadows remain unaltered by the Future, the child will die.' I see a vacant seat,' replied the Ghost, 'in the poor chimney corner, and a crutch without an owner, carefully preserved. If these shadows remain unaltered by the Future, the child will die.' Tiny Tim is portrayed as having a plaintive little voice and sings very well, which adds a positive note to the family's Christmas celebration. Tiny Tim is portrayed as having a plaintive little voice and sings very well, which adds a positive note to the family's Christmas celebration. Tiny Tim's observation of ""God bless Us, Every One!"" reflects a message of hope and blessings for all. Tiny Tim's observation of ""God bless Us, Every One!"" reflects a message of hope and blessings for all.","['‘He told me, coming home, that he hoped the people saw him in the church, because he was a cripple, and it might be pleasant to them to remember upon Christmas Day who made lame beggars walk and blind men see.’', 'And so, as Tiny Tim observed, God bless Us, Every One!', 'and by-and-by they had a song, about a lost child travelling in the snow, from Tiny Tim, who had a plaintive little voice, and sang it very well indeed.']","d20, d20, d21, d21, d22, d22, d36, d36",,0e6cc23b9e2346278b6bdf777f297c11,94,"{'human_readable_id': 94, 'subject_id': 'TINY TIM', 'type': 'HEALTH', 'status': 'TRUE', 'description': 'Tiny Tim expressed a hopeful sentiment about being seen in church, indicating his awareness of his condition and its impact on others. Tiny Tim expressed a hopeful sentiment about being seen in church, indicating his awareness of his condition and its impact on others. I see a vacant seat,\' replied the Ghost, \'in the poor chimney corner, and a crutch without an owner, carefully preserved. If these shadows remain unaltered by the Future, the child will die.\' I see a vacant seat,\' replied the Ghost, \'in the poor chimney corner, and a crutch without an owner, carefully preserved. If these shadows remain unaltered by the Future, the child will die.\' Tiny Tim is portrayed as having a plaintive little voice and sings very well, which adds a positive note to the family\'s Christmas celebration. Tiny Tim is portrayed as having a plaintive little voice and sings very well, which adds a positive note to the family\'s Christmas celebration. Tiny Tim\'s observation of ""God bless Us, Every One!"" reflects a message of hope and blessings for all. Tiny Tim\'s observation of ""God bless Us, Every One!"" reflects a message of hope and blessings for all.'}"
+,TOPPER,,NONE,,PERSONAL OPINION,SUSPECTED,NONE,NONE,Topper's remarks about bachelors reflected a personal opinion rather than an objective statement.,"[""Topper had clearly got his eye upon one of Scrooge's niece's sisters, for he answered that a bachelor was a wretched outcast.""]",d24,,a118386a20e14048b77ec6126c3c36dc,95,"{'human_readable_id': 95, 'subject_id': 'TOPPER', 'type': 'PERSONAL OPINION', 'status': 'SUSPECTED', 'description': ""Topper's remarks about bachelors reflected a personal opinion rather than an objective statement.""}"
+,"The text provided does not contain any specific claims or facts that could be relevant to information discovery regarding the specified entities. The document primarily consists of metadata about the eBook ""A Christmas Carol"" and its characters without any claims against entities.
+
+Thus, there are no entities or claims to extract based on the given specifications.
+
+Output:",,,,,,,,,[],d0,,77ca234e15b2441fb9fc249fb4efd74b,96,"{'human_readable_id': 96, 'subject_id': 'The text provided does not contain any specific claims or facts that could be relevant to information discovery regarding the specified entities. The document primarily consists of metadata about the eBook ""A Christmas Carol"" and its characters without any claims against entities.\n\nThus, there are no entities or claims to extract based on the given specifications.\n\nOutput:', 'type': None, 'status': None, 'description': ''}"
+,"There are no entities or claims that match the specified criteria in the provided text. The text primarily consists of dialogue and narrative without any clear references to organizations, persons, geographical locations, or events that would fit the entity specification or claim description.",,,,,,,,,[],d31,,dd2b9f45cc9343819760aba2c8ae987c,97,"{'human_readable_id': 97, 'subject_id': 'There are no entities or claims that match the specified criteria in the provided text. The text primarily consists of dialogue and narrative without any clear references to organizations, persons, geographical locations, or events that would fit the entity specification or claim description.', 'type': None, 'status': None, 'description': ''}"
+,"There are no named entities or claims relevant to the specified entity types or claim descriptions in the provided text. The text primarily consists of a narrative without identifiable organizations, persons, geographical locations, or events that match the criteria for claims.",,,,,,,,,[],d27,,a76dc0913b6546589c7924cd140b7472,98,"{'human_readable_id': 98, 'subject_id': 'There are no named entities or claims relevant to the specified entity types or claim descriptions in the provided text. The text primarily consists of a narrative without identifiable organizations, persons, geographical locations, or events that match the criteria for claims.', 'type': None, 'status': None, 'description': ''}"
+,"There are no named entities that match the specified entity types (organization, person, geo, event) in the provided text. Therefore, no claims can be extracted.",,,,,,,,,[],d16,,6ab08ad71bdc4472b3e837d82958c60c,99,"{'human_readable_id': 99, 'subject_id': 'There are no named entities that match the specified entity types (organization, person, geo, event) in the provided text. Therefore, no claims can be extracted.', 'type': None, 'status': None, 'description': ''}"
+,UNCLE SCROOGE,,NONE,,CHARACTER DEVELOPMENT,TRUE,NONE,NONE,"Uncle Scrooge had imperceptibly become so gay and light of heart, that he would have pledged the unconscious company in return, and thanked them in an inaudible speech, if the Ghost had given him time. Uncle Scrooge had imperceptibly become so gay and light of heart, that he would have pledged the unconscious company in return, and thanked them in an inaudible speech, if the Ghost had given him time.","['Uncle Scrooge had imperceptibly become so gay and light of heart, that he would have pledged the unconscious company in return, and thanked them in an inaudible speech, if the Ghost had given him time.']","d26, d26",,539be67983ec4b64aef30756ea7ae900,100,"{'human_readable_id': 100, 'subject_id': 'UNCLE SCROOGE', 'type': 'CHARACTER DEVELOPMENT', 'status': 'TRUE', 'description': 'Uncle Scrooge had imperceptibly become so gay and light of heart, that he would have pledged the unconscious company in return, and thanked them in an inaudible speech, if the Ghost had given him time. Uncle Scrooge had imperceptibly become so gay and light of heart, that he would have pledged the unconscious company in return, and thanked them in an inaudible speech, if the Ghost had given him time.'}"
+,UNION WORKHOUSES,,NONE,,OPERATION STATUS,TRUE,NONE,NONE,"The Union workhouses are still in operation, indicating the ongoing struggles of the poor in society.","['‘Are they still in operation? They are. Still,’ returned the gentleman, ‘I wish I could say they were not.’']",d3,,6aff302be9334a6bb618df35187e2e01,101,"{'human_readable_id': 101, 'subject_id': 'UNION WORKHOUSES', 'type': 'OPERATION STATUS', 'status': 'TRUE', 'description': 'The Union workhouses are still in operation, indicating the ongoing struggles of the poor in society.'}"
+,WANT,,NONE,,SOCIAL ISSUES,TRUE,NONE,NONE,"This girl is Want. Beware of them both, and all of their degree, but most of all beware this boy, for on his brow I see that written which is Doom, unless the writing be erased. This girl is Want. Beware of them both, and all of their degree, but most of all beware this boy, for on his brow I see that written which is Doom, unless the writing be erased.","['Beware of them both, and all of their degree, but most of all beware this boy, for on his brow I see that written which is Doom, unless the writing be erased.']","d26, d26",,da188e94462140ff95c718b27f040748,102,"{'human_readable_id': 102, 'subject_id': 'WANT', 'type': 'SOCIAL ISSUES', 'status': 'TRUE', 'description': 'This girl is Want. Beware of them both, and all of their degree, but most of all beware this boy, for on his brow I see that written which is Doom, unless the writing be erased. This girl is Want. Beware of them both, and all of their degree, but most of all beware this boy, for on his brow I see that written which is Doom, unless the writing be erased.'}"
+,WOMAN,,NONE,,THEFT,SUSPECTED,NONE,NONE,"The woman is implicated in the act of theft, as she discusses taking items from a deceased person's belongings. The woman is implicated in the act of theft, as she discusses taking items from a deceased person's belongings.","[""I certainly shan't hold my hand, when I can get anything in it by reaching it out, for the sake of such a man as he was, I promise you, Joe.""]","d29, d29",,388999a837b64bfa864fa97ee8f0c5d8,103,"{'human_readable_id': 103, 'subject_id': 'WOMAN', 'type': 'THEFT', 'status': 'SUSPECTED', 'description': ""The woman is implicated in the act of theft, as she discusses taking items from a deceased person's belongings. The woman is implicated in the act of theft, as she discusses taking items from a deceased person's belongings.""}"
+,"about him, and of the sound of merry laughter and the ringing of bells. 
+
+'What is this place?' he asked, his heart swelling with nostalgia.
+
+'This,' replied the Spirit, 'is your childhood home. You have returned to the memories of your youth.'
+
+As they walked along the road, Scrooge could see the outline of the old schoolhouse in the distance, its windows frosted over with the chill of winter. He felt a pang of longing as he recalled the days spent there, the friends he had made, and the dreams he once held dear.
+
+'Do you remember your schoolmates?' the Spirit inquired, guiding him closer to the building.
+
+'Yes,' Scrooge replied, a hint of sadness in his voice. 'I remember them well. We were so full of hope and ambition.'
+
+The Spirit nodded, encouraging him to continue. 'And what of your family?'
+
+Scrooge's expression darkened. 'I was often alone, lost in my studies. My father... he was not kind to me. I spent many a Christmas in solitude.'
+
+'But there were moments of joy, were there not?' the Spirit pressed gently.
+
+Scrooge's eyes softened as he recalled a particular Christmas when he had been allowed to return home for the holiday. 'Yes, there was one Christmas... my sister Fan came to fetch me. She was so happy to see me, and I her. We spent the day together, laughing and playing.'
+
+The Spirit smiled, its light flickering softly. 'Remember the love you felt that day. It is still within you, waiting to be rekindled.'
+
+As they continued their journey through the memories of his past, Scrooge felt a warmth in his heart that he thought long extinguished. The Spirit led him to a scene of a festive gathering, where laughter and music filled the air. 
+
+'These are the friends you cherished,' the Spirit said, gesturing to the joyful crowd. 'Do you see how they celebrate?'
+
+Scrooge watched, captivated by the scene. 'Yes, I remember. We were so carefree, so full of life.'
+
+'And what of your choices, Scrooge?' the Spirit asked, its voice gentle yet firm. 'What path did you choose as you grew older?'
+
+Scrooge's expression shifted as he recalled the decisions that had led him away from those joyful moments. 'I became consumed by my work, my desire for wealth. I lost sight of what truly mattered.'
+
+The Spirit's light dimmed slightly, reflecting the weight of Scrooge's realization. 'It is not too late to change, Scrooge. The light of your past can guide you back to the warmth of love and connection.'
+
+With that, the scene began to fade, and Scrooge felt himself being drawn back to the present. He clung to the Spirit's arm, desperate to hold onto the feelings of joy and hope that had begun to stir within him once more. 
+
+'Please, Spirit, do not let me forget what I have seen,' he pleaded. 'I want to remember the love and laughter of my past.'
+
+The Spirit looked at him with compassion. 'You must carry these memories in your heart, Scrooge. They are the key to your reclamation.'
+
+As the last remnants of the scene dissolved into the mist, Scrooge found himself back in his bedroom, the light of the Spirit still illuminating the darkness around him. He took a deep breath, feeling a renewed sense of purpose and determination. 
+
+'Thank you, Spirit of Christmas Past,' he whispered, knowing that this was only the beginning of his journey towards redemption.",,,,,,,,,[],d10,,a026bd4a94494a15a57d0b15e4d23a4f,104,"{'human_readable_id': 104, 'subject_id': ""about him, and of the sound of merry laughter and the ringing of bells. \n\n'What is this place?' he asked, his heart swelling with nostalgia.\n\n'This,' replied the Spirit, 'is your childhood home. You have returned to the memories of your youth.'\n\nAs they walked along the road, Scrooge could see the outline of the old schoolhouse in the distance, its windows frosted over with the chill of winter. He felt a pang of longing as he recalled the days spent there, the friends he had made, and the dreams he once held dear.\n\n'Do you remember your schoolmates?' the Spirit inquired, guiding him closer to the building.\n\n'Yes,' Scrooge replied, a hint of sadness in his voice. 'I remember them well. We were so full of hope and ambition.'\n\nThe Spirit nodded, encouraging him to continue. 'And what of your family?'\n\nScrooge's expression darkened. 'I was often alone, lost in my studies. My father... he was not kind to me. I spent many a Christmas in solitude.'\n\n'But there were moments of joy, were there not?' the Spirit pressed gently.\n\nScrooge's eyes softened as he recalled a particular Christmas when he had been allowed to return home for the holiday. 'Yes, there was one Christmas... my sister Fan came to fetch me. She was so happy to see me, and I her. We spent the day together, laughing and playing.'\n\nThe Spirit smiled, its light flickering softly. 'Remember the love you felt that day. It is still within you, waiting to be rekindled.'\n\nAs they continued their journey through the memories of his past, Scrooge felt a warmth in his heart that he thought long extinguished. The Spirit led him to a scene of a festive gathering, where laughter and music filled the air. \n\n'These are the friends you cherished,' the Spirit said, gesturing to the joyful crowd. 'Do you see how they celebrate?'\n\nScrooge watched, captivated by the scene. 'Yes, I remember. We were so carefree, so full of life.'\n\n'And what of your choices, Scrooge?' the Spirit asked, its voice gentle yet firm. 'What path did you choose as you grew older?'\n\nScrooge's expression shifted as he recalled the decisions that had led him away from those joyful moments. 'I became consumed by my work, my desire for wealth. I lost sight of what truly mattered.'\n\nThe Spirit's light dimmed slightly, reflecting the weight of Scrooge's realization. 'It is not too late to change, Scrooge. The light of your past can guide you back to the warmth of love and connection.'\n\nWith that, the scene began to fade, and Scrooge felt himself being drawn back to the present. He clung to the Spirit's arm, desperate to hold onto the feelings of joy and hope that had begun to stir within him once more. \n\n'Please, Spirit, do not let me forget what I have seen,' he pleaded. 'I want to remember the love and laughter of my past.'\n\nThe Spirit looked at him with compassion. 'You must carry these memories in your heart, Scrooge. They are the key to your reclamation.'\n\nAs the last remnants of the scene dissolved into the mist, Scrooge found himself back in his bedroom, the light of the Spirit still illuminating the darkness around him. He took a deep breath, feeling a renewed sense of purpose and determination. \n\n'Thank you, Spirit of Christmas Past,' he whispered, knowing that this was only the beginning of his journey towards redemption."", 'type': None, 'status': None, 'description': ''}"
+,"in his dressing-gown, which was hanging up in a suspicious attitude against the wall._]
+
+Scrooge had satisfied himself that all was right. He turned the key in the lock, and then he took off his tie, and dropped it into a chair. He was a man of routine, and his routine was as unyielding as the iron bars of his own heart. He had no time for frivolities or distractions; his life was a series of calculated movements, each one leading him closer to the solitary existence he had chosen.
+
+As he prepared for bed, the wind howled outside, rattling the windows and sending a chill through the air. The shadows danced on the walls, and the flickering candlelight cast eerie shapes that seemed to mock him. Yet, Scrooge paid them no mind. He was used to the darkness, both outside and within himself.
+
+He climbed into bed, pulling the covers tightly around him, as if to shield himself from the world beyond. The cold seeped into his bones, but he welcomed it; it was a familiar companion. He closed his eyes, determined to push away any thoughts of the past, of Marley, or of the warmth of human connection that he had long since abandoned.
+
+But as he drifted into a restless sleep, the echoes of the night began to stir. The wind's wailing morphed into whispers, and the shadows grew bolder, creeping closer to his bed. Scrooge's heart raced, but he dismissed it as nothing more than the product of his imagination. After all, he was a man of reason, not superstition.
+
+Yet, as the clock struck one, a loud clanking sound reverberated through the room, jolting him awake. He sat up in bed, heart pounding, and listened intently. The noise grew louder, and he could hear the unmistakable sound of chains dragging across the floor.
+
+""Marley!"" he gasped, the name escaping his lips before he could stop himself. The memories of his old partner flooded back, and with them, a sense of dread that he could not shake.
+
+The door to his room creaked open slowly, and there, in the dim light, stood the ghostly figure of Jacob Marley, wrapped in heavy chains and bound in the very greed that had consumed him in life. Scrooge's heart sank as he realized that the tales of spirits were not mere stories; they were a reality he could no longer ignore.
+
+""Scrooge,"" the apparition moaned, its voice echoing like a distant bell tolling in the night. ""You must listen to me!""
+
+Scrooge's mind raced as he tried to comprehend the sight before him. The man he had known, the man who had shared his life and his business, now stood before him as a specter, a warning of the consequences of a life lived without compassion.
+
+""Why do you haunt me?"" Scrooge stammered, his voice trembling. ""What do you want from me?""
+
+Marley's ghost floated closer, the chains rattling ominously. ""I wear the chains I forged in life,"" he replied, his voice filled with sorrow. ""And you, Ebenezer Scrooge, are destined to wear similar chains if you do not change your ways.""
+
+Scrooge's heart raced as he listened, fear gripping him tightly. He had always prided himself on his practicality, but now he found himself questioning everything he had ever believed. The weight of Marley's words hung heavy in the air, and he knew that the time for change had come.
+
+""Tonight, you will be visited by three spirits,"" Marley continued, his voice echoing through the room. ""They will show you the path you must take to avoid my fate.""
+
+With that, the ghost began to fade, the chains clanking softly as he disappeared into the shadows. Scrooge was left alone in the darkness, his mind racing with thoughts of what was to come. The night was far from over, and the journey of redemption had only just begun.",,,,,,,,,[],d5,,4dbfafeec6694734b171ec10a404f0b0,105,"{'human_readable_id': 105, 'subject_id': 'in his dressing-gown, which was hanging up in a suspicious attitude against the wall._]\n\nScrooge had satisfied himself that all was right. He turned the key in the lock, and then he took off his tie, and dropped it into a chair. He was a man of routine, and his routine was as unyielding as the iron bars of his own heart. He had no time for frivolities or distractions; his life was a series of calculated movements, each one leading him closer to the solitary existence he had chosen.\n\nAs he prepared for bed, the wind howled outside, rattling the windows and sending a chill through the air. The shadows danced on the walls, and the flickering candlelight cast eerie shapes that seemed to mock him. Yet, Scrooge paid them no mind. He was used to the darkness, both outside and within himself.\n\nHe climbed into bed, pulling the covers tightly around him, as if to shield himself from the world beyond. The cold seeped into his bones, but he welcomed it; it was a familiar companion. He closed his eyes, determined to push away any thoughts of the past, of Marley, or of the warmth of human connection that he had long since abandoned.\n\nBut as he drifted into a restless sleep, the echoes of the night began to stir. The wind\'s wailing morphed into whispers, and the shadows grew bolder, creeping closer to his bed. Scrooge\'s heart raced, but he dismissed it as nothing more than the product of his imagination. After all, he was a man of reason, not superstition.\n\nYet, as the clock struck one, a loud clanking sound reverberated through the room, jolting him awake. He sat up in bed, heart pounding, and listened intently. The noise grew louder, and he could hear the unmistakable sound of chains dragging across the floor.\n\n""Marley!"" he gasped, the name escaping his lips before he could stop himself. The memories of his old partner flooded back, and with them, a sense of dread that he could not shake.\n\nThe door to his room creaked open slowly, and there, in the dim light, stood the ghostly figure of Jacob Marley, wrapped in heavy chains and bound in the very greed that had consumed him in life. Scrooge\'s heart sank as he realized that the tales of spirits were not mere stories; they were a reality he could no longer ignore.\n\n""Scrooge,"" the apparition moaned, its voice echoing like a distant bell tolling in the night. ""You must listen to me!""\n\nScrooge\'s mind raced as he tried to comprehend the sight before him. The man he had known, the man who had shared his life and his business, now stood before him as a specter, a warning of the consequences of a life lived without compassion.\n\n""Why do you haunt me?"" Scrooge stammered, his voice trembling. ""What do you want from me?""\n\nMarley\'s ghost floated closer, the chains rattling ominously. ""I wear the chains I forged in life,"" he replied, his voice filled with sorrow. ""And you, Ebenezer Scrooge, are destined to wear similar chains if you do not change your ways.""\n\nScrooge\'s heart raced as he listened, fear gripping him tightly. He had always prided himself on his practicality, but now he found himself questioning everything he had ever believed. The weight of Marley\'s words hung heavy in the air, and he knew that the time for change had come.\n\n""Tonight, you will be visited by three spirits,"" Marley continued, his voice echoing through the room. ""They will show you the path you must take to avoid my fate.""\n\nWith that, the ghost began to fade, the chains clanking softly as he disappeared into the shadows. Scrooge was left alone in the darkness, his mind racing with thoughts of what was to come. The night was far from over, and the journey of redemption had only just begun.', 'type': None, 'status': None, 'description': ''}"

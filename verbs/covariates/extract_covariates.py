@@ -27,6 +27,10 @@ class ExtractClaimsStrategyType(str, Enum):
 def save_covariates_to_json(covariates: CovariateExtractionResult, check_dir: str = defs.CHECKPOINT_DIR, old_covariates_file: str = "claims.json") -> None:
     # Convert covariates to a list of dictionaries
     cov_data = [cov.dict() for cov in covariates.covariate_data]
+    
+
+    if not os.path.exists(check_dir):
+        os.makedirs(check_dir)
     # Save to JSON file
     with open(f"{check_dir}/{old_covariates_file}", 'w') as json_file:
         json.dump(cov_data, json_file, indent=4)

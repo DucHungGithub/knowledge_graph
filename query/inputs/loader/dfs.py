@@ -68,6 +68,7 @@ def read_entities(
                 else None
             ),
         )
+        
         entities.append(entity)
     return entities
 
