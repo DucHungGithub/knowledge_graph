@@ -29,17 +29,17 @@ async def init_workflow(args: Dict[str, Any]):
     print("####text_units#####")
     print(text_units)
     
+    # Extract claims (covariates)
+    claims = await extract_covariates(texts=text_units)
+    print("####covariates#####")
+    print(claims)
+    
     
     # Extract entities and relationships
     ens_rels = await entity_extract(docs=text_units, args=args)
     print("####ENS_RELS#####")
     print(ens_rels)
     
-    # Extract claims (covariates)
-    text_list = [tu.page_content for tu in text_units]
-    claims = await extract_covariates(texts=text_list)
-    print("####covariates#####")
-    print(claims)
     
     # Summarize description for entities and relationships
     ens_rels_summarize_graph = await summarize_description(entity_result=ens_rels, strategy=args)

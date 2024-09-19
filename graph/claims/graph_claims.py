@@ -101,14 +101,14 @@ class ClaimExtractor:
         
         all_claims: List[Dict[str, Any]] = []
         
-        for d_index, text in enumerate(texts):
-            document_id = f"d{d_index}"
+        for index, doc in enumerate(texts):
+            document_id = doc.id
             try:
-                claims = await self._process_document(prompt_args, text, d_index)
+                claims = await self._process_document(prompt_args, doc.page_content, index)
                 all_claims += [
                     self._clean_claim(c, document_id, resolved_entities) for c in claims
                 ]
-                source_doc_map[document_id] = text
+                source_doc_map[document_id] = doc.page_content
             except Exception as e:
                 logger.exception(f"Error extracting claim: {e}", exc_info=True)
                 continue

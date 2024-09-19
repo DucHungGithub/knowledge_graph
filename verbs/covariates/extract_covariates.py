@@ -4,8 +4,9 @@ from enum import Enum
 import os
 from typing import Any, Dict, List
 
-import pandas as pd
 
+import pandas as pd
+from langchain_core.documents import Document
 
 from verbs.covariates.graph_intelligence.run import run_gi
 from verbs.covariates.typing import Covariate, CovariateExtractStrategy, CovariateExtractionResult
@@ -105,7 +106,7 @@ def combine_and_remove_duplicates(
 
 
 async def extract_covariates(
-    texts: List[str],
+    texts: List[Document],
     entity_types: List[str] | None = None,
     resolved_entities_map: Dict[str, Any] = None,
     strategy: Dict[str, Any] | None = None,

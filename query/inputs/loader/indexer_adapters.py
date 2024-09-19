@@ -49,7 +49,7 @@ def read_indexer_covariates(final_covariates: pd.DataFrame) -> List[Covariate]:
             "end_date",
             "description",
         ],
-        text_unit_ids_col=None,
+        text_unit_ids_col="doc_id",
     )
 
 

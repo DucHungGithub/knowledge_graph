@@ -7,6 +7,7 @@ import pandas as pd
 from models.entity import Entity
 from models.relationship import Relationship
 from models.text_unit import TextUnit
+from models.covariate import Covariate
 from query.inputs.loader.dfs import read_entities
 from query.inputs.loader.indexer_adapters import read_indexer_covariates, read_indexer_entities, read_indexer_relationships, read_indexer_text_units
 
@@ -241,7 +242,47 @@ def query_and_ingest_relationship(client: pydgraph.DgraphClient, relationships: 
     
 
 
-
+def query_and_ingest_covariates(client: pydgraph.DgraphClient, covariates: List[Covariate]):
+    txn = client.txn()
+    
+    try:
+        mutations = []
+        for cov in covariates:
+            source_ids = []
+            p = cov.dict()
+            p.pop("text_unit_ids")
+            if cov.text_unit_ids:
+                text_unit_ids_unique = list(set(cov.text_unit_ids))
+                for tu in text_unit_ids_unique:
+                    query = f"""
+                    {{
+                        getTextUnit(func: eq(id, "{tu}")) @filter(has(text)) {{
+                            uid
+                        }}
+                    }}
+                    """
+                    res = txn.query(query=query)
+                    ppl = json.loads(res.json)
+                    
+                    
+                    rel = ppl['getTextUnit'][0]
+                    text_unit_uid = rel['uid']
+                    
+                    source_ids.append({"uid": text_unit_uid})
+            
+            p["from"] = source_ids
+            
+            mutations.append(txn.create_mutation(set_obj=p))
+                
+        request = txn.create_request(mutations=mutations, commit_now=True)
+        response = txn.do_request(request)
+        
+        logging.info(f"Mutation response: {response}", exc_info=True)
+    except Exception as e:
+        logging.error(f"An error occurred: {e}", exc_info=True)
+    finally:
+        # Clean up the transaction
+        txn.discard()
 
 
 
@@ -249,38 +290,40 @@ if __name__ == "__main__":
     client_stub = create_client_stub()
     client = create_client(client_stub)
     
-    set_schema(client)
+    # set_schema(client)
     
-    # TextUnit ----:
-    text_unit_df = pd.read_csv(f"{INPUT_DIR}/{TEXT_UNIT_TABLE}")
-    text_units = read_indexer_text_units(text_unit_df)
-    injest_text_units(client, text_units)
+    # # TextUnit ----:
+    # text_unit_df = pd.read_csv(f"{INPUT_DIR}/{TEXT_UNIT_TABLE}")
+    # text_units = read_indexer_text_units(text_unit_df)
+    # injest_text_units(client, text_units)
     
     
-    # Entity ----:
-    entity_df = pd.read_csv(f"{INPUT_DIR}/{ENTITY_TABLE}")
-    entity_embedding_df = pd.read_csv(f"{INPUT_DIR}/{ENTITY_EMBEDDING_TABLE}")
+    # # Entity ----:
+    # entity_df = pd.read_csv(f"{INPUT_DIR}/{ENTITY_TABLE}")
+    # entity_embedding_df = pd.read_csv(f"{INPUT_DIR}/{ENTITY_EMBEDDING_TABLE}")
 
-    entity_embedding_df["description"] = entity_embedding_df["description"].fillna("")
-    entity_embedding_df["text_unit_ids"] = entity_embedding_df["text_unit_ids"].apply(lambda x: x.split(','))
-    # entity_embedding_df["description_embedding"] = entity_embedding_df["description"].apply(lambda desc: embeddings.embed_query(desc))
+    # entity_embedding_df["description"] = entity_embedding_df["description"].fillna("")
+    # entity_embedding_df["text_unit_ids"] = entity_embedding_df["text_unit_ids"].apply(lambda x: x.split(','))
+    # # entity_embedding_df["description_embedding"] = entity_embedding_df["description"].apply(lambda desc: embeddings.embed_query(desc))
 
-    entities = read_indexer_entities(entity_df, entity_embedding_df, COMMUNITY_LEVEL)
-    query_and_ingest_entity(client, entities)
+    # entities = read_indexer_entities(entity_df, entity_embedding_df, COMMUNITY_LEVEL)
+    # query_and_ingest_entity(client, entities)
     
     
-    # Relationship ----:
-    relationship_df = pd.read_csv(f"{INPUT_DIR}/{RELATIONSHIP_TABLE}")
-    relationship_df["text_unit_ids"] = relationship_df["text_unit_ids"].apply(lambda x: x.split(','))
-    relationships = read_indexer_relationships(relationship_df)
+    # # Relationship ----:
+    # relationship_df = pd.read_csv(f"{INPUT_DIR}/{RELATIONSHIP_TABLE}")
+    # relationship_df["text_unit_ids"] = relationship_df["text_unit_ids"].apply(lambda x: x.split(','))
+    # relationships = read_indexer_relationships(relationship_df)
     
     
-    query_and_ingest_relationship(client, relationships)
+    # query_and_ingest_relationship(client, relationships)
     
     
     # Covariate ----:
     covariate_df = pd.read_csv(f"{INPUT_DIR}/{COVARIATE_TABLE}")
+    print(covariate_df)
     claims = read_indexer_covariates(covariate_df)
+    print(claims[0].dict())
     
     
     client_stub.close()

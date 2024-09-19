@@ -1,6 +1,7 @@
 from typing import Any, Dict, Iterable, List
 import logging
 from langchain_core.language_models import BaseChatModel
+from langchain_core.documents import Document
 
 from graph.claims.graph_claims import ClaimExtractor
 from verbs.covariates.typing import Covariate, CovariateExtractionResult
@@ -12,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 
 async def run_gi(
-    input: Iterable[str],
+    input: List[Document],
     entity_types: List[str],
     resolved_entities_map: Dict[str, str],
     args: Dict[str, Any]
@@ -25,7 +26,7 @@ async def run_gi(
 
 async def run_covariates(
     llm: BaseChatModel,
-    texts: Iterable[str],
+    texts: List[Document],
     entity_types: List[str],
     resolved_entities_map: Dict[str, str],
     args: Dict[str, Any]
@@ -51,7 +52,7 @@ async def run_covariates(
         logger.warning(f"claim_description is required for claim extraction")
         claim_description = defs.CLAIM_DESCRIPTION
     
-    texts = [texts] if isinstance(texts, str) else texts
+    # texts = [texts] if isinstance(texts, str) else texts
     
     results = await extractor.invoke({
         "input_text": texts,
