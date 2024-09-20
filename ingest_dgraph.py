@@ -1,15 +1,17 @@
 import json
 import logging
+import os
 from typing import List
 import pydgraph
 
 import pandas as pd
+from models.community_report import CommunityReport
 from models.entity import Entity
 from models.relationship import Relationship
 from models.text_unit import TextUnit
 from models.covariate import Covariate
 from query.inputs.loader.dfs import read_entities
-from query.inputs.loader.indexer_adapters import read_indexer_covariates, read_indexer_entities, read_indexer_relationships, read_indexer_text_units
+from query.inputs.loader.indexer_adapters import read_indexer_covariates, read_indexer_entities, read_indexer_relationships, read_indexer_reports, read_indexer_text_units
 
 
 INPUT_DIR = "outputs"
@@ -48,6 +50,14 @@ def set_schema(client: pydgraph.DgraphClient):
     rank: float .
     rank_explanation: string .
     explanation: string .
+    subject_id: string .
+    object_id: string .
+    source_text: [string] .
+    from: [uid] @reverse .
+    claim_details: string .
+    
+    
+    
     
     
     
@@ -85,6 +95,7 @@ def set_schema(client: pydgraph.DgraphClient):
         community
         level
         connect
+        from
     }
     
     
@@ -99,6 +110,18 @@ def set_schema(client: pydgraph.DgraphClient):
         level
         rank_explanation
         
+    }
+    
+    type Covariate {
+        subject_id
+        object_id
+        type
+        description
+        source_text
+        id
+        human_readable_id
+        claim_details
+        from
     }
     
     """
@@ -118,7 +141,7 @@ def create_client(client_stub):
 def injest_text_units(client: pydgraph.DgraphClient, text_units: List[TextUnit]):
     txn = client.txn()
     try:
-        mutations = [txn.create_mutation(set_obj=tu.dict()) for tu in text_units]
+        mutations = [txn.create_mutation(set_obj={**tu.dict(), "dgraph.type": "TextUnit"}) for tu in text_units]
         
         request = txn.create_request(mutations=mutations, commit_now=True)
         response = txn.do_request(request)
@@ -130,8 +153,6 @@ def injest_text_units(client: pydgraph.DgraphClient, text_units: List[TextUnit])
         txn.discard()
     
 
-
-
 def query_and_ingest_entity(client: pydgraph.DgraphClient, entities: List[Entity]):
     txn = client.txn()
 
@@ -139,6 +160,7 @@ def query_and_ingest_entity(client: pydgraph.DgraphClient, entities: List[Entity
         mutations = []
         for entity in entities:
             source_ids = []
+            community_ids = []
             p = entity.dict()
             p.pop("text_unit_ids")
             if entity.text_unit_ids:
@@ -158,8 +180,29 @@ def query_and_ingest_entity(client: pydgraph.DgraphClient, entities: List[Entity
                     text_unit_uid = rel['uid']
                     
                     source_ids.append({"uid": text_unit_uid})
+                    
+                for cm in entity.community_ids:
+                    if cm == "-1":
+                        continue
+                    query = f"""
+                    {{
+                        getCommunity(func: type(CommunityReport)) @filter(eq(community_id, {cm})) {{
+                            uid
+                        }}
+                    }}
+                    """
+                    res = txn.query(query=query)
+                    ppl = json.loads(res.json)
+                    
+                    
+                    rel = ppl['getCommunity'][0]
+                    community_uid = rel['uid']
+                    
+                    community_ids.append({"uid": community_uid})
 
             p["from"] = source_ids
+            p["belong"] = community_ids
+            p["dgraph.type"] = "Entity"
             
             mutations.append(txn.create_mutation(set_obj=p))
             
@@ -174,7 +217,6 @@ def query_and_ingest_entity(client: pydgraph.DgraphClient, entities: List[Entity
         txn.discard()
             
     
-
 
 def query_and_ingest_relationship(client: pydgraph.DgraphClient, relationships: List[Relationship]):
     txn = client.txn()
@@ -264,16 +306,38 @@ def query_and_ingest_covariates(client: pydgraph.DgraphClient, covariates: List[
                     res = txn.query(query=query)
                     ppl = json.loads(res.json)
                     
+                    if not ppl['getTextUnit']:
+                        logging.warning(f"No text unit found for id: {tu}")
+                        continue
+                    
                     
                     rel = ppl['getTextUnit'][0]
                     text_unit_uid = rel['uid']
-                    
+                    logging.info(f"Text Unit UID found: {text_unit_uid}")
                     source_ids.append({"uid": text_unit_uid})
             
             p["from"] = source_ids
+            p["dgraph.type"] = "Covariate"
             
             mutations.append(txn.create_mutation(set_obj=p))
                 
+        request = txn.create_request(mutations=mutations, commit_now=True)
+        response = txn.do_request(request)
+        
+        logging.info(f"Mutation response: {response}")
+    except Exception as e:
+        print(e)
+        logging.error(f"An error occurred: {e}", exc_info=True)
+    finally:
+        # Clean up the transaction
+        txn.discard()
+
+
+def ingest_community_report(client: pydgraph.DgraphClient, community_reports: List[CommunityReport]):
+    txn = client.txn()
+    try:
+        mutations = [txn.create_mutation(set_obj={**report.dict(), "dgraph.type": "CommunityReport"}) for report in community_reports]
+        
         request = txn.create_request(mutations=mutations, commit_now=True)
         response = txn.do_request(request)
         
@@ -281,50 +345,57 @@ def query_and_ingest_covariates(client: pydgraph.DgraphClient, covariates: List[
     except Exception as e:
         logging.error(f"An error occurred: {e}", exc_info=True)
     finally:
-        # Clean up the transaction
         txn.discard()
-
-
-
+    
+    
 if __name__ == "__main__":
     client_stub = create_client_stub()
     client = create_client(client_stub)
     
-    # set_schema(client)
+    set_schema(client)
     
-    # # TextUnit ----:
-    # text_unit_df = pd.read_csv(f"{INPUT_DIR}/{TEXT_UNIT_TABLE}")
-    # text_units = read_indexer_text_units(text_unit_df)
-    # injest_text_units(client, text_units)
+    # TextUnit ----:
+    text_unit_df = pd.read_csv(f"{INPUT_DIR}/{TEXT_UNIT_TABLE}")
+    text_units = read_indexer_text_units(text_unit_df)
+    injest_text_units(client, text_units)
     
     
-    # # Entity ----:
-    # entity_df = pd.read_csv(f"{INPUT_DIR}/{ENTITY_TABLE}")
-    # entity_embedding_df = pd.read_csv(f"{INPUT_DIR}/{ENTITY_EMBEDDING_TABLE}")
+    # Community Report
+    entity_df = pd.read_csv(f"{INPUT_DIR}/{ENTITY_TABLE}")
+    report_df = None
+    file_path = f"{INPUT_DIR}/{COMMUNITY_REPORT_TABLE}"
+    if not os.path.exists(file_path) or os.stat(file_path).st_size == 0:
+        report_df = pd.DataFrame()
+    else:
+        report_df = pd.read_csv(file_path)
+    reports = read_indexer_reports(report_df, entity_df, COMMUNITY_LEVEL)
+    ingest_community_report(client, reports)
+    
+    
+    # Entity ----:
+    entity_embedding_df = pd.read_csv(f"{INPUT_DIR}/{ENTITY_EMBEDDING_TABLE}")
 
-    # entity_embedding_df["description"] = entity_embedding_df["description"].fillna("")
-    # entity_embedding_df["text_unit_ids"] = entity_embedding_df["text_unit_ids"].apply(lambda x: x.split(','))
-    # # entity_embedding_df["description_embedding"] = entity_embedding_df["description"].apply(lambda desc: embeddings.embed_query(desc))
+    entity_embedding_df["description"] = entity_embedding_df["description"].fillna("")
+    entity_embedding_df["text_unit_ids"] = entity_embedding_df["text_unit_ids"].apply(lambda x: x.split(','))
+    # entity_embedding_df["description_embedding"] = entity_embedding_df["description"].apply(lambda desc: embeddings.embed_query(desc))
 
-    # entities = read_indexer_entities(entity_df, entity_embedding_df, COMMUNITY_LEVEL)
-    # query_and_ingest_entity(client, entities)
+    entities = read_indexer_entities(entity_df, entity_embedding_df, COMMUNITY_LEVEL)
+    query_and_ingest_entity(client, entities)
     
     
-    # # Relationship ----:
-    # relationship_df = pd.read_csv(f"{INPUT_DIR}/{RELATIONSHIP_TABLE}")
-    # relationship_df["text_unit_ids"] = relationship_df["text_unit_ids"].apply(lambda x: x.split(','))
-    # relationships = read_indexer_relationships(relationship_df)
+    # Relationship ----:
+    relationship_df = pd.read_csv(f"{INPUT_DIR}/{RELATIONSHIP_TABLE}")
+    relationship_df["text_unit_ids"] = relationship_df["text_unit_ids"].apply(lambda x: x.split(','))
+    relationships = read_indexer_relationships(relationship_df)
     
-    
-    # query_and_ingest_relationship(client, relationships)
+    query_and_ingest_relationship(client, relationships)
     
     
     # Covariate ----:
     covariate_df = pd.read_csv(f"{INPUT_DIR}/{COVARIATE_TABLE}")
-    print(covariate_df)
-    claims = read_indexer_covariates(covariate_df)
-    print(claims[0].dict())
-    
+    covariates = read_indexer_covariates(covariate_df)
+    query_and_ingest_covariates(client, covariates)
+        
     
     client_stub.close()
     

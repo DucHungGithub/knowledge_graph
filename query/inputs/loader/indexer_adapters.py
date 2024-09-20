@@ -39,6 +39,7 @@ def read_indexer_covariates(final_covariates: pd.DataFrame) -> List[Covariate]:
     """Read in the Claims from the raw indexing outputs."""
     covariate_df = final_covariates
     covariate_df["id"] = covariate_df["id"].astype(str)
+    covariate_df = covariate_df.where(pd.notnull(covariate_df), None)
     return read_covariates(
         df=covariate_df,
         short_id_col="human_readable_id",
@@ -106,16 +107,16 @@ def read_indexer_reports(
     entity_df.loc[:, "community"] = entity_df["community"].astype(int)
 
     entity_df = entity_df.groupby(["title"]).agg({"community": "max"}).reset_index()
-    entity_df["community"] = entity_df["community"].astype(str)
+    entity_df["community"] = entity_df["community"].astype(int)
     filtered_community_df = entity_df["community"].drop_duplicates()
 
     report_df = _filter_under_community_level(report_df, community_level)
-    report_df["community"] = report_df["community"].astype(str)  # Ensure the same type
+    report_df["community"] = report_df["community"].astype(int)  # Ensure the same type
     report_df = report_df.merge(filtered_community_df, on="community", how="inner")
 
     return read_community_reports(
         df=report_df,
-        id_col="community",
+        id_col="id",
         short_id_col="community",
         summary_embedding_col=None,
         content_embedding_col=None,
