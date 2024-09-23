@@ -129,12 +129,12 @@ def set_schema(client: pydgraph.DgraphClient):
 
 
 # Create a client stub.
-def create_client_stub():
+def create_client_stub() -> pydgraph.DgraphClientStub:
     return pydgraph.DgraphClientStub('localhost:9080')
 
 
 # Create a client.
-def create_client(client_stub):
+def create_client(client_stub) -> pydgraph.DgraphClient:
     return pydgraph.DgraphClient(client_stub)
 
 

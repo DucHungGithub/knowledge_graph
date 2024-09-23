@@ -53,3 +53,16 @@ COMMUNITY_REPORT_MAX_INPUT_LENGTH = 8000
 EXTRACT_COVARIATES = False
 
 CLAIM_DESCRIPTION = "Any claims or facts that could be relevant to information discovery."
+
+
+# Weaviate config
+HTTP_HOST = ""
+HTTP_PORT = 80
+HTTP_SECURE = False
+GRPC_HOST = ""
+GRPC_PORT = 80
+GRPC_SECURE = False
+AUTH_CREDENTIALS = ""
+INDEX_NAME = ""
+TEXT_KEY = ""
+EMBEDDING_MODEL = ""
