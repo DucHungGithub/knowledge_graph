@@ -1,27 +1,62 @@
 # Copyright (c) 2024 Microsoft Corporation.
 # Licensed under the MIT License
 
+import json
 from typing import Any, List, cast
 
 from models.entity import Entity
 from models.relationship import Relationship
 
 import pandas as pd
+import pydgraph
 
 
 def get_in_network_relationships(
+    client: pydgraph.DgraphClient,
     selected_entities: List[Entity],
-    relationships: List[Relationship],
     ranking_attribute: str = "rank"
 ) -> List[Relationship]:
     """Get all directed relationships between selected entities, sorted by ranking_attribute."""
     selected_entity_names = [entity.title for entity in selected_entities]
-    selected_relationships = [
-        relationship
-        for relationship in relationships
-        if relationship.source in selected_entity_names
-        and relationship.target in selected_entity_names
-    ]
+    
+    txn = client.txn()
+    selected_relationships = []
+    
+    
+    source_text = ' OR '.join([f'eq(source, "{name}")' for name in selected_entity_names])
+    target_text = ' OR '.join([f'eq(target, "{name}")' for name in selected_entity_names])
+    
+    try:
+        query = f"""
+        {{
+            getRelationships(func: type(Entity)) @filter(has(connect)) {{
+                connect @facets(({source_text}) AND ({target_text})) @facets{{
+                    expand(_all_)
+                }}
+            }}
+        }}
+        """
+        
+        res = txn.query(query=query)
+        ppl = json.loads(res.json)
+        
+        relationships = ppl.get("getRelationships", [])
+        
+        for rel in relationships:
+            connects = rel["connect"]
+            for con in connects:
+                selected_relationships.append(Relationship(
+                    id=con["connect|id"],
+                    short_id=con["connect|short_id"],
+                    source=con["connect|source"],
+                    target=con["connect|target"],
+                    weight=con["connect|weight"],
+                    description=con["connect|description"]
+                ))
+        
+    finally:
+        txn.discard()
+    
     
     if len(selected_relationships) <= 1:
         return selected_relationships
@@ -33,26 +68,84 @@ def get_in_network_relationships(
     
 
 def get_out_network_relationships(
+    client: pydgraph.DgraphClient,
     selected_entities: List[Entity],
-    relationships: List[Relationship],
     ranking_attribute: str = "rank"
 ) -> List[Relationship]:
     """Get relationships from selected entities to other entities that are not within the selected entities, sorted by ranking_attribute."""
     selected_entity_names = [entity.title for entity in selected_entities]
-    source_relationships = [
-        relationship
-        for relationship in relationships
-        if relationship.source in selected_entity_names
-        and relationship.target not in selected_entity_names
-    ]
-    target_relationships = [
-        relationship 
-        for relationship in relationships
-        if relationship.target in selected_entity_names
-        and relationship.source not in selected_entity_names
-    ]
+    
+    txn = client.txn()
+    
+    source_relationships = []
+    target_relationships = []
+    
+    source_text = ' OR '.join([f'eq(source, "{name}")' for name in selected_entity_names])
+    target_text = ' OR '.join([f'eq(target, "{name}")' for name in selected_entity_names])
+    
+    not_source_text = ' AND '.join([f'NOT eq(source, "{name}")' for name in selected_entity_names])
+    not_target_text = ' AND '.join([f'NOT eq(target, "{name}")' for name in selected_entity_names])
+    
+    try:
+        query = f"""
+        {{
+            getRelationships(func: type(Entity)) @filter(has(connect)) {{
+                connect @facets(({source_text}) AND ({not_target_text})) @facets{{
+                    expand(_all_)
+                }}
+            }}
+        }}
+        """
+        
+        res = txn.query(query=query)
+        ppl = json.loads(res.json)
+        
+        relationships = ppl.get("getRelationships", [])
+        
+        for rel in relationships:
+            connects = rel["connect"]
+            for con in connects:
+                source_relationships.append(Relationship(
+                    id=con["connect|id"],
+                    short_id=con["connect|short_id"],
+                    source=con["connect|source"],
+                    target=con["connect|target"],
+                    weight=con["connect|weight"],
+                    description=con["connect|description"]
+                ))
+        
+        query = f"""
+        {{
+            getRelationships(func: type(Entity)) @filter(has(connect)) {{
+                connect @facets(({not_source_text}) AND ({target_text})) @facets{{
+                    expand(_all_)
+                }}
+            }}
+        }}
+        """
+        
+        res = txn.query(query=query)
+        ppl = json.loads(res.json)
+        
+        relationships = ppl.get("getRelationships", [])
+        
+        for rel in relationships:
+            connects = rel["connect"]
+            for con in connects:
+                target_relationships.append(Relationship(
+                    id=con["connect|id"],
+                    short_id=con["connect|short_id"],
+                    source=con["connect|source"],
+                    target=con["connect|target"],
+                    weight=con["connect|weight"],
+                    description=con["connect|description"]
+                ))
+        
+    finally:
+        txn.discard()
     
     selected_relationships = source_relationships + target_relationships
+    
     
     return sort_relationships_by_ranking_attribute(
         selected_relationships, selected_entities, ranking_attribute
@@ -60,17 +153,51 @@ def get_out_network_relationships(
     
     
 def get_candidate_relationships(
+    client: pydgraph.DgraphClient,
     selected_entities: List[Entity],
-    relationships: List[Relationship],
 ) -> List[Relationship]:
     """Get all relationships that are associated with the selected entities."""
     selected_entity_names = [entity.title for entity in selected_entities]
-    return [
-        relationship 
-        for relationship in relationships
-        if relationship.source in selected_entity_names
-        or relationship.target in selected_entity_names
-    ]
+    
+    txn = client.txn()
+    
+    source_text = ' OR '.join([f'eq(source, "{name}")' for name in selected_entity_names])
+    target_text = ' OR '.join([f'eq(target, "{name}")' for name in selected_entity_names])
+    
+    selected_relationships = []
+    
+    try:
+        query = f"""
+        {{
+            getRelationships(func: type(Entity)) @filter(has(connect)) {{
+                connect @facets(({source_text}) OR ({target_text})) @facets{{
+                    expand(_all_)
+                }}
+            }}
+        }}
+        """
+        res = txn.query(query=query)
+        ppl = json.loads(res.json)
+        
+        relationships = ppl.get("getRelationships", [])
+        
+        for rel in relationships:
+            connects = rel["connect"]
+            for con in connects:
+                selected_relationships.append(Relationship(
+                    id=con["connect|id"],
+                    short_id=con["connect|short_id"],
+                    source=con["connect|source"],
+                    target=con["connect|target"],
+                    weight=con["connect|weight"],
+                    description=con["connect|description"]
+                ))
+    
+    finally:
+        txn.discard()
+    
+    
+    return selected_relationships
 
 
 def get_entities_from_relationships(
@@ -78,7 +205,7 @@ def get_entities_from_relationships(
     entities: List[Entity]
 ) -> List[Entity]:
     """Get all entities that are associated with the selected relationships."""
-    selected_entity_names = selected_entity_names = [relationship.source for relationship in relationships] + [
+    selected_entity_names = [relationship.source for relationship in relationships] + [
         relationship.target for relationship in relationships
     ]
     return [entity for entity in entities if entity.title in selected_entity_names]

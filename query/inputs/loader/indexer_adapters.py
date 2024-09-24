@@ -114,6 +114,8 @@ def read_indexer_reports(
     report_df["community"] = report_df["community"].astype(int)  # Ensure the same type
     report_df = report_df.merge(filtered_community_df, on="community", how="inner")
 
+    
+
     return read_community_reports(
         df=report_df,
         id_col="id",

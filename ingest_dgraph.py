@@ -75,6 +75,8 @@ def set_schema(client: pydgraph.DgraphClient):
     source_text: [string] .
     from: [uid] @reverse .
     claim_details: string .
+    claim: [uid] @reverse .
+    attributes: string .
     
     
     
@@ -87,15 +89,6 @@ def set_schema(client: pydgraph.DgraphClient):
     loc: geo .
     dob: datetime .
     
-
-    type Person {
-        name
-        friend
-        age
-        married
-        loc
-        dob
-    }
     
     type TextUnit {
         id
@@ -116,6 +109,7 @@ def set_schema(client: pydgraph.DgraphClient):
         level
         connect
         from
+        claim
     }
     
     
@@ -181,6 +175,7 @@ def query_and_ingest_entity(client: pydgraph.DgraphClient, entities: List[Entity
         for entity in entities:
             source_ids = []
             community_ids = []
+            covariate_ids = []
             p = entity.dict()
             # p.pop("text_unit_ids")
             if entity.text_unit_ids:
@@ -196,11 +191,11 @@ def query_and_ingest_entity(client: pydgraph.DgraphClient, entities: List[Entity
                     ppl = json.loads(res.json)
                     
                     
-                    rel = ppl['getTextUnit'][0]
-                    text_unit_uid = rel['uid']
+                    rel = ppl['getTextUnit']
                     
-                    source_ids.append({"uid": text_unit_uid})
+                    source_ids.extend(rel)
                     
+            if entity.community_ids:
                 for cm in entity.community_ids:
                     if cm == "-1":
                         continue
@@ -215,16 +210,32 @@ def query_and_ingest_entity(client: pydgraph.DgraphClient, entities: List[Entity
                     ppl = json.loads(res.json)
                     
                     
-                    rel = ppl['getCommunity'][0]
-                    community_uid = rel['uid']
+                    rel = ppl['getCommunity']
                     
-                    community_ids.append({"uid": community_uid})
-
+                    community_ids.extend(rel)
+                    
+            
+            if entity.title:
+                query = f"""{{
+                    getCovariates(func: type(Covariate)) @filter(eq(subject_id, "{entity.title}")){{
+                        uid
+                    }}
+                }}
+                """
+                res = txn.query(query=query)
+                ppl = json.loads(res.json)
+                
+                rel = ppl['getCovariates']
+                
+                covariate_ids.extend(rel)
+                
+            p["attributes"] = json.dumps(p["attributes"]) if p["attributes"] else None
             p["from"] = source_ids
             p["belong"] = community_ids
+            p["claim"] = covariate_ids
             p["dgraph.type"] = "Entity"
             
-            mutations.append(txn.create_mutation(set_obj=p))
+            mutations.append(txn.create_mutation(set_obj={**p, "attributes": json.dumps(p["attributes"]) if p["attributes"] else None}))
             
         request = txn.create_request(mutations=mutations, commit_now=True)
         response = txn.do_request(request)
@@ -312,6 +323,8 @@ def query_and_ingest_covariates(client: pydgraph.DgraphClient, covariates: List[
         for cov in covariates:
             source_ids = []
             p = cov.dict()
+            # print("CHECK---------COV-----------")
+            # print(p)
             # p.pop("text_unit_ids")
             if cov.text_unit_ids:
                 text_unit_ids_unique = list(set(cov.text_unit_ids))
@@ -336,6 +349,7 @@ def query_and_ingest_covariates(client: pydgraph.DgraphClient, covariates: List[
                     logging.info(f"Text Unit UID found: {text_unit_uid}")
                     source_ids.append({"uid": text_unit_uid})
             
+            p["attributes"] = json.dumps(p["attributes"]) if p["attributes"] else None
             p["from"] = source_ids
             p["dgraph.type"] = "Covariate"
             
@@ -355,7 +369,11 @@ def query_and_ingest_covariates(client: pydgraph.DgraphClient, covariates: List[
 def ingest_community_report(client: pydgraph.DgraphClient, community_reports: List[CommunityReport]):
     txn = client.txn()
     try:
-        mutations = [txn.create_mutation(set_obj={**report.dict(), "dgraph.type": "CommunityReport"}) for report in community_reports]
+        mutations = []
+        for report in community_reports:
+            p = {**report.dict(), "dgraph.type": "CommunityReport"}
+            p["attributes"] = json.dumps(p["attributes"]) if p["attributes"] else None
+            mutations.append(txn.create_mutation(set_obj={**p, "dgraph.type": "CommunityReport"}))
         
         request = txn.create_request(mutations=mutations, commit_now=True)
         response = txn.do_request(request)
@@ -391,6 +409,16 @@ if __name__ == "__main__":
     ingest_community_report(client, reports)
     
     
+    # Covariate ----:
+    covariate_df = pd.read_csv(f"{INPUT_DIR}/{COVARIATE_TABLE}")
+    covariates = read_indexer_covariates(covariate_df)
+    # print("-------------COVARIATES---------------")
+    # print(covariates)
+    
+    
+    query_and_ingest_covariates(client, covariates)
+    
+    
     # Entity ----:
     entity_embedding_df = pd.read_csv(f"{INPUT_DIR}/{ENTITY_EMBEDDING_TABLE}")
 
@@ -408,13 +436,6 @@ if __name__ == "__main__":
     relationships = read_indexer_relationships(relationship_df)
     
     query_and_ingest_relationship(client, relationships)
-    
-    
-    # Covariate ----:
-    covariate_df = pd.read_csv(f"{INPUT_DIR}/{COVARIATE_TABLE}")
-    covariates = read_indexer_covariates(covariate_df)
-    query_and_ingest_covariates(client, covariates)
-        
     
     client_stub.close()
     

@@ -2,6 +2,7 @@ from collections import defaultdict
 from typing import Any, List, Optional, Tuple, cast
 
 import pandas as pd
+import pydgraph
 
 from models.entity import Entity
 from models.relationship import Relationship
@@ -10,8 +11,8 @@ from utils import list_of_token
 
 
 def build_relationship_context(
+    client: pydgraph.DgraphClient,
     selected_entities: List[Entity],
-    relationships: List[Relationship],
     token_encoder: Optional[str] = None,
     include_relationship_weight: bool = False,
     max_tokens: int = 8000,
@@ -24,8 +25,8 @@ def build_relationship_context(
     
     # Get the most relevent relationships
     selected_relationships = filter_relationship(
+        client=client,
         selected_entities=selected_entities,
-        relationships=relationships,
         top_k_relationships=top_k_relationships,
         relationship_ranking_attribute=relationship_ranking_attribute
     )
@@ -88,24 +89,24 @@ def build_relationship_context(
 
 # Get the most relevant relationships to entities
 def filter_relationship(
+    client: pydgraph.DgraphClient,
     selected_entities: List[Entity],
-    relationships: List[Relationship],
     top_k_relationships: int = 10,
     relationship_ranking_attribute: str = "rank",
 ) -> List[Relationship]:
     """Filter and sort relationships based on a set of entities and a ranking attribute."""
     # First priority: in-network relationships (i.e relationships between selected entities)
     in_network_relationships = get_in_network_relationships(
+        client=client,
         selected_entities=selected_entities,
-        relationships=relationships,
         ranking_attribute=relationship_ranking_attribute
     )
     
     # Second priority: out-network relationships
     # (i.e. relationships between selected entities and other entities that are not within the selected entities)
     out_network_relationships = get_out_network_relationships(
+        client=client,
         selected_entities=selected_entities,
-        relationships=relationships,
         ranking_attribute=relationship_ranking_attribute
     )
     
@@ -177,9 +178,4 @@ def filter_relationship(
     return in_network_relationships + out_network_relationships[:relationship_budget]
 
 
-def filter_relationship(
-    selected_entities: List[Entity],
-    top_k_relationships: int = 10,
-    relationship_ranking_attribute: str = "rank"
-) -> List[Relationship]:
     

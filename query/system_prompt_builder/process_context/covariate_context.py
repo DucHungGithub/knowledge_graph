@@ -1,6 +1,8 @@
+import json
 from typing import Any, List, Optional, Tuple, cast
 
 import pandas as pd
+import pydgraph
 
 from models.covariate import Covariate
 from models.entity import Entity
@@ -8,8 +10,8 @@ from utils import list_of_token
 
 # Build the covariate table equivalent to the List of entities
 def build_covariates_context(
+    client: pydgraph.DgraphClient,
     selected_entities: List[Entity],
-    covariates: List[Covariate],
     token_encoder: Optional[str] = None,
     max_tokens: int = 8000,
     column_delimiter: str = "|",
@@ -17,7 +19,7 @@ def build_covariates_context(
 ) -> Tuple[str, pd.DataFrame]:
     """Prepare covariate data table as context data for system prompt"""
     
-    if len(selected_entities) == 0 or len(covariates) == 0:
+    if len(selected_entities) == 0:
         return "", pd.DataFrame()
     
     selected_covariates = []
@@ -25,18 +27,56 @@ def build_covariates_context(
     
     current_context_text = f"-----{context_name}-----" + "\n"
     
+    txn = client.txn()
+    
+    try:
+        for entity in selected_entities:
+            if entity.title:
+                query = f"""{{
+                        queryEntity(func: type(Covariate)) @filter(eq(subject_id,"{entity.title}")){{
+                            uid
+                            object_id
+                            object_type
+                            id
+                            type
+                            status
+                            start_date
+                            end_date
+                            short_id
+                            subject_id
+                            subject_type
+                            covariate_type
+                            description
+                            source_text
+                            text_unit_ids
+                            document_ids
+                            human_readable_id
+                            claim_details
+                            attributes
+                    }}
+                }}
+                """
+                res = txn.query(query=query)
+                ppl = json.loads(res.json)
+                
+                covs = ppl["queryEntity"]
+                for cov in covs:
+                    if cov.get("attributes", None):
+                        cov["attributes"] = json.loads(cov["attributes"]) if cov["attributes"] else None
+                    selected_covariates.append(Covariate(**cov))
+            
+    finally:
+        txn.discard()
+    
     header = ["id", "entity"]
-    attributes = covariates[0].attributes or {} if len(covariates) > 0 else {}
-    attribute_cols = list(attributes.keys()) if len(covariates) > 0 else []
+    attributes = selected_covariates[0].attributes or {} if len(selected_covariates) > 0 else {}
+    attribute_cols = list(attributes.keys()) if len(selected_covariates) > 0 else []
     header.extend(attribute_cols)
     current_context_text += column_delimiter.join(header) + "\n"
     current_tokens = len(list_of_token(current_context_text, token_encoder))
     
     all_context_records = [header]
-    for entity in selected_entities:
-        selected_covariates.extend([
-            cov for cov in covariates if cov.subject_id == entity.title
-        ])
+    
         
     for covariate in selected_covariates:
         new_context = [

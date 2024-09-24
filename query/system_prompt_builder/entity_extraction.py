@@ -210,6 +210,7 @@ def find_nearest_neighbors_by_entity_rank(
                     rank
                     text_unit_ids
                     community_ids
+                    attributes
                 }}
             }}
             """
@@ -219,7 +220,12 @@ def find_nearest_neighbors_by_entity_rank(
             
             entities = ppl.get("getEntity", [])
             
-            resolve_entity = [Entity(**entity) for entity in entities]
+            resolve_entity = []
+            for entity in entities:
+                if entity.get("attributes", None):
+                    entity["attributes"] = json.loads(entity["attributes"]) if entity["attributes"] else None
+                resolve_entity.append(Entity(**entity))
+
             top_relations.extend(resolve_entity)
     finally:
         txn.discard()

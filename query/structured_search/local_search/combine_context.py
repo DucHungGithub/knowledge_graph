@@ -206,6 +206,7 @@ class LocalSearchMixedContext(LocalContextBuilder):
         local_prop = 1 - community_prop - text_unit_prop
         local_tokens = max(int(max_tokens * local_prop), 0)
         local_context, local_context_data = self._build_local_context(
+            client=client,
             selected_entities=selected_entities,
             max_tokens=local_tokens,
             include_entity_rank=include_entity_rank,
@@ -367,6 +368,8 @@ class LocalSearchMixedContext(LocalContextBuilder):
                 coms = ppl.get("getCommunity", [])
                 
                 for com in coms:
+                    if com.get("attributes", None):
+                        com["attributes"] = json.loads(com["attributes"]) if com["attributes"] else None
                     selected_communities.append(CommunityReport(**com))
                 
         finally:
@@ -427,6 +430,7 @@ class LocalSearchMixedContext(LocalContextBuilder):
     
     def _build_local_context(
         self,
+        client: pydgraph.DgraphClient,
         selected_entities: List[Entity],
         max_tokens: int = 8000,
         include_entity_rank: bool = False,
@@ -467,8 +471,8 @@ class LocalSearchMixedContext(LocalContextBuilder):
                 relationship_context,
                 relationship_context_data
             ) = build_relationship_context(
+                client=client,
                 selected_entities=added_entities,
-                relationships=list(self.relationships.values()),
                 token_encoder=self.token_encoder,
                 max_tokens=max_tokens,
                 column_delimiter=column_delimiter,
@@ -484,8 +488,8 @@ class LocalSearchMixedContext(LocalContextBuilder):
             # Build covariate context
             for covariate in self.covariates:
                 covariate_context, covariate_context_data = build_covariates_context(
+                    client=client,
                     selected_entities=added_entities,
-                    covariates=self.covariates[covariate],
                     token_encoder=self.token_encoder,
                     max_tokens=max_tokens,
                     column_delimiter=column_delimiter,
@@ -508,9 +512,9 @@ class LocalSearchMixedContext(LocalContextBuilder):
         
         if return_candidate_context:
             # return all the candidate entities/relationships/covariates (not only those that were fitted into the context window)
-            # and add a tag to indicate which records were included in the context window
-            
+            # and add a tag to indicate which records were included in the context window)
             candidate_context_data = get_candidate_context(
+                client=client,
                 selected_entities=selected_entities,
                 entities=list(self.entities.values()),
                 relationships=list(self.relationships.values()),

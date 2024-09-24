@@ -1,6 +1,7 @@
 from typing import Dict, List
 
 import pandas as pd
+import pydgraph
 
 from models.covariate import Covariate
 from models.entity import Entity
@@ -11,6 +12,7 @@ from query.inputs.retrieval.relationships import get_candidate_relationships, ge
 
 
 def get_candidate_context(
+    client: pydgraph.DgraphClient,
     selected_entities: List[Entity],
     entities: List[Entity],
     relationships: List[Relationship],
@@ -23,8 +25,8 @@ def get_candidate_context(
     candidate_context = {}
     
     candidate_relationships = get_candidate_relationships(
+        client=client,
         selected_entities=selected_entities,
-        relationships=relationships
     )
     
     candidate_context["relationships"] = to_relationship_dataframe(
