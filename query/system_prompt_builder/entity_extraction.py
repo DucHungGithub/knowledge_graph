@@ -142,8 +142,6 @@ def find_nearest_neighbors_by_graph_embeddings(
 def find_nearest_neighbors_by_entity_rank(
     client: pydgraph.DgraphClient,
     entity_name: str,
-    all_entities: List[Entity],
-    all_relationships: List[Relationship],
     exclude_entity_names: Optional[List[str]] = None,
     k: Optional[int] = 10
 ) -> List[Entity]:

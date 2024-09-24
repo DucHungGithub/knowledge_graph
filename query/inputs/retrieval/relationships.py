@@ -201,14 +201,51 @@ def get_candidate_relationships(
 
 
 def get_entities_from_relationships(
+    client: pydgraph.DgraphClient,
     relationships: List[Relationship],
-    entities: List[Entity]
 ) -> List[Entity]:
     """Get all entities that are associated with the selected relationships."""
     selected_entity_names = [relationship.source for relationship in relationships] + [
         relationship.target for relationship in relationships
     ]
-    return [entity for entity in entities if entity.title in selected_entity_names]
+    
+    title_text = ' OR '.join([f'eq(title, "{name}")' for name in selected_entity_names])
+    
+    txn = client.txn()
+    
+    resolve_entity = []
+    try:
+        query = f"""
+        {{
+            getEntity(func: type(Entity)) @filter({title_text}) {{
+                id
+                title
+                short_id
+                type
+                description
+                rank
+                text_unit_ids
+                community_ids
+                attributes
+            }}
+        }}
+        """
+        
+        res = txn.query(query=query)
+        ppl = json.loads(res.json)
+        
+        entities = ppl.get("getEntity", [])
+        
+        
+        for entity in entities:
+            if entity.get("attributes", None):
+                entity["attributes"] = json.loads(entity["attributes"]) if entity["attributes"] else None
+            resolve_entity.append(Entity(**entity))
+    finally:
+        txn.discard()
+
+
+    return resolve_entity
     
       
 

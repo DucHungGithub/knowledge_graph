@@ -14,9 +14,6 @@ from query.inputs.retrieval.relationships import get_candidate_relationships, ge
 def get_candidate_context(
     client: pydgraph.DgraphClient,
     selected_entities: List[Entity],
-    entities: List[Entity],
-    relationships: List[Relationship],
-    covariates: Dict[str, List[Covariate]],
     include_entity_rank: bool = True,
     entity_rank_description: str = "number of relationships",
     include_relationship_weight: bool = False
@@ -35,8 +32,12 @@ def get_candidate_context(
     )
     
     candidate_entities = get_entities_from_relationships(
-        relationships=candidate_relationships, entities=entities
+        client=client,
+        relationships=candidate_relationships
     )
+    print("get_entities_from_relationships-----------------------")
+    print(candidate_entities)
+    
     
     candidate_context["entities"] = to_entity_dataframe(
         entities=candidate_entities,
@@ -44,14 +45,20 @@ def get_candidate_context(
         rank_description=entity_rank_description
     )
     
-    for covariate in covariates:
-        candidate_covariates = get_candidate_covariates(
-            selected_entities=selected_entities,
-            covariates=covariates[covariate]
-        )
-        
-        candidate_context[covariate.lower()] = to_covariate_dataframe(
-            covariates=candidate_covariates
-        )
-        
+
+    candidate_covariates = get_candidate_covariates(
+        client=client,
+        selected_entities=selected_entities,
+    )
+    
+    print("get_candidate_covariates-----------------------")
+    print(candidate_covariates)
+    
+    candidate_context["claims"] = to_covariate_dataframe(
+        covariates=candidate_covariates
+    )
+    
+    print("CANDIDATE CONTEXT-----------------------")
+    print(candidate_context)
+    
     return candidate_context

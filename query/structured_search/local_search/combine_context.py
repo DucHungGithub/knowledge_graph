@@ -516,9 +516,6 @@ class LocalSearchMixedContext(LocalContextBuilder):
             candidate_context_data = get_candidate_context(
                 client=client,
                 selected_entities=selected_entities,
-                entities=list(self.entities.values()),
-                relationships=list(self.relationships.values()),
-                covariates=self.covariates,
                 include_entity_rank=include_entity_rank,
                 entity_rank_description=rank_description,
                 include_relationship_weight=include_relationship_weight
