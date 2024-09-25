@@ -7,11 +7,11 @@ from langchain_openai import ChatOpenAI
 import lancedb
 import pydgraph
 
-from query.structured_search.local_search.combine_context import LocalSearchMixedContext
-from query.structured_search.local_search.search import LocalSearch
-from query.system_prompt_builder.entity_extraction import EntityVectorStoreKey
+from query_context.structured_search.local_search.combine_context import LocalSearchMixedContext
+from query_context.structured_search.local_search.search import LocalSearch
+from query_context.system_prompt_builder.entity_extraction import EntityVectorStoreKey
 from vectorstore import store_entity_semantic_embeddings
-from query.inputs.loader.indexer_adapters import read_indexer_covariates, read_indexer_entities, read_indexer_relationships, read_indexer_reports, read_indexer_text_units
+from query_context.inputs.loader.indexer_adapters import read_indexer_covariates, read_indexer_entities, read_indexer_relationships, read_indexer_reports, read_indexer_text_units
 
 # Create a client
 def create_client_stub() -> pydgraph.DgraphClientStub:

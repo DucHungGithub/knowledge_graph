@@ -4,9 +4,9 @@ import pandas as pd
 import pydgraph
 
 from models.entity import Entity
-from query.inputs.retrieval.covariates import get_candidate_covariates, to_covariate_dataframe
-from query.inputs.retrieval.entities import to_entity_dataframe
-from query.inputs.retrieval.relationships import get_candidate_relationships, get_entities_from_relationships, to_relationship_dataframe
+from query_context.inputs.retrieval.covariates import get_candidate_covariates, to_covariate_dataframe
+from query_context.inputs.retrieval.entities import to_entity_dataframe
+from query_context.inputs.retrieval.relationships import get_candidate_relationships, get_entities_from_relationships, to_relationship_dataframe
 
 
 def get_candidate_context(

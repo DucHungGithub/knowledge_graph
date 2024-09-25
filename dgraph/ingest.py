@@ -10,8 +10,8 @@ from models.entity import Entity
 from models.relationship import Relationship
 from models.text_unit import TextUnit
 from models.covariate import Covariate
-from query.inputs.loader.dfs import read_entities
-from query.inputs.loader.indexer_adapters import read_indexer_covariates, read_indexer_entities, read_indexer_relationships, read_indexer_reports, read_indexer_text_units
+from query_context.inputs.loader.dfs import read_entities
+from query_context.inputs.loader.indexer_adapters import read_indexer_covariates, read_indexer_entities, read_indexer_relationships, read_indexer_reports, read_indexer_text_units
 
 
 INPUT_DIR = "outputs"

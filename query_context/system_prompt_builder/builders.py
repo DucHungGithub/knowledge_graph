@@ -3,7 +3,7 @@ from typing import Dict, List, Optional, Tuple
 
 import pandas as pd
 
-from query.system_prompt_builder.history.conversation_history import ConversationHistory
+from query_context.system_prompt_builder.history.conversation_history import ConversationHistory
 
 class GlobalContextBuilder(ABC):
     """Base class for global-search context builders."""

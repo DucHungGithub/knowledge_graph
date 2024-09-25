@@ -7,12 +7,12 @@ from typing import Any, Dict, List, Optional
 
 from langchain_core.language_models import BaseChatModel
 
-from query.structured_search.base import BaseSearch, GlobalSearchResult, SearchResult
+from query_context.structured_search.base import BaseSearch, GlobalSearchResult, SearchResult
 
-from query.structured_search.global_search.map_system_prompt import MAP_SYSTEM_PROMPT
-from query.structured_search.global_search.reduce_system_prompt import GENERAL_KNOWLEDGE_INSTRUCTION, NO_DATA_ANSWER, REDUCE_SYSTEM_PROMPT
-from query.system_prompt_builder.builders import GlobalContextBuilder
-from query.system_prompt_builder.history.conversation_history import ConversationHistory
+from query_context.structured_search.global_search.map_system_prompt import MAP_SYSTEM_PROMPT
+from query_context.structured_search.global_search.reduce_system_prompt import GENERAL_KNOWLEDGE_INSTRUCTION, NO_DATA_ANSWER, REDUCE_SYSTEM_PROMPT
+from query_context.system_prompt_builder.builders import GlobalContextBuilder
+from query_context.system_prompt_builder.history.conversation_history import ConversationHistory
 from utils import list_of_token, try_parse_json_object
 
 

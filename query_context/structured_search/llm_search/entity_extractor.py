@@ -2,8 +2,8 @@
 
 from langgraph.graph import StateGraph
 
-from query.inputs.retrieval.entities import get_entity_by_key
-from query.system_prompt_builder.entity_extraction import map_query_to_entities
+from query_context.inputs.retrieval.entities import get_entity_by_key
+from query_context.system_prompt_builder.entity_extraction import map_query_to_entities
 
 def get_relavent_entity(graph: StateGraph):
     message = graph["messages"][-1]

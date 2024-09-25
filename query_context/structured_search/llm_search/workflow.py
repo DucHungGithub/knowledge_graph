@@ -1,9 +1,9 @@
 from langgraph.graph import StateGraph, END, START
 
 
-from query.structured_search.llm_search.type import AgentState
-from query.structured_search.llm_search.supervisor import supervisor_agent
-from query.structured_search.llm_search.type import members
+from query_context.structured_search.llm_search.type import AgentState
+from query_context.structured_search.llm_search.supervisor import supervisor_agent
+from query_context.structured_search.llm_search.type import members
 
 
 workflow = StateGraph(AgentState)

@@ -3,9 +3,9 @@ from typing import Dict, List, Optional, Tuple
 import pandas as pd
 from models.community_report import CommunityReport
 from models.entity import Entity
-from query.system_prompt_builder.builders import GlobalContextBuilder
-from query.system_prompt_builder.history.conversation_history import ConversationHistory
-from query.system_prompt_builder.process_context.community_context import build_community_context
+from query_context.system_prompt_builder.builders import GlobalContextBuilder
+from query_context.system_prompt_builder.history.conversation_history import ConversationHistory
+from query_context.system_prompt_builder.process_context.community_context import build_community_context
 
 
 class GlobalCommunityContext(GlobalContextBuilder):

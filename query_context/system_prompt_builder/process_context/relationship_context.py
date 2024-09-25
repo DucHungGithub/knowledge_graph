@@ -6,7 +6,7 @@ import pydgraph
 
 from models.entity import Entity
 from models.relationship import Relationship
-from query.inputs.retrieval.relationships import get_in_network_relationships, get_out_network_relationships
+from query_context.inputs.retrieval.relationships import get_in_network_relationships, get_out_network_relationships
 from utils import list_of_token
 
 

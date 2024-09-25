@@ -2,7 +2,7 @@ from typing import Dict, List, Optional, Tuple
 
 import pandas as pd
 
-from query.system_prompt_builder.history.typing import ConversationRole, ConversationTurn, QATurn
+from query_context.system_prompt_builder.history.typing import ConversationRole, ConversationTurn, QATurn
 from utils import list_of_token
 
 

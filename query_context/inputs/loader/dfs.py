@@ -9,7 +9,7 @@ from models.document import Document
 from models.entity import Entity
 from models.relationship import Relationship
 from models.text_unit import TextUnit
-from query.inputs.loader.utils import (
+from query_context.inputs.loader.utils import (
     to_optional_dict,
     to_optional_float,
     to_optional_int,

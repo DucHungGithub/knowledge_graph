@@ -7,7 +7,7 @@ from models.entity import Entity
 from models.relationship import Relationship
 from models.text_unit import TextUnit
 \
-from query.inputs.loader.dfs import (
+from query_context.inputs.loader.dfs import (
     read_community_reports,
     read_covariates,
     read_entities,

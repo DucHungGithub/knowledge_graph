@@ -8,7 +8,7 @@ from langchain_core.vectorstores import VectorStore
 
 from models.entity import Entity
 from models.relationship import Relationship
-from query.inputs.retrieval.entities import get_entity_by_key, get_entity_by_name, get_top_rank_entity
+from query_context.inputs.retrieval.entities import get_entity_by_key, get_entity_by_name, get_top_rank_entity
 
 
 class EntityVectorStoreKey(str, Enum):

@@ -5,8 +5,8 @@ from langchain_openai import ChatOpenAI
 from pydantic import BaseModel
 from langgraph.graph import StateGraph
 
-from query.structured_search.llm_search.prompts import supervisor_prompt, routing_prompt
-from query.structured_search.llm_search.type import options, members, RouteResponse
+from query_context.structured_search.llm_search.prompts import supervisor_prompt, routing_prompt
+from query_context.structured_search.llm_search.type import options, members, RouteResponse
 
 
 prompt = ChatPromptTemplate.from_messages(

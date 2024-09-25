@@ -9,8 +9,8 @@ from pydantic import BaseModel
 from langchain_core.language_models import BaseChatModel
 
 
-from query.system_prompt_builder.builders import GlobalContextBuilder, LocalContextBuilder
-from query.system_prompt_builder.history.conversation_history import ConversationHistory
+from query_context.system_prompt_builder.builders import GlobalContextBuilder, LocalContextBuilder
+from query_context.system_prompt_builder.history.conversation_history import ConversationHistory
 
 @dataclass
 class SearchResult:

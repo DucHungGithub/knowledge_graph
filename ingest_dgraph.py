@@ -10,8 +10,8 @@ from models.entity import Entity
 from models.relationship import Relationship
 from models.text_unit import TextUnit
 from models.covariate import Covariate
-from query.inputs.loader.dfs import read_entities
-from query.inputs.loader.indexer_adapters import read_indexer_covariates, read_indexer_entities, read_indexer_relationships, read_indexer_reports, read_indexer_text_units
+from query_context.inputs.loader.dfs import read_entities
+from query_context.inputs.loader.indexer_adapters import read_indexer_covariates, read_indexer_entities, read_indexer_relationships, read_indexer_reports, read_indexer_text_units
 
 
 import colorlog
@@ -29,9 +29,9 @@ handler.setFormatter(colorlog.ColoredFormatter(
     }
 ))
 
-# Get the logger and add the handler
+
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)  # Set the logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+logger.setLevel(logging.DEBUG)
 logger.addHandler(handler)
 
 INPUT_DIR = "outputs"

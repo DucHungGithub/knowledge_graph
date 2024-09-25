@@ -6,11 +6,11 @@ from typing import Any, Dict, Optional
 from langchain_core.language_models import BaseChatModel
 import pydgraph
 
-from query.structured_search.base import BaseSearch, SearchResult
+from query_context.structured_search.base import BaseSearch, SearchResult
 
-from query.structured_search.local_search.prompt import LOCAL_SEARCH_SYSTEM_PROMPT
-from query.system_prompt_builder.builders import LocalContextBuilder
-from query.system_prompt_builder.history.conversation_history import ConversationHistory
+from query_context.structured_search.local_search.prompt import LOCAL_SEARCH_SYSTEM_PROMPT
+from query_context.system_prompt_builder.builders import LocalContextBuilder
+from query_context.system_prompt_builder.history.conversation_history import ConversationHistory
 from utils import list_of_token
 
 
