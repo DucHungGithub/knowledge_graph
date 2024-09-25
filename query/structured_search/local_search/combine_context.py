@@ -56,33 +56,35 @@ class LocalSearchMixedContext(LocalContextBuilder):
     
     def __init__(
         self,
-        entities: List[Entity],
         entity_text_embeddings: VectorStore,
         text_embedder: Embeddings,
-        text_units: Optional[List[TextUnit]] = None,
-        community_reports: Optional[List[CommunityReport]] = None,
-        relationships: Optional[List[Relationship]] = None,
-        covariates: Optional[Dict[str, List[Covariate]]] = None,
+        # entities: List[Entity] = None,
+        # text_units: Optional[List[TextUnit]] = None,
+        # community_reports: Optional[List[CommunityReport]] = None,
+        # relationships: Optional[List[Relationship]] = None,
+        # covariates: Optional[Dict[str, List[Covariate]]] = None,
         token_encoder: Optional[str] = None,
         embedding_vectorstore_key: str = EntityVectorStoreKey.ID
     ) -> None:
-        if community_reports is None:
-            community_reports = []
-        if relationships is None:
-            relationships = []
-        if covariates is None:
-            covariates = {}
-        if text_units is None:
-            text_units = []
-        self.entities = {entity.id: entity for entity in entities}
-        self.community_reports = {
-            community.id: community for community in community_reports
-        }
-        self.text_units = {unit.id: unit for unit in text_units}
-        self.relationships = {
-            relationship.id: relationship for relationship in relationships
-        }
-        self.covariates = covariates
+        # if community_reports is None:
+        #     community_reports = []
+        # if relationships is None:
+        #     relationships = []
+        # if covariates is None:
+        #     covariates = {}
+        # if text_units is None:
+        #     text_units = []
+        # if entities is None:
+        #     entities = []
+        # self.entities = {entity.id: entity for entity in entities}
+        # self.community_reports = {
+        #     community.id: community for community in community_reports
+        # }
+        # self.text_units = {unit.id: unit for unit in text_units}
+        # self.relationships = {
+        #     relationship.id: relationship for relationship in relationships
+        # }
+        # self.covariates = covariates
         self.entity_text_embeddings = entity_text_embeddings
         self.text_embedder = text_embedder
         self.token_encoder = token_encoder
@@ -227,6 +229,7 @@ class LocalSearchMixedContext(LocalContextBuilder):
         # Build text unit context
         text_unit_tokens = max(int(max_tokens * text_unit_prop), 0)
         text_unit_context, text_unit_context_data = self._build_text_unit_context(
+            client=client,
             selected_entities=selected_entities,
             max_tokens=text_unit_tokens,
             return_candidate_context=return_candidate_context
@@ -246,6 +249,7 @@ class LocalSearchMixedContext(LocalContextBuilder):
         
     def _build_text_unit_context(
         self,
+        client: pydgraph.DgraphClient,
         selected_entities: List[Entity],
         max_tokens: int = 8000,
         return_candidate_context: bool = False,
@@ -253,25 +257,57 @@ class LocalSearchMixedContext(LocalContextBuilder):
         context_name: str = "Source",
     ) -> Tuple[str, Dict[str, pd.DataFrame]]:
         """Rank matching text units and add them to the context window until it hits the max_tokens limit"""
-        if not selected_entities or not self.text_units:
+        if not selected_entities:
             return ("", {context_name.lower(): pd.DataFrame()})
         
         selected_text_units = []
         text_unit_ids_set = set()
         
-        for index, entity in enumerate(selected_entities):
-            for text_id in entity.text_unit_ids or []:
-                if text_id not in text_unit_ids_set and text_id in self.text_units:
-                    text_unit_ids_set.add(text_id)
-                    selected_unit = self.text_units[text_id]
-                    num_relationships = count_relationship(
-                        selected_unit, entity, self.relationships
-                    )
-                    if selected_unit.attributes is None:
-                        selected_unit.attributes = {}
-                    selected_unit.attributes["entity_order"] = index
-                    selected_unit.attributes["num_relationships"] = num_relationships
-                    selected_text_units.append(selected_unit)
+        txn = client.txn()
+        
+        try:
+            for index, entity in enumerate(selected_entities):
+                for text_id in entity.text_unit_ids or []:
+                    if text_id not in text_unit_ids_set:
+                        query = f"""{{
+                            getTextUnit(func: type(TextUnit)) @filter(eq(id,{text_id})){{
+                                id
+                                short_id
+                                text
+                                source
+                                text_embedding
+                                entity_ids
+                                relationship_ids
+                                covariate_ids
+                                n_tokens
+                                document_ids
+                                attributes
+                            }}
+                        }}
+                        """
+                        res = txn.query(query=query)
+                        ppl = json.loads(res.json)
+                        
+                        if len(ppl.get("getTextUnit", [])) == 0:
+                            continue
+                        
+                        text_unit_ids_set.add(text_id)
+                        selected_unit = ppl.get("getTextUnit")[0]
+                        if selected_unit.get("attributes", None):
+                            selected_unit["attributes"] = json.loads(selected_unit["attributes"]) if selected_unit["attributes"] else None
+                        text_unit_domain = TextUnit(**selected_unit)
+                        num_relationships = count_relationship(
+                            client=client, text_unit=text_unit_domain, entity=entity
+                        )
+                        if text_unit_domain.attributes is None:
+                            text_unit_domain.attributes = {}
+                        text_unit_domain.attributes["entity_order"] = index
+                        text_unit_domain.attributes["num_relationships"] = num_relationships
+                        selected_text_units.append(text_unit_domain)
+                        
+        finally:
+            txn.discard()
+        
         
         selected_text_units.sort(
             key=lambda x: (x.attributes["entity_order"], -x.attributes["num_relationships"])
@@ -280,7 +316,7 @@ class LocalSearchMixedContext(LocalContextBuilder):
         for unit in selected_text_units:
             unit.attributes.pop("entity_order", None)
             unit.attributes.pop("num_relationships", None)
-            
+           
         context_text, context_data = build_text_unit_context(
             text_units=selected_text_units,
             token_encoder=self.token_encoder,
@@ -293,7 +329,6 @@ class LocalSearchMixedContext(LocalContextBuilder):
         if return_candidate_context:
             candidate_context_data = get_candidate_text_units(
                 selected_entities=selected_entities,
-                text_units=list(self.text_units.values())
             )
             context_key = context_name.lower()
             if context_key not in context_data:
@@ -307,6 +342,8 @@ class LocalSearchMixedContext(LocalContextBuilder):
                     context_data[context_key]["in_context"] = True
                     
         return (str(context_text), context_data)
+        
+        
         
         
     def _build_community_context(
@@ -439,7 +476,8 @@ class LocalSearchMixedContext(LocalContextBuilder):
         top_k_relationships: int = 10,
         relationship_ranking_attribute: str = "rank",
         return_candidate_context: bool = False,
-        column_delimiter: str = "|"
+        column_delimiter: str = "|",
+        covariates: str = "Covariates"
     ) -> Tuple[str, Dict[str, pd.DataFrame]]:
         """Build data context for local search prompt combining entity/relationship/covariate tables."""
         # Build entity context
@@ -485,19 +523,17 @@ class LocalSearchMixedContext(LocalContextBuilder):
             current_context_data["relationships"] = relationship_context_data
             total_tokens = entity_tokens + len(list_of_token(relationship_context, self.token_encoder))
             
-            # Build covariate context
-            for covariate in self.covariates:
-                covariate_context, covariate_context_data = build_covariates_context(
-                    client=client,
-                    selected_entities=added_entities,
-                    token_encoder=self.token_encoder,
-                    max_tokens=max_tokens,
-                    column_delimiter=column_delimiter,
-                    context_name=covariate
-                )
-                total_tokens += len(list_of_token(covariate_context, self.token_encoder))
-                current_context.append(covariate_context)
-                current_context_data[covariate.lower()] = covariate_context_data
+            covariate_context, covariate_context_data = build_covariates_context(
+                client=client,
+                selected_entities=added_entities,
+                token_encoder=self.token_encoder,
+                max_tokens=max_tokens,
+                column_delimiter=column_delimiter,
+                context_name=covariates
+            )
+            total_tokens += len(list_of_token(covariate_context, self.token_encoder))
+            current_context.append(covariate_context)
+            current_context_data[covariates.lower()] = covariate_context_data
                 
             if total_tokens > max_tokens:
                 logger.info("Reacher token limit - reverting to previous context state", exc_info=True)

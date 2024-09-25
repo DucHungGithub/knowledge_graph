@@ -59,7 +59,7 @@ def get_all_community_report(client: pydgraph.DgraphClient):
         res = txn.query(query=query)
         ppl = json.loads(res.json)
         
-        print(ppl["getCommunityReports"])
+        # print(ppl["getCommunityReports"])
     finally:
         txn.discard()
     
@@ -79,7 +79,7 @@ def get_all_covariates(client: pydgraph.DgraphClient):
         res = txn.query(query=query)
         ppl = json.loads(res.json)
         
-        print(ppl["getCovariates"])
+        # print(ppl["getCovariates"])
     finally:
         txn.discard()
 
@@ -100,7 +100,7 @@ def get_relationships(client: pydgraph.DgraphClient):
         res = txn.query(query=query)
         ppl = json.loads(res.json)
         
-        print(ppl["getEntitiesRelationships"])
+        # print(ppl["getEntitiesRelationships"])
     finally:
         txn.discard()
 
@@ -109,7 +109,7 @@ if __name__=="__main__":
     stub = create_client_stub()
     client = create_client(stub)
     
-    print(get_all_entities(client))
+    # print(get_all_entities(client))
     # get_all_community_report(client)
     # get_all_covariates(client)
     # get_relationships(client)

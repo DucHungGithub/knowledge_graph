@@ -179,7 +179,8 @@ def find_nearest_neighbors_by_entity_rank(
                     source=con["connect|source"],
                     target=con["connect|target"],
                     weight=con["connect|weight"],
-                    description=con["connect|description"]
+                    description=con["connect|description"],
+                    text_unit_ids=json.loads(con["connect|text_unit_ids"]) if con.get("connect|text_unit_ids", None) else None
                 ))
         
     finally:

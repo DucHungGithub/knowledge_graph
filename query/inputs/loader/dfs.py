@@ -226,6 +226,7 @@ def read_text_units(
     id_col: str = "id",
     short_id_col: Optional[str] = "short_id",
     text_col: str = "chunk",
+    source_col: str = "source",
     entities_col: Optional[str] = "entity_ids",
     relationships_col: Optional[str] = "relationship_ids",
     covariates_col: Optional[str] = "covariate_ids",
@@ -241,6 +242,7 @@ def read_text_units(
             id=to_str(row, id_col),
             short_id=to_optional_str(row, short_id_col) if short_id_col else str(idx),
             text=to_str(row, text_col),
+            source=to_str(row, source_col),
             entity_ids=to_optional_list(row, entities_col, item_type=str),
             relationship_ids=to_optional_list(row, relationships_col, item_type=str),
             covariate_ids=to_optional_dict(

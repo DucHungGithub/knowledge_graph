@@ -35,8 +35,6 @@ def get_candidate_context(
         client=client,
         relationships=candidate_relationships
     )
-    print("get_entities_from_relationships-----------------------")
-    print(candidate_entities)
     
     
     candidate_context["entities"] = to_entity_dataframe(
@@ -51,14 +49,8 @@ def get_candidate_context(
         selected_entities=selected_entities,
     )
     
-    print("get_candidate_covariates-----------------------")
-    print(candidate_covariates)
-    
     candidate_context["claims"] = to_covariate_dataframe(
         covariates=candidate_covariates
     )
-    
-    print("CANDIDATE CONTEXT-----------------------")
-    print(candidate_context)
     
     return candidate_context

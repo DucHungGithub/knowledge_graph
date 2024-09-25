@@ -77,17 +77,15 @@ def set_schema(client: pydgraph.DgraphClient):
     claim_details: string .
     claim: [uid] @reverse .
     attributes: string .
-    
-    
-    
-    
-    
+    relationship_ids: [string] .
+    covariate_ids: [string] .
     
     friend: [uid] @reverse .
     age: int .
     married: bool .
     loc: geo .
     dob: datetime .
+    
     
     
     type TextUnit {
@@ -155,7 +153,12 @@ def create_client(client_stub) -> pydgraph.DgraphClient:
 def injest_text_units(client: pydgraph.DgraphClient, text_units: List[TextUnit]):
     txn = client.txn()
     try:
-        mutations = [txn.create_mutation(set_obj={**tu.dict(), "dgraph.type": "TextUnit"}) for tu in text_units]
+        mutations = []
+        
+        for tu in text_units:
+            p = {**tu.dict(), "dgraph.type": "TextUnit"}
+            p["attributes"] = json.dumps(p["attributes"]) if p["attributes"] else None
+            mutations.append(txn.create_mutation(set_obj={**p, "dgraph.type": "TextUnit"}))
         
         request = txn.create_request(mutations=mutations, commit_now=True)
         response = txn.do_request(request)
@@ -289,6 +292,7 @@ def query_and_ingest_relationship(client: pydgraph.DgraphClient, relationships: 
             }
             
             key_value = rel.dict()
+            key_value["text_unit_ids"] = json.dumps(key_value["text_unit_ids"]) if json.dumps(key_value["text_unit_ids"]) else None
             for key, val in key_value.items():
                 if isinstance(val,str) or isinstance(val, int) or isinstance(val, float) or isinstance(val,bool):
                     p[f"connect|{key}"] = val
@@ -394,6 +398,7 @@ if __name__ == "__main__":
     # TextUnit ----:
     text_unit_df = pd.read_csv(f"{INPUT_DIR}/{TEXT_UNIT_TABLE}")
     text_units = read_indexer_text_units(text_unit_df)
+
     injest_text_units(client, text_units)
     
     
@@ -412,8 +417,6 @@ if __name__ == "__main__":
     # Covariate ----:
     covariate_df = pd.read_csv(f"{INPUT_DIR}/{COVARIATE_TABLE}")
     covariates = read_indexer_covariates(covariate_df)
-    # print("-------------COVARIATES---------------")
-    # print(covariates)
     
     
     query_and_ingest_covariates(client, covariates)

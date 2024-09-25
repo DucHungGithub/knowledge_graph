@@ -54,8 +54,8 @@ entity_embedding_df["text_unit_ids"] = entity_embedding_df["text_unit_ids"].appl
 
 entities = read_indexer_entities(entity_df, entity_embedding_df, COMMUNITY_LEVEL)
 
-print("check----------")
-print(entities)
+# print("check----------")
+# print(entities)
 
 # VectorStore -----:
 connection = lancedb.connect("/home/hungquan/build_kg/lancedb_store")
@@ -73,7 +73,7 @@ relationship_df = pd.read_csv(f"{INPUT_DIR}/{RELATIONSHIP_TABLE}")
 relationship_df["text_unit_ids"] = relationship_df["text_unit_ids"].apply(lambda x: x.split(','))
 relationships = read_indexer_relationships(relationship_df)
 
-print(f"Relationship count: {len(relationship_df)}")
+# print(f"Relationship count: {len(relationship_df)}")
 
 
 
@@ -105,11 +105,6 @@ text_units = read_indexer_text_units(text_unit_df)
 
 # Create local search context builder
 context_builder = LocalSearchMixedContext(
-    community_reports=reports,
-    text_units=text_units,
-    entities=entities,
-    relationships=relationships,
-    covariates=covariates, # If not use, set this to None
     entity_text_embeddings=db,
     text_embedder=embeddings,
 )

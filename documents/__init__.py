@@ -17,7 +17,7 @@ def get_documents(input_dir: str) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-print(get_documents("inputs"))
+# print(get_documents("inputs"))
 
         
         
