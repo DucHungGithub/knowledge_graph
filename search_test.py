@@ -29,84 +29,23 @@ embeddings = OpenAIEmbeddings(
     model="text-embedding-3-large",
 )
 
-INPUT_DIR = "outputs"
 
-COMMUNITY_REPORT_TABLE = "community_report.csv"
-ENTITY_TABLE = "node.csv"
-ENTITY_EMBEDDING_TABLE = "entity.csv"
-RELATIONSHIP_TABLE = "relationship.csv"
-COVARIATE_TABLE = "claims.csv"
-TEXT_UNIT_TABLE = "text_unit.csv"
 TABLE_PATH = "/home/hungquan/build_kg/lancedb_store"
 TABLE_NAME = "multimodal_test"
-COMMUNITY_LEVEL = 2
-
-
-
-
-# Entity ----:
-entity_df = pd.read_csv(f"{INPUT_DIR}/{ENTITY_TABLE}")
-entity_embedding_df = pd.read_csv(f"{INPUT_DIR}/{ENTITY_EMBEDDING_TABLE}")
-
-entity_embedding_df["description"] = entity_embedding_df["description"].fillna("")
-entity_embedding_df["text_unit_ids"] = entity_embedding_df["text_unit_ids"].apply(lambda x: x.split(','))
-# entity_embedding_df["description_embedding"] = entity_embedding_df["description"].apply(lambda desc: embeddings.embed_query(desc))
-
-entities = read_indexer_entities(entity_df, entity_embedding_df, COMMUNITY_LEVEL)
-
-# print("check----------")
-# print(entities)
 
 # VectorStore -----:
 connection = lancedb.connect("/home/hungquan/build_kg/lancedb_store")
 db = None
 if TABLE_NAME not in connection.table_names():
     db = LanceDB(table_name=TABLE_NAME,embedding=embeddings, uri=TABLE_PATH)
-    db = store_entity_semantic_embeddings(entities=entities, vectorstore=db)
+    # db = store_entity_semantic_embeddings(entities=entities, vectorstore=db)
 else:
     db = LanceDB(connection=connection, embedding=embeddings, table_name=TABLE_NAME)
-
-
-
-# Relationship ----:
-relationship_df = pd.read_csv(f"{INPUT_DIR}/{RELATIONSHIP_TABLE}")
-relationship_df["text_unit_ids"] = relationship_df["text_unit_ids"].apply(lambda x: x.split(','))
-relationships = read_indexer_relationships(relationship_df)
-
-# print(f"Relationship count: {len(relationship_df)}")
-
-
-
-# Covariate ----:
-covariate_df = pd.read_csv(f"{INPUT_DIR}/{COVARIATE_TABLE}")
-
-claims = read_indexer_covariates(covariate_df)
-
-covariates = {"claims": claims}
-
-
-# Community Report ----:
-file_path = f"{INPUT_DIR}/{COMMUNITY_REPORT_TABLE}"
-if not os.path.exists(file_path) or os.stat(file_path).st_size == 0:
-    report_df = pd.DataFrame()
-else:
-    report_df = pd.read_csv(file_path)
-
-reports = read_indexer_reports(report_df, entity_df, COMMUNITY_LEVEL)
-
-
-
-
-# Text Unit ----:
-text_unit_df = pd.read_csv(f"{INPUT_DIR}/{TEXT_UNIT_TABLE}")
-text_units = read_indexer_text_units(text_unit_df)
-
 
 
 # Create local search context builder
 context_builder = LocalSearchMixedContext(
     entity_text_embeddings=db,
-    text_embedder=embeddings,
 )
 
 

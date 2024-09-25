@@ -4,8 +4,6 @@ from typing import List, Optional
 
 import pydgraph
 from langchain_core.vectorstores import VectorStore
-from langchain_core.embeddings import Embeddings
-from langchain_community.vectorstores import FAISS
 
 
 from models.entity import Entity

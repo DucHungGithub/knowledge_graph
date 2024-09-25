@@ -3,9 +3,7 @@ from typing import Dict, List
 import pandas as pd
 import pydgraph
 
-from models.covariate import Covariate
 from models.entity import Entity
-from models.relationship import Relationship
 from query.inputs.retrieval.covariates import get_candidate_covariates, to_covariate_dataframe
 from query.inputs.retrieval.entities import to_entity_dataframe
 from query.inputs.retrieval.relationships import get_candidate_relationships, get_entities_from_relationships, to_relationship_dataframe
@@ -49,7 +47,7 @@ def get_candidate_context(
         selected_entities=selected_entities,
     )
     
-    candidate_context["claims"] = to_covariate_dataframe(
+    candidate_context["Covariates"] = to_covariate_dataframe(
         covariates=candidate_covariates
     )
     

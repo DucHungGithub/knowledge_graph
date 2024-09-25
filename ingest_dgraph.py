@@ -163,9 +163,9 @@ def injest_text_units(client: pydgraph.DgraphClient, text_units: List[TextUnit])
         request = txn.create_request(mutations=mutations, commit_now=True)
         response = txn.do_request(request)
         
-        logging.info(f"Mutation response: {response}", exc_info=True)
+        logger.info(f"Mutation response: {response}", exc_info=True)
     except Exception as e:
-        logging.error(f"An error occurred: {e}", exc_info=True)
+        logger.error(f"An error occurred: {e}", exc_info=True)
     finally:
         txn.discard()
     
@@ -243,9 +243,9 @@ def query_and_ingest_entity(client: pydgraph.DgraphClient, entities: List[Entity
         request = txn.create_request(mutations=mutations, commit_now=True)
         response = txn.do_request(request)
         
-        logging.info(f"Mutation response: {response}", exc_info=True)
+        logger.info(f"Mutation response: {response}", exc_info=True)
     except Exception as e:
-        logging.error(f"An error occurred: {e}", exc_info=True)
+        logger.error(f"An error occurred: {e}", exc_info=True)
     finally:
         # Clean up the transaction
         txn.discard()
@@ -344,13 +344,13 @@ def query_and_ingest_covariates(client: pydgraph.DgraphClient, covariates: List[
                     ppl = json.loads(res.json)
                     
                     if not ppl['getTextUnit']:
-                        logging.warning(f"No text unit found for id: {tu}")
+                        logger.warning(f"No text unit found for id: {tu}")
                         continue
                     
                     
                     rel = ppl['getTextUnit'][0]
                     text_unit_uid = rel['uid']
-                    logging.info(f"Text Unit UID found: {text_unit_uid}")
+                    logger.info(f"Text Unit UID found: {text_unit_uid}")
                     source_ids.append({"uid": text_unit_uid})
             
             p["attributes"] = json.dumps(p["attributes"]) if p["attributes"] else None
@@ -362,9 +362,9 @@ def query_and_ingest_covariates(client: pydgraph.DgraphClient, covariates: List[
         request = txn.create_request(mutations=mutations, commit_now=True)
         response = txn.do_request(request)
         
-        logging.info(f"Mutation response: {response}")
+        logger.info(f"Mutation response: {response}")
     except Exception as e:
-        logging.error(f"An error occurred: {e}", exc_info=True)
+        logger.error(f"An error occurred: {e}", exc_info=True)
     finally:
         # Clean up the transaction
         txn.discard()
@@ -382,9 +382,9 @@ def ingest_community_report(client: pydgraph.DgraphClient, community_reports: Li
         request = txn.create_request(mutations=mutations, commit_now=True)
         response = txn.do_request(request)
         
-        logging.info(f"Mutation response: {response}", exc_info=True)
+        logger.info(f"Mutation response: {response}", exc_info=True)
     except Exception as e:
-        logging.error(f"An error occurred: {e}", exc_info=True)
+        logger.error(f"An error occurred: {e}", exc_info=True)
     finally:
         txn.discard()
     

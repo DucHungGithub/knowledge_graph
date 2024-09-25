@@ -13,9 +13,7 @@ from pandas.core.api import DataFrame as DataFrame
 import pydgraph
 
 from models.community_report import CommunityReport
-from models.covariate import Covariate
 from models.entity import Entity
-from models.relationship import Relationship
 from models.text_unit import TextUnit
 from query.inputs.retrieval.community_reports import get_candidate_communities
 from query.inputs.retrieval.text_units import get_candidate_text_units
@@ -57,36 +55,10 @@ class LocalSearchMixedContext(LocalContextBuilder):
     def __init__(
         self,
         entity_text_embeddings: VectorStore,
-        text_embedder: Embeddings,
-        # entities: List[Entity] = None,
-        # text_units: Optional[List[TextUnit]] = None,
-        # community_reports: Optional[List[CommunityReport]] = None,
-        # relationships: Optional[List[Relationship]] = None,
-        # covariates: Optional[Dict[str, List[Covariate]]] = None,
         token_encoder: Optional[str] = None,
         embedding_vectorstore_key: str = EntityVectorStoreKey.ID
     ) -> None:
-        # if community_reports is None:
-        #     community_reports = []
-        # if relationships is None:
-        #     relationships = []
-        # if covariates is None:
-        #     covariates = {}
-        # if text_units is None:
-        #     text_units = []
-        # if entities is None:
-        #     entities = []
-        # self.entities = {entity.id: entity for entity in entities}
-        # self.community_reports = {
-        #     community.id: community for community in community_reports
-        # }
-        # self.text_units = {unit.id: unit for unit in text_units}
-        # self.relationships = {
-        #     relationship.id: relationship for relationship in relationships
-        # }
-        # self.covariates = covariates
         self.entity_text_embeddings = entity_text_embeddings
-        self.text_embedder = text_embedder
         self.token_encoder = token_encoder
         self.embedding_vectorstore_key = embedding_vectorstore_key
         
@@ -180,8 +152,8 @@ class LocalSearchMixedContext(LocalContextBuilder):
                 final_context_data = conversation_history_context_data
                 max_tokens = max_tokens - len(list_of_token(conversation_history_context, self.token_encoder))
                 
-            print("## Conversation History Context---------------------: ")
-            print(conversation_history_context)    
+            logger.info("## Conversation History Context---------------------: ")
+            logger.info(conversation_history_context)    
             
         # Build community context
         community_tokens = max(int(max_tokens * community_prop), 0)
@@ -223,8 +195,8 @@ class LocalSearchMixedContext(LocalContextBuilder):
             final_context.append(str(local_context))
             final_context_data = {**final_context_data, **local_context_data}
             
-        print("## Local Context: entity-relationship-covariate---------------------: ")
-        print(local_context)
+        logger.info("## Local Context: entity-relationship-covariate---------------------: ")
+        logger.info(local_context)
         
         # Build text unit context
         text_unit_tokens = max(int(max_tokens * text_unit_prop), 0)
@@ -238,12 +210,12 @@ class LocalSearchMixedContext(LocalContextBuilder):
             final_context.append(text_unit_context)
             final_context_data = {**final_context_data, **text_unit_context_data}
             
-        print("## Text Unit Context: ---------------------: ")
-        print(text_unit_context)
+        logger.info("## Text Unit Context: ---------------------: ")
+        logger.info(text_unit_context)
         
         
-        print("Final Combine Context--------")
-        print("\n\n".join(final_context))
+        logger.info("Final Combine Context--------")
+        logger.info("\n\n".join(final_context))
         return ("\n\n".join(final_context), final_context_data)
         
         
@@ -359,8 +331,6 @@ class LocalSearchMixedContext(LocalContextBuilder):
         context_name: str = "Reports"
     ) -> Tuple[str, Dict[str, pd.DataFrame]]:
         """Add community data to the context window until it hits the max_tokens limit."""
-        # if len(selected_entities) == 0 or len(self.community_reports) == 0:
-        #     return ("", {context_name.lower(): pd.DataFrame()})
         
         if len(selected_entities) == 0:
             return ("", {context_name.lower(): pd.DataFrame()})

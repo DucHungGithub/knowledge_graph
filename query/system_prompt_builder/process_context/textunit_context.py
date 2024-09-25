@@ -1,6 +1,6 @@
 import json
 import random
-from typing import Any, Dict, List, Optional, Tuple, cast
+from typing import Any, Dict, List, Tuple, cast
 
 import pandas as pd
 import pydgraph
