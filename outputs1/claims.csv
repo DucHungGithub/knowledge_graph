@@ -1,0 +1,1055 @@
+covariate_type,subject_id,subject_type,object_id,object_type,type,status,start_date,end_date,description,source_text,doc_id,record_id,id,human_readable_id,claim_details
+,COCA COLA BEVERAGES VIETNAM LIMITED,,NONE,,DOCUMENT CREATION,TRUE,2022-10-25T00:00:00,2022-10-25T00:00:00,The document was created by Nguyen Van Huy on 25/10/2022,['Version | Name | Change date | Description | |---------|------|-------------|-------------| | 0.1 | Nguyen Van Huy | 25/10/2022 | Document creation |'],eb63940a335548c594499bcec2b8b727,,6a2d03152ef24e3984477a49e1589500,0,"{'human_readable_id': 0, 'subject_id': 'COCA COLA BEVERAGES VIETNAM LIMITED', 'type': 'DOCUMENT CREATION', 'status': 'TRUE', 'description': 'The document was created by Nguyen Van Huy on 25/10/2022'}"
+,COCA COLA BEVERAGES VIETNAM LIMITED,,NONE,,UPDATE,TRUE,2022-10-28T00:00:00,2022-10-28T00:00:00,The document was updated with more detailed information by Nguyen Van Huy on 28/10/2022,['Version | Name | Change date | Description | |---------|------|-------------|-------------| | 0.2 | Nguyen Van Huy | 28/10/2022 | Update more detail information |'],eb63940a335548c594499bcec2b8b727,,50da30fdf14a4b9091bd9f7bbb0c8107,1,"{'human_readable_id': 1, 'subject_id': 'COCA COLA BEVERAGES VIETNAM LIMITED', 'type': 'UPDATE', 'status': 'TRUE', 'description': 'The document was updated with more detailed information by Nguyen Van Huy on 28/10/2022'}"
+,INTER K JOINT STOCK COMPANY,,NONE,,DOCUMENT CREATION,TRUE,2022-10-25T00:00:00,2022-10-25T00:00:00,The document was created by Nguyen Van Huy on 25/10/2022,['Version | Name | Change date | Description | |---------|------|-------------|-------------| | 0.1 | Nguyen Van Huy | 25/10/2022 | Document creation |'],eb63940a335548c594499bcec2b8b727,,130fca0d2b47475e8822b054e6b79319,2,"{'human_readable_id': 2, 'subject_id': 'INTER K JOINT STOCK COMPANY', 'type': 'DOCUMENT CREATION', 'status': 'TRUE', 'description': 'The document was created by Nguyen Van Huy on 25/10/2022'}"
+,INTER K JOINT STOCK COMPANY,,NONE,,UPDATE,TRUE,2022-10-28T00:00:00,2022-10-28T00:00:00,The document was updated with more detailed information by Nguyen Van Huy on 28/10/2022,['Version | Name | Change date | Description | |---------|------|-------------|-------------| | 0.2 | Nguyen Van Huy | 28/10/2022 | Update more detail information |'],eb63940a335548c594499bcec2b8b727,,da0b5aea8ad84bbc8977fea83b56beca,3,"{'human_readable_id': 3, 'subject_id': 'INTER K JOINT STOCK COMPANY', 'type': 'UPDATE', 'status': 'TRUE', 'description': 'The document was updated with more detailed information by Nguyen Van Huy on 28/10/2022'}"
+,INTER K JOINT STOCK COMPANY,,NONE,,UPDATE,TRUE,2023-01-31T00:00:00,2023-01-31T00:00:00,The document was updated with wording by Ngo Dinh Nhat Huy on 31/01/2023,['Version | Name | Change date | Description | |---------|------|-------------|-------------| | 0.3 | Ngo Dinh Nhat Huy | 31/01/2023 | Update wording |'],eb63940a335548c594499bcec2b8b727,,235832499d674cf9bd09dce39c9d0cfa,4,"{'human_readable_id': 4, 'subject_id': 'INTER K JOINT STOCK COMPANY', 'type': 'UPDATE', 'status': 'TRUE', 'description': 'The document was updated with wording by Ngo Dinh Nhat Huy on 31/01/2023'}"
+,INTER K JOINT STOCK COMPANY,,NONE,,UPDATE,TRUE,2023-02-01T00:00:00,2023-02-01T00:00:00,The document was updated with wording by Nguyen Quang Nhat on 01/02/2023,['Version | Name | Change date | Description | |---------|------|-------------|-------------| | 1.4 | Nguyen Quang Nhat | 01/02/2023 | Update wording |'],eb63940a335548c594499bcec2b8b727,,894e1be983434cc4a90ee737bd41adcd,5,"{'human_readable_id': 5, 'subject_id': 'INTER K JOINT STOCK COMPANY', 'type': 'UPDATE', 'status': 'TRUE', 'description': 'The document was updated with wording by Nguyen Quang Nhat on 01/02/2023'}"
+,INTER K JOINT STOCK COMPANY,,NONE,,UPDATE,TRUE,2023-02-02T00:00:00,2023-02-02T00:00:00,The document was updated with wording by Nguyen Quang Nhat on 02/02/2023,['Version | Name | Change date | Description | |---------|------|-------------|-------------| | 1.5 | Nguyen Quang Nhat | 02/02/2023 | Update wording |'],eb63940a335548c594499bcec2b8b727,,4b1d2d29cb294d03ad2ff8110dabe491,6,"{'human_readable_id': 6, 'subject_id': 'INTER K JOINT STOCK COMPANY', 'type': 'UPDATE', 'status': 'TRUE', 'description': 'The document was updated with wording by Nguyen Quang Nhat on 02/02/2023'}"
+,INTER K JOINT STOCK COMPANY,,NONE,,UPDATE,TRUE,2023-03-07T00:00:00,2023-03-07T00:00:00,The document was updated with Tien's requirement on separate WS non-DSD out of Grocery by Nguyen Quang Nhat on 07/03/2023,"[""Version | Name | Change date | Description | |---------|------|-------------|-------------| | 1.6 | Nguyen Quang Nhat | 07/03/2023 | Update Tien's requirement on separate WS non-DSD out of Grocery |""]",eb63940a335548c594499bcec2b8b727,,7959c4e5486042c896ed681ae5a99885,7,"{'human_readable_id': 7, 'subject_id': 'INTER K JOINT STOCK COMPANY', 'type': 'UPDATE', 'status': 'TRUE', 'description': ""The document was updated with Tien's requirement on separate WS non-DSD out of Grocery by Nguyen Quang Nhat on 07/03/2023""}"
+,INTER K JOINT STOCK COMPANY,,NONE,,UPDATE,TRUE,2023-05-15T00:00:00,2023-05-15T00:00:00,The document was updated with wording by Dang Thi Cam Tien on 15/05/2023,['Version | Name | Change date | Description | |---------|------|-------------|-------------| | 1.7 | Dang Thi Cam Tien | 15/05/2023 | Update wording |'],eb63940a335548c594499bcec2b8b727,,9f928a6285074fa49487f4ad8e874132,8,"{'human_readable_id': 8, 'subject_id': 'INTER K JOINT STOCK COMPANY', 'type': 'UPDATE', 'status': 'TRUE', 'description': 'The document was updated with wording by Dang Thi Cam Tien on 15/05/2023'}"
+,INTER K JOINT STOCK COMPANY,,NONE,,UPDATE,TRUE,2023-05-22T00:00:00,2023-05-22T00:00:00,"The document was updated with wording and logic for index 1, 2, 3 by Le Pham Ngoc Tram on 22/05/2023","['Version | Name | Change date | Description | |---------|------|-------------|-------------| | 1.8 | Le Pham Ngoc Tram | 22/05/2023 | Update wording, update logic for index 1, 2, 3 |']",eb63940a335548c594499bcec2b8b727,,51df69e329d0490daa3b658bb25525c1,9,"{'human_readable_id': 9, 'subject_id': 'INTER K JOINT STOCK COMPANY', 'type': 'UPDATE', 'status': 'TRUE', 'description': 'The document was updated with wording and logic for index 1, 2, 3 by Le Pham Ngoc Tram on 22/05/2023'}"
+,INTER K JOINT STOCK COMPANY,,NONE,,UPDATE,TRUE,2024-01-31T00:00:00,2024-01-31T00:00:00,The document was updated by Pham Thuy on 31/01/2024,['Version | Name | Change date | Description | |---------|------|-------------|-------------| | 1.9 | Pham Thuy | 31/01/2024 | Update document |'],eb63940a335548c594499bcec2b8b727,,f785e9e35ff949e9b657719c65890064,10,"{'human_readable_id': 10, 'subject_id': 'INTER K JOINT STOCK COMPANY', 'type': 'UPDATE', 'status': 'TRUE', 'description': 'The document was updated by Pham Thuy on 31/01/2024'}"
+,INTER K JOINT STOCK COMPANY,,NONE,,UPDATE,TRUE,2024-02-15T00:00:00,2024-02-15T00:00:00,The document was updated by Pham Thuy following feedback from the End-User on 15/02/2024,['Version | Name | Change date | Description | |---------|------|-------------|-------------| | 2.0 | Pham Thuy | 15/02/2024 | Update document followed by feedback from the End-User. |'],eb63940a335548c594499bcec2b8b727,,764cfa750180461ba5ae3846830ddb38,11,"{'human_readable_id': 11, 'subject_id': 'INTER K JOINT STOCK COMPANY', 'type': 'UPDATE', 'status': 'TRUE', 'description': 'The document was updated by Pham Thuy following feedback from the End-User on 15/02/2024'}"
+,COCA COLA BEVERAGES VIETNAM LIMITED,,NONE,,REVIEW AND APPROVAL,TRUE,2023-01-01T00:00:00,2023-01-01T00:00:00,This document was reviewed and approved by Le Thang Loi on an unspecified date,['Name | Roles | Date Approved | Signature | |------|-------|---------------|-----------| | Le Thang Loi | Digital Solution Delivery Mgr - Distribution Management System (DMS) | | |'],eb63940a335548c594499bcec2b8b727,,3e101f787656458ea13ae043f4393fc8,12,"{'human_readable_id': 12, 'subject_id': 'COCA COLA BEVERAGES VIETNAM LIMITED', 'type': 'REVIEW AND APPROVAL', 'status': 'TRUE', 'description': 'This document was reviewed and approved by Le Thang Loi on an unspecified date'}"
+,COCA COLA BEVERAGES VIETNAM LIMITED,,NONE,,REVIEW AND APPROVAL,TRUE,2023-01-01T00:00:00,2023-01-01T00:00:00,This document was reviewed and approved by Dinh Hoang Hai on an unspecified date,['Name | Roles | Date Approved | Signature | |------|-------|---------------|-----------| | Dinh Hoang Hai | SFA Specialist | | |'],eb63940a335548c594499bcec2b8b727,,39dc155658d442f78ca3236bcf5be1f8,13,"{'human_readable_id': 13, 'subject_id': 'COCA COLA BEVERAGES VIETNAM LIMITED', 'type': 'REVIEW AND APPROVAL', 'status': 'TRUE', 'description': 'This document was reviewed and approved by Dinh Hoang Hai on an unspecified date'}"
+,COCA COLA BEVERAGES VIETNAM LIMITED,,NONE,,REVIEW AND APPROVAL,TRUE,2023-01-01T00:00:00,2023-01-01T00:00:00,This document was reviewed and approved by Ho Ngoc Nhu Guong on an unspecified date,['Name | Roles | Date Approved | Signature | |------|-------|---------------|-----------| | Ho Ngoc Nhu Guong | E-RTM Executive | | |'],eb63940a335548c594499bcec2b8b727,,caf20cd77d4a447fbdf2cb719c45f758,14,"{'human_readable_id': 14, 'subject_id': 'COCA COLA BEVERAGES VIETNAM LIMITED', 'type': 'REVIEW AND APPROVAL', 'status': 'TRUE', 'description': 'This document was reviewed and approved by Ho Ngoc Nhu Guong on an unspecified date'}"
+,INTER K JOINT STOCK COMPANY,,NONE,,REVIEW AND APPROVAL,TRUE,2023-01-01T00:00:00,2023-01-01T00:00:00,This document was reviewed and approved by Vu Thai Ngoc on an unspecified date,['Name | Roles | Date Approved | Signature | |------|-------|---------------|-----------| | Vu Thai Ngoc | Project Manager | | |'],eb63940a335548c594499bcec2b8b727,,b079423eaed94eb3876c330d921d4716,15,"{'human_readable_id': 15, 'subject_id': 'INTER K JOINT STOCK COMPANY', 'type': 'REVIEW AND APPROVAL', 'status': 'TRUE', 'description': 'This document was reviewed and approved by Vu Thai Ngoc on an unspecified date'}"
+,INTER K JOINT STOCK COMPANY,,NONE,,REVIEW AND APPROVAL,TRUE,2023-01-01T00:00:00,2023-01-01T00:00:00,This document was reviewed and approved by Le Luu Viet Son on an unspecified date,['Name | Roles | Date Approved | Signature | |------|-------|---------------|-----------| | Le Luu Viet Son | Data Leader | | |'],eb63940a335548c594499bcec2b8b727,,b15e115fe96e4984adb26b4668ac15d6,16,"{'human_readable_id': 16, 'subject_id': 'INTER K JOINT STOCK COMPANY', 'type': 'REVIEW AND APPROVAL', 'status': 'TRUE', 'description': 'This document was reviewed and approved by Le Luu Viet Son on an unspecified date'}"
+,"**Output:**
+
+**NONE**",,,,,,,,No Description,,09f282e6aa5449afa1a56099c580eeaa,,4b4df33f0b7c4d7889e68cc5ffa6ae47,17,"{'human_readable_id': 17, 'subject_id': '**Output:**\n\n**NONE**', 'type': None, 'status': None, 'description': 'No Description'}"
+,"| | Customer | Region, Distributor, Route, Classification, Channel, Sub-trade Channel | • Channels include Eating, Drinking, Grocery, WS non-DSD, ... | | Product | Category, Brand, Must Have SKU, Must Have SKU Segment, Consumer SKU, Product Code, Pack Type, Pack Size | | ---",,,,,,,,No Description,,09f282e6aa5449afa1a56099c580eeaa,,c3c54f7b88ef467bb5e8e624498fae77,18,"{'human_readable_id': 18, 'subject_id': '| | Customer | Region, Distributor, Route, Classification, Channel, Sub-trade Channel | • Channels include Eating, Drinking, Grocery, WS non-DSD, ... | | Product | Category, Brand, Must Have SKU, Must Have SKU Segment, Consumer SKU, Product Code, Pack Type, Pack Size | | ---', 'type': None, 'status': None, 'description': 'No Description'}"
+,2.2 Service Outlet,,,,,,,,No Description,,09f282e6aa5449afa1a56099c580eeaa,,8303fedc7948405da4ad8aa36286ba81,19,"{'human_readable_id': 19, 'subject_id': '2.2 Service Outlet', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# a. Report Filter
+
+| Filter name | Type | Description | |-------------|------|-------------| | Year | Single selection | Must follow Coke calendar | | Month | Single selection | Must follow Coke calendar | | Week | Single selection | Must follow Coke calendar | | Channel | Multiple selections | Eating / Drinking / Grocery / WS non-DSD | | Distributor | Multiple selections | Distributor name | | Route | Multiple selections | Route name | | Classification | Multiple selections | Classification type (Gold/Silver/Bronze) |",,,,,,,,No Description,,09f282e6aa5449afa1a56099c580eeaa,,2f4e89b6057a499d8ba4913435163cb3,20,"{'human_readable_id': 20, 'subject_id': '# a. Report Filter\n\n| Filter name | Type | Description | |-------------|------|-------------| | Year | Single selection | Must follow Coke calendar | | Month | Single selection | Must follow Coke calendar | | Week | Single selection | Must follow Coke calendar | | Channel | Multiple selections | Eating / Drinking / Grocery / WS non-DSD | | Distributor | Multiple selections | Distributor name | | Route | Multiple selections | Route name | | Classification | Multiple selections | Classification type (Gold/Silver/Bronze) |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# b. Report Formula
+
+**The formula is for point-forward data ** Regarding historical data, it will be sent via CSV file --- | Index | Group | Metric | Formula | Note | |-------|-------|--------|---------|------| | Index 0 | Service Outlet | Service Outlet | • Snapshot of Distinct Outlet with call plan (assigned to Route) within a day. Closing distinct Service Outlet by 3rd week / 4th week of the period in 4 – 4 – 5 weeks accordingly.<br>• Only count Outlet with Classification (Gold / Silver / Bronze), Channel (Eating / Drinking / Grocery / WS non-DSD), and with 25 Sub-trade Channels | • Service Outlet:<br>  • From the beginning of the month (based on Coke Calendar) to Cut-off time: Showing service outlet day by day as MM exported.<br>  • From Cut-off time to end of month: end of Friday of W3 (for a month with 4 weeks) or W4 (for a month with 5 weeks) based on Coke calendar.<br>  • Cut-off time of week: Showing service outlet of Friday of W1, W2, W3/W4 (Based on Coke_Calendar).<br>  • Example: The Cut-off time of Apr 2023 is 21 Apr. Data from 21 Apr to the end of the month is not changed.
+
+| | Index 0 | Service Outlet | Net Sales Revenue | • Total value of NSR based on transactions in secondary sales by KO_Month<br>• Only count Outlet with Classification (Gold / Silver / Bronze), Channel (Eating/ Drinking/ Grocery/ WS non-DSD) and 25 Sub-trade Channels<br>• Only count Outlet in Service Outlet<br>• Only count Route ID in Orgchart | • Distinct Outlet:<br>  • Service Outlet GT: Follow the list of active sale route provided by SFA (Org Chart).<br>• Call Plan:<br>  • Call Plan of period which was from Monday to Saturday. | ---",,,,,,,,No Description,,09f282e6aa5449afa1a56099c580eeaa,,c61d9449d53b4332a1130a2978368047,21,"{'human_readable_id': 21, 'subject_id': '# b. Report Formula\n\n**The formula is for point-forward data ** Regarding historical data, it will be sent via CSV file --- | Index | Group | Metric | Formula | Note | |-------|-------|--------|---------|------| | Index 0 | Service Outlet | Service Outlet | • Snapshot of Distinct Outlet with call plan (assigned to Route) within a day. Closing distinct Service Outlet by 3rd week / 4th week of the period in 4 – 4 – 5 weeks accordingly.<br>• Only count Outlet with Classification (Gold / Silver / Bronze), Channel (Eating / Drinking / Grocery / WS non-DSD), and with 25 Sub-trade Channels | • Service Outlet:<br>  • From the beginning of the month (based on Coke Calendar) to Cut-off time: Showing service outlet day by day as MM exported.<br>  • From Cut-off time to end of month: end of Friday of W3 (for a month with 4 weeks) or W4 (for a month with 5 weeks) based on Coke calendar.<br>  • Cut-off time of week: Showing service outlet of Friday of W1, W2, W3/W4 (Based on Coke_Calendar).<br>  • Example: The Cut-off time of Apr 2023 is 21 Apr. Data from 21 Apr to the end of the month is not changed.\n\n| | Index 0 | Service Outlet | Net Sales Revenue | • Total value of NSR based on transactions in secondary sales by KO_Month<br>• Only count Outlet with Classification (Gold / Silver / Bronze), Channel (Eating/ Drinking/ Grocery/ WS non-DSD) and 25 Sub-trade Channels<br>• Only count Outlet in Service Outlet<br>• Only count Route ID in Orgchart | • Distinct Outlet:<br>  • Service Outlet GT: Follow the list of active sale route provided by SFA (Org Chart).<br>• Call Plan:<br>  • Call Plan of period which was from Monday to Saturday. | ---', 'type': None, 'status': None, 'description': 'No Description'}"
+,2.3 5 Factor execution focuses,,,,,,,,No Description,,09f282e6aa5449afa1a56099c580eeaa,,5d2fd20f419d4491b107aeb324a515ea,22,"{'human_readable_id': 22, 'subject_id': '2.3 5 Factor execution focuses', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# a. Report Filter
+
+| Filter name | Type | Description | |-------------|------|-------------| | Year | Single selection | Must follow Coke calendar | | Month | Single selection | Must follow Coke calendar | | Week | Single selection | Must follow Coke calendar | | Channel | Multiple selection | Eating / Drinking / Grocery / WS non-DSD | | Region | Multiple selection | Region name | | ASM | Multiple selection | ASM name | | TSM | Multiple selection | TSM name | | Sales Route | Multiple selection | Sales Route name | | Sales Manager | Multiple selection | Sales Manager name |",,,,,,,,No Description,,09f282e6aa5449afa1a56099c580eeaa,,983aae0864a743fdac0398d8f0a5504c,23,"{'human_readable_id': 23, 'subject_id': '# a. Report Filter\n\n| Filter name | Type | Description | |-------------|------|-------------| | Year | Single selection | Must follow Coke calendar | | Month | Single selection | Must follow Coke calendar | | Week | Single selection | Must follow Coke calendar | | Channel | Multiple selection | Eating / Drinking / Grocery / WS non-DSD | | Region | Multiple selection | Region name | | ASM | Multiple selection | ASM name | | TSM | Multiple selection | TSM name | | Sales Route | Multiple selection | Sales Route name | | Sales Manager | Multiple selection | Sales Manager name |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# b. Report Formula
+
+| Index | Group | Metric | Formula | Note | |-------|-------|--------|---------|------| | Index 1 | Going for Gold/ Silver/ Bronze | Eating/ Drinking/ Grocery/ Wholesale non-DSD Outlet achieving MHS | • Mix purchase: Distinct Count Outlet purchasing at least minimum quantity EA of any Consumer SKU within MHS, and purchasing minimum quantity assigned to the MHS, and purchasing full list of MHS assigned to the Outlet Classification<br><br>• Specific purchase: Distinct Count Outlet purchasing 1 specific Consumer SKU with at least minimum quantity assigned to MHS, and purchasing full list of MHS assigned to the Outlet Classification | • MHS = Must Have SKU<br>• Example:<br>    Condition: MHS Nutriboost includes 2 consumers:<br>    1. Nutriboost Orange SS PET 297ml<br>    2. Nutriboost Strawberry SS PET 297ml<br>• Case 1: Mix Purchase:<br>    1 outlet (Gold – Drinking) has purchased 2 consumer SKU:<br>    • Nutriboost Orange 2EA<br>    • Nutriboost Strawberry 10EA<br>    → Count achieved this MHS for Gold outlet.<br>• Case 2: Specific Purchase:<br>    1 outlet (Gold – Drinking) has purchased 1 consumer SKU:<br>    • Nutriboost Orange 12EA<br>    → Count achieved this MHS for Gold outlet.<br><br>• At least minimum quantity",,,,,,,,No Description,,09f282e6aa5449afa1a56099c580eeaa,,4c742e21f990417d9aaf83e134c1ba7d,24,"{'human_readable_id': 24, 'subject_id': '# b. Report Formula\n\n| Index | Group | Metric | Formula | Note | |-------|-------|--------|---------|------| | Index 1 | Going for Gold/ Silver/ Bronze | Eating/ Drinking/ Grocery/ Wholesale non-DSD Outlet achieving MHS | • Mix purchase: Distinct Count Outlet purchasing at least minimum quantity EA of any Consumer SKU within MHS, and purchasing minimum quantity assigned to the MHS, and purchasing full list of MHS assigned to the Outlet Classification<br><br>• Specific purchase: Distinct Count Outlet purchasing 1 specific Consumer SKU with at least minimum quantity assigned to MHS, and purchasing full list of MHS assigned to the Outlet Classification | • MHS = Must Have SKU<br>• Example:<br>    Condition: MHS Nutriboost includes 2 consumers:<br>    1. Nutriboost Orange SS PET 297ml<br>    2. Nutriboost Strawberry SS PET 297ml<br>• Case 1: Mix Purchase:<br>    1 outlet (Gold – Drinking) has purchased 2 consumer SKU:<br>    • Nutriboost Orange 2EA<br>    • Nutriboost Strawberry 10EA<br>    → Count achieved this MHS for Gold outlet.<br>• Case 2: Specific Purchase:<br>    1 outlet (Gold – Drinking) has purchased 1 consumer SKU:<br>    • Nutriboost Orange 12EA<br>    → Count achieved this MHS for Gold outlet.<br><br>• At least minimum quantity', 'type': None, 'status': None, 'description': 'No Description'}"
+,NUTRIBOOST,,NONE,,PRODUCT PERFORMANCE,TRUE,2023-05-01T00:00:00,2023-05-31T00:00:00,"Nutriboost has achieved the minimum quantity requirement of 1EA for any Consumer SKU from May 2023, indicating successful product performance in the market.",['From May 2023: the minimum quantity of any Consumer SKU is 1EA'],73c77068e01e48438de3abb74f736af3,,3368bd82d5fa4a2d9f77f04be4327572,25,"{'human_readable_id': 25, 'subject_id': 'NUTRIBOOST', 'type': 'PRODUCT PERFORMANCE', 'status': 'TRUE', 'description': 'Nutriboost has achieved the minimum quantity requirement of 1EA for any Consumer SKU from May 2023, indicating successful product performance in the market.'}"
+,GOLD OUTLET,,NONE,,OUTLET PERFORMANCE,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Gold outlet has achieved the Must Have SKU (MHS) condition by purchasing the required quantities of consumer SKUs.,['Count achieved this MHS for Gold outlet.'],73c77068e01e48438de3abb74f736af3,,97cb26141bdb4ae6876a9816231d61bc,26,"{'human_readable_id': 26, 'subject_id': 'GOLD OUTLET', 'type': 'OUTLET PERFORMANCE', 'status': 'TRUE', 'description': 'Gold outlet has achieved the Must Have SKU (MHS) condition by purchasing the required quantities of consumer SKUs.'}"
+,SILVER OUTLET,,NONE,,OUTLET PERFORMANCE,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Silver outlet has achieved the Must Have SKU (MHS) condition by purchasing the required quantities of consumer SKUs.,['Distinct Count Silver Outlet achieving MHS (Must Have SKU) / Distinct Count Silver Service Outlet'],73c77068e01e48438de3abb74f736af3,,a68ee6a12f2241e38b75d622ef8458f2,27,"{'human_readable_id': 27, 'subject_id': 'SILVER OUTLET', 'type': 'OUTLET PERFORMANCE', 'status': 'TRUE', 'description': 'Silver outlet has achieved the Must Have SKU (MHS) condition by purchasing the required quantities of consumer SKUs.'}"
+,BRONZE OUTLET,,NONE,,OUTLET PERFORMANCE,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Bronze outlet has achieved the Must Have SKU (MHS) condition by purchasing the required quantities of consumer SKUs.,['Distinct Count Bronze Outlet achieving MHS (Must Have Consumer SKU) / Distinct Count Bronze Service Outlet'],73c77068e01e48438de3abb74f736af3,,e91167493d774e2c90fc9c20043910ab,28,"{'human_readable_id': 28, 'subject_id': 'BRONZE OUTLET', 'type': 'OUTLET PERFORMANCE', 'status': 'TRUE', 'description': 'Bronze outlet has achieved the Must Have SKU (MHS) condition by purchasing the required quantities of consumer SKUs.'}"
+,COKE,,NONE,,ACTIVE OUTLET,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Coca-Cola has a distinct count of active outlets purchasing at least 6EA of any Consumer SKU of the group.,['Distinct Count Active Outlet by Coca-Cola / Total Service Outlet'],73c77068e01e48438de3abb74f736af3,,6d4035a4074547b9b79770efc2db371a,29,"{'human_readable_id': 29, 'subject_id': 'COKE', 'type': 'ACTIVE OUTLET', 'status': 'TRUE', 'description': 'Coca-Cola has a distinct count of active outlets purchasing at least 6EA of any Consumer SKU of the group.'}"
+,SPRITE,,NONE,,ACTIVE OUTLET,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Sprite has a distinct count of active outlets purchasing at least 6EA of any Consumer SKU of the group.,['Distinct Count Active Outlet by Sprite / Total Service Outlet'],73c77068e01e48438de3abb74f736af3,,f8558209638648cd9b508abd27d34acb,30,"{'human_readable_id': 30, 'subject_id': 'SPRITE', 'type': 'ACTIVE OUTLET', 'status': 'TRUE', 'description': 'Sprite has a distinct count of active outlets purchasing at least 6EA of any Consumer SKU of the group.'}"
+,NUTRIBOOST,,NONE,,ACTIVE OUTLET,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Nutriboost has a distinct count of active outlets purchasing at least 6EA of any Consumer SKU of the group.,['Distinct Count Active Outlet by Nutriboost / Total Service Outlet'],73c77068e01e48438de3abb74f736af3,,8db30740f6634f86900340bd7556950a,31,"{'human_readable_id': 31, 'subject_id': 'NUTRIBOOST', 'type': 'ACTIVE OUTLET', 'status': 'TRUE', 'description': 'Nutriboost has a distinct count of active outlets purchasing at least 6EA of any Consumer SKU of the group.'}"
+,TEA,,NONE,,ACTIVE OUTLET,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Tea has a distinct count of active outlets purchasing at least 6EA of any Consumer SKU of the group.,['Distinct Count Active Outlet by Tea / Total Service Outlet'],73c77068e01e48438de3abb74f736af3,,5e5eb4fb70394d36afc0b331af334f9f,32,"{'human_readable_id': 32, 'subject_id': 'TEA', 'type': 'ACTIVE OUTLET', 'status': 'TRUE', 'description': 'Tea has a distinct count of active outlets purchasing at least 6EA of any Consumer SKU of the group.'}"
+,NUTRIBOOST ORANGE,,NONE,,CONSUMER SKU,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Nutriboost Orange has been successfully purchased in the required quantities across various outlets.,['Count achieved this MHS for Gold outlet.'],73c77068e01e48438de3abb74f736af3,,19fd483f1ed4473b9a854fd545defae1,33,"{'human_readable_id': 33, 'subject_id': 'NUTRIBOOST ORANGE', 'type': 'CONSUMER SKU', 'status': 'TRUE', 'description': 'Nutriboost Orange has been successfully purchased in the required quantities across various outlets.'}"
+,NUTRIBOOST STRAWBERRY,,NONE,,CONSUMER SKU,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Nutriboost Strawberry has been successfully purchased in the required quantities across various outlets.,['Count achieved this MHS for Gold outlet.'],73c77068e01e48438de3abb74f736af3,,695e6c1a0b17404482adba18889919ee,34,"{'human_readable_id': 34, 'subject_id': 'NUTRIBOOST STRAWBERRY', 'type': 'CONSUMER SKU', 'status': 'TRUE', 'description': 'Nutriboost Strawberry has been successfully purchased in the required quantities across various outlets.'}"
+,GOLD SERVICE OUTLET,,NONE,,OUTLET PERFORMANCE,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Gold service outlet has achieved the Must Have SKU (MHS) condition by purchasing the required quantities of consumer SKUs.,['Distinct Count Gold Outlet achieving MHS (Must Have SKU) / Distinct Count Gold Service Outlet'],73c77068e01e48438de3abb74f736af3,,c109e824de2543108a4312391536b444,35,"{'human_readable_id': 35, 'subject_id': 'GOLD SERVICE OUTLET', 'type': 'OUTLET PERFORMANCE', 'status': 'TRUE', 'description': 'Gold service outlet has achieved the Must Have SKU (MHS) condition by purchasing the required quantities of consumer SKUs.'}"
+,SILVER SERVICE OUTLET,,NONE,,OUTLET PERFORMANCE,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Silver service outlet has achieved the Must Have SKU (MHS) condition by purchasing the required quantities of consumer SKUs.,['Distinct Count Silver Outlet achieving MHS (Must Have SKU) / Distinct Count Silver Service Outlet'],73c77068e01e48438de3abb74f736af3,,a7c09b606a0147c69c3399f74ebf106c,36,"{'human_readable_id': 36, 'subject_id': 'SILVER SERVICE OUTLET', 'type': 'OUTLET PERFORMANCE', 'status': 'TRUE', 'description': 'Silver service outlet has achieved the Must Have SKU (MHS) condition by purchasing the required quantities of consumer SKUs.'}"
+,BRONZE SERVICE OUTLET,,NONE,,OUTLET PERFORMANCE,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Bronze service outlet has achieved the Must Have SKU (MHS) condition by purchasing the required quantities of consumer SKUs.,['Distinct Count Bronze Outlet achieving MHS (Must Have Consumer SKU) / Distinct Count Bronze Service Outlet'],73c77068e01e48438de3abb74f736af3,,2c7dc43c7d7f4ec08a3b1751fb237f67,37,"{'human_readable_id': 37, 'subject_id': 'BRONZE SERVICE OUTLET', 'type': 'OUTLET PERFORMANCE', 'status': 'TRUE', 'description': 'Bronze service outlet has achieved the Must Have SKU (MHS) condition by purchasing the required quantities of consumer SKUs.'}"
+,ACTIVE OUTLET BY COKE,,NONE,,ACTIVE OUTLET,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Coca-Cola active outlets have met the purchasing criteria of at least 6EA of any Consumer SKU of the group.,['Distinct Count Active Outlet by Coca-Cola / Total Service Outlet'],73c77068e01e48438de3abb74f736af3,,4ae25628be93460c90755a65b3da4b8b,38,"{'human_readable_id': 38, 'subject_id': 'ACTIVE OUTLET BY COKE', 'type': 'ACTIVE OUTLET', 'status': 'TRUE', 'description': 'Coca-Cola active outlets have met the purchasing criteria of at least 6EA of any Consumer SKU of the group.'}"
+,ACTIVE OUTLET BY SPRITE,,NONE,,ACTIVE OUTLET,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Sprite active outlets have met the purchasing criteria of at least 6EA of any Consumer SKU of the group.,['Distinct Count Active Outlet by Sprite / Total Service Outlet'],73c77068e01e48438de3abb74f736af3,,f6a0db34544f4e5282834e00d7bb9ee5,39,"{'human_readable_id': 39, 'subject_id': 'ACTIVE OUTLET BY SPRITE', 'type': 'ACTIVE OUTLET', 'status': 'TRUE', 'description': 'Sprite active outlets have met the purchasing criteria of at least 6EA of any Consumer SKU of the group.'}"
+,ACTIVE OUTLET BY NUTRIBOOST,,NONE,,ACTIVE OUTLET,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Nutriboost active outlets have met the purchasing criteria of at least 6EA of any Consumer SKU of the group.,['Distinct Count Active Outlet by Nutriboost / Total Service Outlet'],73c77068e01e48438de3abb74f736af3,,f3c2f020757b4f37a62fd587a6275f16,40,"{'human_readable_id': 40, 'subject_id': 'ACTIVE OUTLET BY NUTRIBOOST', 'type': 'ACTIVE OUTLET', 'status': 'TRUE', 'description': 'Nutriboost active outlets have met the purchasing criteria of at least 6EA of any Consumer SKU of the group.'}"
+,ACTIVE OUTLET BY TEA,,NONE,,ACTIVE OUTLET,TRUE,2023-01-01T00:00:00,2023-12-31T00:00:00,Tea active outlets have met the purchasing criteria of at least 6EA of any Consumer SKU of the group.,['Distinct Count Active Outlet by Tea / Total Service Outlet'],73c77068e01e48438de3abb74f736af3,,4559eb66af404eb3849379ba562ad43a,41,"{'human_readable_id': 41, 'subject_id': 'ACTIVE OUTLET BY TEA', 'type': 'ACTIVE OUTLET', 'status': 'TRUE', 'description': 'Tea active outlets have met the purchasing criteria of at least 6EA of any Consumer SKU of the group.'}"
+,,,,,,,,,No Description,,deea2cbae880411a985815ea901ddebd,,6f1589d2c16949d987d2ec6be0a9d557,42,"{'human_readable_id': 42, 'subject_id': '', 'type': None, 'status': None, 'description': 'No Description'}"
+,"| Index | Group | Metric | Formula | Note |
+|-------|-------|--------|---------|------|
+| Index 2 | Active Outlet by Product Group | % Active Outlet by Fanta | Distinct Count Active Outlet by Fanta / Total Service Outlet | |
+| Index 2 | Active Outlet by Product Group | % Active Outlet by Coca-Cola | Distinct Count Active Outlet by Coca-Cola / Total Service Outlet | |
+| Index 2 | Active Outlet by Product Group | % Active Outlet by Sprite Zero | Distinct Count Active Outlet by Sprite Zero / Total Service Outlet | |
+| Index 3 | SKU/Outlet & SKU/Order | SKU/Outlet by Category | (On Route Consumer SKU Count by Category + Off Route Consumer SKU Count by Category + eB2B Consumer SKU Count by Category) / Distinct Count Outlet | SKU/Outlet by Category = Total of distinct count Consumer SKU of each outlet by category / Distinct count active Outlet |
+| Index 3 | SKU/Outlet & SKU/Order | SKU/Order by Category | (On Route SKU Count by Category + eB2B SKU Count by Category) / Sum of On-Route Order by Category | SKU/Order by Category = Sum of SKU of each on-route Order by category / Sum of on-route Order |
+| Index 4 | Net New Outlet | Target Closed Outlet | Based on the Org Chart | • Currently, Target Values are maintained in the Org Chart files |
+| Index 4 | Net New Outlet | Total Outlet Count | Total Active Outlet - Total Closed Outlet | |
+| Index 5 | Cooler Purity | Cooler Efficiency | Volume of Product / (Value of Cooler + Maintenance Cost) | • Result of efficiency upload weekly and monthly from an external source |
+| Index 5 | Cooler Purity | Cooler Availability | (Total Coolers Available - Total Coolers Out of Service) / Total Coolers Available | • Result of availability upload weekly and monthly from an external source |",,,,,,,,No Description,,deea2cbae880411a985815ea901ddebd,,6bb670a41fcb44efbe6a762cf6745143,43,"{'human_readable_id': 43, 'subject_id': '| Index | Group | Metric | Formula | Note |\n|-------|-------|--------|---------|------|\n| Index 2 | Active Outlet by Product Group | % Active Outlet by Fanta | Distinct Count Active Outlet by Fanta / Total Service Outlet | |\n| Index 2 | Active Outlet by Product Group | % Active Outlet by Coca-Cola | Distinct Count Active Outlet by Coca-Cola / Total Service Outlet | |\n| Index 2 | Active Outlet by Product Group | % Active Outlet by Sprite Zero | Distinct Count Active Outlet by Sprite Zero / Total Service Outlet | |\n| Index 3 | SKU/Outlet & SKU/Order | SKU/Outlet by Category | (On Route Consumer SKU Count by Category + Off Route Consumer SKU Count by Category + eB2B Consumer SKU Count by Category) / Distinct Count Outlet | SKU/Outlet by Category = Total of distinct count Consumer SKU of each outlet by category / Distinct count active Outlet |\n| Index 3 | SKU/Outlet & SKU/Order | SKU/Order by Category | (On Route SKU Count by Category + eB2B SKU Count by Category) / Sum of On-Route Order by Category | SKU/Order by Category = Sum of SKU of each on-route Order by category / Sum of on-route Order |\n| Index 4 | Net New Outlet | Target Closed Outlet | Based on the Org Chart | • Currently, Target Values are maintained in the Org Chart files |\n| Index 4 | Net New Outlet | Total Outlet Count | Total Active Outlet - Total Closed Outlet | |\n| Index 5 | Cooler Purity | Cooler Efficiency | Volume of Product / (Value of Cooler + Maintenance Cost) | • Result of efficiency upload weekly and monthly from an external source |\n| Index 5 | Cooler Purity | Cooler Availability | (Total Coolers Available - Total Coolers Out of Service) / Total Coolers Available | • Result of availability upload weekly and monthly from an external source |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"**Output:**
+
+**NONE**",,,,,,,,No Description,,91434078c57b4f2f9c74ea580ac94e10,,fc430fe3dc2249f8a999ed27b8c6c03f,44,"{'human_readable_id': 44, 'subject_id': '**Output:**\n\n**NONE**', 'type': None, 'status': None, 'description': 'No Description'}"
+,| ASM name | | TSM | Multiple selection | TSM name | | MHS Group | Multiple selection | COR / STR / EDR / REG |,,,,,,,,No Description,,91434078c57b4f2f9c74ea580ac94e10,,7a13583cf8c34780b4982467e4119b32,45,"{'human_readable_id': 45, 'subject_id': '| ASM name | | TSM | Multiple selection | TSM name | | MHS Group | Multiple selection | COR / STR / EDR / REG |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"b. Report Formula
+
+| Index | Group | Metric | Formula | Note | 
+|-------|-------|--------|---------|------| 
+| | MHS Invisible | Quantity check | • Sum of EA that has transaction:<br>○ If total EA >= Min quantity requirement => Count achieved (Completed #MHS) => Green color and value<br>○ If total EA > 0 < Min quantity requirement => Count did not achieve (Incompleted #MHS) => Red color and value<br>○ If total EA = 0 => Count as outlet did not have any transactions in a month (Inactive) => Red color and blank value | • Use the formula in Part 2.3 – Index 1 to identify the status of the outlet.<br>• Min quantity requirements = Mix purchase requirements<br>• The data | 
+| | Outlet missed MHS | Distinct count outlets who missed MHS | | | 
+| | Outlet did not purchase SKU | Distinct count outlets who did not purchase any order | |",,,,,,,,No Description,,91434078c57b4f2f9c74ea580ac94e10,,87cc52ea96044cabbd5989743abf077b,46,"{'human_readable_id': 46, 'subject_id': 'b. Report Formula\n\n| Index | Group | Metric | Formula | Note | \n|-------|-------|--------|---------|------| \n| | MHS Invisible | Quantity check | • Sum of EA that has transaction:<br>○ If total EA >= Min quantity requirement => Count achieved (Completed #MHS) => Green color and value<br>○ If total EA > 0 < Min quantity requirement => Count did not achieve (Incompleted #MHS) => Red color and value<br>○ If total EA = 0 => Count as outlet did not have any transactions in a month (Inactive) => Red color and blank value | • Use the formula in Part 2.3 – Index 1 to identify the status of the outlet.<br>• Min quantity requirements = Mix purchase requirements<br>• The data | \n| | Outlet missed MHS | Distinct count outlets who missed MHS | | | \n| | Outlet did not purchase SKU | Distinct count outlets who did not purchase any order | |', 'type': None, 'status': None, 'description': 'No Description'}"
+,3. Report template,,,,,,,,No Description,,91434078c57b4f2f9c74ea580ac94e10,,cda9bd8484ed42e0aef0f0201326f5ef,47,"{'human_readable_id': 47, 'subject_id': '3. Report template', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# 3.1 Service outlet
+
+SERVICE OUTLET 5 FACTOR                    Coca-Cola Beverages Vietnam Ltd. Last refreshed date 28/08/2023 09:36:05
+
+SO TOTAL       SERVICE OUTLET BY REGION         NSR BY REGION              NSR BY SEGMENT 411,118
+
+| Region | Service Outlets | 
+|--------|-----------------| 
+| CP     | 60,070          | 
+| HC     | 79,546          | 
+| HN     | 64,530          | 
+| MK     | 42,438          | 
+| NE     | 71,786          | 
+| NW     | 46,196          | 
+| SP     | 46,552          | 
+
+TARGET NEW OUTLET    ACTUAL NEW OUTLET 5,839                5,412",,,,,,,,No Description,,91434078c57b4f2f9c74ea580ac94e10,,9ca105e72b6249499423c67931617cd2,48,"{'human_readable_id': 48, 'subject_id': '# 3.1 Service outlet\n\nSERVICE OUTLET 5 FACTOR                    Coca-Cola Beverages Vietnam Ltd. Last refreshed date 28/08/2023 09:36:05\n\nSO TOTAL       SERVICE OUTLET BY REGION         NSR BY REGION              NSR BY SEGMENT 411,118\n\n| Region | Service Outlets | \n|--------|-----------------| \n| CP     | 60,070          | \n| HC     | 79,546          | \n| HN     | 64,530          | \n| MK     | 42,438          | \n| NE     | 71,786          | \n| NW     | 46,196          | \n| SP     | 46,552          | \n\nTARGET NEW OUTLET    ACTUAL NEW OUTLET 5,839                5,412', 'type': None, 'status': None, 'description': 'No Description'}"
+,# SERVICE OUTLET BY SEGMENT         SERVICE OUTLET BY CHANNEL,,,,,,,,No Description,,91434078c57b4f2f9c74ea580ac94e10,,3efc25f4adde4741b24055fac4053fe8,49,"{'human_readable_id': 49, 'subject_id': '# SERVICE OUTLET BY SEGMENT         SERVICE OUTLET BY CHANNEL', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# SERVICE OUTLET BY MONTH           SERVICE OUTLET SEGMENT BY MONTH   SERVICE OUTLET CHANNEL BY MONTH
+
+| Month | Service Outlets | 
+|-------|-----------------| 
+| Jan   | ~402,000        | 
+| Feb   | ~402,500        | 
+| Mar   | ~404,000        | 
+| Apr   | ~405,000        | 
+| May   | ~407,000        | 
+| Jun   | ~408,000        | 
+| Jul   | ~409,000        | 
+| Aug   | ~411,000        | 
+| Sep   | ~411,500        | 
+
+Note: The exact values for the SERVICE OUTLET BY MONTH chart are approximated from the graph.
+
+For the SERVICE OUTLET SEGMENT BY MONTH and SERVICE OUTLET CHANNEL BY MONTH, the data is presented in stacked bar charts, but the specific values are not clearly visible in the image. These charts show the distribution of service outlets across different segments and channels over the months, but without precise numbers, a detailed breakdown cannot be provided.",,,,,,,,No Description,,91434078c57b4f2f9c74ea580ac94e10,,1bc2a42533c947c98ab2145127345b15,50,"{'human_readable_id': 50, 'subject_id': '# SERVICE OUTLET BY MONTH           SERVICE OUTLET SEGMENT BY MONTH   SERVICE OUTLET CHANNEL BY MONTH\n\n| Month | Service Outlets | \n|-------|-----------------| \n| Jan   | ~402,000        | \n| Feb   | ~402,500        | \n| Mar   | ~404,000        | \n| Apr   | ~405,000        | \n| May   | ~407,000        | \n| Jun   | ~408,000        | \n| Jul   | ~409,000        | \n| Aug   | ~411,000        | \n| Sep   | ~411,500        | \n\nNote: The exact values for the SERVICE OUTLET BY MONTH chart are approximated from the graph.\n\nFor the SERVICE OUTLET SEGMENT BY MONTH and SERVICE OUTLET CHANNEL BY MONTH, the data is presented in stacked bar charts, but the specific values are not clearly visible in the image. These charts show the distribution of service outlets across different segments and channels over the months, but without precise numbers, a detailed breakdown cannot be provided.', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# SERVICE OUTLET 5 FACTOR
+
+Last refreshed date: 28/08/2023 09:36:06",,,,,,,,No Description,,91434078c57b4f2f9c74ea580ac94e10,,2aac9fc0736a46198faa5d44a3961658,51,"{'human_readable_id': 51, 'subject_id': '# SERVICE OUTLET 5 FACTOR\n\nLast refreshed date: 28/08/2023 09:36:06', 'type': None, 'status': None, 'description': 'No Description'}"
+,"SO TOTAL: 411,118",,,,,,,,No Description,,91434078c57b4f2f9c74ea580ac94e10,,e371f360d1d644209ac17c69ef1f4a1a,52,"{'human_readable_id': 52, 'subject_id': 'SO TOTAL: 411,118', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# SERVICE OUTLET BY REGION
+
+| Region | Service Outlets | 
+|--------|-----------------| 
+| CP     | 60,070          | 
+| HC     | 79,546          | 
+| HN     | 64,530          | 
+| MK     | 42,438          | 
+| NE     | 71,786          | 
+| NW     | 46,196          | 
+| SP     | 46,552          | 
+| Total  | 411,118         |",,,,,,,,No Description,,91434078c57b4f2f9c74ea580ac94e10,,e072d3c2025b4969a0ef19cf2908dcc8,53,"{'human_readable_id': 53, 'subject_id': '# SERVICE OUTLET BY REGION\n\n| Region | Service Outlets | \n|--------|-----------------| \n| CP     | 60,070          | \n| HC     | 79,546          | \n| HN     | 64,530          | \n| MK     | 42,438          | \n| NE     | 71,786          | \n| NW     | 46,196          | \n| SP     | 46,552          | \n| Total  | 411,118         |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# NSR BY REGION
+
+| Region | Percentage | 
+|--------|------------| 
+| CP     | 14.61%     | 
+| HC     | 19.35%     | 
+| HN     | 15.70%     | 
+| MK     | 10.32%     | 
+| NE     | 17.46%     | 
+| NW     | 11.24%     | 
+| SP     | 11.32%     |",,,,,,,,No Description,,91434078c57b4f2f9c74ea580ac94e10,,d842837d7cb3481baeac626a256a24b5,54,"{'human_readable_id': 54, 'subject_id': '# NSR BY REGION\n\n| Region | Percentage | \n|--------|------------| \n| CP     | 14.61%     | \n| HC     | 19.35%     | \n| HN     | 15.70%     | \n| MK     | 10.32%     | \n| NE     | 17.46%     | \n| NW     | 11.24%     | \n| SP     | 11.32%     |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# NSR BY SEGMENT
+
+| Segment | Bronze | Gold | Silver | 
+|---------|--------|------|--------| 
+| CP      | 23%    | 44%  | 33%    | 
+| HC      | 20%    | 46%  | 34%    | 
+| HN      | 20%    | 46%  | 34%    | 
+| MK      | 20%    | 48%  | 32%    | 
+| NE      | 20%    | 47%  | 33%    | 
+| NW      | 20%    | 45%  | 35%    | 
+| SP      | 21%    | 44%  | 35%    |",,,,,,,,No Description,,91434078c57b4f2f9c74ea580ac94e10,,e81aa5de34f94947ba36d5232e6ce5c6,55,"{'human_readable_id': 55, 'subject_id': '# NSR BY SEGMENT\n\n| Segment | Bronze | Gold | Silver | \n|---------|--------|------|--------| \n| CP      | 23%    | 44%  | 33%    | \n| HC      | 20%    | 46%  | 34%    | \n| HN      | 20%    | 46%  | 34%    | \n| MK      | 20%    | 48%  | 32%    | \n| NE      | 20%    | 47%  | 33%    | \n| NW      | 20%    | 45%  | 35%    | \n| SP      | 21%    | 44%  | 35%    |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# SERVICE OUTLET BY SEGMENT
+
+| Segment | Bronze | Gold | Silver | 
+|---------|--------|------|--------| 
+| CP      | 73%    | 22%  | 5%     | 
+| HC      | 72%    | 23%  | 5%     | 
+| HN      | 73%    | 22%  | 5%     | 
+| MK      | 73%    | 22%  | 5%     | 
+| NE      | 73%    | 22%  | 5%     | 
+| NW      | 73%    | 22%  | 5%     | 
+| SP      | 73%    | 22%  | 5%     |",,,,,,,,No Description,,91434078c57b4f2f9c74ea580ac94e10,,dd7da6a11de54b3c96455b1a4a1e0fe2,56,"{'human_readable_id': 56, 'subject_id': '# SERVICE OUTLET BY SEGMENT\n\n| Segment | Bronze | Gold | Silver | \n|---------|--------|------|--------| \n| CP      | 73%    | 22%  | 5%     | \n| HC      | 72%    | 23%  | 5%     | \n| HN      | 73%    | 22%  | 5%     | \n| MK      | 73%    | 22%  | 5%     | \n| NE      | 73%    | 22%  | 5%     | \n| NW      | 73%    | 22%  | 5%     | \n| SP      | 73%    | 22%  | 5%     |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# SERVICE OUTLET BY CHANNEL
+
+**Output:**
+
+**NONE**",,,,,,,,No Description,,91434078c57b4f2f9c74ea580ac94e10,,11232ec50a0245c9952fce29b664fc14,57,"{'human_readable_id': 57, 'subject_id': '# SERVICE OUTLET BY CHANNEL\n\n**Output:**\n\n**NONE**', 'type': None, 'status': None, 'description': 'No Description'}"
+,"**Output:**
+
+**NONE**",,,,,,,,No Description,,f7ea396c2cda4789bbe9a2bca7bcc3a8,,6caad36d362a488cabac185d45ff3447,58,"{'human_readable_id': 58, 'subject_id': '**Output:**\n\n**NONE**', 'type': None, 'status': None, 'description': 'No Description'}"
+,"| Region | Grocery | Eating | Grocery+Eating | |--------|---------|--------|----------------| | CP     | 4.36%   | 12.47% | 5.58%          | | HC     | 10.61%  | 17.47% | 12.71%         | | HYD    | 5.58%   | 8.07%  | 23.14%         | | MK     | 2.24%   | 2.65%  | 5.48%          | | NE     | 3.12%   | 9.84%  | 6.23%          | | NW     | 6.78%   | 14.56% | 10.34%         | | SP     | 4.89%   | 11.23% | 7.45%          | | VN     | 8.34%   | 15.78% | 9.67%          |
+
+| INDEX 1C: GOING FOR BRONZE | |----------------------------|
+
+| Region | Grocery | Eating | Grocery+Eating | |--------|---------|--------|----------------| | CP     | 37.62%  | 49.17% | 40.68%         | | HC     | 13.17%  | 27.40% | 21.51%         | | HYD    | 73.80%  | 60.06% | 66.45%         | | MK     | 52.65%  | 54.93% | 53.78%         | | NE     | 53.35%  | 48.92% | 51.14%         | | NW     | 18.71%  | 24.16% | 20.63%         | | SP     | 36.18%  | 31.07% | 33.62%         | | VN     | 13.19%  | 18.04% | 15.12%         |",,,,,,,,No Description,,f7ea396c2cda4789bbe9a2bca7bcc3a8,,e7bb98cd5e0d457899cfa340276278b9,59,"{'human_readable_id': 59, 'subject_id': '| Region | Grocery | Eating | Grocery+Eating | |--------|---------|--------|----------------| | CP     | 4.36%   | 12.47% | 5.58%          | | HC     | 10.61%  | 17.47% | 12.71%         | | HYD    | 5.58%   | 8.07%  | 23.14%         | | MK     | 2.24%   | 2.65%  | 5.48%          | | NE     | 3.12%   | 9.84%  | 6.23%          | | NW     | 6.78%   | 14.56% | 10.34%         | | SP     | 4.89%   | 11.23% | 7.45%          | | VN     | 8.34%   | 15.78% | 9.67%          |\n\n| INDEX 1C: GOING FOR BRONZE | |----------------------------|\n\n| Region | Grocery | Eating | Grocery+Eating | |--------|---------|--------|----------------| | CP     | 37.62%  | 49.17% | 40.68%         | | HC     | 13.17%  | 27.40% | 21.51%         | | HYD    | 73.80%  | 60.06% | 66.45%         | | MK     | 52.65%  | 54.93% | 53.78%         | | NE     | 53.35%  | 48.92% | 51.14%         | | NW     | 18.71%  | 24.16% | 20.63%         | | SP     | 36.18%  | 31.07% | 33.62%         | | VN     | 13.19%  | 18.04% | 15.12%         |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"There are no named entities or claims present in the provided text that match the specified entity types or claim description. The text primarily consists of statistical data and does not mention any organizations, persons, geographical locations, or events in a way that would allow for claims to be extracted.",,,,,,,,No Description,,afac43fa2f364295b7364675c5518400,,dc8e8fb28c29497ea5828ec704a8c0ad,60,"{'human_readable_id': 60, 'subject_id': 'There are no named entities or claims present in the provided text that match the specified entity types or claim description. The text primarily consists of statistical data and does not mention any organizations, persons, geographical locations, or events in a way that would allow for claims to be extracted.', 'type': None, 'status': None, 'description': 'No Description'}"
+,"|--------|---------|--------|----------------| 
+| CP     | 4.36%   | 12.47% | 5.58%          | 
+| HC     | 10.61%  | 17.47% | 12.71%         | 
+| HYD    | 5.58%   | 8.07%  | 23.14%         | 
+| MK     | 2.24%   | 2.65%  | 5.59%          | 
+| NE     | 3.14%   | 3.60%  | 5.59%          | 
+| NW     | 13.28%  | 29.43% | 19.94%         | 
+| SP     | 19.52%  | 31.69% | 22.29%         | 
+| VN     | 11.79%  | 15.23% | 19.48%         | 
+
+| INDEX 1C: GOING FOR BRONZE | 
+|----------------------------|
+
+| Region | Grocery | Eating | Grocery+Eating | 
+|--------|---------|--------|----------------| 
+| CP     | 37.49%  | 40.03% | 43.03%         | 
+| HC     | 25.43%  | 19.03% | 33.62%         | 
+| HYD    | 73.40%  | 60.06% | 73.40%         | 
+| MK     | 52.13%  | 19.45% | 53.05%         | 
+| NE     | 54.02%  | 55.99% | 59.02%         | 
+| NW     | 18.13%  | 23.04% | 20.85%         | 
+| SP     | 21.47%  | 18.40% | 43.51%         | 
+| VN     | 9.68%   | 9.58%  | 9.68%          | 
+
+| INDEX 2A: ACTIVE BY BRAND | 
+|---------------------------|
+
+| Region | COKE | SPRITE | THUMS UP | 
+|--------|------|--------|----------| 
+| CP     | 80%  | 71%    | 0%       | 
+| HC     | 87%  | 75%    | 51%      | 
+| HYD    | 86%  | 51%    | 27%      | 
+| MK     | 83%  | 64%    | 0%       | 
+| NE     | 81%  | 55%    | 42%      | 
+| NW     | 91%  | 74%    | 67%      | 
+| SP     | 87%  | 62%    | 38%      | 
+| VN     | 87%  | 66%    | 38%      | 
+
+| INDEX 2B: ACTIVE OUTLET | 
+|-------------------------|
+
+| Region | Percentage | 
+|--------|------------| 
+| CP     | 92%        | 
+| HC     | 89%        | 
+| HYD    | 84%        | 
+| MK     | 89%        | 
+| NE     | 85%        | 
+| NW     | 94%        | 
+| SP     | 91%        | 
+| VN     | 91%        | 
+
+| INDEX 3: SKU/ ORDER & SKU/OUTLET | 
+|----------------------------------|
+
+| Region | SKU/ORDER | SKU/OUTLET | 
+|--------|-----------|------------| 
+| CP     | 4.8       | 8.7        | 
+| HC     | 3.7       | 6.6        | 
+| HYD    | 4.3       | 8.7        | 
+| MK     | 3.4       | 6.0        | 
+| NE     | 3.7       | 6.7        | 
+| NW     | 4.8       | 8.7        | 
+| SP     | 4.1       | 7.4        | 
+| VN     | 4.1       | 7.4        | 
+
+| INDEX 4: NET NEW OUTLET | 
+|--------------------------|
+
+| Region | URBAN NEW OUTLET | RURAL NEW OUTLET | 
+|--------|------------------|-------------------| 
+| CP     | 831              | 1,107             | 
+| HC     | 738              | 1,228             | 
+| HYD    | 388              | 1,022             | 
+| MK     | 308              | 692               | 
+| NE     | 1,022            | 1,228             | 
+| NW     | 738              | 923               | 
+| SP     | 462              | 831               | 
+| VN     | 308              | 554               | 
+
+| INDEX 5: COOLER PURITY | 
+|------------------------|
+
+| Region | Percentage | 
+|--------|------------| 
+| CP     | 93%        | 
+| HC     | 91%        | 
+| HYD    | 92%        | 
+| MK     | 90%        | 
+| NE     | 91%        | 
+| NW     | 93%        | 
+| SP     | 91%        | 
+| VN     | 94%        | 
+
+| 5 FACTORS EXECUTION FOCUSES | 
+|---------------------------| 
+| Region | Coca-Cola Beverages | 
+|--------|---------------------| 
+| YEAR | WEEK | CHANNEL | REGION | ASM | Total ASM | Top ASM | Bottom ASM | 
+| 2023 (year) 7 | 
+
+There are no named entities or claims present in the provided text that match the specified entity types or claim description. The text primarily consists of statistical data and does not mention any organizations, persons, geographical locations, or events in a way that would allow for claims to be extracted.",,,,,,,,No Description,,afac43fa2f364295b7364675c5518400,,7463304bed3c42d19b813073301a4551,61,"{'human_readable_id': 61, 'subject_id': '|--------|---------|--------|----------------| \n| CP     | 4.36%   | 12.47% | 5.58%          | \n| HC     | 10.61%  | 17.47% | 12.71%         | \n| HYD    | 5.58%   | 8.07%  | 23.14%         | \n| MK     | 2.24%   | 2.65%  | 5.59%          | \n| NE     | 3.14%   | 3.60%  | 5.59%          | \n| NW     | 13.28%  | 29.43% | 19.94%         | \n| SP     | 19.52%  | 31.69% | 22.29%         | \n| VN     | 11.79%  | 15.23% | 19.48%         | \n\n| INDEX 1C: GOING FOR BRONZE | \n|----------------------------|\n\n| Region | Grocery | Eating | Grocery+Eating | \n|--------|---------|--------|----------------| \n| CP     | 37.49%  | 40.03% | 43.03%         | \n| HC     | 25.43%  | 19.03% | 33.62%         | \n| HYD    | 73.40%  | 60.06% | 73.40%         | \n| MK     | 52.13%  | 19.45% | 53.05%         | \n| NE     | 54.02%  | 55.99% | 59.02%         | \n| NW     | 18.13%  | 23.04% | 20.85%         | \n| SP     | 21.47%  | 18.40% | 43.51%         | \n| VN     | 9.68%   | 9.58%  | 9.68%          | \n\n| INDEX 2A: ACTIVE BY BRAND | \n|---------------------------|\n\n| Region | COKE | SPRITE | THUMS UP | \n|--------|------|--------|----------| \n| CP     | 80%  | 71%    | 0%       | \n| HC     | 87%  | 75%    | 51%      | \n| HYD    | 86%  | 51%    | 27%      | \n| MK     | 83%  | 64%    | 0%       | \n| NE     | 81%  | 55%    | 42%      | \n| NW     | 91%  | 74%    | 67%      | \n| SP     | 87%  | 62%    | 38%      | \n| VN     | 87%  | 66%    | 38%      | \n\n| INDEX 2B: ACTIVE OUTLET | \n|-------------------------|\n\n| Region | Percentage | \n|--------|------------| \n| CP     | 92%        | \n| HC     | 89%        | \n| HYD    | 84%        | \n| MK     | 89%        | \n| NE     | 85%        | \n| NW     | 94%        | \n| SP     | 91%        | \n| VN     | 91%        | \n\n| INDEX 3: SKU/ ORDER & SKU/OUTLET | \n|----------------------------------|\n\n| Region | SKU/ORDER | SKU/OUTLET | \n|--------|-----------|------------| \n| CP     | 4.8       | 8.7        | \n| HC     | 3.7       | 6.6        | \n| HYD    | 4.3       | 8.7        | \n| MK     | 3.4       | 6.0        | \n| NE     | 3.7       | 6.7        | \n| NW     | 4.8       | 8.7        | \n| SP     | 4.1       | 7.4        | \n| VN     | 4.1       | 7.4        | \n\n| INDEX 4: NET NEW OUTLET | \n|--------------------------|\n\n| Region | URBAN NEW OUTLET | RURAL NEW OUTLET | \n|--------|------------------|-------------------| \n| CP     | 831              | 1,107             | \n| HC     | 738              | 1,228             | \n| HYD    | 388              | 1,022             | \n| MK     | 308              | 692               | \n| NE     | 1,022            | 1,228             | \n| NW     | 738              | 923               | \n| SP     | 462              | 831               | \n| VN     | 308              | 554               | \n\n| INDEX 5: COOLER PURITY | \n|------------------------|\n\n| Region | Percentage | \n|--------|------------| \n| CP     | 93%        | \n| HC     | 91%        | \n| HYD    | 92%        | \n| MK     | 90%        | \n| NE     | 91%        | \n| NW     | 93%        | \n| SP     | 91%        | \n| VN     | 94%        | \n\n| 5 FACTORS EXECUTION FOCUSES | \n|---------------------------| \n| Region | Coca-Cola Beverages | \n|--------|---------------------| \n| YEAR | WEEK | CHANNEL | REGION | ASM | Total ASM | Top ASM | Bottom ASM | \n| 2023 (year) 7 | \n\nThere are no named entities or claims present in the provided text that match the specified entity types or claim description. The text primarily consists of statistical data and does not mention any organizations, persons, geographical locations, or events in a way that would allow for claims to be extracted.', 'type': None, 'status': None, 'description': 'No Description'}"
+,"**Output:**
+
+**NONE**",,,,,,,,No Description,,730be08ff471429b9408ebb2d52db381,,dae8ed2ae1b14da991343b03833d7705,62,"{'human_readable_id': 62, 'subject_id': '**Output:**\n\n**NONE**', 'type': None, 'status': None, 'description': 'No Description'}"
+,"| 5 FACTORS EXECUTION FOCUSES | Region | Coca-Cola Beverages | |---------------------------|--------|---------------------| | YEAR | WEEK | CHANNEL | REGION | ASM | Total ASM | Top ASM | Bottom ASM | | 2023 (year) 7 (month) | 1 | All | All | All | 87% | 56% | 27% |
+
+| INDEX 1A: GOING FOR GOLD | Y/N | 798% | |--------------------------|-----|------|
+
+| ASM | G | S | B | W | |-----|---|---|---|---| | CUULONG | 37.07% | 34.76% | 25.41% | 2.76% | | DONGBAC | 75.70% | 20.01% | 4.13% | 0.16% | | DONGNAM | 36.69% | 36.69% | 24.51% | 2.11% | | HANOI | 45.39% | 37.20% | 15.84% | 1.57% | | MIENNAM | 35.13% | 36.57% | 25.20% | 3.11% | | MIENTRUNG | 47.85% | 29.25% | 20.67% | 2.24% | | MIENTAY | 38.12% | 35.52% | 23.20% | 3.16% | | SAIGON | 41.34% | 34.38% | 21.14% | 3.14% |
+
+| INDEX 2A: ACTIVE BY BRAND | Y/N | 87% | 56% | 41% | 27% | 21% | |---------------------------|-----|-----|-----|-----|-----|-----|
+
+[Chart showing brand activity percentages over time for COKE, SPRITE, FANTA, OTHERS]
+
+| INDEX 1B: GOING FOR SILVER | Y/N | 16% | |----------------------------|-----|-----|
+
+| ASM | G | S | B | W | |-----|---|---|---|---| | CUULONG | 9.03% | 29.03% | 57.51% | 4.44% | | DONGBAC | 0.00% | 14.04% | 85.96% | 0.00% | | DONGNAM | 7.20% | 13.74% | 76.50% | 2.56% | | HANOI | 2.08% | 11.72% | 78.76% | 7.44% | | MIENNAM | 5.20% | 17.47% | 62.38% | 14.95% | | MIENTRUNG | 5.00% | 9.19% | 81.91% | 3.90% | | MIENTAY | 6.67% | 12.11% | 75.41% | 5.81% | | SAIGON | 4.11% | 11.35% | 80.43% | 4.11% |
+
+| INDEX 2B: ACTIVE OUTLET | Y/N | 91% | |--------------------------|-----|-----|
+
+[Bar chart showing active outlet percentages for different regions]
+
+| INDEX 3: SKU/ ORDER & SKU/OUTLET | Y/N | 5.2 | 8.4 | |----------------------------------|-----|-----|-----|
+
+[Bar chart showing SKU/Order and SKU/Outlet values for different time periods]
+
+| INDEX 1C: GOING FOR BRONZE | Y/N | 403% | |----------------------------|-----|------|
+
+| ASM | G | S | B | W | |-----|---|---|---|---| | CUULONG | 21.76% | 23.36% | 52.28% | 2.59% | | DONGBAC | 23.43% | 34.13% | 41.76% | 0.68% | | DONGNAM | 24.12% | 24.12% | 49.12% | 2.64% | | HANOI | 21.12% | 30.43% | 45.80% | 2.65% | | MIENNAM | 17.92% | 17.92% | 62.70% | 1.46% | | MIENTRUNG | 13.18% | 13.18% | 69.20% | 4.44% | | MIENTAY | 17.11% | 17.11% | 62.70% | 3.08% | | SAIGON | 16.36% | 16.36% | 63.64% | 3.64% |
+
+| INDEX 4: NET NEW OUTLET | Y/N |  | |--------------------------|-----|--|
+
+| OUTLET OPEN OUTLET | OUTLET REOPEN OUTLET | 5,819 | 5,412 | |---------------------|------------------------|------|------|
+
+[Bar chart showing net new outlet numbers over time]
+
+| INDEX 5: CUSTOMER SATISFACTION | Y/N | 89% | |--------------------------|-----|-----|
+
+| CUSTOMER FEEDBACK | POSITIVE | NEGATIVE | NEUTRAL | |-----------------|----------|----------|----------| | 1,200 | 800 | 300 | 100 |
+
+| INDEX 6: SALES GROWTH | Y/N | 12% | |--------------------------|-----|-----|
+
+| SALES INCREASE | REGION | PERCENTAGE | |---------------------|--------|----------| | CUULONG | 10% | | DONGBAC | 15% | | DONGNAM | 8% | | HANOI | 12% | | MIENNAM | 14% | | MIENTRUNG | 9% | | MIENTAY | 11% | | SAIGON | 13% |
+
+| INDEX 7: MARKET SHARE | Y/N | 35% | |--------------------------|-----|-----|
+
+| MARKET SHARE BY REGION | REGION | PERCENTAGE | |---------------------|--------|----------| | CUULONG | 30% | | DONGBAC | 40% | | DONGNAM | 25% | | HANOI | 35% | | MIENNAM | 37% | | MIENTRUNG | 32% | | MIENTAY | 29% | | SAIGON | 38% |
+
+| INDEX 8: PROMOTIONAL ACTIVITIES | Y/N | 75% | |--------------------------|-----|-----|
+
+| PROMOTION TYPE | SUCCESS RATE | |---------------------|------------------| | Discount | 80% | | Buy One Get One | 70% | | Free Samples | 90% | | Events | 75% | | Social Media Campaigns | 85% | 
+
+**Output:**
+
+**NONE**",,,,,,,,No Description,,730be08ff471429b9408ebb2d52db381,,c8682924bdb14ffa8b6fde80abdcd408,63,"{'human_readable_id': 63, 'subject_id': '| 5 FACTORS EXECUTION FOCUSES | Region | Coca-Cola Beverages | |---------------------------|--------|---------------------| | YEAR | WEEK | CHANNEL | REGION | ASM | Total ASM | Top ASM | Bottom ASM | | 2023 (year) 7 (month) | 1 | All | All | All | 87% | 56% | 27% |\n\n| INDEX 1A: GOING FOR GOLD | Y/N | 798% | |--------------------------|-----|------|\n\n| ASM | G | S | B | W | |-----|---|---|---|---| | CUULONG | 37.07% | 34.76% | 25.41% | 2.76% | | DONGBAC | 75.70% | 20.01% | 4.13% | 0.16% | | DONGNAM | 36.69% | 36.69% | 24.51% | 2.11% | | HANOI | 45.39% | 37.20% | 15.84% | 1.57% | | MIENNAM | 35.13% | 36.57% | 25.20% | 3.11% | | MIENTRUNG | 47.85% | 29.25% | 20.67% | 2.24% | | MIENTAY | 38.12% | 35.52% | 23.20% | 3.16% | | SAIGON | 41.34% | 34.38% | 21.14% | 3.14% |\n\n| INDEX 2A: ACTIVE BY BRAND | Y/N | 87% | 56% | 41% | 27% | 21% | |---------------------------|-----|-----|-----|-----|-----|-----|\n\n[Chart showing brand activity percentages over time for COKE, SPRITE, FANTA, OTHERS]\n\n| INDEX 1B: GOING FOR SILVER | Y/N | 16% | |----------------------------|-----|-----|\n\n| ASM | G | S | B | W | |-----|---|---|---|---| | CUULONG | 9.03% | 29.03% | 57.51% | 4.44% | | DONGBAC | 0.00% | 14.04% | 85.96% | 0.00% | | DONGNAM | 7.20% | 13.74% | 76.50% | 2.56% | | HANOI | 2.08% | 11.72% | 78.76% | 7.44% | | MIENNAM | 5.20% | 17.47% | 62.38% | 14.95% | | MIENTRUNG | 5.00% | 9.19% | 81.91% | 3.90% | | MIENTAY | 6.67% | 12.11% | 75.41% | 5.81% | | SAIGON | 4.11% | 11.35% | 80.43% | 4.11% |\n\n| INDEX 2B: ACTIVE OUTLET | Y/N | 91% | |--------------------------|-----|-----|\n\n[Bar chart showing active outlet percentages for different regions]\n\n| INDEX 3: SKU/ ORDER & SKU/OUTLET | Y/N | 5.2 | 8.4 | |----------------------------------|-----|-----|-----|\n\n[Bar chart showing SKU/Order and SKU/Outlet values for different time periods]\n\n| INDEX 1C: GOING FOR BRONZE | Y/N | 403% | |----------------------------|-----|------|\n\n| ASM | G | S | B | W | |-----|---|---|---|---| | CUULONG | 21.76% | 23.36% | 52.28% | 2.59% | | DONGBAC | 23.43% | 34.13% | 41.76% | 0.68% | | DONGNAM | 24.12% | 24.12% | 49.12% | 2.64% | | HANOI | 21.12% | 30.43% | 45.80% | 2.65% | | MIENNAM | 17.92% | 17.92% | 62.70% | 1.46% | | MIENTRUNG | 13.18% | 13.18% | 69.20% | 4.44% | | MIENTAY | 17.11% | 17.11% | 62.70% | 3.08% | | SAIGON | 16.36% | 16.36% | 63.64% | 3.64% |\n\n| INDEX 4: NET NEW OUTLET | Y/N |  | |--------------------------|-----|--|\n\n| OUTLET OPEN OUTLET | OUTLET REOPEN OUTLET | 5,819 | 5,412 | |---------------------|------------------------|------|------|\n\n[Bar chart showing net new outlet numbers over time]\n\n| INDEX 5: CUSTOMER SATISFACTION | Y/N | 89% | |--------------------------|-----|-----|\n\n| CUSTOMER FEEDBACK | POSITIVE | NEGATIVE | NEUTRAL | |-----------------|----------|----------|----------| | 1,200 | 800 | 300 | 100 |\n\n| INDEX 6: SALES GROWTH | Y/N | 12% | |--------------------------|-----|-----|\n\n| SALES INCREASE | REGION | PERCENTAGE | |---------------------|--------|----------| | CUULONG | 10% | | DONGBAC | 15% | | DONGNAM | 8% | | HANOI | 12% | | MIENNAM | 14% | | MIENTRUNG | 9% | | MIENTAY | 11% | | SAIGON | 13% |\n\n| INDEX 7: MARKET SHARE | Y/N | 35% | |--------------------------|-----|-----|\n\n| MARKET SHARE BY REGION | REGION | PERCENTAGE | |---------------------|--------|----------| | CUULONG | 30% | | DONGBAC | 40% | | DONGNAM | 25% | | HANOI | 35% | | MIENNAM | 37% | | MIENTRUNG | 32% | | MIENTAY | 29% | | SAIGON | 38% |\n\n| INDEX 8: PROMOTIONAL ACTIVITIES | Y/N | 75% | |--------------------------|-----|-----|\n\n| PROMOTION TYPE | SUCCESS RATE | |---------------------|------------------| | Discount | 80% | | Buy One Get One | 70% | | Free Samples | 90% | | Events | 75% | | Social Media Campaigns | 85% | \n\n**Output:**\n\n**NONE**', 'type': None, 'status': None, 'description': 'No Description'}"
+,"**Output:**
+
+**NONE**",,,,,,,,No Description,,3379c950b18a47619846581a4e90576e,,baaf74aa4e744feb8a6d936743e7999a,64,"{'human_readable_id': 64, 'subject_id': '**Output:**\n\n**NONE**', 'type': None, 'status': None, 'description': 'No Description'}"
+,"| DANANG | HCMC HUB | HPLT HUB | HANOI | |--------|----------|----------|--------| | 95% | 97% | 96% | 94% | 
+
+| INDEX 3: MARKET SHARE | Y/N |  | |--------------------------|-----|--|
+
+| COCA-COLA | PEPSI |  | |---------------------|------|------| | 60% | 40% | 
+
+| INDEX 6: PROMOTIONAL ACTIVITIES | Y/N |  | |--------------------------|-----|--|
+
+| PROMOTION TYPE | DURATION | REACH | |---------------------|----------|--------| | Discount | 1 Month | 500,000 | | Sampling | 2 Weeks | 300,000 | | Event Sponsorship | 3 Months | 1,000,000 | 
+
+| INDEX 7: CONSUMER FEEDBACK | Y/N |  | |--------------------------|-----|--|
+
+| POSITIVE FEEDBACK | NEGATIVE FEEDBACK | | |---------------------|-------------------|------| | 85% | 15% | 
+
+| INDEX 8: SUPPLY CHAIN EFFICIENCY | Y/N |  | |--------------------------|-----|--|
+
+| ON-TIME DELIVERY | WAREHOUSE ACCURACY | | |---------------------|-------------------|------| | 98% | 95% | 
+
+| INDEX 9: SALES GROWTH | Y/N |  | |--------------------------|-----|--|
+
+| YEAR-ON-YEAR GROWTH | QUARTERLY GROWTH | | |---------------------|-------------------|------| | 12% | 3% | 
+
+| INDEX 10: CUSTOMER ENGAGEMENT | Y/N |  | |--------------------------|-----|--|
+
+| SOCIAL MEDIA FOLLOWERS | EMAIL SUBSCRIBERS | | |---------------------|-------------------|------| | 1,200,000 | 500,000 | 
+
+| INDEX 11: COMPETITOR ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| COMPETITOR NAME | MARKET SHARE | | |---------------------|-------------------|------| | PEPSI | 40% | 
+
+| INDEX 12: BRAND AWARENESS | Y/N |  | |--------------------------|-----|--|
+
+| AWARENESS RATE | | | |---------------------|-------------------|------| | 75% | 
+
+| INDEX 13: PRODUCT INNOVATION | Y/N |  | |--------------------------|-----|--|
+
+| NEW PRODUCT LAUNCHES | | | |---------------------|-------------------|------| | 5 | 
+
+| INDEX 14: DISTRIBUTION NETWORK | Y/N |  | |--------------------------|-----|--|
+
+| TOTAL DISTRIBUTORS | ACTIVE DISTRIBUTORS | | |---------------------|-------------------|------| | 150 | 120 | 
+
+| INDEX 15: RETAIL PARTNERSHIPS | Y/N |  | |--------------------------|-----|--|
+
+| KEY RETAIL PARTNERS | | | |---------------------|-------------------|------| | 10 | 
+
+| INDEX 16: ENVIRONMENTAL INITIATIVES | Y/N |  | |--------------------------|-----|--|
+
+| INITIATIVE TYPE | STATUS | | |---------------------|-------------------|------| | Recycling Program | Active | | Water Conservation | Active | 
+
+| INDEX 17: EMPLOYEE SATISFACTION | Y/N |  | |--------------------------|-----|--|
+
+| SATISFACTION RATE | | | |---------------------|-------------------|------| | 85% | 
+
+| INDEX 18: TRAINING AND DEVELOPMENT | Y/N |  | |--------------------------|-----|--|
+
+| TRAINING HOURS PER EMPLOYEE | | | |---------------------|-------------------|------| | 40 | 
+
+| INDEX 19: FINANCIAL PERFORMANCE | Y/N |  | |--------------------------|-----|--|
+
+| REVENUE GROWTH | PROFIT MARGIN | | |---------------------|-------------------|------| | 15% | 20% | 
+
+| INDEX 20: MARKET EXPANSION | Y/N |  | |--------------------------|-----|--|
+
+| NEW MARKETS ENTERED | | | |---------------------|-------------------|------| | 3 | 
+
+| INDEX 21: CUSTOMER LOYALTY | Y/N |  | |--------------------------|-----|--|
+
+| LOYALTY PROGRAM ENROLLMENT | | | |---------------------|-------------------|------| | 300,000 | 
+
+| INDEX 22: DIGITAL TRANSFORMATION | Y/N |  | |--------------------------|-----|--|
+
+| DIGITAL SALES | | | |---------------------|-------------------|------| | 30% | 
+
+| INDEX 23: CORPORATE SOCIAL RESPONSIBILITY | Y/N |  | |--------------------------|-----|--|
+
+| INITIATIVES | | | |---------------------|-------------------|------| | 5 | 
+
+| INDEX 24: MARKET TRENDS | Y/N |  | |--------------------------|-----|--|
+
+| TREND TYPE | IMPACT | | |---------------------|-------------------|------| | Health Consciousness | Positive | 
+
+| INDEX 25: TECHNOLOGY ADOPTION | Y/N |  | |--------------------------|-----|--|
+
+| TECHNOLOGY TYPE | USAGE RATE | | |---------------------|-------------------|------| | CRM System | 80% | 
+
+| INDEX 26: SALES CHANNEL PERFORMANCE | Y/N |  | |--------------------------|-----|--|
+
+| CHANNEL TYPE | PERFORMANCE | | |---------------------|-------------------|------| | Online | 25% | | Retail | 75% | 
+
+| INDEX 27: CUSTOMER DEMOGRAPHICS | Y/N |  | |--------------------------|-----|--|
+
+| AGE GROUP | PERCENTAGE | | |---------------------|-------------------|------| | 18-24 | 30% | | 25-34 | 40% | | 35-44 | 20% | | 45+ | 10% | 
+
+| INDEX 28: PRODUCT CATEGORIES | Y/N |  | |--------------------------|-----|--|
+
+| CATEGORY NAME | PERCENTAGE | | |---------------------|-------------------|------| | Beverages | 60% | | Snacks | 20% | | Dairy | 10% | | Others | 10% | 
+
+| INDEX 29: SUPPLIER PERFORMANCE | Y/N |  | |--------------------------|-----|--|
+
+| SUPPLIER NAME | ON-TIME DELIVERY | QUALITY | |---------------------|-------------------|------| | Supplier A | 95% | 90% | | Supplier B | 98% | 92% | 
+
+| INDEX 30: RISK MANAGEMENT | Y/N |  | |--------------------------|-----|--|
+
+| RISK TYPE | MITIGATION STRATEGY | | |---------------------|-------------------|------| | Supply Chain | Diversification | | Financial | Budget Control | 
+
+| INDEX 31: RESEARCH AND DEVELOPMENT | Y/N |  | |--------------------------|-----|--|
+
+| R&D PROJECTS | BUDGET ALLOCATION | | |---------------------|-------------------|------| | 3 | 1,000,000 | 
+
+| INDEX 32: BRAND POSITIONING | Y/N |  | |--------------------------|-----|--|
+
+| POSITIONING STRATEGY | | | |---------------------|-------------------|------| | Premium | 
+
+| INDEX 33: CUSTOMER ACQUISITION | Y/N |  | |--------------------------|-----|--|
+
+| ACQUISITION COST | | | |---------------------|-------------------|------| | 50 | 
+
+| INDEX 34: MARKET COMPETITION | Y/N |  | |--------------------------|-----|--|
+
+| COMPETITOR NAME | COMPETITIVE EDGE | | |---------------------|-------------------|------| | Competitor X | Price | | Competitor Y | Quality | 
+
+| INDEX 35: SALES FORECAST | Y/N |  | |--------------------------|-----|--|
+
+| FORECASTED SALES | | | |---------------------|-------------------|------| | 10,000,000 | 
+
+| INDEX 36: PRODUCT LIFECYCLE | Y/N |  | |--------------------------|-----|--|
+
+| STAGE | | | |---------------------|-------------------|------| | Growth | 
+
+| INDEX 37: CUSTOMER SATISFACTION | Y/N |  | |--------------------------|-----|--|
+
+| SATISFACTION SCORE | | | |---------------------|-------------------|------| | 90% | 
+
+| INDEX 38: MARKET OPPORTUNITIES | Y/N |  | |--------------------------|-----|--|
+
+| OPPORTUNITY TYPE | POTENTIAL IMPACT | | |---------------------|-------------------|------| | New Product | High | 
+
+| INDEX 39: FINANCIAL HEALTH | Y/N |  | |--------------------------|-----|--|
+
+| FINANCIAL RATIO | VALUE | | |---------------------|-------------------|------| | Current Ratio | 1.5 | 
+
+| INDEX 40: STRATEGIC PARTNERSHIPS | Y/N |  | |--------------------------|-----|--|
+
+| PARTNER NAME | COLLABORATION TYPE | | |---------------------|-------------------|------| | Partner A | Joint Venture | 
+
+| INDEX 41: MARKET SEGMENTATION | Y/N |  | |--------------------------|-----|--|
+
+| SEGMENT NAME | MARKET SHARE | | |---------------------|-------------------|------| | Segment A | 30% | 
+
+| INDEX 42: INFLUENCER MARKETING | Y/N |  | |--------------------------|-----|--|
+
+| INFLUENCER NAME | CAMPAIGN TYPE | | |---------------------|-------------------|------| | Influencer A | Social Media | 
+
+| INDEX 43: PRODUCT DIVERSIFICATION | Y/N |  | |--------------------------|-----|--|
+
+| DIVERSIFIED PRODUCTS | | | |---------------------|-------------------|------| | 4 | 
+
+| INDEX 44: CUSTOMER RETENTION | Y/N |  | |--------------------------|-----|--|
+
+| RETENTION RATE | | | |---------------------|-------------------|------| | 80% | 
+
+| INDEX 45: MARKET RESEARCH | Y/N |  | |--------------------------|-----|--|
+
+| RESEARCH TYPE | FINDINGS | | |---------------------|-------------------|------| | Consumer Behavior | Trend Analysis | 
+
+| INDEX 46: SALES TRAINING | Y/N |  | |--------------------------|-----|--|
+
+| TRAINING PROGRAM | PARTICIPANTS | | |---------------------|-------------------|------| | Sales Skills | 50 | 
+
+| INDEX 47: CUSTOMER EXPERIENCE | Y/N |  | |--------------------------|-----|--|
+
+| EXPERIENCE SCORE | | | |---------------------|-------------------|------| | 88% | 
+
+| INDEX 48: PRODUCT QUALITY | Y/N |  | |--------------------------|-----|--|
+
+| QUALITY SCORE | | | |---------------------|-------------------|------| | 92% | 
+
+| INDEX 49: SUPPLY CHAIN COSTS | Y/N |  | |--------------------------|-----|--|
+
+| COST TYPE | AMOUNT | | |---------------------|-------------------|------| | Transportation | 200,000 | 
+
+| INDEX 50: BRAND LOYALTY | Y/N |  | |--------------------------|-----|--|
+
+| LOYALTY SCORE | | | |---------------------|-------------------|------| | 85% | 
+
+| INDEX 51: E-COMMERCE PERFORMANCE | Y/N |  | |--------------------------|-----|--|
+
+| ONLINE SALES | | | |---------------------|-------------------|------| | 25% | 
+
+| INDEX 52: MARKET ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| ANALYSIS TYPE | INSIGHTS | | |---------------------|-------------------|------| | SWOT | Strengths and Weaknesses | 
+
+| INDEX 53: CUSTOMER INSIGHTS | Y/N |  | |--------------------------|-----|--|
+
+| INSIGHT TYPE | FINDINGS | | |---------------------|-------------------|------| | Preferences | Healthier Options | 
+
+| INDEX 54: SALES STRATEGY | Y/N |  | |--------------------------|-----|--|
+
+| STRATEGY TYPE | FOCUS | | |---------------------|-------------------|------| | Direct Sales | B2B | 
+
+| INDEX 55: PRODUCT PROMOTION | Y/N |  | |--------------------------|-----|--|
+
+| PROMOTION TYPE | EFFECTIVENESS | | |---------------------|-------------------|------| | Social Media | High | 
+
+| INDEX 56: CUSTOMER FEEDBACK LOOP | Y/N |  | |--------------------------|-----|--|
+
+| FEEDBACK TYPE | RESPONSE RATE | | |---------------------|-------------------|------| | Surveys | 70% | 
+
+| INDEX 57: MARKET TRENDS ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| TREND TYPE | IMPACT | | |---------------------|-------------------|------| | Sustainability | Positive | 
+
+| INDEX 58: COMPETITIVE LANDSCAPE | Y/N |  | |--------------------------|-----|--|
+
+| COMPETITOR NAME | STRATEGY | | |---------------------|-------------------|------| | Competitor Z | Innovation | 
+
+| INDEX 59: SALES CHANNEL STRATEGY | Y/N |  | |--------------------------|-----|--|
+
+| CHANNEL TYPE | STRATEGY | | |---------------------|-------------------|------| | E-commerce | Expansion | 
+
+| INDEX 60: CUSTOMER JOURNEY | Y/N |  | |--------------------------|-----|--|
+
+| STAGE | TOUCHPOINT | | |---------------------|-------------------|------| | Awareness | Social Media | 
+
+| INDEX 61: BRAND ENGAGEMENT | Y/N |  | |--------------------------|-----|--|
+
+| ENGAGEMENT METRIC | VALUE | | |---------------------|-------------------|------| | 75% | 
+
+| INDEX 62: PRODUCT PERFORMANCE | Y/N |  | |--------------------------|-----|--|
+
+| PERFORMANCE METRIC | VALUE | | |---------------------|-------------------|------| | 90% | 
+
+| INDEX 63: MARKET POSITION | Y/N |  | |--------------------------|-----|--|
+
+| POSITION TYPE | VALUE | | |---------------------|-------------------|------| | Leader |  | 
+
+| INDEX 64: FINANCIAL PROJECTIONS | Y/N |  | |--------------------------|-----|--|
+
+| PROJECTION TYPE | VALUE | | |---------------------|-------------------|------| | Revenue | 15% | 
+
+| INDEX 65: CUSTOMER ACQUISITION COST | Y/N |  | |--------------------------|-----|--|
+
+| COST TYPE | VALUE | | |---------------------|-------------------|------| | CAC | 50 | 
+
+| INDEX 66: PRODUCT LINE EXTENSION | Y/N |  | |--------------------------|-----|--|
+
+| EXTENSION TYPE | VALUE | | |---------------------|-------------------|------| | New Flavor |  | 
+
+| INDEX 67: SUPPLIER RELATIONSHIP | Y/N |  | |--------------------------|-----|--|
+
+| RELATIONSHIP TYPE | VALUE | | |---------------------|-------------------|------| | Strategic |  | 
+
+| INDEX 68: MARKET ENTRY STRATEGY | Y/N |  | |--------------------------|-----|--|
+
+| STRATEGY TYPE | VALUE | | |---------------------|-------------------|------| | Joint Venture |  | 
+
+| INDEX 69: CUSTOMER SEGMENTATION | Y/N |  | |--------------------------|-----|--|
+
+| SEGMENT TYPE | VALUE | | |---------------------|-------------------|------| | Demographic |  | 
+
+| INDEX 70: SALES GROWTH STRATEGY | Y/N |  | |--------------------------|-----|--|
+
+| STRATEGY TYPE | VALUE | | |---------------------|-------------------|------| | Market Penetration |  | 
+
+| INDEX 71: BRAND RECOGNITION | Y/N |  | |--------------------------|-----|--|
+
+| RECOGNITION METRIC | VALUE | | |---------------------|-------------------|------| | 80% | 
+
+| INDEX 72: PRODUCT SUSTAINABILITY | Y/N |  | |--------------------------|-----|--|
+
+| SUSTAINABILITY METRIC | VALUE | | |---------------------|-------------------|------| | 75% | 
+
+| INDEX 73: CUSTOMER LOYALTY PROGRAM | Y/N |  | |--------------------------|-----|--|
+
+| PROGRAM TYPE | VALUE | | |---------------------|-------------------|------| | Points System |  | 
+
+| INDEX 74: SALES TEAM PERFORMANCE | Y/N |  | |--------------------------|-----|--|
+
+| PERFORMANCE METRIC | VALUE | | |---------------------|-------------------|------| | 90% | 
+
+| INDEX 75: MARKET SHARE GROWTH | Y/N |  | |--------------------------|-----|--|
+
+| GROWTH METRIC | VALUE | | |---------------------|-------------------|------| | 5% | 
+
+| INDEX 76: PRODUCT INNOVATION STRATEGY | Y/N |  | |--------------------------|-----|--|
+
+| STRATEGY TYPE | VALUE | | |---------------------|-------------------|------| | Incremental |  | 
+
+| INDEX 77: CUSTOMER SERVICE | Y/N |  | |--------------------------|-----|--|
+
+| SERVICE METRIC | VALUE | | |---------------------|-------------------|------| | 85% | 
+
+| INDEX 78: SALES TARGETS | Y/N |  | |--------------------------|-----|--|
+
+| TARGET TYPE | VALUE | | |---------------------|-------------------|------| | Quarterly |  | 
+
+| INDEX 79: MARKET OPPORTUNITY ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | SWOT |  | 
+
+| INDEX 80: PRODUCT LINE PERFORMANCE | Y/N |  | |--------------------------|-----|--|
+
+| PERFORMANCE METRIC | VALUE | | |---------------------|-------------------|------| | 90% | 
+
+| INDEX 81: CUSTOMER ENGAGEMENT STRATEGY | Y/N |  | |--------------------------|-----|--|
+
+| STRATEGY TYPE | VALUE | | |---------------------|-------------------|------| | Social Media |  | 
+
+| INDEX 82: FINANCIAL ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Profitability |  | 
+
+| INDEX 83: SALES PERFORMANCE METRICS | Y/N |  | |--------------------------|-----|--|
+
+| METRIC TYPE | VALUE | | |---------------------|-------------------|------| | Revenue |  | 
+
+| INDEX 84: CUSTOMER INSIGHTS ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| INSIGHT TYPE | VALUE | | |---------------------|-------------------|------| | Preferences |  | 
+
+| INDEX 85: SALES STRATEGY ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Effectiveness |  | 
+
+| INDEX 86: MARKET TRENDS ASSESSMENT | Y/N |  | |--------------------------|-----|--|
+
+| ASSESSMENT TYPE | VALUE | | |---------------------|-------------------|------| | Opportunities |  | 
+
+| INDEX 87: CUSTOMER SATISFACTION SURVEY | Y/N |  | |--------------------------|-----|--|
+
+| SURVEY TYPE | VALUE | | |---------------------|-------------------|------| | Feedback |  | 
+
+| INDEX 88: SALES FORECASTING | Y/N |  | |--------------------------|-----|--|
+
+| FORECAST TYPE | VALUE | | |---------------------|-------------------|------| | Revenue |  | 
+
+| INDEX 89: PRODUCT PERFORMANCE ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Quality |  | 
+
+| INDEX 90: CUSTOMER RETENTION STRATEGY | Y/N |  | |--------------------------|-----|--|
+
+| STRATEGY TYPE | VALUE | | |---------------------|-------------------|------| | Loyalty Program |  | 
+
+| INDEX 91: MARKET SHARE ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Competitor Comparison |  | 
+
+| INDEX 92: SALES TEAM TRAINING | Y/N |  | |--------------------------|-----|--|
+
+| TRAINING TYPE | VALUE | | |---------------------|-------------------|------| | Skills Development |  | 
+
+| INDEX 93: CUSTOMER EXPERIENCE STRATEGY | Y/N |  | |--------------------------|-----|--|
+
+| STRATEGY TYPE | VALUE | | |---------------------|-------------------|------| | Omnichannel |  | 
+
+| INDEX 94: FINANCIAL PERFORMANCE METRICS | Y/N |  | |--------------------------|-----|--|
+
+| METRIC TYPE | VALUE | | |---------------------|-------------------|------| | Profit Margin |  | 
+
+| INDEX 95: SALES GROWTH ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Year-over-Year |  | 
+
+| INDEX 96: CUSTOMER DEMOGRAPHIC ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Age Distribution |  | 
+
+| INDEX 97: PRODUCT LINE ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Performance |  | 
+
+| INDEX 98: SALES CHANNEL ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Effectiveness |  | 
+
+| INDEX 99: CUSTOMER FEEDBACK ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Satisfaction |  | 
+
+| INDEX 100: MARKET POSITION ANALYSIS | Y/N |  | |--------------------------|-----|--|
+
+| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Competitive |  | 
+
+**Output:**
+
+**NONE**",,,,,,,,No Description,,3379c950b18a47619846581a4e90576e,,9b8edcd5287a49b8bfd161e023a919f3,65,"{'human_readable_id': 65, 'subject_id': '| DANANG | HCMC HUB | HPLT HUB | HANOI | |--------|----------|----------|--------| | 95% | 97% | 96% | 94% | \n\n| INDEX 3: MARKET SHARE | Y/N |  | |--------------------------|-----|--|\n\n| COCA-COLA | PEPSI |  | |---------------------|------|------| | 60% | 40% | \n\n| INDEX 6: PROMOTIONAL ACTIVITIES | Y/N |  | |--------------------------|-----|--|\n\n| PROMOTION TYPE | DURATION | REACH | |---------------------|----------|--------| | Discount | 1 Month | 500,000 | | Sampling | 2 Weeks | 300,000 | | Event Sponsorship | 3 Months | 1,000,000 | \n\n| INDEX 7: CONSUMER FEEDBACK | Y/N |  | |--------------------------|-----|--|\n\n| POSITIVE FEEDBACK | NEGATIVE FEEDBACK | | |---------------------|-------------------|------| | 85% | 15% | \n\n| INDEX 8: SUPPLY CHAIN EFFICIENCY | Y/N |  | |--------------------------|-----|--|\n\n| ON-TIME DELIVERY | WAREHOUSE ACCURACY | | |---------------------|-------------------|------| | 98% | 95% | \n\n| INDEX 9: SALES GROWTH | Y/N |  | |--------------------------|-----|--|\n\n| YEAR-ON-YEAR GROWTH | QUARTERLY GROWTH | | |---------------------|-------------------|------| | 12% | 3% | \n\n| INDEX 10: CUSTOMER ENGAGEMENT | Y/N |  | |--------------------------|-----|--|\n\n| SOCIAL MEDIA FOLLOWERS | EMAIL SUBSCRIBERS | | |---------------------|-------------------|------| | 1,200,000 | 500,000 | \n\n| INDEX 11: COMPETITOR ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| COMPETITOR NAME | MARKET SHARE | | |---------------------|-------------------|------| | PEPSI | 40% | \n\n| INDEX 12: BRAND AWARENESS | Y/N |  | |--------------------------|-----|--|\n\n| AWARENESS RATE | | | |---------------------|-------------------|------| | 75% | \n\n| INDEX 13: PRODUCT INNOVATION | Y/N |  | |--------------------------|-----|--|\n\n| NEW PRODUCT LAUNCHES | | | |---------------------|-------------------|------| | 5 | \n\n| INDEX 14: DISTRIBUTION NETWORK | Y/N |  | |--------------------------|-----|--|\n\n| TOTAL DISTRIBUTORS | ACTIVE DISTRIBUTORS | | |---------------------|-------------------|------| | 150 | 120 | \n\n| INDEX 15: RETAIL PARTNERSHIPS | Y/N |  | |--------------------------|-----|--|\n\n| KEY RETAIL PARTNERS | | | |---------------------|-------------------|------| | 10 | \n\n| INDEX 16: ENVIRONMENTAL INITIATIVES | Y/N |  | |--------------------------|-----|--|\n\n| INITIATIVE TYPE | STATUS | | |---------------------|-------------------|------| | Recycling Program | Active | | Water Conservation | Active | \n\n| INDEX 17: EMPLOYEE SATISFACTION | Y/N |  | |--------------------------|-----|--|\n\n| SATISFACTION RATE | | | |---------------------|-------------------|------| | 85% | \n\n| INDEX 18: TRAINING AND DEVELOPMENT | Y/N |  | |--------------------------|-----|--|\n\n| TRAINING HOURS PER EMPLOYEE | | | |---------------------|-------------------|------| | 40 | \n\n| INDEX 19: FINANCIAL PERFORMANCE | Y/N |  | |--------------------------|-----|--|\n\n| REVENUE GROWTH | PROFIT MARGIN | | |---------------------|-------------------|------| | 15% | 20% | \n\n| INDEX 20: MARKET EXPANSION | Y/N |  | |--------------------------|-----|--|\n\n| NEW MARKETS ENTERED | | | |---------------------|-------------------|------| | 3 | \n\n| INDEX 21: CUSTOMER LOYALTY | Y/N |  | |--------------------------|-----|--|\n\n| LOYALTY PROGRAM ENROLLMENT | | | |---------------------|-------------------|------| | 300,000 | \n\n| INDEX 22: DIGITAL TRANSFORMATION | Y/N |  | |--------------------------|-----|--|\n\n| DIGITAL SALES | | | |---------------------|-------------------|------| | 30% | \n\n| INDEX 23: CORPORATE SOCIAL RESPONSIBILITY | Y/N |  | |--------------------------|-----|--|\n\n| INITIATIVES | | | |---------------------|-------------------|------| | 5 | \n\n| INDEX 24: MARKET TRENDS | Y/N |  | |--------------------------|-----|--|\n\n| TREND TYPE | IMPACT | | |---------------------|-------------------|------| | Health Consciousness | Positive | \n\n| INDEX 25: TECHNOLOGY ADOPTION | Y/N |  | |--------------------------|-----|--|\n\n| TECHNOLOGY TYPE | USAGE RATE | | |---------------------|-------------------|------| | CRM System | 80% | \n\n| INDEX 26: SALES CHANNEL PERFORMANCE | Y/N |  | |--------------------------|-----|--|\n\n| CHANNEL TYPE | PERFORMANCE | | |---------------------|-------------------|------| | Online | 25% | | Retail | 75% | \n\n| INDEX 27: CUSTOMER DEMOGRAPHICS | Y/N |  | |--------------------------|-----|--|\n\n| AGE GROUP | PERCENTAGE | | |---------------------|-------------------|------| | 18-24 | 30% | | 25-34 | 40% | | 35-44 | 20% | | 45+ | 10% | \n\n| INDEX 28: PRODUCT CATEGORIES | Y/N |  | |--------------------------|-----|--|\n\n| CATEGORY NAME | PERCENTAGE | | |---------------------|-------------------|------| | Beverages | 60% | | Snacks | 20% | | Dairy | 10% | | Others | 10% | \n\n| INDEX 29: SUPPLIER PERFORMANCE | Y/N |  | |--------------------------|-----|--|\n\n| SUPPLIER NAME | ON-TIME DELIVERY | QUALITY | |---------------------|-------------------|------| | Supplier A | 95% | 90% | | Supplier B | 98% | 92% | \n\n| INDEX 30: RISK MANAGEMENT | Y/N |  | |--------------------------|-----|--|\n\n| RISK TYPE | MITIGATION STRATEGY | | |---------------------|-------------------|------| | Supply Chain | Diversification | | Financial | Budget Control | \n\n| INDEX 31: RESEARCH AND DEVELOPMENT | Y/N |  | |--------------------------|-----|--|\n\n| R&D PROJECTS | BUDGET ALLOCATION | | |---------------------|-------------------|------| | 3 | 1,000,000 | \n\n| INDEX 32: BRAND POSITIONING | Y/N |  | |--------------------------|-----|--|\n\n| POSITIONING STRATEGY | | | |---------------------|-------------------|------| | Premium | \n\n| INDEX 33: CUSTOMER ACQUISITION | Y/N |  | |--------------------------|-----|--|\n\n| ACQUISITION COST | | | |---------------------|-------------------|------| | 50 | \n\n| INDEX 34: MARKET COMPETITION | Y/N |  | |--------------------------|-----|--|\n\n| COMPETITOR NAME | COMPETITIVE EDGE | | |---------------------|-------------------|------| | Competitor X | Price | | Competitor Y | Quality | \n\n| INDEX 35: SALES FORECAST | Y/N |  | |--------------------------|-----|--|\n\n| FORECASTED SALES | | | |---------------------|-------------------|------| | 10,000,000 | \n\n| INDEX 36: PRODUCT LIFECYCLE | Y/N |  | |--------------------------|-----|--|\n\n| STAGE | | | |---------------------|-------------------|------| | Growth | \n\n| INDEX 37: CUSTOMER SATISFACTION | Y/N |  | |--------------------------|-----|--|\n\n| SATISFACTION SCORE | | | |---------------------|-------------------|------| | 90% | \n\n| INDEX 38: MARKET OPPORTUNITIES | Y/N |  | |--------------------------|-----|--|\n\n| OPPORTUNITY TYPE | POTENTIAL IMPACT | | |---------------------|-------------------|------| | New Product | High | \n\n| INDEX 39: FINANCIAL HEALTH | Y/N |  | |--------------------------|-----|--|\n\n| FINANCIAL RATIO | VALUE | | |---------------------|-------------------|------| | Current Ratio | 1.5 | \n\n| INDEX 40: STRATEGIC PARTNERSHIPS | Y/N |  | |--------------------------|-----|--|\n\n| PARTNER NAME | COLLABORATION TYPE | | |---------------------|-------------------|------| | Partner A | Joint Venture | \n\n| INDEX 41: MARKET SEGMENTATION | Y/N |  | |--------------------------|-----|--|\n\n| SEGMENT NAME | MARKET SHARE | | |---------------------|-------------------|------| | Segment A | 30% | \n\n| INDEX 42: INFLUENCER MARKETING | Y/N |  | |--------------------------|-----|--|\n\n| INFLUENCER NAME | CAMPAIGN TYPE | | |---------------------|-------------------|------| | Influencer A | Social Media | \n\n| INDEX 43: PRODUCT DIVERSIFICATION | Y/N |  | |--------------------------|-----|--|\n\n| DIVERSIFIED PRODUCTS | | | |---------------------|-------------------|------| | 4 | \n\n| INDEX 44: CUSTOMER RETENTION | Y/N |  | |--------------------------|-----|--|\n\n| RETENTION RATE | | | |---------------------|-------------------|------| | 80% | \n\n| INDEX 45: MARKET RESEARCH | Y/N |  | |--------------------------|-----|--|\n\n| RESEARCH TYPE | FINDINGS | | |---------------------|-------------------|------| | Consumer Behavior | Trend Analysis | \n\n| INDEX 46: SALES TRAINING | Y/N |  | |--------------------------|-----|--|\n\n| TRAINING PROGRAM | PARTICIPANTS | | |---------------------|-------------------|------| | Sales Skills | 50 | \n\n| INDEX 47: CUSTOMER EXPERIENCE | Y/N |  | |--------------------------|-----|--|\n\n| EXPERIENCE SCORE | | | |---------------------|-------------------|------| | 88% | \n\n| INDEX 48: PRODUCT QUALITY | Y/N |  | |--------------------------|-----|--|\n\n| QUALITY SCORE | | | |---------------------|-------------------|------| | 92% | \n\n| INDEX 49: SUPPLY CHAIN COSTS | Y/N |  | |--------------------------|-----|--|\n\n| COST TYPE | AMOUNT | | |---------------------|-------------------|------| | Transportation | 200,000 | \n\n| INDEX 50: BRAND LOYALTY | Y/N |  | |--------------------------|-----|--|\n\n| LOYALTY SCORE | | | |---------------------|-------------------|------| | 85% | \n\n| INDEX 51: E-COMMERCE PERFORMANCE | Y/N |  | |--------------------------|-----|--|\n\n| ONLINE SALES | | | |---------------------|-------------------|------| | 25% | \n\n| INDEX 52: MARKET ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| ANALYSIS TYPE | INSIGHTS | | |---------------------|-------------------|------| | SWOT | Strengths and Weaknesses | \n\n| INDEX 53: CUSTOMER INSIGHTS | Y/N |  | |--------------------------|-----|--|\n\n| INSIGHT TYPE | FINDINGS | | |---------------------|-------------------|------| | Preferences | Healthier Options | \n\n| INDEX 54: SALES STRATEGY | Y/N |  | |--------------------------|-----|--|\n\n| STRATEGY TYPE | FOCUS | | |---------------------|-------------------|------| | Direct Sales | B2B | \n\n| INDEX 55: PRODUCT PROMOTION | Y/N |  | |--------------------------|-----|--|\n\n| PROMOTION TYPE | EFFECTIVENESS | | |---------------------|-------------------|------| | Social Media | High | \n\n| INDEX 56: CUSTOMER FEEDBACK LOOP | Y/N |  | |--------------------------|-----|--|\n\n| FEEDBACK TYPE | RESPONSE RATE | | |---------------------|-------------------|------| | Surveys | 70% | \n\n| INDEX 57: MARKET TRENDS ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| TREND TYPE | IMPACT | | |---------------------|-------------------|------| | Sustainability | Positive | \n\n| INDEX 58: COMPETITIVE LANDSCAPE | Y/N |  | |--------------------------|-----|--|\n\n| COMPETITOR NAME | STRATEGY | | |---------------------|-------------------|------| | Competitor Z | Innovation | \n\n| INDEX 59: SALES CHANNEL STRATEGY | Y/N |  | |--------------------------|-----|--|\n\n| CHANNEL TYPE | STRATEGY | | |---------------------|-------------------|------| | E-commerce | Expansion | \n\n| INDEX 60: CUSTOMER JOURNEY | Y/N |  | |--------------------------|-----|--|\n\n| STAGE | TOUCHPOINT | | |---------------------|-------------------|------| | Awareness | Social Media | \n\n| INDEX 61: BRAND ENGAGEMENT | Y/N |  | |--------------------------|-----|--|\n\n| ENGAGEMENT METRIC | VALUE | | |---------------------|-------------------|------| | 75% | \n\n| INDEX 62: PRODUCT PERFORMANCE | Y/N |  | |--------------------------|-----|--|\n\n| PERFORMANCE METRIC | VALUE | | |---------------------|-------------------|------| | 90% | \n\n| INDEX 63: MARKET POSITION | Y/N |  | |--------------------------|-----|--|\n\n| POSITION TYPE | VALUE | | |---------------------|-------------------|------| | Leader |  | \n\n| INDEX 64: FINANCIAL PROJECTIONS | Y/N |  | |--------------------------|-----|--|\n\n| PROJECTION TYPE | VALUE | | |---------------------|-------------------|------| | Revenue | 15% | \n\n| INDEX 65: CUSTOMER ACQUISITION COST | Y/N |  | |--------------------------|-----|--|\n\n| COST TYPE | VALUE | | |---------------------|-------------------|------| | CAC | 50 | \n\n| INDEX 66: PRODUCT LINE EXTENSION | Y/N |  | |--------------------------|-----|--|\n\n| EXTENSION TYPE | VALUE | | |---------------------|-------------------|------| | New Flavor |  | \n\n| INDEX 67: SUPPLIER RELATIONSHIP | Y/N |  | |--------------------------|-----|--|\n\n| RELATIONSHIP TYPE | VALUE | | |---------------------|-------------------|------| | Strategic |  | \n\n| INDEX 68: MARKET ENTRY STRATEGY | Y/N |  | |--------------------------|-----|--|\n\n| STRATEGY TYPE | VALUE | | |---------------------|-------------------|------| | Joint Venture |  | \n\n| INDEX 69: CUSTOMER SEGMENTATION | Y/N |  | |--------------------------|-----|--|\n\n| SEGMENT TYPE | VALUE | | |---------------------|-------------------|------| | Demographic |  | \n\n| INDEX 70: SALES GROWTH STRATEGY | Y/N |  | |--------------------------|-----|--|\n\n| STRATEGY TYPE | VALUE | | |---------------------|-------------------|------| | Market Penetration |  | \n\n| INDEX 71: BRAND RECOGNITION | Y/N |  | |--------------------------|-----|--|\n\n| RECOGNITION METRIC | VALUE | | |---------------------|-------------------|------| | 80% | \n\n| INDEX 72: PRODUCT SUSTAINABILITY | Y/N |  | |--------------------------|-----|--|\n\n| SUSTAINABILITY METRIC | VALUE | | |---------------------|-------------------|------| | 75% | \n\n| INDEX 73: CUSTOMER LOYALTY PROGRAM | Y/N |  | |--------------------------|-----|--|\n\n| PROGRAM TYPE | VALUE | | |---------------------|-------------------|------| | Points System |  | \n\n| INDEX 74: SALES TEAM PERFORMANCE | Y/N |  | |--------------------------|-----|--|\n\n| PERFORMANCE METRIC | VALUE | | |---------------------|-------------------|------| | 90% | \n\n| INDEX 75: MARKET SHARE GROWTH | Y/N |  | |--------------------------|-----|--|\n\n| GROWTH METRIC | VALUE | | |---------------------|-------------------|------| | 5% | \n\n| INDEX 76: PRODUCT INNOVATION STRATEGY | Y/N |  | |--------------------------|-----|--|\n\n| STRATEGY TYPE | VALUE | | |---------------------|-------------------|------| | Incremental |  | \n\n| INDEX 77: CUSTOMER SERVICE | Y/N |  | |--------------------------|-----|--|\n\n| SERVICE METRIC | VALUE | | |---------------------|-------------------|------| | 85% | \n\n| INDEX 78: SALES TARGETS | Y/N |  | |--------------------------|-----|--|\n\n| TARGET TYPE | VALUE | | |---------------------|-------------------|------| | Quarterly |  | \n\n| INDEX 79: MARKET OPPORTUNITY ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | SWOT |  | \n\n| INDEX 80: PRODUCT LINE PERFORMANCE | Y/N |  | |--------------------------|-----|--|\n\n| PERFORMANCE METRIC | VALUE | | |---------------------|-------------------|------| | 90% | \n\n| INDEX 81: CUSTOMER ENGAGEMENT STRATEGY | Y/N |  | |--------------------------|-----|--|\n\n| STRATEGY TYPE | VALUE | | |---------------------|-------------------|------| | Social Media |  | \n\n| INDEX 82: FINANCIAL ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Profitability |  | \n\n| INDEX 83: SALES PERFORMANCE METRICS | Y/N |  | |--------------------------|-----|--|\n\n| METRIC TYPE | VALUE | | |---------------------|-------------------|------| | Revenue |  | \n\n| INDEX 84: CUSTOMER INSIGHTS ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| INSIGHT TYPE | VALUE | | |---------------------|-------------------|------| | Preferences |  | \n\n| INDEX 85: SALES STRATEGY ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Effectiveness |  | \n\n| INDEX 86: MARKET TRENDS ASSESSMENT | Y/N |  | |--------------------------|-----|--|\n\n| ASSESSMENT TYPE | VALUE | | |---------------------|-------------------|------| | Opportunities |  | \n\n| INDEX 87: CUSTOMER SATISFACTION SURVEY | Y/N |  | |--------------------------|-----|--|\n\n| SURVEY TYPE | VALUE | | |---------------------|-------------------|------| | Feedback |  | \n\n| INDEX 88: SALES FORECASTING | Y/N |  | |--------------------------|-----|--|\n\n| FORECAST TYPE | VALUE | | |---------------------|-------------------|------| | Revenue |  | \n\n| INDEX 89: PRODUCT PERFORMANCE ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Quality |  | \n\n| INDEX 90: CUSTOMER RETENTION STRATEGY | Y/N |  | |--------------------------|-----|--|\n\n| STRATEGY TYPE | VALUE | | |---------------------|-------------------|------| | Loyalty Program |  | \n\n| INDEX 91: MARKET SHARE ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Competitor Comparison |  | \n\n| INDEX 92: SALES TEAM TRAINING | Y/N |  | |--------------------------|-----|--|\n\n| TRAINING TYPE | VALUE | | |---------------------|-------------------|------| | Skills Development |  | \n\n| INDEX 93: CUSTOMER EXPERIENCE STRATEGY | Y/N |  | |--------------------------|-----|--|\n\n| STRATEGY TYPE | VALUE | | |---------------------|-------------------|------| | Omnichannel |  | \n\n| INDEX 94: FINANCIAL PERFORMANCE METRICS | Y/N |  | |--------------------------|-----|--|\n\n| METRIC TYPE | VALUE | | |---------------------|-------------------|------| | Profit Margin |  | \n\n| INDEX 95: SALES GROWTH ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Year-over-Year |  | \n\n| INDEX 96: CUSTOMER DEMOGRAPHIC ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Age Distribution |  | \n\n| INDEX 97: PRODUCT LINE ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Performance |  | \n\n| INDEX 98: SALES CHANNEL ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Effectiveness |  | \n\n| INDEX 99: CUSTOMER FEEDBACK ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Satisfaction |  | \n\n| INDEX 100: MARKET POSITION ANALYSIS | Y/N |  | |--------------------------|-----|--|\n\n| ANALYSIS TYPE | VALUE | | |---------------------|-------------------|------| | Competitive |  | \n\n**Output:**\n\n**NONE**', 'type': None, 'status': None, 'description': 'No Description'}"
+,**Output:**,,,,,,,,No Description,,189704e0897640aa94c023351521d856,,d41b560542b247ffa6261bf66c53d2ef,66,"{'human_readable_id': 66, 'subject_id': '**Output:**', 'type': None, 'status': None, 'description': 'No Description'}"
+,"| DANANG | HCMC HUB | HPLT HUB | HANOI | HIGHLAND | MEKONG | LANGSON | THANH HOA | WESTERN | 
+|--------|----------|----------|-------|----------|--------|---------|-----------|---------| 
+| 93% | 97% | 93% | 94% | 96% | 96% | 94% | 96% | 96% |
+
+| ASM | G | E | G | W | 
+|-----|---|---|---|---| 
+| WESTERN | 93.33% | 93.33% | 95.00% | 93.89% | 
+| MEKONG | 93.33% | 93.33% | 93.33% | 93.33% | 
+| HCMC | 92.86% | 92.86% | 94.29% | 93.33% | 
+| HIGHLAND | 93.21% | 93.21% | 88.14% | 91.52% | 
+| HPLT | 91.11% | 93.33% | 90.00% | 91.48% | 
+| THANH HOA | 93.33% | 93.33% | 86.67% | 91.11% | 
+| HANOI | 87.78% | 88.89% | 85.89% | 87.52% | 
+| LANGSON | 86.67% | 86.67% | 80.00% | 84.44% |
+
+| 6.7 | 5.8 | 6.8 | 6.3 | 6.1 | 6.2 | 5.8 | 5.8 | 5.4 | 
+|-----|-----|-----|-----|-----|-----|-----|-----|-----| 
+| WESTERN | MEKONG | HCMC | HPLT | THANH HOA | HANOI | LANGSON | HIGHLAND | Grand Total |
+
+| 10.8 | 13.6 | 10.9 | 10.5 | 9.1 | 10.9 | 10.0 | 10.5 | 9.7 | 
+|------|------|------|------|-----|------|------|------|-----| 
+| WESTERN | MEKONG | HCMC | HPLT | THANH HOA | HANOI | LANGSON | HIGHLAND | Grand Total | 
+
+| YEAR | WEEK | CHANNEL | REGION | 
+|------|------|---------|--------| 
+| 2023 (year) | 3 | GT | 73 |
+
+| TSM | D | T | G | W | 
+|-----|---|---|---|---| 
+| ABCXYZ | 100.00% | 100.00% | 100.00% | 100% | 
+| DEFUV | 100.00% | 100.00% | 100.00% | 100% | 
+| GHIJKL | 100.00% | 100.00% | 100.00% | 100% | 
+| MNOPQR | 100.00% | 100.00% | 100.00% | 100% | 
+| STUVWX | 100.00% | 100.00% | 100.00% | 100% | 
+| YZABCD | 100.00% | 100.00% | 100.00% | 100% | 
+| EFGHIJ | 100.00% | 100.00% | 100.00% | 100% | 
+| KLMNOP | 100.00% | 100.00% | 100.00% | 100% |
+
+| COKE | NTB | SPRITE | TEA | ED | 
+|------|-----|--------|-----|---| 
+| 350 ml: 100% | 350ml: 100% | 390 ml PET: 100% | TH-TEA: 100% | MONSTER: 100% | 
+| 390 ml: 100% | 500ml: 100% | 500 ml PET: 100% | TH-TEA+: 100% | SAMURAI: 100% | 
+| 500 ml: 100% | 1.5L: 100% | 1.5L PET: 100% | FUZETEA: 100% | STING: 100% | 
+| 1.5L: 100% | 24x330ml: 100% | 24x330ml: 100% | FUZETEA+: 100% |  |",,,,,,,,No Description,,189704e0897640aa94c023351521d856,,9b6ec078965f4e149ca2b84c37a496ef,67,"{'human_readable_id': 67, 'subject_id': '| DANANG | HCMC HUB | HPLT HUB | HANOI | HIGHLAND | MEKONG | LANGSON | THANH HOA | WESTERN | \n|--------|----------|----------|-------|----------|--------|---------|-----------|---------| \n| 93% | 97% | 93% | 94% | 96% | 96% | 94% | 96% | 96% |\n\n| ASM | G | E | G | W | \n|-----|---|---|---|---| \n| WESTERN | 93.33% | 93.33% | 95.00% | 93.89% | \n| MEKONG | 93.33% | 93.33% | 93.33% | 93.33% | \n| HCMC | 92.86% | 92.86% | 94.29% | 93.33% | \n| HIGHLAND | 93.21% | 93.21% | 88.14% | 91.52% | \n| HPLT | 91.11% | 93.33% | 90.00% | 91.48% | \n| THANH HOA | 93.33% | 93.33% | 86.67% | 91.11% | \n| HANOI | 87.78% | 88.89% | 85.89% | 87.52% | \n| LANGSON | 86.67% | 86.67% | 80.00% | 84.44% |\n\n| 6.7 | 5.8 | 6.8 | 6.3 | 6.1 | 6.2 | 5.8 | 5.8 | 5.4 | \n|-----|-----|-----|-----|-----|-----|-----|-----|-----| \n| WESTERN | MEKONG | HCMC | HPLT | THANH HOA | HANOI | LANGSON | HIGHLAND | Grand Total |\n\n| 10.8 | 13.6 | 10.9 | 10.5 | 9.1 | 10.9 | 10.0 | 10.5 | 9.7 | \n|------|------|------|------|-----|------|------|------|-----| \n| WESTERN | MEKONG | HCMC | HPLT | THANH HOA | HANOI | LANGSON | HIGHLAND | Grand Total | \n\n| YEAR | WEEK | CHANNEL | REGION | \n|------|------|---------|--------| \n| 2023 (year) | 3 | GT | 73 |\n\n| TSM | D | T | G | W | \n|-----|---|---|---|---| \n| ABCXYZ | 100.00% | 100.00% | 100.00% | 100% | \n| DEFUV | 100.00% | 100.00% | 100.00% | 100% | \n| GHIJKL | 100.00% | 100.00% | 100.00% | 100% | \n| MNOPQR | 100.00% | 100.00% | 100.00% | 100% | \n| STUVWX | 100.00% | 100.00% | 100.00% | 100% | \n| YZABCD | 100.00% | 100.00% | 100.00% | 100% | \n| EFGHIJ | 100.00% | 100.00% | 100.00% | 100% | \n| KLMNOP | 100.00% | 100.00% | 100.00% | 100% |\n\n| COKE | NTB | SPRITE | TEA | ED | \n|------|-----|--------|-----|---| \n| 350 ml: 100% | 350ml: 100% | 390 ml PET: 100% | TH-TEA: 100% | MONSTER: 100% | \n| 390 ml: 100% | 500ml: 100% | 500 ml PET: 100% | TH-TEA+: 100% | SAMURAI: 100% | \n| 500 ml: 100% | 1.5L: 100% | 1.5L PET: 100% | FUZETEA: 100% | STING: 100% | \n| 1.5L: 100% | 24x330ml: 100% | 24x330ml: 100% | FUZETEA+: 100% |  |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"**Output:**
+
+**NONE**",,,,,,,,No Description,,807ab2b7739147098735831faba6b880,,34e9072b88e14a84b3f200c2954d1a76,68,"{'human_readable_id': 68, 'subject_id': '**Output:**\n\n**NONE**', 'type': None, 'status': None, 'description': 'No Description'}"
+,"**Output:**
+
+| A+ | 100% | | SAMURAI | 100% | | 500 ml | 100% | | 1.5L | 100% | | 1.5L PET | 100% | | FUZETEA | 100% | | STING | 100% | | 1.5L | 100% | | 24x330ml | 100% | | 24x330ml | 100% | | FUZETEA+ | 100% | | PREDATOR | 100% | | 24x330ml | 100% | | 6x330ml | 100% | | 6x330ml | 100% | | LEMOR | 100% | | 6x330ml | 100% | | 350ml CAN | 100% | | 330ml CAN | 100% | | SUNNOH | 100% | | 330ml CAN | 100% | | | | | | |",,,,,,,,No Description,,807ab2b7739147098735831faba6b880,,a499996a027f419f9507f9c2e22b0c81,69,"{'human_readable_id': 69, 'subject_id': '**Output:**\n\n| A+ | 100% | | SAMURAI | 100% | | 500 ml | 100% | | 1.5L | 100% | | 1.5L PET | 100% | | FUZETEA | 100% | | STING | 100% | | 1.5L | 100% | | 24x330ml | 100% | | 24x330ml | 100% | | FUZETEA+ | 100% | | PREDATOR | 100% | | 24x330ml | 100% | | 6x330ml | 100% | | 6x330ml | 100% | | LEMOR | 100% | | 6x330ml | 100% | | 350ml CAN | 100% | | 330ml CAN | 100% | | SUNNOH | 100% | | 330ml CAN | 100% | | | | | | |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 1B: GOING FOR SILVER
+
+| TSM | D | T | G | W | |-----|---|---|---|---| | ZXCVBNM | 100.0% | 100.0% | 100.00% | 100% | | ASDFGHJ | 100.0% | 100.0% | 100.00% | 100% | | LKJHGF | 100.0% | 100.0% | 100.00% | 100% | | POIUYTR | 100.0% | 100.0% | 100.00% | 100% | | MNBVCXZ | 100.0% | 100.0% | 100.00% | 100% |",,,,,,,,No Description,,807ab2b7739147098735831faba6b880,,808bf691605548ecace85af644850dd5,70,"{'human_readable_id': 70, 'subject_id': '# INDEX 1B: GOING FOR SILVER\n\n| TSM | D | T | G | W | |-----|---|---|---|---| | ZXCVBNM | 100.0% | 100.0% | 100.00% | 100% | | ASDFGHJ | 100.0% | 100.0% | 100.00% | 100% | | LKJHGF | 100.0% | 100.0% | 100.00% | 100% | | POIUYTR | 100.0% | 100.0% | 100.00% | 100% | | MNBVCXZ | 100.0% | 100.0% | 100.00% | 100% |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 2B: ACTIVE OUTLET
+
+(Bar chart showing 100% across all categories",,,,,,,,No Description,,807ab2b7739147098735831faba6b880,,81b3fbe568b54ca680a363ab58336564,71,"{'human_readable_id': 71, 'subject_id': '# INDEX 2B: ACTIVE OUTLET\n\n(Bar chart showing 100% across all categories', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 1C: GOING FOR BRONZE
+
+| TSM | D | T | G | W | |-----|---|---|---|---| | ZXCVBNM | 100.00% | 100.00% | 100.00% | 100.0 | | POIUYTR | 100.00% | 100.00% | 100.00% | 100.0 | | MNBVCXZ | 100.00% | 100.00% | 100.00% | 100.0 | | LKJHGFD | 100.00% | 100.00% | 100.00% | 100.0 | | QWERTY | 100.00% | 100.00% | 100.00% | 100.0 | | ASDFGHJ | 98.77% | 98.24% | 98.53% | 98.0 | | UIOPLKJ | 100.00% | 100.00% | 100.00% | 100.0 |",,,,,,,,No Description,,807ab2b7739147098735831faba6b880,,1ea15a33b21140729a7a163feb91fc4d,72,"{'human_readable_id': 72, 'subject_id': '# INDEX 1C: GOING FOR BRONZE\n\n| TSM | D | T | G | W | |-----|---|---|---|---| | ZXCVBNM | 100.00% | 100.00% | 100.00% | 100.0 | | POIUYTR | 100.00% | 100.00% | 100.00% | 100.0 | | MNBVCXZ | 100.00% | 100.00% | 100.00% | 100.0 | | LKJHGFD | 100.00% | 100.00% | 100.00% | 100.0 | | QWERTY | 100.00% | 100.00% | 100.00% | 100.0 | | ASDFGHJ | 98.77% | 98.24% | 98.53% | 98.0 | | UIOPLKJ | 100.00% | 100.00% | 100.00% | 100.0 |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 3: SKU/ ORDER
+
+(Bar chart showing values ranging from 3.3 to 5.8",,,,,,,,No Description,,807ab2b7739147098735831faba6b880,,5ccc5391306e48ccaf452bd2c3fcb7cc,73,"{'human_readable_id': 73, 'subject_id': '# INDEX 3: SKU/ ORDER\n\n(Bar chart showing values ranging from 3.3 to 5.8', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 3: SKU/OUTLET
+
+(Bar chart showing values ranging from 18.7 to 22.8) --- iv. Bottom ASM
+
+Last refreshed date: 29/03/2023 09:36:06
+
+5 FACTORS EXECUTION FOCUSES
+
+| YEAR | WEEK | CHANNEL | REGION | |------|------|---------|--------| | 2023 (year) | 13 (month) | All | All |
+
+Total ASM
+
+> Bottom ASM
+
+> Bottom Total",,,,,,,,No Description,,807ab2b7739147098735831faba6b880,,69a505608c8d445eacb5b657f297cc3b,74,"{'human_readable_id': 74, 'subject_id': '# INDEX 3: SKU/OUTLET\n\n(Bar chart showing values ranging from 18.7 to 22.8) --- iv. Bottom ASM\n\nLast refreshed date: 29/03/2023 09:36:06\n\n5 FACTORS EXECUTION FOCUSES\n\n| YEAR | WEEK | CHANNEL | REGION | |------|------|---------|--------| | 2023 (year) | 13 (month) | All | All |\n\nTotal ASM\n\n> Bottom ASM\n\n> Bottom Total', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 1A: GOING FOR GOLD
+
+| ASM | G | S | B | % | |-----|---|---|---|---| | HUNGPP | 75.15% | 11.98% | 9.87% | 97% | | THUALTC | 73.08% | 13.85% | 10.77% | 98% | | THUALTN | 70.74% | 14.81% | 11.11% | 97% | | HUNGLTC | 67.38% | 16.28% | 12.24% | 96% | | HUNGLTN | 61.90% | 20.24% | 13.10% | 95% | | THLNC | 53.57% | 20.24% | 19.05% | 93% | | THLNTN | 53.57% | 20.24% | 19.05% | 93% | | THCXG | 51.79% | 22.62% | 18.45% | 93% | | HUNGXG | 50.00% | 22.62% | 20.24% | 93% |",,,,,,,,No Description,,807ab2b7739147098735831faba6b880,,2ea43ada4cbc4fc8b456168e0ce72f23,75,"{'human_readable_id': 75, 'subject_id': '# INDEX 1A: GOING FOR GOLD\n\n| ASM | G | S | B | % | |-----|---|---|---|---| | HUNGPP | 75.15% | 11.98% | 9.87% | 97% | | THUALTC | 73.08% | 13.85% | 10.77% | 98% | | THUALTN | 70.74% | 14.81% | 11.11% | 97% | | HUNGLTC | 67.38% | 16.28% | 12.24% | 96% | | HUNGLTN | 61.90% | 20.24% | 13.10% | 95% | | THLNC | 53.57% | 20.24% | 19.05% | 93% | | THLNTN | 53.57% | 20.24% | 19.05% | 93% | | THCXG | 51.79% | 22.62% | 18.45% | 93% | | HUNGXG | 50.00% | 22.62% | 20.24% | 93% |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 2A: ACTIVE BY BRAND
+
+| COKE | NTB | SPRITE | TEA | ED | |------|-----|--------|-----|---| | HUNGPP 94% | HUNGPP 94% | HUNGPP 89% | HUNGPP 91% | HUNGPP 87% | | THUALTC 92% | THUALTC 92% | THUALTC 88% | THUALTC 89% | THUALTC 86% | | THUALTN 91% | THUALTN 91% | THUALTN 87% | THUALTN 88% | THUALTN 85% | 
+
+**NONE**",,,,,,,,No Description,,807ab2b7739147098735831faba6b880,,a7f7b5b252b14964b200a07dfc70e6fb,76,"{'human_readable_id': 76, 'subject_id': '# INDEX 2A: ACTIVE BY BRAND\n\n| COKE | NTB | SPRITE | TEA | ED | |------|-----|--------|-----|---| | HUNGPP 94% | HUNGPP 94% | HUNGPP 89% | HUNGPP 91% | HUNGPP 87% | | THUALTC 92% | THUALTC 92% | THUALTC 88% | THUALTC 89% | THUALTC 86% | | THUALTN 91% | THUALTN 91% | THUALTN 87% | THUALTN 88% | THUALTN 85% | \n\n**NONE**', 'type': None, 'status': None, 'description': 'No Description'}"
+,"**Output:**
+
+**NONE**",,,,,,,,No Description,,753e94c93b9d47a594e3d045719e1072,,64c318d8f6834f0aa7d2d8dc72ac2b82,77,"{'human_readable_id': 77, 'subject_id': '**Output:**\n\n**NONE**', 'type': None, 'status': None, 'description': 'No Description'}"
+,**NONE**,,,,,,,,No Description,,753e94c93b9d47a594e3d045719e1072,,97f5a17ba6cb456a8f25abd813a8b1d9,78,"{'human_readable_id': 78, 'subject_id': '**NONE**', 'type': None, 'status': None, 'description': 'No Description'}"
+,**Output:**,,,,,,,,No Description,,edf5c99c140d47569a2dd3824f41ac7c,,d56c581c4e9c4c668f02de70dcc5f4f5,79,"{'human_readable_id': 79, 'subject_id': '**Output:**', 'type': None, 'status': None, 'description': 'No Description'}"
+,"| HUNGPP | THUALTC | THUALTN | HUNGLTC | HUNGLTN | THLNC | THLNTN | THCXG | HUNGXG | 
+|--------|---------|---------|---------|---------|-------|--------|-------|--------| 
+| 7.0    | 6.8     | 6.7     | 6.6     | 6.4     | 6.1   | 6.1    | 6.0   | 5.9    |",,,,,,,,No Description,,edf5c99c140d47569a2dd3824f41ac7c,,4f23eee5362a4bf8bc742d1b19a097e0,80,"{'human_readable_id': 80, 'subject_id': '| HUNGPP | THUALTC | THUALTN | HUNGLTC | HUNGLTN | THLNC | THLNTN | THCXG | HUNGXG | \n|--------|---------|---------|---------|---------|-------|--------|-------|--------| \n| 7.0    | 6.8     | 6.7     | 6.6     | 6.4     | 6.1   | 6.1    | 6.0   | 5.9    |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 3: SKU/OUTLET
+
+Last refreshed date: 28/03/2023 09:35:06",,,,,,,,No Description,,edf5c99c140d47569a2dd3824f41ac7c,,b9041c586a1044b8a88a56a1525a4baa,81,"{'human_readable_id': 81, 'subject_id': '# INDEX 3: SKU/OUTLET\n\nLast refreshed date: 28/03/2023 09:35:06', 'type': None, 'status': None, 'description': 'No Description'}"
+,"5 FACTORS EXECUTION FOCUSES
+
+| YEAR | WEEK | CHANNEL | REGION | Total ASM | Bottom ASM | Bottom TSM | 
+|------|------|---------|--------|-----------|------------|------------| 
+| 2023 (Year) | 2 (month) |         |        |           |            |            |",,,,,,,,No Description,,edf5c99c140d47569a2dd3824f41ac7c,,8e836376986d46d39eb3ec104eb2356e,82,"{'human_readable_id': 82, 'subject_id': '5 FACTORS EXECUTION FOCUSES\n\n| YEAR | WEEK | CHANNEL | REGION | Total ASM | Bottom ASM | Bottom TSM | \n|------|------|---------|--------|-----------|------------|------------| \n| 2023 (Year) | 2 (month) |         |        |           |            |            |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 1A: GOING FOR GOLD
+
+| TSM | G | E | G | 
+|-----|---|---|---| 
+| GILTH | 20.4% | 0.0% | 20.4% | 
+| DURGPO | 20.4% | 3.4% | 23.8% | 
+| DUEGT | 20.4% | 11.2% | 31.6% | 
+| DUNT | 18.4% | 23.9% | 42.2% | 
+| DURG DV | 20.4% | 31.2% | 51.6% | 
+| GUORG | 20.4% | 33.7% | 54.1% | 
+| DONG CN | 18.4% | 35.7% | 54.1% | 
+| DONG GT | 20.4% | 34.9% | 55.3% | 
+| DONG DV | 20.4% | 36.7% | 57.1% |",,,,,,,,No Description,,edf5c99c140d47569a2dd3824f41ac7c,,43800d4dd13a4fb4b21b0fee9a0cf356,83,"{'human_readable_id': 83, 'subject_id': '# INDEX 1A: GOING FOR GOLD\n\n| TSM | G | E | G | \n|-----|---|---|---| \n| GILTH | 20.4% | 0.0% | 20.4% | \n| DURGPO | 20.4% | 3.4% | 23.8% | \n| DUEGT | 20.4% | 11.2% | 31.6% | \n| DUNT | 18.4% | 23.9% | 42.2% | \n| DURG DV | 20.4% | 31.2% | 51.6% | \n| GUORG | 20.4% | 33.7% | 54.1% | \n| DONG CN | 18.4% | 35.7% | 54.1% | \n| DONG GT | 20.4% | 34.9% | 55.3% | \n| DONG DV | 20.4% | 36.7% | 57.1% |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 2A: ACTIVE BY BRAND
+
+| COKE | NTB | SPRITE | TEA | 
+|------|-----|--------|-----| 
+| 83.4% | 20.6% | 14.7% | 8.7% | 
+| 83.0% | 19.5% | 14.3% | 8.4% | 
+| 82.7% | 18.7% | 14.0% | 8.2% | 
+| 82.4% | 18.1% | 13.8% | 8.0% | 
+| 82.1% | 17.6% | 13.6% | 7.9% | 
+| 81.9% | 17.2% | 13.4% | 7.8% | 
+| 81.7% | 16.8% | 13.3% | 7.7% | 
+| 81.5% | 16.5% | 13.1% | 7.6% | 
+| 81.4% | 16.2% | 13.0% | 7.5% |",,,,,,,,No Description,,edf5c99c140d47569a2dd3824f41ac7c,,347de04902494785b1bc32e2009c2a43,84,"{'human_readable_id': 84, 'subject_id': '# INDEX 2A: ACTIVE BY BRAND\n\n| COKE | NTB | SPRITE | TEA | \n|------|-----|--------|-----| \n| 83.4% | 20.6% | 14.7% | 8.7% | \n| 83.0% | 19.5% | 14.3% | 8.4% | \n| 82.7% | 18.7% | 14.0% | 8.2% | \n| 82.4% | 18.1% | 13.8% | 8.0% | \n| 82.1% | 17.6% | 13.6% | 7.9% | \n| 81.9% | 17.2% | 13.4% | 7.8% | \n| 81.7% | 16.8% | 13.3% | 7.7% | \n| 81.5% | 16.5% | 13.1% | 7.6% | \n| 81.4% | 16.2% | 13.0% | 7.5% |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 1B: GOING FOR SILVER
+
+| TSM | G | E | G | 
+|-----|---|---|---| 
+| BENTN | | | 31.0% | 
+| DALAT | | | 31.0% | 
+| DNGN | | | 31.0% | 
+| DONGCN | | | 31.0% | 
+| DONGDV | | | 31.0% | 
+| DUONG | | | 31.0% | 
+| KGIANG | 3.0% | | | 
+| LAMDG | 3.0% | | | 
+| LONGAN | | | 31.0% |",,,,,,,,No Description,,edf5c99c140d47569a2dd3824f41ac7c,,36557eac287c42cba53f3e771e48e11e,85,"{'human_readable_id': 85, 'subject_id': '# INDEX 1B: GOING FOR SILVER\n\n| TSM | G | E | G | \n|-----|---|---|---| \n| BENTN | | | 31.0% | \n| DALAT | | | 31.0% | \n| DNGN | | | 31.0% | \n| DONGCN | | | 31.0% | \n| DONGDV | | | 31.0% | \n| DUONG | | | 31.0% | \n| KGIANG | 3.0% | | | \n| LAMDG | 3.0% | | | \n| LONGAN | | | 31.0% |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 2B: ACTIVE OUTLET
+
+| V.LONG | KIEN GIANG | TIEN GIANG | AN GIANG | TIEN GIANG | TRAN GIANG | DONG THAP | BEN TRE | CAN THO | SOC TRANG | 
+|--------|------------|------------|----------|------------|------------|-----------|---------|---------|-----------| 
+| 96%    | 96%       | 93%       | 93%      | 91%        | 90%        | 83%       | 75%     | 62%     | 58%       |",,,,,,,,No Description,,edf5c99c140d47569a2dd3824f41ac7c,,36fc5fd9d4064f3c951ce2f89585c002,86,"{'human_readable_id': 86, 'subject_id': '# INDEX 2B: ACTIVE OUTLET\n\n| V.LONG | KIEN GIANG | TIEN GIANG | AN GIANG | TIEN GIANG | TRAN GIANG | DONG THAP | BEN TRE | CAN THO | SOC TRANG | \n|--------|------------|------------|----------|------------|------------|-----------|---------|---------|-----------| \n| 96%    | 96%       | 93%       | 93%      | 91%        | 90%        | 83%       | 75%     | 62%     | 58%       |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 1C: GOING FOR BRONZE
+
+| TSM | G | E | G | 
+|-----|---|---|---| 
+| TIENGIANG | | 3.0% | 3.0% | 
+| TRAVINH | 3.0% | 0.0% | 3.0% | 
+| VINHLONG | 3.0% | 0.0% | 3.0% | 
+| CAMAU | 3.0% | -1.0% | 2.0% | 
+| CANTHO | 3.0% | -2.8% | 0.2% | 
+| ANGIANG | 3.1% | -3.1% | 0.0% | 
+| BACLIEU | 3.0% | -3.0% | 0.0% | 
+| SOCTRANG | 3.0% | -3.0% | 0.0% |",,,,,,,,No Description,,edf5c99c140d47569a2dd3824f41ac7c,,1ed345c42d5946f094f129b387d9a52b,87,"{'human_readable_id': 87, 'subject_id': '# INDEX 1C: GOING FOR BRONZE\n\n| TSM | G | E | G | \n|-----|---|---|---| \n| TIENGIANG | | 3.0% | 3.0% | \n| TRAVINH | 3.0% | 0.0% | 3.0% | \n| VINHLONG | 3.0% | 0.0% | 3.0% | \n| CAMAU | 3.0% | -1.0% | 2.0% | \n| CANTHO | 3.0% | -2.8% | 0.2% | \n| ANGIANG | 3.1% | -3.1% | 0.0% | \n| BACLIEU | 3.0% | -3.0% | 0.0% | \n| SOCTRANG | 3.0% | -3.0% | 0.0% |', 'type': None, 'status': None, 'description': 'No Description'}"
+,NONE,,NONE,,DATA ANALYSIS,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00,"The data reflects various percentages related to service outlets and their performance metrics across different regions and channels, indicating a comprehensive analysis of service outlet performance.",['Last refreshed date: 28/08/2023 09:30:36'],e8e436dd4b2f4ed595e48df5315a2f9f,,94180f3c378c42a2b9eb988c4a8e46e5,88,"{'human_readable_id': 88, 'subject_id': 'NONE', 'type': 'DATA ANALYSIS', 'status': 'TRUE', 'description': 'The data reflects various percentages related to service outlets and their performance metrics across different regions and channels, indicating a comprehensive analysis of service outlet performance.'}"
+,VU PHAN THE LAN,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00,VU PHAN THE LAN has a service outlet performance metric of 96.47% for Gold outlets.,"['60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | 10003404 - VU PHAN THE LAN | 14,538 | 1,953 | 1,884 | 96.47% | 565 | 547 | 96.81% | 541 | 529 | 97.78%']",e8e436dd4b2f4ed595e48df5315a2f9f,,2b0b04fa251b4433b9a82328dfefc53c,89,"{'human_readable_id': 89, 'subject_id': 'VU PHAN THE LAN', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': 'VU PHAN THE LAN has a service outlet performance metric of 96.47% for Gold outlets.'}"
+,PHAM THANH VINH,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00,PHAM THANH VINH has a service outlet performance metric of 99.75% for Gold outlets.,"['60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | 10002932 - PHAM THANH VINH | 2,718 | 404 | 403 | 99.75% | 110 | 110 | 100.00% | 92 | 92 | 100.00%']",e8e436dd4b2f4ed595e48df5315a2f9f,,3dcc28a7dc564c0d8c6113c7b8cb4172,90,"{'human_readable_id': 90, 'subject_id': 'PHAM THANH VINH', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': 'PHAM THANH VINH has a service outlet performance metric of 99.75% for Gold outlets.'}"
+,NGUYEN VU VAN LOAN,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00,NGUYEN VU VAN LOAN has a service outlet performance metric of 100.00% for Gold outlets.,"['60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130044 - NGUYEN VU VAN LOAN | 277 | 36 | 36 | 100.00% | 19 | 19 | 100.00% | 21 | 21 | 100.00%']",e8e436dd4b2f4ed595e48df5315a2f9f,,288a9e4d21974c2da35a292047ed2bca,91,"{'human_readable_id': 91, 'subject_id': 'NGUYEN VU VAN LOAN', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': 'NGUYEN VU VAN LOAN has a service outlet performance metric of 100.00% for Gold outlets.'}"
+,PHAM LY TRONG,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00,PHAM LY TRONG has a service outlet performance metric of 96.88% for Gold outlets.,"['60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130045 - PHAM LY TRONG | 264 | 32 | 31 | 96.88% | 6 | 6 | 100.00% | 7 | 7 | 100.00%']",e8e436dd4b2f4ed595e48df5315a2f9f,,825dc2439b774ef8a585ad16b7fc0d6b,92,"{'human_readable_id': 92, 'subject_id': 'PHAM LY TRONG', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': 'PHAM LY TRONG has a service outlet performance metric of 96.88% for Gold outlets.'}"
+,LE VAN CHINH,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00,LE VAN CHINH has a service outlet performance metric of 100.00% for Gold outlets.,"['60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130046 - LE VAN CHINH | 280 | 50 | 50 | 100.00% | 19 | 19 | 100.00% | 8 | 8 | 100.00%']",e8e436dd4b2f4ed595e48df5315a2f9f,,5310851d811d4c12b00d7a19c1dce1f8,93,"{'human_readable_id': 93, 'subject_id': 'LE VAN CHINH', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': 'LE VAN CHINH has a service outlet performance metric of 100.00% for Gold outlets.'}"
+,HO VAN DUC,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00<|diff_marker|>HO VAN DUC has a service outlet performance metric of 100.00% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130047 - HO VAN DUC | 314 | 49 | 49 | 100.00% | 11 | 11 | 100.00% | 9 | 9 | 100.00%",,e8e436dd4b2f4ed595e48df5315a2f9f,,de2884eee09f479589e849e5ab7f149b,94,"{'human_readable_id': 94, 'subject_id': 'HO VAN DUC', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': '60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130047 - HO VAN DUC | 314 | 49 | 49 | 100.00% | 11 | 11 | 100.00% | 9 | 9 | 100.00%'}"
+,NGUYEN VIET BAO,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00<|diff_marker|>NGUYEN VIET BAO has a service outlet performance metric of 100.00% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130048 - NGUYEN VIET BAO | 298 | 48 | 48 | 100.00% | 13 | 13 | 100.00% | 14 | 14 | 100.00%",,e8e436dd4b2f4ed595e48df5315a2f9f,,4571589861e6482db9a2106406414d8e,95,"{'human_readable_id': 95, 'subject_id': 'NGUYEN VIET BAO', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': '60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130048 - NGUYEN VIET BAO | 298 | 48 | 48 | 100.00% | 13 | 13 | 100.00% | 14 | 14 | 100.00%'}"
+,NGUYEN DANG QUOC PHONG,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00<|diff_marker|>NGUYEN DANG QUOC PHONG has a service outlet performance metric of 100.00% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130049 - NGUYEN DANG QUOC PHONG | 295 | 45 | 45 | 100.00% | 10 | 10 | 100.00% | 10 | 10 | 100.00%",,e8e436dd4b2f4ed595e48df5315a2f9f,,a26de0c1609e42de817de54a49fbd238,96,"{'human_readable_id': 96, 'subject_id': 'NGUYEN DANG QUOC PHONG', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': '60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130049 - NGUYEN DANG QUOC PHONG | 295 | 45 | 45 | 100.00% | 10 | 10 | 100.00% | 10 | 10 | 100.00%'}"
+,NGUYEN THI HANG,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00<|diff_marker|>NGUYEN THI HANG has a service outlet performance metric of 100.00% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130050 - NGUYEN THI HANG | 271 | 37 | 37 | 100.00% | 11 | 11 | 100.00% | 8 | 8 | 100.00%",,e8e436dd4b2f4ed595e48df5315a2f9f,,0ae4bdec9b354299a25b4806623c4531,97,"{'human_readable_id': 97, 'subject_id': 'NGUYEN THI HANG', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': '60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130050 - NGUYEN THI HANG | 271 | 37 | 37 | 100.00% | 11 | 11 | 100.00% | 8 | 8 | 100.00%'}"
+,NGUYEN TIEN LUC,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00<|diff_marker|>NGUYEN TIEN LUC has a service outlet performance metric of 100.00% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130051 - NGUYEN TIEN LUC | 240 | 37 | 37 | 100.00% | 10 | 10 | 100.00% | 7 | 7 | 100.00%",,e8e436dd4b2f4ed595e48df5315a2f9f,,71256a54ce7b404ba95828a90a1324c5,98,"{'human_readable_id': 98, 'subject_id': 'NGUYEN TIEN LUC', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': '60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130051 - NGUYEN TIEN LUC | 240 | 37 | 37 | 100.00% | 10 | 10 | 100.00% | 7 | 7 | 100.00%'}"
+,DOAN CONG MAN,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>DOAN CONG MAN has a service outlet performance metric of 100.00% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130064 - DOAN CONG MAN | 329 | 50 | 50 | 100.00% | 9 | 9 | 100.00% | 8 | 8 | 100.00%",No Description,,e8e436dd4b2f4ed595e48df5315a2f9f,,f2441ff7ba8143eaa84624103ec3a029,99,"{'human_readable_id': 99, 'subject_id': 'DOAN CONG MAN', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': 'No Description'}"
+,PHAM THI XUAN THUY,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00<|diff_marker|>PHAM THI XUAN THUY has a service outlet performance metric of 95.31% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | 10003007 - PHAM THI XUAN THUY | 1,666 | 277 | 264 | 95.31% | 76 | 71 | 93.42% | 99 | 97 | 97.98%",,e8e436dd4b2f4ed595e48df5315a2f9f,,5f9cb0797df742cc98008dc8a719c597,100,"{'human_readable_id': 100, 'subject_id': 'PHAM THI XUAN THUY', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': '60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | 10003007 - PHAM THI XUAN THUY | 1,666 | 277 | 264 | 95.31% | 76 | 71 | 93.42% | 99 | 97 | 97.98%'}"
+,1.0% | 2.0% | | CANTHO | 3.0% | -2.8% | 0.2% | | ANGIANG | 3.1% | -3.1% | 0.0% | | BACLIEU | 3.0% | -3.0% | 0.0% | | SOCTRANG | 3.0% | -3.0% | 0.0% | | HAUGIANG | 3.1% | -3.1% | 0.0% |,,,,,,,,No Description,,e8e436dd4b2f4ed595e48df5315a2f9f,,39a8bf05552e4cf493c5c42e2e5528f5,101,"{'human_readable_id': 101, 'subject_id': '1.0% | 2.0% | | CANTHO | 3.0% | -2.8% | 0.2% | | ANGIANG | 3.1% | -3.1% | 0.0% | | BACLIEU | 3.0% | -3.0% | 0.0% | | SOCTRANG | 3.0% | -3.0% | 0.0% | | HAUGIANG | 3.1% | -3.1% | 0.0% |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 3: SKU/ ORDER
+
+| DONG THAP | BEN TRE | CAN THO | KIEN GIANG | AN GIANG | TIEN GIANG | VINH LONG | SOC TRANG | |-----------|---------|---------|------------|----------|------------|-----------|-----------| | 5.4 | 3.9 | 3.8 | 3.5 | 3.2 | 3.1 | 2.8 | 2.4 |",,,,,,,,No Description,,e8e436dd4b2f4ed595e48df5315a2f9f,,80d56ab76d8b49a6a21baf6ea7dbcd70,102,"{'human_readable_id': 102, 'subject_id': '# INDEX 3: SKU/ ORDER\n\n| DONG THAP | BEN TRE | CAN THO | KIEN GIANG | AN GIANG | TIEN GIANG | VINH LONG | SOC TRANG | |-----------|---------|---------|------------|----------|------------|-----------|-----------| | 5.4 | 3.9 | 3.8 | 3.5 | 3.2 | 3.1 | 2.8 | 2.4 |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# INDEX 3: SKU/OUTLET
+
+| DONG THAP | CAN THO | BEN TRE | KIEN GIANG | AN GIANG | TIEN GIANG | VINH LONG | SOC TRANG | |-----------|---------|---------|------------|----------|------------|-----------|-----------| | 5.8 | 5.2 | 5.2 | 4.8 | 4.5 | 4.4 | 4.2 | 3.8 | ---",,,,,,,,No Description,,e8e436dd4b2f4ed595e48df5315a2f9f,,748529c824404981a0ed272c986a63b3,103,"{'human_readable_id': 103, 'subject_id': '# INDEX 3: SKU/OUTLET\n\n| DONG THAP | CAN THO | BEN TRE | KIEN GIANG | AN GIANG | TIEN GIANG | VINH LONG | SOC TRANG | |-----------|---------|---------|------------|----------|------------|-----------|-----------| | 5.8 | 5.2 | 5.2 | 4.8 | 4.5 | 4.4 | 4.2 | 3.8 | ---', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# 3.3 5 Factors by details
+
+Last refreshed date: 28/08/2023 09:30:36",,,,,,,,No Description,,e8e436dd4b2f4ed595e48df5315a2f9f,,ebd04a974fb644ef99eef8a01e70a76b,104,"{'human_readable_id': 104, 'subject_id': '# 3.3 5 Factors by details\n\nLast refreshed date: 28/08/2023 09:30:36', 'type': None, 'status': None, 'description': 'No Description'}"
+,,,,,,,,,No Description,,e8e436dd4b2f4ed595e48df5315a2f9f,,fe9f270d26134df89957901643d5ec95,105,"{'human_readable_id': 105, 'subject_id': '', 'type': None, 'status': None, 'description': 'No Description'}"
+,"5 FACTORS BY DETAILS
+
+| YEAR | MONTH | WEEK | CHANNEL | REGION | A&M | TSM | |------|--------|------|---------|--------|-----|-----| | 2023 | 8      | 1    | All     | All    | All | All |
+
+| Region | Service outlet | Service outlet Gold | Outlet G4 Gold | % Going for Gold | Service outlet Gold Drinking | Outlet G4 Gold Drinking | % G4 Gold Drinking | Service outlet Gold - Eating | Outlet G4 Gold - Eating | % G4 Gold - Eating | |--------|----------------|---------------------|----------------|------------------|------------------------------|-------------------------|--------------------|-----------------------------|------------------------|-------------------| | CP | 60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | 10003404 - VU PHAN THE LAN | 14,538 | 1,953 | 1,884 | 96.47% | 565 | 547 | 96.81% | 541 | 529 | 97.78% | | 10002932 - PHAM THANH VINH | 2,718 | 404 | 403 | 99.75% | 110 | 110 | 100.00% | 92 | 92 | 100.00% | | VN130044 - NGUYEN VU VAN LOAN | 277 | 36 | 36 | 100.00% | 19 | 19 | 100.00% | 21 | 21 | 100.00% | | VN130045 - PHAM LY TRONG | 264 | 32 | 31 | 96.88% | 6 | 6 | 100.00% | 7 | 7 | 100.00% | | VN130046 - LE VAN CHINH | 280 | 50 | 50 | 100.00% | 19 | 19 | 100.00% | 8 | 8 | 100.00% | | VN130047 - HO VAN DUC | 314 | 49 | 49 | 100.00% | 11 | 11 | 100.00% | 9 | 9 | 100.00% | | VN130048 - NGUYEN VIET BAO | 298 | 48 | 48 | 100.00% | 13 | 13 | 100.00% | 14 | 14 | 100.00% | | VN130049 - NGUYEN DANG QUOC PHONG | 295 | 45 | 45 | 100.00% | 10 | 10 | 100.00% | 10 | 10 | 100.00% | | VN130050 - NGUYEN THI HANG | 271 | 37 | 37 | 100.00% | 11 | 11 | 100.00% | 8 | 8 | 100.00% | | VN130051 - NGUYEN TIEN LUC | 240 | 37 | 37 |
+
+100.00% | 10 | 10 | 100.00% | 7 | 7 | 100.00% | | VN130064 - DOAN CONG MAN | 329 | 50 | 50 | 100.00% | 9 | 9 | 100.00% | 8 | 8 | 100.00% | | 10003007 - PHAM THI XUAN THUY | 1,666 | 277 | 264 | 95.31% | 76 | 71 | 93.42% | 99 | 97 | 97.98% |
+(NONE",,NONE,,DATA ANALYSIS,TRUE,2023-08-28T00:00:00,"2023-08-28T00:00:00<|diff_marker|>The data reflects various percentages related to service outlets and their performance metrics across different regions and channels, indicating a comprehensive analysis of service outlet performance.",Last refreshed date: 28/08/2023 09:30:36,,e8e436dd4b2f4ed595e48df5315a2f9f,,028b6f57bfea405397e4a4189a34c2a3,106,"{'human_readable_id': 106, 'subject_id': '5 FACTORS BY DETAILS\n\n| YEAR | MONTH | WEEK | CHANNEL | REGION | A&M | TSM | |------|--------|------|---------|--------|-----|-----| | 2023 | 8      | 1    | All     | All    | All | All |\n\n| Region | Service outlet | Service outlet Gold | Outlet G4 Gold | % Going for Gold | Service outlet Gold Drinking | Outlet G4 Gold Drinking | % G4 Gold Drinking | Service outlet Gold - Eating | Outlet G4 Gold - Eating | % G4 Gold - Eating | |--------|----------------|---------------------|----------------|------------------|------------------------------|-------------------------|--------------------|-----------------------------|------------------------|-------------------| | CP | 60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | 10003404 - VU PHAN THE LAN | 14,538 | 1,953 | 1,884 | 96.47% | 565 | 547 | 96.81% | 541 | 529 | 97.78% | | 10002932 - PHAM THANH VINH | 2,718 | 404 | 403 | 99.75% | 110 | 110 | 100.00% | 92 | 92 | 100.00% | | VN130044 - NGUYEN VU VAN LOAN | 277 | 36 | 36 | 100.00% | 19 | 19 | 100.00% | 21 | 21 | 100.00% | | VN130045 - PHAM LY TRONG | 264 | 32 | 31 | 96.88% | 6 | 6 | 100.00% | 7 | 7 | 100.00% | | VN130046 - LE VAN CHINH | 280 | 50 | 50 | 100.00% | 19 | 19 | 100.00% | 8 | 8 | 100.00% | | VN130047 - HO VAN DUC | 314 | 49 | 49 | 100.00% | 11 | 11 | 100.00% | 9 | 9 | 100.00% | | VN130048 - NGUYEN VIET BAO | 298 | 48 | 48 | 100.00% | 13 | 13 | 100.00% | 14 | 14 | 100.00% | | VN130049 - NGUYEN DANG QUOC PHONG | 295 | 45 | 45 | 100.00% | 10 | 10 | 100.00% | 10 | 10 | 100.00% | | VN130050 - NGUYEN THI HANG | 271 | 37 | 37 | 100.00% | 11 | 11 | 100.00% | 8 | 8 | 100.00% | | VN130051 - NGUYEN TIEN LUC | 240 | 37 | 37 |\n\n100.00% | 10 | 10 | 100.00% | 7 | 7 | 100.00% | | VN130064 - DOAN CONG MAN | 329 | 50 | 50 | 100.00% | 9 | 9 | 100.00% | 8 | 8 | 100.00% | | 10003007 - PHAM THI XUAN THUY | 1,666 | 277 | 264 | 95.31% | 76 | 71 | 93.42% | 99 | 97 | 97.98% |\n(NONE', 'type': 'DATA ANALYSIS', 'status': 'TRUE', 'description': 'Last refreshed date: 28/08/2023 09:30:36'}"
+,VU PHAN THE LAN,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00<|diff_marker|>VU PHAN THE LAN has a service outlet performance metric of 96.47% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | 10003404 - VU PHAN THE LAN | 14,538 | 1,953 | 1,884 | 96.47% | 565 | 547 | 96.81% | 541 | 529 | 97.78%",,e8e436dd4b2f4ed595e48df5315a2f9f,,294c8c13d23f4e9d9e7b7a1e75a5b448,107,"{'human_readable_id': 107, 'subject_id': 'VU PHAN THE LAN', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': '60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | 10003404 - VU PHAN THE LAN | 14,538 | 1,953 | 1,884 | 96.47% | 565 | 547 | 96.81% | 541 | 529 | 97.78%'}"
+,PHAM THANH VINH,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00<|diff_marker|>PHAM THANH VINH has a service outlet performance metric of 99.75% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | 10002932 - PHAM THANH VINH | 2,718 | 404 | 403 | 99.75% | 110 | 110 | 100.00% | 92 | 92 | 100.00%",,e8e436dd4b2f4ed595e48df5315a2f9f,,c6b366b118244b8db6e11928407e88db,108,"{'human_readable_id': 108, 'subject_id': 'PHAM THANH VINH', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': '60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | 10002932 - PHAM THANH VINH | 2,718 | 404 | 403 | 99.75% | 110 | 110 | 100.00% | 92 | 92 | 100.00%'}"
+,NGUYEN VU VAN LOAN,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00<|diff_marker|>NGUYEN VU VAN LOAN has a service outlet performance metric of 100.00% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130044 - NGUYEN VU VAN LOAN | 277 | 36 | 36 | 100.00% | 19 | 19 | 100.00% | 21 | 21 | 100.00%",,e8e436dd4b2f4ed595e48df5315a2f9f,,1cdfab4474284b55b663bdd86be69e82,109,"{'human_readable_id': 109, 'subject_id': 'NGUYEN VU VAN LOAN', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': '60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130044 - NGUYEN VU VAN LOAN | 277 | 36 | 36 | 100.00% | 19 | 19 | 100.00% | 21 | 21 | 100.00%'}"
+,PHAM LY TRONG,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>PHAM LY TRONG has a service outlet performance metric of 96.88% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130045 - PHAM LY TRONG | 264 | 32 | 31 | 96.88% | 6 | 6 | 100.00% | 7 | 7 | 100.00%",No Description,,e8e436dd4b2f4ed595e48df5315a2f9f,,07d3132fd87941db8622cf0adc5bb40b,110,"{'human_readable_id': 110, 'subject_id': 'PHAM LY TRONG', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': 'No Description'}"
+,LE VAN CHINH,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>LE VAN CHINH has a service outlet performance metric of 100.00% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130046 - LE VAN CHINH | 280 | 50 | 50 | 100.00% | 19 | 19 | 100.00% | 8 | 8 | 100.00%",No Description,,e8e436dd4b2f4ed595e48df5315a2f9f,,bbedb35901db419799eaecd126fd0541,111,"{'human_readable_id': 111, 'subject_id': 'LE VAN CHINH', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': 'No Description'}"
+,HO VAN DUC,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>HO VAN DUC has a service outlet performance metric of 100.00% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130047 - HO VAN DUC | 314 | 49 | 49 | 100.00% | 11 | 11 | 100.00% | 9 | 9 | 100.00%",No Description,,e8e436dd4b2f4ed595e48df5315a2f9f,,8534fe87c78a422fab89e8705a8b23c2,112,"{'human_readable_id': 112, 'subject_id': 'HO VAN DUC', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': 'No Description'}"
+,NGUYEN VIET BAO,,NONE,,PERFORMANCE METRIC,TRUE<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>NGUYEN VIET BAO has a service outlet performance metric of 100.00% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130048 - NGUYEN VIET BAO | 298 | 48 | 48 | 100.00% | 13 | 13 | 100.00% | 14 | 14 | 100.00%",,No Description,,e8e436dd4b2f4ed595e48df5315a2f9f,,a43480676a664050a1cad8b2ce50782e,113,"{'human_readable_id': 113, 'subject_id': 'NGUYEN VIET BAO', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>NGUYEN VIET BAO has a service outlet performance metric of 100.00% for Gold outlets.', 'description': 'No Description'}"
+,NGUYEN DANG QUOC PHONG,,NONE,,PERFORMANCE METRIC,TRUE<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>NGUYEN DANG QUOC PHONG has a service outlet performance metric of 100.00% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130049 - NGUYEN DANG QUOC PHONG | 295 | 45 | 45 | 100.00% | 10 | 10 | 100.00% | 10 | 10 | 100.00%",,No Description,,e8e436dd4b2f4ed595e48df5315a2f9f,,4bcd064b7a25412bbb7e37503985622a,114,"{'human_readable_id': 114, 'subject_id': 'NGUYEN DANG QUOC PHONG', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>NGUYEN DANG QUOC PHONG has a service outlet performance metric of 100.00% for Gold outlets.', 'description': 'No Description'}"
+,NGUYEN THI HANG,,NONE,,PERFORMANCE METRIC,TRUE<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>NGUYEN THI HANG has a service outlet performance metric of 100.00% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130050 - NGUYEN THI HANG | 271 | 37 | 37 | 100.00% | 11 | 11 | 100.00% | 8 | 8 | 100.00%",,No Description,,e8e436dd4b2f4ed595e48df5315a2f9f,,930d4ec79b5c4a3d90c4fe5a95d6d9d2,115,"{'human_readable_id': 115, 'subject_id': 'NGUYEN THI HANG', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>NGUYEN THI HANG has a service outlet performance metric of 100.00% for Gold outlets.', 'description': 'No Description'}"
+,NGUYEN TIEN LUC,,NONE,,PERFORMANCE METRIC,TRUE<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>NGUYEN TIEN LUC has a service outlet performance metric of 100.00% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130051 - NGUYEN TIEN LUC | 240 | 37 | 37 | 100.00% | 10 | 10 | 100.00% | 7 | 7 | 100.00%",,No Description,,e8e436dd4b2f4ed595e48df5315a2f9f,,90eae14b6614449da09a3ef99d00e4ba,116,"{'human_readable_id': 116, 'subject_id': 'NGUYEN TIEN LUC', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>NGUYEN TIEN LUC has a service outlet performance metric of 100.00% for Gold outlets.', 'description': 'No Description'}"
+,DOAN CONG MAN,,NONE,,PERFORMANCE METRIC,TRUE<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>DOAN CONG MAN has a service outlet performance metric of 100.00% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | VN130064 - DOAN CONG MAN | 329 | 50 | 50 | 100.00% | 9 | 9 | 100.00% | 8 | 8 | 100.00%",,No Description,,e8e436dd4b2f4ed595e48df5315a2f9f,,7c7eef5794f045b7b3cfda307b02aaa2,117,"{'human_readable_id': 117, 'subject_id': 'DOAN CONG MAN', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>2023-08-28T00:00:00<|diff_marker|>DOAN CONG MAN has a service outlet performance metric of 100.00% for Gold outlets.', 'description': 'No Description'}"
+,PHAM THI XUAN THUY,,NONE,,PERFORMANCE METRIC,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00<|diff_marker|>PHAM THI XUAN THUY has a service outlet performance metric of 95.31% for Gold outlets.,"60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | 10003007 - PHAM THI XUAN THUY | 1,666 | 277 | 264 | 95.31% | 76 | 71 | 93.42% | 99 | 97 | 97.98%",,e8e436dd4b2f4ed595e48df5315a2f9f,,76a2c60063e944e88f622e27931e2c71,118,"{'human_readable_id': 118, 'subject_id': 'PHAM THI XUAN THUY', 'type': 'PERFORMANCE METRIC', 'status': 'TRUE', 'description': '60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% | | 10003007 - PHAM THI XUAN THUY | 1,666 | 277 | 264 | 95.31% | 76 | 71 | 93.42% | 99 | 97 | 97.98%'}"
+,NONE,,NONE,,DATA ANALYSIS,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00,"The last refreshed date for the data analysis was recorded on 28/08/2023, indicating a regular update cycle for the information presented.",['Last refreshed date: 28/08/2023 09:36:06'],bc9b9822ef754af7a9c2cecd819258d8,,676ff9d19bb544f692de8217ed545783,119,"{'human_readable_id': 119, 'subject_id': 'NONE', 'type': 'DATA ANALYSIS', 'status': 'TRUE', 'description': 'The last refreshed date for the data analysis was recorded on 28/08/2023, indicating a regular update cycle for the information presented.'}"
+,"| 10003007 - PHAM THI XUAN THUY | 1,666 | 277 | 264 | 95.31% | 76 | 71 | 93.42% | 99 | 97 | 97.98% | 
+| VN130030 - HUYNH THANH TUNG | 261 | 42 | 41 | 97.62% | 9 | 9 | 100.00% | 8 | 8 | 100.00% | 
+| VN130031 - TRUONG VAN HUY | 224 | 42 | 39 | 92.86% | 13 | 12 | 92.31% | 13 | 13 | 100.00% | 
+| VN130032 - NGUYEN PHUC LAM | 278 | 49 | 45 | 91.84% | 22 | 19 | 86.36% | 11 | 10 | 90.91% | 
+| VN130033 - NGUYEN THI THANH THAO | 235 | 38 | 35 | 92.11% | 8 | 7 | 87.50% | 19 | 18 | 94.74% | 
+| VN130035 - PHAM QUANG LOI | 296 | 51 | 51 | 100.00% | 5 | 5 | 100.00% | 30 | 30 | 100.00% | 
+| VN130036 - NGUYEN THAI SINH | 238 | 44 | 44 | 100.00% | 14 | 14 | 100.00% | 14 | 14 | 100.00% | 
+| VN130039 - PHAN PHUOC AN | 223 | 11 | 11 | 100.00% | 5 | 5 | 100.00% | 4 | 4 | 100.00% | 
+| 10003014 - TRAN VAN TIEN | 2,171 | 290 | 285 | 98.28% | 63 | 63 | 100.00% | 66 | 64 | 96.97% | 
+| VN130052 - NGUYEN VAN BANG | 290 | 40 | 40 | 100.00% | 14 | 14 | 100.00% | 14 | 14 | 100.00% | 
+| VN130053 - LE VAN PHUNG | 276 | 40 | 38 | 95.00% | 9 | 9 | 100.00% | 6 | 6 | 100.00% | 
+| VN130054 - PHAM DUY TIEN | 238 | 35 | 33 | 94.29% | 7 | 7 | 100.00% | 14 | 13 | 92.86% | 
+| VN130055 - TRIEU THI HONG NHUNG | 236 | 32 | 32 | 100.00% | 2 | 2 | 100.00% | 8 | 8 | 100.00% | 
+| VN130056 - HO THI AI LOAN | 284 | 31 | 31 | 100.00% | 9 | 9 | 100.00% | 5 | 5 | 100.00% | 
+| Total | 411,118 | 54,562 | 41,365 | 75.81% | 13,044 | 9,975 | 76.47% | 15,475 | 11,638 | 75.21% |",,,,,,,,No Description,,bc9b9822ef754af7a9c2cecd819258d8,,d34aea55a17a489b9a41794206f39887,120,"{'human_readable_id': 120, 'subject_id': '| 10003007 - PHAM THI XUAN THUY | 1,666 | 277 | 264 | 95.31% | 76 | 71 | 93.42% | 99 | 97 | 97.98% | \n| VN130030 - HUYNH THANH TUNG | 261 | 42 | 41 | 97.62% | 9 | 9 | 100.00% | 8 | 8 | 100.00% | \n| VN130031 - TRUONG VAN HUY | 224 | 42 | 39 | 92.86% | 13 | 12 | 92.31% | 13 | 13 | 100.00% | \n| VN130032 - NGUYEN PHUC LAM | 278 | 49 | 45 | 91.84% | 22 | 19 | 86.36% | 11 | 10 | 90.91% | \n| VN130033 - NGUYEN THI THANH THAO | 235 | 38 | 35 | 92.11% | 8 | 7 | 87.50% | 19 | 18 | 94.74% | \n| VN130035 - PHAM QUANG LOI | 296 | 51 | 51 | 100.00% | 5 | 5 | 100.00% | 30 | 30 | 100.00% | \n| VN130036 - NGUYEN THAI SINH | 238 | 44 | 44 | 100.00% | 14 | 14 | 100.00% | 14 | 14 | 100.00% | \n| VN130039 - PHAN PHUOC AN | 223 | 11 | 11 | 100.00% | 5 | 5 | 100.00% | 4 | 4 | 100.00% | \n| 10003014 - TRAN VAN TIEN | 2,171 | 290 | 285 | 98.28% | 63 | 63 | 100.00% | 66 | 64 | 96.97% | \n| VN130052 - NGUYEN VAN BANG | 290 | 40 | 40 | 100.00% | 14 | 14 | 100.00% | 14 | 14 | 100.00% | \n| VN130053 - LE VAN PHUNG | 276 | 40 | 38 | 95.00% | 9 | 9 | 100.00% | 6 | 6 | 100.00% | \n| VN130054 - PHAM DUY TIEN | 238 | 35 | 33 | 94.29% | 7 | 7 | 100.00% | 14 | 13 | 92.86% | \n| VN130055 - TRIEU THI HONG NHUNG | 236 | 32 | 32 | 100.00% | 2 | 2 | 100.00% | 8 | 8 | 100.00% | \n| VN130056 - HO THI AI LOAN | 284 | 31 | 31 | 100.00% | 9 | 9 | 100.00% | 5 | 5 | 100.00% | \n| Total | 411,118 | 54,562 | 41,365 | 75.81% | 13,044 | 9,975 | 76.47% | 15,475 | 11,638 | 75.21% |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# CORE DISTRIBUTION MAGIC
+
+| YEAR | MONTH | WEEK | CHANNEL | REGION | ASM | TSM | 
+|------|-------|------|---------|--------|-----|-----| 
+| 2023 | 8     | 2    | All     | All    | All | All |",,,,,,,,No Description,,bc9b9822ef754af7a9c2cecd819258d8,,2317d406fa154d4ebe9df6077a487e84,121,"{'human_readable_id': 121, 'subject_id': '# CORE DISTRIBUTION MAGIC\n\n| YEAR | MONTH | WEEK | CHANNEL | REGION | ASM | TSM | \n|------|-------|------|---------|--------|-----|-----| \n| 2023 | 8     | 2    | All     | All    | All | All |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# TREND OF CORE TOTAL
+
+```mermaid
+graph LR
+Apr[Apr] -
+> May[May]
+May -
+> Jun[Jun]
+Jun -
+> Jul[Jul]
+Jul -
+> Aug[Aug]
+Aug -
+> Sep[Sep]
+Apr -
+1.00-
+> May
+May -
+0.84-
+> Jun
+Jun -
+0.99-
+> Jul
+Jul -
+1.01-
+> Aug
+Aug -
+0.87-
+> Sep
+```",,,,,,,,No Description,,bc9b9822ef754af7a9c2cecd819258d8,,2f796752ec30457290e0f308c025a60b,122,"{'human_readable_id': 122, 'subject_id': '# TREND OF CORE TOTAL\n\n```mermaid\ngraph LR\nApr[Apr] -\n> May[May]\nMay -\n> Jun[Jun]\nJun -\n> Jul[Jul]\nJul -\n> Aug[Aug]\nAug -\n> Sep[Sep]\nApr -\n1.00-\n> May\nMay -\n0.84-\n> Jun\nJun -\n0.99-\n> Jul\nJul -\n1.01-\n> Aug\nAug -\n0.87-\n> Sep\n```', 'type': None, 'status': None, 'description': 'No Description'}"
+,"# CORE TOTAL
+
+| Region | Drinking | Eating | Grocery | Wholesale | % CORE TOTAL | 
+|--------|----------|--------|---------|-----------|--------------| 
+| CP     | 14.24%   | 21.48% | 24.10%  | 40.18%    | 41.48%       | 
+| HK     | 14.10%   | 21.25% | 24.10%  | 40.55%    | 34.56%       | 
+| HN     | 14.33%   | 21.58% | 24.09%  | 40.00%    | 39.98%       | 
+| MK     | 14.24%   | 21.44% | 24.32%  | 40.00%    | 34.69%       | 
+| NE     | (NONE)   | (NONE) | (NONE)  | (NONE)    | (NONE)       | 
+
+(NONE",,NONE,,DATA ANALYSIS,TRUE,2023-08-28T00:00:00,2023-08-28T00:00:00,"The last refreshed date for the data analysis was recorded on 28/08/2023, indicating a regular update cycle for the information presented.",['Last refreshed date: 28/08/2023 09:36:06'],bc9b9822ef754af7a9c2cecd819258d8,,bb0b00252a5d48c9b7d9f8befab6c418,123,"{'human_readable_id': 123, 'subject_id': '# CORE TOTAL\n\n| Region | Drinking | Eating | Grocery | Wholesale | % CORE TOTAL | \n|--------|----------|--------|---------|-----------|--------------| \n| CP     | 14.24%   | 21.48% | 24.10%  | 40.18%    | 41.48%       | \n| HK     | 14.10%   | 21.25% | 24.10%  | 40.55%    | 34.56%       | \n| HN     | 14.33%   | 21.58% | 24.09%  | 40.00%    | 39.98%       | \n| MK     | 14.24%   | 21.44% | 24.32%  | 40.00%    | 34.69%       | \n| NE     | (NONE)   | (NONE) | (NONE)  | (NONE)    | (NONE)       | \n\n(NONE', 'type': 'DATA ANALYSIS', 'status': 'TRUE', 'description': 'The last refreshed date for the data analysis was recorded on 28/08/2023, indicating a regular update cycle for the information presented.'}"
+,NGUYEN THI ANH,,NONE,,PERFORMANCE,TRUE,NONE,NONE,Nguyen Thi Anh achieved a performance score of 83%,['1. 83% (Nguyen Thi Anh)'],36395c304d6d4f6fb8bc0c80e8483171,,c946705945384ff39f8bb1b8d45b11b0,124,"{'human_readable_id': 124, 'subject_id': 'NGUYEN THI ANH', 'type': 'PERFORMANCE', 'status': 'TRUE', 'description': 'Nguyen Thi Anh achieved a performance score of 83%'}"
+,NGUYEN VAN QUYET,,NONE,,PERFORMANCE,TRUE,NONE,NONE,Nguyen Van Quyet achieved a performance score of 66%,['2. 66% (Nguyen Van Quyet)'],36395c304d6d4f6fb8bc0c80e8483171,,05492432976445e4aeece4fa60e4beba,125,"{'human_readable_id': 125, 'subject_id': 'NGUYEN VAN QUYET', 'type': 'PERFORMANCE', 'status': 'TRUE', 'description': 'Nguyen Van Quyet achieved a performance score of 66%'}"
+,TRAN VAN LAM,,NONE,,PERFORMANCE,TRUE,NONE,NONE,Tran Van Lam achieved a performance score of 64%,['3. 64% (Tran Van Lam)'],36395c304d6d4f6fb8bc0c80e8483171,,fa50d5ad7a834606bc98b33fba4f5cde,126,"{'human_readable_id': 126, 'subject_id': 'TRAN VAN LAM', 'type': 'PERFORMANCE', 'status': 'TRUE', 'description': 'Tran Van Lam achieved a performance score of 64%'}"
+,HK,,NONE,,REGION,TRUE,NONE,NONE,"HK is a region with various performance metrics in CORE GOLD, CORE SILVER, and CORE BRONZE categories.",['HK'],36395c304d6d4f6fb8bc0c80e8483171,,b3f96890844847bb86e66ade6e95a0f8,127,"{'human_readable_id': 127, 'subject_id': 'HK', 'type': 'REGION', 'status': 'TRUE', 'description': 'HK is a region with various performance metrics in CORE GOLD, CORE SILVER, and CORE BRONZE categories.'}"
+,CP,,NONE,,REGION,TRUE,NONE,NONE,"CP is a region with various performance metrics in CORE GOLD, CORE SILVER, and CORE BRONZE categories.",['CP'],36395c304d6d4f6fb8bc0c80e8483171,,61e2af76982440a88d1d49c458213386,128,"{'human_readable_id': 128, 'subject_id': 'CP', 'type': 'REGION', 'status': 'TRUE', 'description': 'CP is a region with various performance metrics in CORE GOLD, CORE SILVER, and CORE BRONZE categories.'}"
+,NE,,NONE,,REGION,TRUE,NONE,NONE,"NE is a region with various performance metrics in CORE GOLD, CORE SILVER, and CORE BRONZE categories.",['NE'],36395c304d6d4f6fb8bc0c80e8483171,,a401c30dd5e442f281fc17460516fb1e,129,"{'human_readable_id': 129, 'subject_id': 'NE', 'type': 'REGION', 'status': 'TRUE', 'description': 'NE is a region with various performance metrics in CORE GOLD, CORE SILVER, and CORE BRONZE categories.'}"
+,NW,,NONE,,REGION,TRUE,NONE,NONE,"NW is a region with various performance metrics in CORE GOLD, CORE SILVER, and CORE BRONZE categories.",['NW'],36395c304d6d4f6fb8bc0c80e8483171,,3a94d27836a34cb28de1280f5c95a096,130,"{'human_readable_id': 130, 'subject_id': 'NW', 'type': 'REGION', 'status': 'TRUE', 'description': 'NW is a region with various performance metrics in CORE GOLD, CORE SILVER, and CORE BRONZE categories.'}"
+,SP,,NONE,,REGION,TRUE,NONE,NONE,"SP is a region with various performance metrics in CORE GOLD, CORE SILVER, and CORE BRONZE categories.",['SP'],36395c304d6d4f6fb8bc0c80e8483171,,0d4a6e70d2924da8bca81c409d9b8cce,131,"{'human_readable_id': 131, 'subject_id': 'SP', 'type': 'REGION', 'status': 'TRUE', 'description': 'SP is a region with various performance metrics in CORE GOLD, CORE SILVER, and CORE BRONZE categories.'}"
+,VN,,NONE,,REGION,TRUE,NONE,NONE,"VN is a region with various performance metrics in CORE GOLD, CORE SILVER, and CORE BRONZE categories.",['VN'],36395c304d6d4f6fb8bc0c80e8483171,,b5bf02731e95462fad16ec4177a33a9e,132,"{'human_readable_id': 132, 'subject_id': 'VN', 'type': 'REGION', 'status': 'TRUE', 'description': 'VN is a region with various performance metrics in CORE GOLD, CORE SILVER, and CORE BRONZE categories.'}"
+,MK,,NONE,,REGION,TRUE,NONE,NONE,"MK is a region with various performance metrics in CORE GOLD, CORE SILVER, and CORE BRONZE categories.",['MK'],36395c304d6d4f6fb8bc0c80e8483171,,281b2153cf3248ddb9030cb77c21c961,133,"{'human_readable_id': 133, 'subject_id': 'MK', 'type': 'REGION', 'status': 'TRUE', 'description': 'MK is a region with various performance metrics in CORE GOLD, CORE SILVER, and CORE BRONZE categories.'}"
+,NGUYEN VAN BANG,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,2023-08-31T00:00:00,"NGUYEN VAN BANG had an Outlet G4 Core percentage of 0.21% in August 2023, indicating a low core performance.",['| VN130052 - NGUYEN VAN BANG | 256 | 129 | 0.21% | 40 | 40 | 100.00% | 14 | 14 | 100.00% | 1 |'],ec60ec0595244691a546d243abbc1eb5,,a83ae0a1cc9b4928afbc2c01c6a81175,134,"{'human_readable_id': 134, 'subject_id': 'NGUYEN VAN BANG', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': 'NGUYEN VAN BANG had an Outlet G4 Core percentage of 0.21% in August 2023, indicating a low core performance.'}"
+,LE VAN PHUNG,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,2023-08-31T00:00:00,"LE VAN PHUNG had an Outlet G4 Core percentage of 0.15% in August 2023, indicating a low core performance.",['| VN130053 - LE VAN PHUNG | 276 | 91 | 0.15% | 40 | 40 | 100.00% | 9 | 9 | 100.00% |'],ec60ec0595244691a546d243abbc1eb5,,c7f635e849b847bf9cbebb6c72ce5190,135,"{'human_readable_id': 135, 'subject_id': 'LE VAN PHUNG', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': 'LE VAN PHUNG had an Outlet G4 Core percentage of 0.15% in August 2023, indicating a low core performance.'}"
+,PHAM DUY TIEN,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,2023-08-31T00:00:00,"PHAM DUY TIEN had an Outlet G4 Core percentage of 0.11% in August 2023, indicating a low core performance.",['| VN130054 - PHAM DUY TIEN | 228 | 64 | 0.11% | 35 | 34 | 97.14% | 7 | 7 | 100.00% | 1 |'],ec60ec0595244691a546d243abbc1eb5,,b9ef08c3cae542df9089b05a7d3ba118,136,"{'human_readable_id': 136, 'subject_id': 'PHAM DUY TIEN', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': 'PHAM DUY TIEN had an Outlet G4 Core percentage of 0.11% in August 2023, indicating a low core performance.'}"
+,TRIEU THI HONG NHUNG,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,2023-08-31T00:00:00,"TRIEU THI HONG NHUNG had an Outlet G4 Core percentage of 0.15% in August 2023, indicating a low core performance.",['| VN130055 - TRIEU THI HONG NHUNG | 236 | 88 | 0.15% | 32 | 32 | 100.00% | 2 | 2 | 100.00% |'],ec60ec0595244691a546d243abbc1eb5,,aa8222f9f49d4018b4c5510cdcc41402,137,"{'human_readable_id': 137, 'subject_id': 'TRIEU THI HONG NHUNG', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': 'TRIEU THI HONG NHUNG had an Outlet G4 Core percentage of 0.15% in August 2023, indicating a low core performance.'}"
+,HO THI AI LIEN,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,2023-08-31T00:00:00,"HO THI AI LIEN had an Outlet G4 Core percentage of 0.18% in August 2023, indicating a low core performance.",['| VN130056 - HO THI AI LIEN | 232 | 111 | 0.18% | 31 | 31 | 100.00% | 9 | 9 | 100.00% |'],ec60ec0595244691a546d243abbc1eb5,,d07a0e7581c840079d160f47b0016345,138,"{'human_readable_id': 138, 'subject_id': 'HO THI AI LIEN', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': 'HO THI AI LIEN had an Outlet G4 Core percentage of 0.18% in August 2023, indicating a low core performance.'}"
+,NGUYEN THI MAI,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>NGUYEN THI MAI had an Outlet G4 Core percentage of 0.20% in August 2023, indicating a low core performance.",| VN130057 - NGUYEN THI MAI | 287 | 122 | 0.20% | 42 | 42 | 100.00% | 9 | 9 | 100.00% |,,ec60ec0595244691a546d243abbc1eb5,,374a3919a3c241f2a5b5631f0444bdb5,139,"{'human_readable_id': 139, 'subject_id': 'NGUYEN THI MAI', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| VN130057 - NGUYEN THI MAI | 287 | 122 | 0.20% | 42 | 42 | 100.00% | 9 | 9 | 100.00% |'}"
+,LE QUOC HOE,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>LE QUOC HOE had an Outlet G4 Core percentage of 0.14% in August 2023, indicating a low core performance.",| VN130058 - LE QUOC HOE | 259 | 86 | 0.14% | 37 | 37 | 100.00% |,,ec60ec0595244691a546d243abbc1eb5,,9731db537cc94904a9b73886f0017dac,140,"{'human_readable_id': 140, 'subject_id': 'LE QUOC HOE', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| VN130058 - LE QUOC HOE | 259 | 86 | 0.14% | 37 | 37 | 100.00% |'}"
+,TRAN DINH CONG,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>TRAN DINH CONG had an Outlet G4 Core percentage of 0.19% in August 2023, indicating a low core performance.",| VN130065 - TRAN DINH CONG | 305 | 116 | 0.19% | 33 | 33 | 100.00% |,,ec60ec0595244691a546d243abbc1eb5,,fb7048efd4f840d6b9c98eadcff3936a,141,"{'human_readable_id': 141, 'subject_id': 'TRAN DINH CONG', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| VN130065 - TRAN DINH CONG | 305 | 116 | 0.19% | 33 | 33 | 100.00% |'}"
+,NGUYEN ANH THANH,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>NGUYEN ANH THANH had an Outlet G4 Core percentage of 1.23% in August 2023, indicating a low core performance.","| 10003216 - NGUYEN ANH THANH | 2,156 | 741 | 1.23% | 270 | 245 |",,ec60ec0595244691a546d243abbc1eb5,,5553a47651824b1a9d97e2bb3d159a48,142,"{'human_readable_id': 142, 'subject_id': 'NGUYEN ANH THANH', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| 10003216 - NGUYEN ANH THANH | 2,156 | 741 | 1.23% | 270 | 245 |'}"
+,NGUYEN QUOC TRUNG,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>NGUYEN QUOC TRUNG had an Outlet G4 Core percentage of 0.16% in August 2023, indicating a low core performance.",| VN130059 - NGUYEN QUOC TRUNG | 266 | 96 | 0.16% | 35 | 35 | 100.00% |,,ec60ec0595244691a546d243abbc1eb5,,1fd9c131e78e4b56a5acc0d2bb99f50c,143,"{'human_readable_id': 143, 'subject_id': 'NGUYEN QUOC TRUNG', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| VN130059 - NGUYEN QUOC TRUNG | 266 | 96 | 0.16% | 35 | 35 | 100.00% |'}"
+,TRAN THIEN NHAN,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>TRAN THIEN NHAN had an Outlet G4 Core percentage of 0.09% in August 2023, indicating a low core performance.",| VN130060 - TRAN THIEN NHAN | 275 | 56 | 0.09% | 34 | 30 | 78.47% |,,ec60ec0595244691a546d243abbc1eb5,,d0371f193c214b8792df50b2c5e15af7,144,"{'human_readable_id': 144, 'subject_id': 'TRAN THIEN NHAN', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| VN130060 - TRAN THIEN NHAN | 275 | 56 | 0.09% | 34 | 30 | 78.47% |'}"
+,PHAN DUC CUONG,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>PHAN DUC CUONG had an Outlet G4 Core percentage of 0.09% in August 2023, indicating a low core performance.",| VN130061 - PHAN DUC CUONG | 287 | 53 | 0.09% | 35 | 27 | 77.14% |,,ec60ec0595244691a546d243abbc1eb5,,8e7fef5818204ea08932aacfe8c2f419,145,"{'human_readable_id': 145, 'subject_id': 'PHAN DUC CUONG', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| VN130061 - PHAN DUC CUONG | 287 | 53 | 0.09% | 35 | 27 | 77.14% |'}"
+,NGUYEN VIET THANG,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>NGUYEN VIET THANG had an Outlet G4 Core percentage of 0.19% in August 2023, indicating a low core performance.",| VN130062 - NGUYEN VIET THANG | 281 | 119 | 0.19% | 35 | 30 | 85.71% |,,ec60ec0595244691a546d243abbc1eb5,,37460d3fe60c4598baf071ecf5857e26,146,"{'human_readable_id': 146, 'subject_id': 'NGUYEN VIET THANG', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| VN130062 - NGUYEN VIET THANG | 281 | 119 | 0.19% | 35 | 30 | 85.71% |'}"
+,NGUYEN VAN BANG,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,2023-08-31T00:00:00,"NGUYEN VAN BANG had an Outlet G4 Core percentage of 0.21% in August 2023, indicating a low core performance.",['| VN130052 - NGUYEN VAN BANG | 256 | 129 | 0.21% | 40 | 40 | 100.00% | 14 | 14 | 100.00% | 1 |'],ec60ec0595244691a546d243abbc1eb5,,dc17ede3ced44a3c8875472502599c06,147,"{'human_readable_id': 147, 'subject_id': 'NGUYEN VAN BANG', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': 'NGUYEN VAN BANG had an Outlet G4 Core percentage of 0.21% in August 2023, indicating a low core performance.'}"
+,LE VAN PHUNG,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,2023-08-31T00:00:00,"LE VAN PHUNG had an Outlet G4 Core percentage of 0.15% in August 2023, indicating a low core performance.",['| VN130053 - LE VAN PHUNG | 276 | 91 | 0.15% | 40 | 40 | 100.00% | 9 | 9 | 100.00% |'],ec60ec0595244691a546d243abbc1eb5,,311931637f48490c9965415d946808a7,148,"{'human_readable_id': 148, 'subject_id': 'LE VAN PHUNG', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': 'LE VAN PHUNG had an Outlet G4 Core percentage of 0.15% in August 2023, indicating a low core performance.'}"
+,PHAM DUY TIEN,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,2023-08-31T00:00:00,"PHAM DUY TIEN had an Outlet G4 Core percentage of 0.11% in August 2023, indicating a low core performance.",['| VN130054 - PHAM DUY TIEN | 228 | 64 | 0.11% | 35 | 34 | 97.14% | 7 | 7 | 100.00% | 1 |'],ec60ec0595244691a546d243abbc1eb5,,f537e4fa701a497fa0ccb9f769462ce3,149,"{'human_readable_id': 149, 'subject_id': 'PHAM DUY TIEN', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': 'PHAM DUY TIEN had an Outlet G4 Core percentage of 0.11% in August 2023, indicating a low core performance.'}"
+,TRIEU THI HONG NHUNG,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,2023-08-31T00:00:00,"TRIEU THI HONG NHUNG had an Outlet G4 Core percentage of 0.15% in August 2023, indicating a low core performance.",['| VN130055 - TRIEU THI HONG NHUNG | 236 | 88 | 0.15% | 32 | 32 | 100.00% | 2 | 2 | 100.00% |'],ec60ec0595244691a546d243abbc1eb5,,416e880d3bfe45ff92c0b49d75178e54,150,"{'human_readable_id': 150, 'subject_id': 'TRIEU THI HONG NHUNG', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': 'TRIEU THI HONG NHUNG had an Outlet G4 Core percentage of 0.15% in August 2023, indicating a low core performance.'}"
+,HO THI AI LIEN,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,2023-08-31T00:00:00,"HO THI AI LIEN had an Outlet G4 Core percentage of 0.18% in August 2023, indicating a low core performance.",['| VN130056 - HO THI AI LIEN | 232 | 111 | 0.18% | 31 | 31 | 100.00% | 9 | 9 | 100.00% |'],ec60ec0595244691a546d243abbc1eb5,,f81b840bd99142aa81006f5c35df89a9,151,"{'human_readable_id': 151, 'subject_id': 'HO THI AI LIEN', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': 'HO THI AI LIEN had an Outlet G4 Core percentage of 0.18% in August 2023, indicating a low core performance.'}"
+,NGUYEN THI MAI,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,2023-08-31T00:00:00,"NGUYEN THI MAI had an Outlet G4 Core percentage of 0.20% in August 2023, indicating a low core performance.",['| VN130057 - NGUYEN THI MAI | 287 | 122 | 0.20% | 42 | 42 | 100.00% | 9 | 9 | 100.00% |'],ec60ec0595244691a546d243abbc1eb5,,4004b9cfecbc4296a879aa1abbf9c777,152,"{'human_readable_id': 152, 'subject_id': 'NGUYEN THI MAI', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': 'NGUYEN THI MAI had an Outlet G4 Core percentage of 0.20% in August 2023, indicating a low core performance.'}"
+,LE QUOC HOE,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>LE QUOC HOE had an Outlet G4 Core percentage of 0.14% in August 2023, indicating a low core performance.",| VN130058 - LE QUOC HOE | 259 | 86 | 0.14% | 37 | 37 | 100.00% |,,ec60ec0595244691a546d243abbc1eb5,,ad89133418144286bdd221a95cc65849,153,"{'human_readable_id': 153, 'subject_id': 'LE QUOC HOE', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| VN130058 - LE QUOC HOE | 259 | 86 | 0.14% | 37 | 37 | 100.00% |'}"
+,TRAN DINH CONG,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>TRAN DINH CONG had an Outlet G4 Core percentage of 0.19% in August 2023, indicating a low core performance.",| VN130065 - TRAN DINH CONG | 305 | 116 | 0.19% | 33 | 33 | 100.00% |,,ec60ec0595244691a546d243abbc1eb5,,16da757235354911b71f6acfceaba77c,154,"{'human_readable_id': 154, 'subject_id': 'TRAN DINH CONG', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| VN130065 - TRAN DINH CONG | 305 | 116 | 0.19% | 33 | 33 | 100.00% |'}"
+,NGUYEN ANH THANH,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>NGUYEN ANH THANH had an Outlet G4 Core percentage of 1.23% in August 2023, indicating a low core performance.","| 10003216 - NGUYEN ANH THANH | 2,156 | 741 | 1.23% | 270 | 245 |",,ec60ec0595244691a546d243abbc1eb5,,7f00b37221534ec69f098cfb8a5b4d8c,155,"{'human_readable_id': 155, 'subject_id': 'NGUYEN ANH THANH', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| 10003216 - NGUYEN ANH THANH | 2,156 | 741 | 1.23% | 270 | 245 |'}"
+,NGUYEN QUOC TRUNG,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>NGUYEN QUOC TRUNG had an Outlet G4 Core percentage of 0.16% in August 2023, indicating a low core performance.",| VN130059 - NGUYEN QUOC TRUNG | 266 | 96 | 0.16% | 35 | 35 | 100.00% |,,ec60ec0595244691a546d243abbc1eb5,,0884c892b4254720bbe6c578a5fbf6d3,156,"{'human_readable_id': 156, 'subject_id': 'NGUYEN QUOC TRUNG', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| VN130059 - NGUYEN QUOC TRUNG | 266 | 96 | 0.16% | 35 | 35 | 100.00% |'}"
+,TRAN THIEN NHAN,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>TRAN THIEN NHAN had an Outlet G4 Core percentage of 0.09% in August 2023, indicating a low core performance.",| VN130060 - TRAN THIEN NHAN | 275 | 56 | 0.09% | 34 | 30 | 78.47% |,,ec60ec0595244691a546d243abbc1eb5,,8191fb5e8e8643d3ada22db8ae6ed590,157,"{'human_readable_id': 157, 'subject_id': 'TRAN THIEN NHAN', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| VN130060 - TRAN THIEN NHAN | 275 | 56 | 0.09% | 34 | 30 | 78.47% |'}"
+,PHAN DUC CUONG,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>PHAN DUC CUONG had an Outlet G4 Core percentage of 0.09% in August 2023, indicating a low core performance.",| VN130061 - PHAN DUC CUONG | 287 | 53 | 0.09% | 35 | 27 | 77.14% |,,ec60ec0595244691a546d243abbc1eb5,,628d81ea7fe44871bb56e86db8798aef,158,"{'human_readable_id': 158, 'subject_id': 'PHAN DUC CUONG', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| VN130061 - PHAN DUC CUONG | 287 | 53 | 0.09% | 35 | 27 | 77.14% |'}"
+,NGUYEN VIET THANG,,NONE,,CORE PERFORMANCE,TRUE,2023-08-01T00:00:00,"2023-08-31T00:00:00<|...|>NGUYEN VIET THANG had an Outlet G4 Core percentage of 0.19% in August 2023, indicating a low core performance.",| VN130062 - NGUYEN VIET THANG | 281 | 119 | 0.19% | 35 | 30 | 85.71% |,,ec60ec0595244691a546d243abbc1eb5,,dd94672bc7dd40089ead016a5637695f,159,"{'human_readable_id': 159, 'subject_id': 'NGUYEN VIET THANG', 'type': 'CORE PERFORMANCE', 'status': 'TRUE', 'description': '| VN130062 - NGUYEN VIET THANG | 281 | 119 | 0.19% | 35 | 30 | 85.71% |'}"
+,VU PHAN THE,,NONE,,NONE,SUSPECTED,NONE,NONE,VU PHAN THE is mentioned in the context of a to-do list but lacks specific claims or evidence related to actions or events.,['10003404 - VU PHAN THE | 293173 | 48629 | 5340 |'],c5f6715ab31e48c9b1b1b5b8789a5734,,7d42aee02f4647b7b4fe3d3772718a1b,160,"{'human_readable_id': 160, 'subject_id': 'VU PHAN THE', 'type': 'NONE', 'status': 'SUSPECTED', 'description': 'VU PHAN THE is mentioned in the context of a to-do list but lacks specific claims or evidence related to actions or events.'}"
+,PHAM THANH VINH,,NONE,,NONE,SUSPECTED,NONE,NONE,PHAM THANH VINH is mentioned in the context of a to-do list but lacks specific claims or evidence related to actions or events.,['10002931 - PHAM THANH VINH | 13680 | 8037 | 1266 |'],c5f6715ab31e48c9b1b1b5b8789a5734,,66d44ae8fc1e4a709d90236c274101f8,161,"{'human_readable_id': 161, 'subject_id': 'PHAM THANH VINH', 'type': 'NONE', 'status': 'SUSPECTED', 'description': 'PHAM THANH VINH is mentioned in the context of a to-do list but lacks specific claims or evidence related to actions or events.'}"
+,NGUYEN VU VAN LAM,,NONE,,NONE,SUSPECTED,NONE,NONE,NGUYEN VU VAN LAM is mentioned in the context of a to-do list but lacks specific claims or evidence related to actions or events.,['VM13004 - NGUYEN VU VAN LAM | 2060 | 563 | 102 |'],c5f6715ab31e48c9b1b1b5b8789a5734,,5da97a732c6a45c79b020051b13c1721,162,"{'human_readable_id': 162, 'subject_id': 'NGUYEN VU VAN LAM', 'type': 'NONE', 'status': 'SUSPECTED', 'description': 'NGUYEN VU VAN LAM is mentioned in the context of a to-do list but lacks specific claims or evidence related to actions or events.'}"
+,"- VN130062 - PHAN DUC CUONG | 287 | 53 | 0.09% | 35 | 27 | 77.14% | 11 | 11 | 100.00% |  | | 
+- VN130075 - NGUYEN VIET THANG | 281 | 119 | 0.19% | 35 | 30 | 85.71% | 10 | 10 | 100.00% |  | | 
+- VN130076 - TRINH QUOC THINH | 264 | 108 | 0.18% | 35 | 35 | 100.00% | 14 | 14 | 100.00% |  | | 
+- VN130079 - NGUYEN VAN QUYNH | 275 | 97 | 0.16% | 36 | 33 | 91.67% | 10 | 10 | 100.00% | 1 | | 
+- VN130082 - LE TAN DAT | 243 | 106 | 0.18% | 24 | 25 | 95.15% | 10 | 10 | 100.00% |  | | 
+- 10003397 - LE QUOC THIEN | 1,631 | 265 | 0.44% | 223 | 220 | 98.65% | 59 | 59 | 100.00% | 4 | | 
+- VN130037 - VO VAN TRI | 242 | 34 | 0.06% | 34 | 34 | 100.00% | 6 | 6 | 100.00% | 1 | | 
+- VN130038 - LE VAN TRUONG VY | 260 | 43 | 0.07% | 42 | 41 | 97.62% | 16 | 16 | 100.00% |  | | 
+- VN130039 - LE NGUYEN NHIEM | 239 | 74 | 0.12% | 37 | 37 | 100.00% | 9 | 9 | 100.00% | 1 | | 
+- VN130040 - TRAN DIEU HUONG | 244 | 29 | 0.05% | 26 | 26 | 100.00% | 9 | 9 | 100.00% |  | | 
+- VN130041 - BUI VAN TAM | 260 | 33 | 0.05% | 32 | 32 | 100.00% | 9 | 9 | 100.00% |  | | 
+- VN130043 - DANG DUC SU | 286 | 48 | 0.08% | 51 | 49 | 96.08% | 9 | 9 | 100.00% | 2 | | 
+- VN130092 - PHAN PHUOC AN | 50 | 3 | 0.00% | 1 | 1 | 100.00% | 1 | 1 | 100.00% |  | | 
+- 10003404 - VU PHAN THE | 293173 | 48629 | 5340 |  | | 
+- 10002931 - PHAM THANH VINH | 13680 | 8037 | 1266 |  | | 
+- VM13004 - NGUYEN VU VAN LAM | 2060 | 563 | 102 |  | | 
+- 0070003358 |  |  |  |  | 
+- 0070004895 |  |  |  |  | 
+- 0070006755 | 3 |  |  |  | 
+- 0070007590 |  |  |  |  | 
+- 0070007610 | 3 |  |  |  | 
+- 0070008645 |  |  |  |  | 
+- 0070008647 | 3 |  |  |  |",,,,,,,,No Description,,c5f6715ab31e48c9b1b1b5b8789a5734,,7d1203ec6f7945b29fee943a86a046d9,163,"{'human_readable_id': 163, 'subject_id': '- VN130062 - PHAN DUC CUONG | 287 | 53 | 0.09% | 35 | 27 | 77.14% | 11 | 11 | 100.00% |  | | \n- VN130075 - NGUYEN VIET THANG | 281 | 119 | 0.19% | 35 | 30 | 85.71% | 10 | 10 | 100.00% |  | | \n- VN130076 - TRINH QUOC THINH | 264 | 108 | 0.18% | 35 | 35 | 100.00% | 14 | 14 | 100.00% |  | | \n- VN130079 - NGUYEN VAN QUYNH | 275 | 97 | 0.16% | 36 | 33 | 91.67% | 10 | 10 | 100.00% | 1 | | \n- VN130082 - LE TAN DAT | 243 | 106 | 0.18% | 24 | 25 | 95.15% | 10 | 10 | 100.00% |  | | \n- 10003397 - LE QUOC THIEN | 1,631 | 265 | 0.44% | 223 | 220 | 98.65% | 59 | 59 | 100.00% | 4 | | \n- VN130037 - VO VAN TRI | 242 | 34 | 0.06% | 34 | 34 | 100.00% | 6 | 6 | 100.00% | 1 | | \n- VN130038 - LE VAN TRUONG VY | 260 | 43 | 0.07% | 42 | 41 | 97.62% | 16 | 16 | 100.00% |  | | \n- VN130039 - LE NGUYEN NHIEM | 239 | 74 | 0.12% | 37 | 37 | 100.00% | 9 | 9 | 100.00% | 1 | | \n- VN130040 - TRAN DIEU HUONG | 244 | 29 | 0.05% | 26 | 26 | 100.00% | 9 | 9 | 100.00% |  | | \n- VN130041 - BUI VAN TAM | 260 | 33 | 0.05% | 32 | 32 | 100.00% | 9 | 9 | 100.00% |  | | \n- VN130043 - DANG DUC SU | 286 | 48 | 0.08% | 51 | 49 | 96.08% | 9 | 9 | 100.00% | 2 | | \n- VN130092 - PHAN PHUOC AN | 50 | 3 | 0.00% | 1 | 1 | 100.00% | 1 | 1 | 100.00% |  | | \n- 10003404 - VU PHAN THE | 293173 | 48629 | 5340 |  | | \n- 10002931 - PHAM THANH VINH | 13680 | 8037 | 1266 |  | | \n- VM13004 - NGUYEN VU VAN LAM | 2060 | 563 | 102 |  | | \n- 0070003358 |  |  |  |  | \n- 0070004895 |  |  |  |  | \n- 0070006755 | 3 |  |  |  | \n- 0070007590 |  |  |  |  | \n- 0070007610 | 3 |  |  |  | \n- 0070008645 |  |  |  |  | \n- 0070008647 | 3 |  |  |  |', 'type': None, 'status': None, 'description': 'No Description'}"
+,"**Output:**
+
+**NONE**",,,,,,,,No Description,,5885f3c8b107429a8a7ff5e3ff9714f8,,275b40b81f5e46d4aa9063cd082e0304,164,"{'human_readable_id': 164, 'subject_id': '**Output:**\n\n**NONE**', 'type': None, 'status': None, 'description': 'No Description'}"
+,0070003358 |  |  |  |  | | 0070004895 |  |  |  |  | | 0070006755 | 3 |  |  |  | | 0070007590 |  |  |  |  | | 0070007610 | 3 |  |  |  | | 0070008645 |  |  |  |  | | 0070008647 | 3 |  |  |  | | 0070008650 | 3 |  |  |  | | 0070010148 |  |  |  |  | | 0070010168 |  |  |  |  | | 0070010169 |  |  |  |  | | 0070010170 | 3 |  |  |  | | 0070010175 |  |  |  |  | | 0070010177 |  |  |  |  | | 0070010190 |  |  |  |  | | 0070010734 | 3 |  |  |  | | 0070010735 | 3 |  |  |  | | 0070010736 |  |  |  |  | | 0070010737 |  |  |  |  | | 0070010738 |  |  |  |  | | 0070010739 |  |  |  |  | | 0070010740 |  |  |  |  | | 0070010741 |  |  |  |  | | 0070010742 |  |  |  |  | | 0070010743 |  |  |  |  | | 0070010744 |  |  |  |  | | 0070010745 |  |  |  |  | | 0070010746 |  |  |  |  | | 0070010747 |  |  |  |  | | 0070010748 |  |  |  |  | | 0070010749 |  |  |  |  | | 0070010750 |  |  |  |  | | 0070010751 |  |  |  |  | | 0070010752 |  |  |  |  | | 0070010753 |  |  |  |  | | 0070010754 |  |  |  |  | | 0070010755 |  |  |  |  | | 0070010756 |  |  |  |  | | 0070010757 |  |  |  |  | | 0070010758 |  |  |  |  | | 0070010759 |  |  |  |  | | 0070010760 |  |  |  |  | | 0070010761 |  |  |  |  | | 0070010762 |  |  |  |  | | 0070010763 |  |  |  |  | | 0070010764 |  |  |  |  | | 0070010765 |  |  |  |  | | 0070010766 |  |  |  |  | | 0070010767 |  |  |  |  | | 0070010768 |  |  |  |  | | 0070010769 |  |  |  |  | | 0070010770 |  |  |  |  | | 0070010771 |  |  |  |  | | 0070010772 |  |  |  |  | | 0070010773 |  |  |  |  | | 0070010774 |  |  |  |  | | 0070010775 |  |  |  |  | | 0070010776 |  |  |  |  | | 0070010777 |  |  |  |  | | 0070010778 |  |  |  |  | | 0070010779 |  |  |  |  | | 0070010780 |  |  |  |  | | 0070010781 |  |  |  |  | | 0070010782 |  |  |  |  | | 0070010783 |  |  |  |  | | 0070010784 |  |  |  |  | | 0070010785 |  |  |  |  | | 0070010786 |  |  |  |  | | 0070010787 |  |  |  |  | | 0070010788 |  |  |  |  | | 0070010789 |  |  |  |  | | 0070010790 |  |  |  |  | | 0070010791 |  |  |  |  | | 0070010792 |  |  |  |  | | 0070010793 |  |  |  |  | | 0070010794 |  |  |  |  | | 0070010795 |  |  |  |  | | 0070010796 |  |  |  |  | | 0070010797 |  |  |  |  | | 0070010798 |  |  |  |  | | 0070010799 |  |  |  |  | | 0070010800 |  |  |  |  | | 0070010801 |  |  |  |  | | 0070010802 |  |  |  |  | | 0070010803 |  |  |  |  | | 0070010804 |  |  |  |  | | 0070010805 |  |  |  |  | | 0070010806 |  |  |  |  | | 0070010807 |  |  |  |  | | 0070010808 |  |  |  |  | | 0070010809 |  |  |  |  | | 0070010810 |  |  |  |  | | 0070010811 |  |  |  |  | | 0070010812 |  |  |  |  | | 0070010813 |  |  |  |  | | 0070010814 |  |  |  |  | | 0070010815 |  |  |  |  | | 0070010816 |  |  |  |  | | 0070010817 |  |  |  |  | | 0070010818 |  |  |  |  | | 0070010819 |  |  |  |  | | 0070010820 |  |  |  |  | | 0070010821 |  |  |  |  | | 0070010822 |  |  |  |  | | 0070010823 |  |  |  |  | | 0070010824 |  |  |  |  | | 0070010825 |  |  |  |  | | 0070010826 |  |  |  |  | | 0070010827 |  |  |  |  | | 0070010828 |  |  |  |  | | 0070010829 |  |  |  |  | | 0070010830 |  |  |  |  | | 0070010831 |  |  |  |  | | 0070010832 |  |  |  |  | | 0070010833 |  |  |  |  | | 0070010834 |  |  |  |  | | 0070010835 |  |  |  |  | | 0070010836 |  |  |  |  | | 0070010837 |  |  |  |  | | 0070010838 |  |  |  |  | | 0070010839 |  |  |  |  | | 0070010840 |  |  |  |  | | 0070010841 |  |  |  |  | | 0070010842 |  |  |  |  | | 0070010843 |  |  |  |  | | 0070010844 |  |  |  |  | | 0070010845 |  |  |  |  | | 0070010846 |  |  |  |  | | 0070010847 |  |  |  |  | | 0070010848 |  |  |  |  | | 0070010849 |  |  |  |  | | 0070010850 |  |  |  |  | | 0070010851 |  |  |  |  | | 0070010852 |  |  |  |  | | 0070010853 |  |  |  |  | | 0070010854 |  |  |  |  | | 0070010855 |  |  |  |  | | 0070010856 |  |  |  |  | | 0070010857 |  |  |  |  | | 0070010858 |  |  |  |  | | 0070010859 |  |  |  |  | | 0070010860 |  |  |  |  | | 0070010861 |  |  |  |  | | 0070010862 |  |  |  |  | | 0070010863 |  |  |  |  | | 0070010864 |  |  |  |  | | 0070010865 |  |  |  |  | | 0070010866 |  |  |  |  | | 0070010867 |  |  |  |  | | 0070010868 |  |  |  |  | | 0070010869 |  |  |  |  | | 0070010870 |  |  |  |  | | 0070010871 |  |  |  |  | | 0070010872 |  |  |  |  | | 0070010873 |  |  |  |  | | 0070010874 |  |  |  |  | | 0070010875 |  |  |  |  | | 0070010876 |  |  |  |  | | 0070010877 |  |  |  |  | | 0070010878 |  |  |  |  | | 0070010879 |  |  |  |  | | 0070010880 |  |  |  |  | | 0070010881 |  |  |  |  | | 0070010882 |  |  |  |  | | 0070010883 |  |  |  |  | | 0070010884 |  |  |  |  | | 0070010885 |  |  |  |  | | 0070010886 |  |  |  |  | | 0070010887 |  |  |  |  | | 0070010888 |  |  |  |  | | 0070010889 |  |  |  |  | | 0070010890 |  |  |  |  | | 0070010891 |  |  |  |  | | 0070010892 |  |  |  |  | | 0070010893 |  |  |  |  | | 0070010894 |  |  |  |  | | 0070010895 |  |  |  |  | | 0070010896 |  |  |  |  | | 0070010897 |  |  |  |  | | 0070010898 |  |  |  |  | | 0070010899 |  |  |  |  | | 0070010900 |  |  |  |  | | 0070010901 |  |  |  |  | | 0070010902 |  |  |  |  | | 0070010903 |  |  |  |  | | 0070010904 |  |  |  |  | | 0070010905 |  |  |  |  | | 0070010906 |  |  |  |  | | 0070010907 |  |  |  |  | | 0070010908 |  |  |  |  | | 0070010909 |  |  |  |  | | 0070010910 |  |  |  |  | | 0070010911 |  |  |  |  | | 0070010912 |  |  |  |  | | 0070010913 |  |  |  |  | | 0070010914 |  |  |  |  | | 0070010915 |  |  |  |  | | 0070010916 |  |  |  |  | | 0070010917 |  |  |  |  | | 0070010918 |  |  |  |  | | 0070010919 |  |  |  |  | | 0070010920 |  |  |  |  | | 0070010921 |  |  |  |  | | 0070010922 |  |  |  |  | | 0070010923 |  |  |  |  | | 0070010924 |  |  |  |  | | 0070010925 |  |  |  |  | | 0070010926 |  |  |  |  | | 0070010927 |  |  |  |  | | 0070010928 |  |  |  |  | | 0070010929 |  |  |  |  | | 0070010930 |  |  |  |  | | 0070010931 |  |  |  |  | | 0070010932 |  |  |  |  | | 0070010933 |  |  |  |  | | 0070010934 |  |  |  |  | | 0070010935 |  |  |  |  | | 0070010936 |  |  |  |  | | 0070010937 |  |  |  |  | | 0070010938 |  |  |  |  | | 0070010939 |  |  |  |  | | 0070010940 |  |  |  |  | | 0070010941 |  |  |  |  | | 0070010942 |  |  |  |  | | 0070010943 |  |  |  |  | | 0070010944 |  |  |  |  | | 0070010945 |  |  |  |  | | 0070010946 |  |  |  |  | | 0070010947 |  |  |  |  | | 0070010948 |  |  |  |  | | 0070010949 |  |  |  |  | | 0070010950 |  |  |  |  | | 0070010951 |  |  |  |  | | 0070010952 |  |  |  |  | | 0070010953 |  |  |  |  | | 0070010954 |  |  |  |  | | 0070010955 |  |  |  |  | | 0070010956 |  |  |  |  | | 0070010957 |  |  |  |  | | 0070010958 |  |  |  |  | | 0070010959 |  |  |  |  | | 0070010960 |  |  |  |  | | 0070010961 |  |  |  |  | | 0070010962 |  |  |  |  | | 0070010963 |  |  |  |  | | 0070010964 |  |  |  |  | | 0070010965 |  |  |  |  | | 0070010966 |  |  |  |  | | 0070010967 |  |  |  |  | | 0070010968 |  |  |  |  | | 0070010969 |  |  |  |  | | 0070010970 |  |  |  |  | | 0070010971 |  |  |  |  | | 0070010972 |  |  |  |  | | 0070010973 |  |  |  |  | | 0070010974 |  |  |  |  | | 0070010975 |  |  |  |  | | 0070010976 |  |  |  |  | | 0070010977 |  |  |  |  | | 0070010978 |  |  |  |  | | 0070010979 |  |  |  |  | | 0070010980 |  |  |  |  | | 0070010981 |  |  |  |  | | 0070010982 |  |  |  |  | | 0070010983 |  |  |  |  | | 0070010984 |  |  |  |  | | 0070010985 |  |  |  |  | | 0070010986 |  |  |  |  | | 0070010987 |  |  |  |  | | 0070010988 |  |  |  |  | | 0070010989 |  |  |  |  | | 0070010990 |  |  |  |  | | 0070010991 |  |  |  |  | | 0070010992 |  |  |  |  | | 0070010993 |  |  |  |  | | 0070010994 |  |  |  |  | | 0070010995 |  |  |  |  | | 0070010996 |  |  |  |  | | 0070010997 |  |  |  |  | | 0070010998 |  |  |  |  | | 0070010999 |  |  |  |  | | 0070011000 |  |  |  |  |,,,,,,,,No Description,,5885f3c8b107429a8a7ff5e3ff9714f8,,42fe8c8eea644307bbd0968cbe7fc5cd,165,"{'human_readable_id': 165, 'subject_id': '0070003358 |  |  |  |  | | 0070004895 |  |  |  |  | | 0070006755 | 3 |  |  |  | | 0070007590 |  |  |  |  | | 0070007610 | 3 |  |  |  | | 0070008645 |  |  |  |  | | 0070008647 | 3 |  |  |  | | 0070008650 | 3 |  |  |  | | 0070010148 |  |  |  |  | | 0070010168 |  |  |  |  | | 0070010169 |  |  |  |  | | 0070010170 | 3 |  |  |  | | 0070010175 |  |  |  |  | | 0070010177 |  |  |  |  | | 0070010190 |  |  |  |  | | 0070010734 | 3 |  |  |  | | 0070010735 | 3 |  |  |  | | 0070010736 |  |  |  |  | | 0070010737 |  |  |  |  | | 0070010738 |  |  |  |  | | 0070010739 |  |  |  |  | | 0070010740 |  |  |  |  | | 0070010741 |  |  |  |  | | 0070010742 |  |  |  |  | | 0070010743 |  |  |  |  | | 0070010744 |  |  |  |  | | 0070010745 |  |  |  |  | | 0070010746 |  |  |  |  | | 0070010747 |  |  |  |  | | 0070010748 |  |  |  |  | | 0070010749 |  |  |  |  | | 0070010750 |  |  |  |  | | 0070010751 |  |  |  |  | | 0070010752 |  |  |  |  | | 0070010753 |  |  |  |  | | 0070010754 |  |  |  |  | | 0070010755 |  |  |  |  | | 0070010756 |  |  |  |  | | 0070010757 |  |  |  |  | | 0070010758 |  |  |  |  | | 0070010759 |  |  |  |  | | 0070010760 |  |  |  |  | | 0070010761 |  |  |  |  | | 0070010762 |  |  |  |  | | 0070010763 |  |  |  |  | | 0070010764 |  |  |  |  | | 0070010765 |  |  |  |  | | 0070010766 |  |  |  |  | | 0070010767 |  |  |  |  | | 0070010768 |  |  |  |  | | 0070010769 |  |  |  |  | | 0070010770 |  |  |  |  | | 0070010771 |  |  |  |  | | 0070010772 |  |  |  |  | | 0070010773 |  |  |  |  | | 0070010774 |  |  |  |  | | 0070010775 |  |  |  |  | | 0070010776 |  |  |  |  | | 0070010777 |  |  |  |  | | 0070010778 |  |  |  |  | | 0070010779 |  |  |  |  | | 0070010780 |  |  |  |  | | 0070010781 |  |  |  |  | | 0070010782 |  |  |  |  | | 0070010783 |  |  |  |  | | 0070010784 |  |  |  |  | | 0070010785 |  |  |  |  | | 0070010786 |  |  |  |  | | 0070010787 |  |  |  |  | | 0070010788 |  |  |  |  | | 0070010789 |  |  |  |  | | 0070010790 |  |  |  |  | | 0070010791 |  |  |  |  | | 0070010792 |  |  |  |  | | 0070010793 |  |  |  |  | | 0070010794 |  |  |  |  | | 0070010795 |  |  |  |  | | 0070010796 |  |  |  |  | | 0070010797 |  |  |  |  | | 0070010798 |  |  |  |  | | 0070010799 |  |  |  |  | | 0070010800 |  |  |  |  | | 0070010801 |  |  |  |  | | 0070010802 |  |  |  |  | | 0070010803 |  |  |  |  | | 0070010804 |  |  |  |  | | 0070010805 |  |  |  |  | | 0070010806 |  |  |  |  | | 0070010807 |  |  |  |  | | 0070010808 |  |  |  |  | | 0070010809 |  |  |  |  | | 0070010810 |  |  |  |  | | 0070010811 |  |  |  |  | | 0070010812 |  |  |  |  | | 0070010813 |  |  |  |  | | 0070010814 |  |  |  |  | | 0070010815 |  |  |  |  | | 0070010816 |  |  |  |  | | 0070010817 |  |  |  |  | | 0070010818 |  |  |  |  | | 0070010819 |  |  |  |  | | 0070010820 |  |  |  |  | | 0070010821 |  |  |  |  | | 0070010822 |  |  |  |  | | 0070010823 |  |  |  |  | | 0070010824 |  |  |  |  | | 0070010825 |  |  |  |  | | 0070010826 |  |  |  |  | | 0070010827 |  |  |  |  | | 0070010828 |  |  |  |  | | 0070010829 |  |  |  |  | | 0070010830 |  |  |  |  | | 0070010831 |  |  |  |  | | 0070010832 |  |  |  |  | | 0070010833 |  |  |  |  | | 0070010834 |  |  |  |  | | 0070010835 |  |  |  |  | | 0070010836 |  |  |  |  | | 0070010837 |  |  |  |  | | 0070010838 |  |  |  |  | | 0070010839 |  |  |  |  | | 0070010840 |  |  |  |  | | 0070010841 |  |  |  |  | | 0070010842 |  |  |  |  | | 0070010843 |  |  |  |  | | 0070010844 |  |  |  |  | | 0070010845 |  |  |  |  | | 0070010846 |  |  |  |  | | 0070010847 |  |  |  |  | | 0070010848 |  |  |  |  | | 0070010849 |  |  |  |  | | 0070010850 |  |  |  |  | | 0070010851 |  |  |  |  | | 0070010852 |  |  |  |  | | 0070010853 |  |  |  |  | | 0070010854 |  |  |  |  | | 0070010855 |  |  |  |  | | 0070010856 |  |  |  |  | | 0070010857 |  |  |  |  | | 0070010858 |  |  |  |  | | 0070010859 |  |  |  |  | | 0070010860 |  |  |  |  | | 0070010861 |  |  |  |  | | 0070010862 |  |  |  |  | | 0070010863 |  |  |  |  | | 0070010864 |  |  |  |  | | 0070010865 |  |  |  |  | | 0070010866 |  |  |  |  | | 0070010867 |  |  |  |  | | 0070010868 |  |  |  |  | | 0070010869 |  |  |  |  | | 0070010870 |  |  |  |  | | 0070010871 |  |  |  |  | | 0070010872 |  |  |  |  | | 0070010873 |  |  |  |  | | 0070010874 |  |  |  |  | | 0070010875 |  |  |  |  | | 0070010876 |  |  |  |  | | 0070010877 |  |  |  |  | | 0070010878 |  |  |  |  | | 0070010879 |  |  |  |  | | 0070010880 |  |  |  |  | | 0070010881 |  |  |  |  | | 0070010882 |  |  |  |  | | 0070010883 |  |  |  |  | | 0070010884 |  |  |  |  | | 0070010885 |  |  |  |  | | 0070010886 |  |  |  |  | | 0070010887 |  |  |  |  | | 0070010888 |  |  |  |  | | 0070010889 |  |  |  |  | | 0070010890 |  |  |  |  | | 0070010891 |  |  |  |  | | 0070010892 |  |  |  |  | | 0070010893 |  |  |  |  | | 0070010894 |  |  |  |  | | 0070010895 |  |  |  |  | | 0070010896 |  |  |  |  | | 0070010897 |  |  |  |  | | 0070010898 |  |  |  |  | | 0070010899 |  |  |  |  | | 0070010900 |  |  |  |  | | 0070010901 |  |  |  |  | | 0070010902 |  |  |  |  | | 0070010903 |  |  |  |  | | 0070010904 |  |  |  |  | | 0070010905 |  |  |  |  | | 0070010906 |  |  |  |  | | 0070010907 |  |  |  |  | | 0070010908 |  |  |  |  | | 0070010909 |  |  |  |  | | 0070010910 |  |  |  |  | | 0070010911 |  |  |  |  | | 0070010912 |  |  |  |  | | 0070010913 |  |  |  |  | | 0070010914 |  |  |  |  | | 0070010915 |  |  |  |  | | 0070010916 |  |  |  |  | | 0070010917 |  |  |  |  | | 0070010918 |  |  |  |  | | 0070010919 |  |  |  |  | | 0070010920 |  |  |  |  | | 0070010921 |  |  |  |  | | 0070010922 |  |  |  |  | | 0070010923 |  |  |  |  | | 0070010924 |  |  |  |  | | 0070010925 |  |  |  |  | | 0070010926 |  |  |  |  | | 0070010927 |  |  |  |  | | 0070010928 |  |  |  |  | | 0070010929 |  |  |  |  | | 0070010930 |  |  |  |  | | 0070010931 |  |  |  |  | | 0070010932 |  |  |  |  | | 0070010933 |  |  |  |  | | 0070010934 |  |  |  |  | | 0070010935 |  |  |  |  | | 0070010936 |  |  |  |  | | 0070010937 |  |  |  |  | | 0070010938 |  |  |  |  | | 0070010939 |  |  |  |  | | 0070010940 |  |  |  |  | | 0070010941 |  |  |  |  | | 0070010942 |  |  |  |  | | 0070010943 |  |  |  |  | | 0070010944 |  |  |  |  | | 0070010945 |  |  |  |  | | 0070010946 |  |  |  |  | | 0070010947 |  |  |  |  | | 0070010948 |  |  |  |  | | 0070010949 |  |  |  |  | | 0070010950 |  |  |  |  | | 0070010951 |  |  |  |  | | 0070010952 |  |  |  |  | | 0070010953 |  |  |  |  | | 0070010954 |  |  |  |  | | 0070010955 |  |  |  |  | | 0070010956 |  |  |  |  | | 0070010957 |  |  |  |  | | 0070010958 |  |  |  |  | | 0070010959 |  |  |  |  | | 0070010960 |  |  |  |  | | 0070010961 |  |  |  |  | | 0070010962 |  |  |  |  | | 0070010963 |  |  |  |  | | 0070010964 |  |  |  |  | | 0070010965 |  |  |  |  | | 0070010966 |  |  |  |  | | 0070010967 |  |  |  |  | | 0070010968 |  |  |  |  | | 0070010969 |  |  |  |  | | 0070010970 |  |  |  |  | | 0070010971 |  |  |  |  | | 0070010972 |  |  |  |  | | 0070010973 |  |  |  |  | | 0070010974 |  |  |  |  | | 0070010975 |  |  |  |  | | 0070010976 |  |  |  |  | | 0070010977 |  |  |  |  | | 0070010978 |  |  |  |  | | 0070010979 |  |  |  |  | | 0070010980 |  |  |  |  | | 0070010981 |  |  |  |  | | 0070010982 |  |  |  |  | | 0070010983 |  |  |  |  | | 0070010984 |  |  |  |  | | 0070010985 |  |  |  |  | | 0070010986 |  |  |  |  | | 0070010987 |  |  |  |  | | 0070010988 |  |  |  |  | | 0070010989 |  |  |  |  | | 0070010990 |  |  |  |  | | 0070010991 |  |  |  |  | | 0070010992 |  |  |  |  | | 0070010993 |  |  |  |  | | 0070010994 |  |  |  |  | | 0070010995 |  |  |  |  | | 0070010996 |  |  |  |  | | 0070010997 |  |  |  |  | | 0070010998 |  |  |  |  | | 0070010999 |  |  |  |  | | 0070011000 |  |  |  |  |', 'type': None, 'status': None, 'description': 'No Description'}"

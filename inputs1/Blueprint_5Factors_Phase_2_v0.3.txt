@@ -1,0 +1,1141 @@
+The image shows a cover page for a report with the following content:
+
+# Coca-Cola Beverages Vietnam Limited
+
+## 5Factor (Phase 2) Report Blueprint
+
+Inter-K Joint Stock Company
+NOV 2022
+
+The cover page features the Inter-K logo in the top left corner. The main part of the image displays several Coca-Cola cans and a portion of a Coca-Cola box against a dark background. The company name and report title are presented on a bright red background at the bottom of the page.
+---
+# 1. Document control
+
+## 1.1 Change record
+
+| Version | Name | Change date | Description |
+|---------|------|-------------|-------------|
+| 0.1 | Nguyen Van Huy | 25/10/2022 | Document creation |
+| 0.2 | Nguyen Van Huy | 28/10/2022 | Update more detail information |
+| 0.3 | Ngo Dinh Nhat Huy | 31/01/2023 | Update wording |
+| 1.4 | Nguyen Quang Nhat | 01/02/2023 | Update wording |
+| 1.5 | Nguyen Quang Nhat | 02/02/2023 | Update wording |
+| 1.6 | Nguyen Quang Nhat | 07/03/2023 | Update Tien's requirement on separate WS non-DSD out of Grocery |
+| 1.7 | Dang Thi Cam Tien | 15/05/2023 | Update wording |
+| 1.8 | Le Pham Ngoc Tram | 22/05/2023 | Update wording, update logic for index 1, 2, 3 |
+| 1.9 | Pham Thuy | 31/01/2024 | Update document |
+| 2.0 | Pham Thuy | 15/02/2024 | Update document followed by feedback from the End-User. |
+
+## 1.2 Inter-K Reviewers and Approvals
+
+This document has been reviewed and approved by:
+
+| Name | Roles | Date Approved | Signature |
+|------|-------|---------------|-----------|
+| Vu Thai Ngoc | Project Manager | | |
+| Le Luu Viet Son | Data Leader | | |
+
+## 1.3 Coca-Cola Reviewers and Approvals
+
+This document has been reviewed and approved by:
+
+| Name | Roles | Date Approved | Signature |
+|------|-------|---------------|-----------|
+| Le Thang Loi | Digital Solution Delivery Mgr - Distribution Management System (DMS) | | |
+| Dinh Hoang Hai | SFA Specialist | | |
+| Ho Ngoc Nhu Guong | E-RTM Executive | | |
+---
+# Table of Contents
+
+1. Document control                    4 <br>
+   1.1 Change record                    4 <br>
+   1.2 Inter-K Reviewers and Approvals  4 <br>
+   1.3 Coca-Cola Reviewers and Approvals 4 <br>
+
+2. PACE Report Categories              7 <br>
+   2.1 Dimension                        7 <br>
+   2.2 Service Outlet                   8 <br>
+   2.3 5 Factor execution focuses      10 <br>
+   2.4 Core                            15 <br>
+   2.5 To-do List                      15 <br>
+
+3. Report template                    17 <br>
+   3.1 Service outlet                  17 <br>
+   3.2 5 Factors execution focuses     19 <br>
+   3.3 5 Factors by details            25 <br>
+   3.4 Core                            26 <br>
+   3.5 Core by details                 27 <br>
+   3.6 To-do list                      28 <br>
+
+4. Appendix: Changes tracking         29 <br>
+   4.1 Service Outlet                  29 <br>
+   4.2 5 Factors Execution Focus       29 <br>
+   4.3 5 Factors By Details            30 <br>
+   4.4 Core By Details                 30 <br>
+   4.5 To-do list                      31 <br>
+---
+# 2. PACE Report Categories
+
+This document details the target structure of proposed dashboards in the second stage of iTenka-POC, the detailed design of each report, and analysis dimensions
+
+## 2.1 Dimension
+
+| Dimension | Details | Additional Information |
+|-----------|---------|------------------------|
+| Time | Year, Quarter, Month, Week, Date by Coke Calendar<br>* Data must be filtered by week and MTD<br>**Week logic:<br>• In case the week has been completed, the report should show data until the last day of the week.<br>• In case a week has not been completed, the report should show data as N-1 (N is the current date) | • Time:<br>  • Prefer report update in real time, at least require report update daily and refresh before 7:15 AM.<br>  • Cut-off time of month end = the last date of KO-month plus 3 working days.<br>  • Working day = Calendar Day – Sunday – National Holiday<br>• last day of the week:<br>  • is Friday (Coke calendar)<br>  • Data dim_date: Based on the Coke calendar |
+| Org Chart/ Hierarchy | RCD, SM (Sales Manager), ASM, TSM, SR (Sales Rep) | • SR (Sales Rep): Add in Sales Route info:<br>  • SFA update active sale route weekly: apply immediately after uploading.<br>  • Result of month end: based on the latest uploading of each month.<br>• Data Org Chart by week follow this rule:<br>  • For a month with 4 weeks:<br>    • W2 will get the data of W1.<br>    • W4 will get the data of W3.<br>  • For a month with 5 weeks:<br>    • W2 and W3 will get the data of W1.<br>    • W5 will get the data of W4. |
+| Customer | Region, Distributor, Route, Classification, Channel, Sub-trade Channel | • Channels include Eating, Drinking, Grocery, WS non-DSD, ... |
+| Product | Category, Brand, Must Have SKU, Must Have SKU Segment, Consumer SKU, Product Code, Pack Type, Pack Size | |
+---
+## 2.2 Service Outlet
+
+### a. Report Filter
+
+| Filter name | Type | Description |
+|-------------|------|-------------|
+| Year | Single selection | Must follow Coke calendar |
+| Month | Single selection | Must follow Coke calendar |
+| Week | Single selection | Must follow Coke calendar |
+| Channel | Multiple selections | Eating / Drinking / Grocery / WS non-DSD |
+
+### b. Report Formula
+
+**The formula is for point-forward data
+** Regarding historical data, it will be sent via CSV file
+---
+| Index | Group | Metric | Formula | Note |
+|-------|-------|--------|---------|------|
+| Index 0 | Service Outlet | Service Outlet | • Snapshot of Distinct Outlet with call plan (assigned to Route) within a day. Closing distinct Service Outlet by 3rd week / 4th week of the period in 4 – 4 – 5 weeks accordingly.<br>• Only count Outlet with Classification (Gold / Silver / Bronze), Channel (Eating / Drinking / Grocery / WS non-DSD), and with 25 Sub-trade Channels | • Service Outlet:<br>  • From the beginning of the month (based on Coke Calendar) to Cut-off time: Showing service outlet day by day as MM exported.<br>  • From Cut-off time to end of month: end of Friday of W3 (for a month with 4 weeks) or W4 (for a month with 5 weeks) based on Coke calendar.<br>  • Cut-off time of week: Showing service outlet of Friday of W1, W2, W3/W4 (Based on Coke_Calendar).<br>  • Example: The Cut-off time of Apr 2023 is 21 Apr. Data from 21 Apr to the end of the month is not changed. |
+| Index 0 | Service Outlet | Net Sales Revenue | • Total value of NSR based on transactions in secondary sales by KO_Month<br>• Only count Outlet with Classification (Gold / Silver / Bronze), Channel (Eating/ Drinking/ Grocery/ WS non-DSD) and 25 Sub-trade Channels<br>• Only count Outlet in Service Outlet<br>• Only count Route ID in Orgchart | • Distinct Outlet:<br>  • Service Outlet GT: Follow the list of active sale route provided by SFA (Org Chart).<br>• Call Plan:<br>  • Call Plan of period which was from Monday to Saturday. |
+---
+## 2.3 5 Factor execution focuses
+
+### a. Report Filter
+
+| Filter name | Type | Description |
+|-------------|------|-------------|
+| Year | Single selection | Must follow Coke calendar |
+| Month | Single selection | Must follow Coke calendar |
+| Week | Single selection | Must follow Coke calendar |
+| Channel | Multiple selection | Eating / Drinking / Grocery / WS non-DSD |
+| Region | Multiple selection | Region name |
+| ASM | Multiple selection | ASM name |
+| TSM | Multiple selection | TSM name |
+
+### b. Report Formula
+
+| Index | Group | Metric | Formula | Note |
+|-------|-------|--------|---------|------|
+| Index 1 | Going for Gold/ Silver/ Bronze | Eating/ Drinking/ Grocery/ Wholesale non-DSD Outlet achieving MHS | • Mix purchase: Distinct Count Outlet purchasing at least minimum quantity EA of any Consumer SKU within MHS, and purchasing minimum quantity assigned to the MHS, and purchasing full list of MHS assigned to the Outlet Classification<br><br>• Specific purchase: Distinct Count Outlet purchasing 1 specific Consumer SKU with at least minimum quantity assigned to MHS, and purchasing full list of MHS assigned to the Outlet Classification | • MHS = Must Have SKU<br>• Example:<br>    Condition: MHS Nutriboost includes 2 consumers:<br>    1. Nutriboost Orange SS PET 297ml<br>    2. Nutriboost Strawberry SS PET 297ml<br>• Case 1: Mix Purchase:<br>    1 outlet (Gold – Drinking) has purchased 2 consumer SKU:<br>    • Nutriboost Orange 2EA<br>    • Nutriboost Strawberry 10EA<br>    → Count achieved this MHS for Gold outlet.<br>• Case 2: Specific Purchase:<br>    1 outlet (Gold – Drinking) has purchased 1 consumer SKU:<br>    • Nutriboost Orange 12EA<br>    → Count achieved this MHS for Gold outlet.<br><br>• At least minimum quantity EA of any Consumer SKU:<br>• The condition of purchasing full MHS: bought at least a minimum quantity of any Consumer SKU belonging to every MHS allocated for each outlet in the classification & channel group.<br><br>Note:<br>Before May 2023: the minimum quantity of any Consumer SKU is 3EA <br> From May 2023: the minimum quantity of any Consumer SKU is 1EA|
+| Index 1 | Going for Gold/ Silver/ Bronze | %Going for Gold | Distinct Count Gold Outlet achieving MHS (Must Have SKU) / Distinct Count Gold Service Outlet | %Going for Gold = #Outlet reached G4G / Service outlet Gold. <br> - Outlet reached G4G: <br>  - Total quantity EA of consumer SKU (calculate Sales Register month-to-date) pass MHS condition (Gold). <br>  - Base on Service outlet: Outlet must exist in service outlet <br>  - Channel & Classification: based on Outlet in Service outlet <br> - Region: Mapping to Org Chart by Route Code to get Region <br> - Route logic: Mapping the latest route ID based on Service Outlet <br> - Need to show the result of 2 metrics like: #G4G and %G4G. <br> - Need to separate: A. REAL DISTRIBUTION MAGIC (RDM) <br> - %Going for Gold - Total <br> - %Going for Gold - Eating <br> - %Going for Gold - Drinking - %Going for Gold - Gro <br> - %Going for Gold - WS non-DSD <br> B. CORE DISTRIBUTION MAGIC (CDM) <br> - %Going for Gold - Total <br> - %Going for Gold - Eating <br> - %Going for Gold - Dinking <br> - %Going for Gold - Gro <br> - %Going for Gold - WS non - DSD |
+| Index 1 | Going for Gold/ Silver/ Bronze | % Going for Silver | Distinct Count Silver Outlet achieving MHS (Must Have SKU) / Distinct Count Silver Service Outlet | %Going for Silver = #Outlet reached G4S / Service outlet Silver. Outlet reached G4S: <br> - Total quantity EA of consumer SKU (calculate Sales Register month-to-date) pass MHS condition (Silver). <br> - Base on Service outlet: Outlet must exist in service outlet. <br> - Channel & Classification: based on Outlet in Service outlet <br> - Region: Mapping to Org Chart by Route Code to get Region <br> - Route logic: Mapping the latest route ID based on Service Outlet <br> - Need to show result of 2 metrics like: #G4S and %G4S. <br> - Need to separate: <br>  A. REAL DISTRIBUTION MAGIC (RDM) <br> - %Going for Silver - Total <br> - %Going for Silver - Eating <br> - %Going for Silver - Drinking <br> - %Going for Silver - Gro <br> - %Going for Silver - WS non-DSD <br> B. CORE DISTRIBUTION MAGIC (CDM) <br> - %Going for Silver - Total <br> - %Going for Silver - Eating <br> - %Going for Silver - Dinking <br> - %Going for Silver - Gro <br> - %Going for Silver - WS non- DSD |
+| Index 1 | Going for Gold/ Silver/ Bronze | % Going for Bronze | Distinct Count Bronze Outlet achieving MHS (Must Have Consumer SKU) / Distinct Count Bronze Service Outlet | As above but count for Bronze classification. |
+| Index 2 | Active Outlet by Product Group | Active Outlet | Distinct Count Outlet purchasing at least 6EA of any Consumer SKU of the group | %Active Outlet = #Active Outlet / #Service Outlet <br> Active Outlet:<br>- Total quantity EA of consumer SKU (calculate Sales Register month-to-date) at least 6EA.<br>- Base on Service outlet: Outlet must exist in service outlet. <br> - Channel & Classification: based on Outlet in Service outlet. <br> - Region: Mapping to Org Chart by Route Code to get Region <br> - Route logic: Mapping the latest route ID based on Service Outlet <br> - Need to show the result of 2 metrics like: #Active Outlet and %Active Outlet|
+| Index 2 | Active Outlet by Product Group | %Active Outlet by Coke | Distinct Count Active Outlet by Coca-Cola / Total Service Outlet | %Active Outlet by Coke = #Active Outlet by Coke / #Service Outlet <br> - Need to show the result of 2 metrics like: #Active Outlet by Coke and %Active Outlet by Coke <br> - Apply the same for all metrics of Index 2.|
+| Index 2 | Active Outlet by Product Group | % Active Outlet by Sprite | Distinct Count Active Outlet by Sprite / Total Service Outlet |
+| Index 2 | Active Outlet by Product Group | % Active Outlet by Nutriboost | Distinct Count Active Outlet by Nutriboost / Total Service Outlet |
+| Index 2 | Active Outlet by Product Group | % Active Outlet by Tea | Distinct Count Active Outlet by Tea / Total Service Outlet |
+| Index 2 | Active Outlet by Product Group | % Active Outlet by Energy | Distinct Count Active Outlet by Energy / Total Service Outlet |
+| Index 2 | Active Outlet by Product Group | % Active Outlet by Thums up | Distinct Count Active Outlet by Thums up / Total Service Outlet |
+| Index 3 | SKU/Outlet & SKU/Order | SKU/Outlet | (On Route Consumer SKU Count + Off Route Consumer SKU Count + eB2B Consumer SKU Count) / Distinct Count Outlet | SKU/ Outlet = Total of distinct count Consumer SKU of each outlet / Distinct count active Outlet (based on Sales Register by month-to-date) <br> Numerator: <br> - Condition: Consumer SKU has total quantity EA (calculate Sales Register month-to-date) at least 6EA.  <br> Denominator:  <br> • Condition: Outlet based on Sales Register, has any consumer SKU has total quantity EA (calculate Sales Register month-to-date) at least 6EA. <br> • Region: Mapping to Org Chart by Route Code to get Region <br> • Route logic: The latest route has transactions on the same customer.
+| Index 3 | SKU/Outlet & SKU/Order | SKU / Order | (On Route SKU Count + eB2B SKU Count) / Sum of On-Route Order | SKU / Order = Sum of SKU of each on-route Order/ Sum of on-route Order <br> Numerator: <br> • Condition: SKU has total quantity EA at least 6EA. <br> Denominator: <br> • On route outlet condition: outlet has a visit plan. <br> • On route order condition bought at least 6EA of any SKU for on route outlet of the day (if an outlet bought many orders in the same day, consider them to be one order) <br> • Excluded Sunday & National holidays. <br> • Not count for the day when SR was on leave: his Call Plan or (#Completion Call and Total Order = zero (no value)). <br> • Region: Mapping to Org Chart by Route Code to get Region <br> • Route logic: Record for the Route ID based on transaction and not change to latest Route in case it re-route throughout the month.
+| Index 4 | Net New Outlet | Target New Outlet | Based on the Org Chart | • Currently, Target Values are maintained in the Org Chart files
+| Index 4 | Net New Outlet | New New Outlet | New New Outlet – Closed Outlet | • Data Closed Outlet only have for the last week of month (based on Coke Calendar)
+| Index 5 | Cooler Purity | Cooler Purity | Volume of Product / Value of Cooler | • Result of purity upload weekly and monthly from an external source
+---
+
+
+## 2.4 Core
+
+### a. Report Filter
+
+| Filter name | Type | Description |
+|-------------|------|-------------|
+| Year | Single selection | Must follow Coke calendar |
+| Month | Single selection | Must follow Coke calendar |
+| Week | Single selection | Must follow Coke calendar |
+| Channel Group | Multiple selection | Eating / Drinking / Grocery / WS non-DSD |
+| Region | Multiple selection | Region name |
+| ASM | Multiple selection | ASM name |
+| TSM | Multiple selection | TSM name |
+
+### b. Report Formula
+
+| Index | Group | Metric | Formula | Note |
+|-------|-------|--------|---------|------|
+| | | % Going for CORE Total | Distinct Count Outlet achieving CORE MHS (Must Have SKU) / Distinct Count Service Outlet | Look at Note for Part 2.3 – Index 1. |
+| Index 1 | Going for Gold/ Silver/ Bronze | % Going for Gold CORE | Distinct Count Gold Outlet achieving CORE MHS (Must Have SKU) / Distinct Count Gold Service Outlet | Look at Note for Part 2.3 – Index 1. |
+| | | % Going for Silver CORE | Distinct Count Silver Outlet achieving CORE MHS (Must Have SKU) / Distinct Count Silver Service Outlet | Look at Note for Part 2.3 – Index 1. |
+| | | % Going for Bronze CORE | Distinct Count Bronze Outlet achieving CORE MHS (Must Have SKU) / Distinct Count Bronze Service Outlet | Look at Note for Part 2.3 – Index 1. |
+
+## 2.5 To-do List
+
+### a. Report Filter
+
+| Filter name | Type | Description |
+|-------------|------|-------------|
+| Year | Single selection | Must follow Coke calendar |
+| Month | Single selection | Must follow Coke calendar |
+| Channel Group | Multiple selection | Eating / Drinking / Grocery / WS non-DSD |
+| Classification | Multiple selection | Gold / Silver / Bronze |
+| Region | Multiple selection | Region name |
+| ASM | Multiple selection | ASM name |
+| TSM | Multiple selection | TSM name |
+| MHS Group | Multiple selection | COR / STR / EDR / REG |
+
+## b. Report Formula
+
+| Index | Group | Metric | Formula | Note |
+|-------|-------|--------|---------|------|
+| | MHS Invisible | Quantity check | • Sum of EA that has transaction:<br>○ If total EA >= Min quantity requirement => Count achieved (Completed #MHS) => Green color and value<br>○ If total EA > 0 < Min quantity requirement => Count did not achieve (Incompleted #MHS) => Red color and value<br>○ If total EA = 0 => Count as outlet did not have any transactions in a month (Inactive) => Red color and blank value | • Use the formula in Part 2.3 – Index 1 to identify the status of the outlet.<br>• Min quantity requirements = Mix purchase requirements<br>• The data |
+| | | Outlet missed MHS | Distinct count outlets who missed MHS | |
+| | | Outlet did not purchase SKU | Distinct count outlets who did not purchase any order | |
+---
+# 3. Report template
+
+## 3.1 Service outlet
+
+SERVICE OUTLET 5 FACTOR                    Coca-Cola Beverages Vietnam Ltd.
+                                           Last refreshed date
+                                           28/08/2023 09:36:05
+
+SO TOTAL       SERVICE OUTLET BY REGION         NSR BY REGION              NSR BY SEGMENT
+411,118
+
+| Region | Service Outlets |
+|--------|-----------------|
+| CP     | 60,070          |
+| HC     | 79,546          |
+| HN     | 64,530          |
+| MK     | 42,438          |
+| NE     | 71,786          |
+| NW     | 46,196          |
+| SP     | 46,552          |
+
+TARGET NEW OUTLET    ACTUAL NEW OUTLET
+5,839                5,412
+
+SERVICE OUTLET BY SEGMENT         SERVICE OUTLET BY CHANNEL
+
+SERVICE OUTLET BY MONTH           SERVICE OUTLET SEGMENT BY MONTH   SERVICE OUTLET CHANNEL BY MONTH
+
+| Month | Service Outlets |
+|-------|-----------------|
+| Jan   | ~402,000        |
+| Feb   | ~402,500        |
+| Mar   | ~404,000        |
+| Apr   | ~405,000        |
+| May   | ~407,000        |
+| Jun   | ~408,000        |
+| Jul   | ~409,000        |
+| Aug   | ~411,000        |
+| Sep   | ~411,500        |
+
+Note: The exact values for the SERVICE OUTLET BY MONTH chart are approximated from the graph.
+
+For the SERVICE OUTLET SEGMENT BY MONTH and SERVICE OUTLET CHANNEL BY MONTH, the data is presented in stacked bar charts, but the specific values are not clearly visible in the image. These charts show the distribution of service outlets across different segments and channels over the months, but without precise numbers, a detailed breakdown cannot be provided.
+---
+# SERVICE OUTLET 5 FACTOR
+
+Last refreshed date: 28/08/2023 09:36:06
+
+## SO TOTAL: 411,118
+
+### SERVICE OUTLET BY REGION
+
+| Region | Service Outlets |
+|--------|-----------------|
+| CP     | 60,070          |
+| HC     | 79,546          |
+| HN     | 64,530          |
+| MK     | 42,438          |
+| NE     | 71,786          |
+| NW     | 46,196          |
+| SP     | 46,552          |
+| Total  | 411,118         |
+
+### NSR BY REGION
+
+| Region | Percentage |
+|--------|------------|
+| CP     | 14.61%     |
+| HC     | 19.35%     |
+| HN     | 15.70%     |
+| MK     | 10.32%     |
+| NE     | 17.46%     |
+| NW     | 11.24%     |
+| SP     | 11.32%     |
+
+### NSR BY SEGMENT
+
+| Segment | Bronze | Gold | Silver |
+|---------|--------|------|--------|
+| CP      | 23%    | 44%  | 33%    |
+| HC      | 20%    | 46%  | 34%    |
+| HN      | 20%    | 46%  | 34%    |
+| MK      | 20%    | 48%  | 32%    |
+| NE      | 20%    | 47%  | 33%    |
+| NW      | 20%    | 45%  | 35%    |
+| SP      | 21%    | 44%  | 35%    |
+
+### SERVICE OUTLET BY SEGMENT
+
+| Segment | Bronze | Gold | Silver |
+|---------|--------|------|--------|
+| CP      | 73%    | 22%  | 5%     |
+| HC      | 72%    | 23%  | 5%     |
+| HN      | 73%    | 22%  | 5%     |
+| MK      | 73%    | 22%  | 5%     |
+| NE      | 73%    | 22%  | 5%     |
+| NW      | 73%    | 22%  | 5%     |
+| SP      | 73%    | 22%  | 5%     |
+
+### SERVICE OUTLET BY CHANNEL
+
+| Channel   | Percentage |
+|-----------|------------|
+| Drinking  | 43%        |
+| Eating    | 37%        |
+| Grocery   | 17%        |
+| Wholesale | 3%         |
+
+### TARGET NEW OUTLET vs ACTUAL NEW OUTLET
+
+| Metric            | Value |
+|-------------------|-------|
+| TARGET NEW OUTLET | 5,839 |
+| ACTUAL NEW OUTLET | 5,412 |
+
+### SERVICE OUTLET BY MONTH
+
+| Month | Service Outlets |
+|-------|-----------------|
+| Jan   | 402,473         |
+| Feb   | 402,920         |
+| Mar   | 403,935         |
+| Apr   | 405,438         |
+| May   | 406,589         |
+| Jun   | 407,708         |
+| Jul   | 409,398         |
+| Aug   | 410,559         |
+| Sep   | 411,118         |
+
+### SERVICE OUTLET SEGMENT BY MONTH
+
+| Month | Bronze  | Gold    | Silver  |
+|-------|---------|---------|---------|
+| Jan   | 294,555 | 89,280  | 18,638  |
+| Feb   | 294,889 | 89,365  | 18,666  |
+| Mar   | 295,625 | 89,594  | 18,716  |
+| Apr   | 296,720 | 89,950  | 18,768  |
+| May   | 297,559 | 90,220  | 18,810  |
+| Jun   | 298,379 | 90,488  | 18,841  |
+| Jul   | 299,627 | 90,885  | 18,886  |
+| Aug   | 300,471 | 91,169  | 18,919  |
+| Sep   | 300,872 | 91,305  | 18,941  |
+
+### SERVICE OUTLET CHANNEL BY MONTH
+
+| Month | Drinking | Eating  | Grocery | Wholesale |
+|-------|----------|---------|---------|-----------|
+| Jan   | 173,663  | 147,914 | 69,274  | 11,622    |
+| Feb   | 173,909  | 148,099 | 69,284  | 11,628    |
+| Mar   | 174,414  | 148,481 | 69,399  | 11,641    |
+| Apr   | 175,067  | 149,095 | 69,622  | 11,654    |
+| May   | 175,560  | 149,614 | 69,749  | 11,666    |
+| Jun   | 176,004  | 150,138 | 69,889  | 11,677    |
+| Jul   | 176,560  | 150,971 | 70,177  | 11,690    |
+| Aug   | 177,176  | 151,414 | 70,274  | 11,695    |
+| Sep   | 177,470  | 151,670 | 70,278  | 11,700    |
+---
+## 3.2 5 Factors execution focuses
+
+### a. 5 Factors by region
+
+Last refreshed date: 28/08/2023 09:06:00
+
+#### 5 FACTORS EXECUTION FOCUSES
+
+| INDEX 1A: GOING FOR GOLD |
+|--------------------------|
+
+| Region | Grocery | Eating | Grocery+Eating |
+|--------|---------|--------|----------------|
+| CP     | 58.02%  | 38.36% | 84.74%         |
+| HC     | 76.22%  | 55.13% | 82.78%         |
+| HYD    | 21.02%  | 31.87% | 84.88%         |
+| MK     | 45.11%  | 42.42% | 80.14%         |
+| NE     | 43.53%  | 41.24% | 80.44%         |
+| NW     | 74.51%  | 61.28% | 84.27%         |
+| SP     | 58.93%  | 56.70% | 83.48%         |
+| VN     | 78.47%  | 75.18% | 83.87%         |
+
+| INDEX 1B: GOING FOR SILVER |
+|----------------------------|
+
+| Region | Grocery | Eating | Grocery+Eating |
+|--------|---------|--------|----------------|
+| CP     | 4.36%   | 12.47% | 5.58%          |
+| HC     | 10.61%  | 17.47% | 12.71%         |
+| HYD    | 5.58%   | 8.07%  | 23.14%         |
+| MK     | 2.24%   | 2.65%  | 5.59%          |
+| NE     | 3.14%   | 3.60%  | 5.59%          |
+| NW     | 13.28%  | 29.43% | 19.94%         |
+| SP     | 19.52%  | 31.69% | 22.29%         |
+| VN     | 11.79%  | 15.23% | 19.48%         |
+
+| INDEX 1C: GOING FOR BRONZE |
+|----------------------------|
+
+| Region | Grocery | Eating | Grocery+Eating |
+|--------|---------|--------|----------------|
+| CP     | 37.49%  | 40.03% | 43.03%         |
+| HC     | 25.43%  | 19.03% | 33.62%         |
+| HYD    | 73.40%  | 60.06% | 73.40%         |
+| MK     | 52.13%  | 19.45% | 53.05%         |
+| NE     | 54.02%  | 55.99% | 59.02%         |
+| NW     | 18.13%  | 23.04% | 20.85%         |
+| SP     | 21.47%  | 18.40% | 43.51%         |
+| VN     | 9.68%   | 9.58%  | 9.68%          |
+
+| INDEX 2A: ACTIVE BY BRAND |
+|---------------------------|
+
+| Region | COKE | SPRITE | THUMS UP |
+|--------|------|--------|----------|
+| CP     | 80%  | 71%    | 0%       |
+| HC     | 87%  | 75%    | 51%      |
+| HYD    | 86%  | 51%    | 27%      |
+| MK     | 83%  | 64%    | 0%       |
+| NE     | 81%  | 55%    | 42%      |
+| NW     | 91%  | 74%    | 67%      |
+| SP     | 87%  | 62%    | 38%      |
+| VN     | 87%  | 66%    | 38%      |
+
+| INDEX 2B: ACTIVE OUTLET |
+|-------------------------|
+
+| Region | Percentage |
+|--------|------------|
+| CP     | 92%        |
+| HC     | 89%        |
+| HYD    | 84%        |
+| MK     | 89%        |
+| NE     | 85%        |
+| NW     | 94%        |
+| SP     | 91%        |
+| VN     | 91%        |
+
+| INDEX 3: SKU/ ORDER & SKU/OUTLET |
+|----------------------------------|
+
+| Region | SKU/ORDER | SKU/OUTLET |
+|--------|-----------|------------|
+| CP     | 4.8       | 8.7        |
+| HC     | 3.7       | 6.6        |
+| HYD    | 4.3       | 8.7        |
+| MK     | 3.4       | 6.0        |
+| NE     | 3.7       | 6.7        |
+| NW     | 4.8       | 8.7        |
+| SP     | 4.1       | 7.4        |
+| VN     | 4.1       | 7.4        |
+
+| INDEX 4: NET NEW OUTLET |
+|--------------------------|
+
+| Region | URBAN NEW OUTLET | RURAL NEW OUTLET |
+|--------|------------------|-------------------|
+| CP     | 831              | 1,107             |
+| HC     | 738              | 1,228             |
+| HYD    | 388              | 1,022             |
+| MK     | 308              | 692               |
+| NE     | 1,022            | 1,228             |
+| NW     | 738              | 923               |
+| SP     | 462              | 831               |
+| VN     | 308              | 554               |
+
+| INDEX 5: COOLER PURITY |
+|------------------------|
+
+| Region | Percentage |
+|--------|------------|
+| CP     | 93%        |
+| HC     | 91%        |
+| HYD    | 92%        |
+| MK     | 90%        |
+| NE     | 91%        |
+| NW     | 93%        |
+| SP     | 91%        |
+| VN     | 94%        |
+---
+b. 5 Factors by ASM
+i. Total ASM
+
+| 5 FACTORS EXECUTION FOCUSES | Region | Coca-Cola Beverages |
+|---------------------------|--------|---------------------|
+| YEAR | WEEK | CHANNEL | REGION | ASM | Total ASM | Top ASM | Bottom ASM |
+| 2023 (year) 7 (month) | 1 | All | All | All | 87% | 56% | 27% |
+
+| INDEX 1A: GOING FOR GOLD | Y/N | 798% |
+|--------------------------|-----|------|
+
+| ASM | G | S | B | W |
+|-----|---|---|---|---|
+| CUULONG | 37.07% | 34.76% | 25.41% | 2.76% |
+| DONGBAC | 75.70% | 20.01% | 4.13% | 0.16% |
+| DONGNAM | 36.69% | 36.69% | 24.51% | 2.11% |
+| HANOI | 45.39% | 37.20% | 15.84% | 1.57% |
+| MIENNAM | 35.13% | 36.57% | 25.20% | 3.11% |
+| MIENTRUNG | 47.85% | 29.25% | 20.67% | 2.24% |
+| MIENTAY | 38.12% | 35.52% | 23.20% | 3.16% |
+| SAIGON | 41.34% | 34.38% | 21.14% | 3.14% |
+
+| INDEX 2A: ACTIVE BY BRAND | Y/N | 87% | 56% | 41% | 27% | 21% |
+|---------------------------|-----|-----|-----|-----|-----|-----|
+
+[Chart showing brand activity percentages over time for COKE, SPRITE, FANTA, OTHERS]
+
+| INDEX 1B: GOING FOR SILVER | Y/N | 16% |
+|----------------------------|-----|-----|
+
+| ASM | G | S | B | W |
+|-----|---|---|---|---|
+| CUULONG | 9.03% | 29.03% | 57.51% | 4.44% |
+| DONGBAC | 0.00% | 14.04% | 85.96% | 0.00% |
+| DONGNAM | 7.20% | 13.74% | 76.50% | 2.56% |
+| HANOI | 2.08% | 11.72% | 78.76% | 7.44% |
+| MIENNAM | 5.20% | 17.47% | 62.38% | 14.95% |
+| MIENTRUNG | 5.00% | 9.19% | 81.91% | 3.90% |
+| MIENTAY | 6.67% | 12.11% | 75.41% | 5.81% |
+| SAIGON | 4.11% | 11.35% | 80.43% | 4.11% |
+
+| INDEX 2B: ACTIVE OUTLET | Y/N | 91% |
+|--------------------------|-----|-----|
+
+[Bar chart showing active outlet percentages for different regions]
+
+| INDEX 3: SKU/ ORDER & SKU/OUTLET | Y/N | 5.2 | 8.4 |
+|----------------------------------|-----|-----|-----|
+
+[Bar chart showing SKU/Order and SKU/Outlet values for different time periods]
+
+| INDEX 1C: GOING FOR BRONZE | Y/N | 403% |
+|----------------------------|-----|------|
+
+| ASM | G | S | B | W |
+|-----|---|---|---|---|
+| CUULONG | 21.76% | 23.36% | 52.28% | 2.59% |
+| DONGBAC | 23.43% | 34.13% | 41.76% | 0.68% |
+| DONGNAM | 24.12% | 24.12% | 49.12% | 2.64% |
+| HANOI | 21.12% | 30.43% | 45.80% | 2.65% |
+| MIENNAM | 17.92% | 17.92% | 62.70% | 1.46% |
+| MIENTRUNG | 13.18% | 13.18% | 69.20% | 4.44% |
+| MIENTAY | 17.11% | 17.11% | 62.70% | 3.08% |
+| SAIGON | 16.36% | 16.36% | 63.64% | 3.64% |
+
+| INDEX 4: NET NEW OUTLET | Y/N |  |
+|--------------------------|-----|--|
+
+| OUTLET OPEN OUTLET | OUTLET REOPEN OUTLET | 5,819 | 5,412 |
+|---------------------|------------------------|------|------|
+
+[Bar chart showing net new outlet numbers over time]
+
+| INDEX 5: COOLER PURITY | Y/N | 91% |
+|------------------------|-----|-----|
+
+| COOLER | HANOI | DONGBAC | MIENNAM | MIENTAY | MIENTRUNG | DONGNAM | CUULONG | SAIGON |
+|--------|-------|---------|---------|---------|-----------|---------|---------|--------|
+| PURE | 95% | 96% | 89% | 90% | 92% | 91% | 89% | 89% |
+| MIX TV | 3% | 2% | 7% | 6% | 5% | 6% | 7% | 7% |
+| MIX NON TV | 2% | 2% | 4% | 4% | 3% | 3% | 4% | 4% |
+---
+## ii. Top ASM
+
+Last refreshed date: 28/08/2023 09:38:06
+
+### 5 FACTORS EXECUTION FOCUSES
+
+| YEAR | WEEK | CHANNEL | REGION |
+|------|------|---------|--------|
+| 2023 (year) + (month) | 1 | GT | CN |
+
+Total ASM → Top ASM → Top TSM
+
+#### INDEX 1A: GOING FOR GOLD
+
+| ASM | G | E | G | W |
+|-----|---|---|---|---|
+| WESTERN | 100.00% | 100.00% | 100.00% | 100.0% |
+| MEKONG | 100.00% | 100.00% | 100.00% | 100.0% |
+| HCMC | 100.00% | 100.00% | 97.92% | 99.3% |
+| HPLT | 93.33% | 93.84% | 93.14% | 93.4% |
+| THANH HOA | 97.22% | 97.22% | 85.65% | 93.4% |
+| HANOI | 94.44% | 94.44% | 90.28% | 93.1% |
+| LANGSON | 94.87% | 97.78% | 86.06% | 92.9% |
+| HIGHLAND | 93.75% | 93.75% | 90.63% | 92.7% |
+
+#### INDEX 2A: ACTIVE BY BRAND
+
+| COKE | NTB | SPRITE | TEA | ED |
+|------|-----|--------|-----|---|
+| COCA-COLA: 100% | FANTA: 91% | SPRITE: 91% | FANTA: 100% | STING: 87% |
+| COCA-COLA LIGHT: 100% | FANTA SODA: 91% | SPRITE FIBER+: 91% | FUZETEA: 100% | SAMURAI: 87% |
+| COCA-COLA ZERO: 100% | SCHWEPPES: 91% | | NUTRIBOOST: 100% | REDBULL: 87% |
+| COCA-COLA ENERGY: 100% | MINUTE MAID: 91% | | | WARRIOR: 87% |
+| COCA-COLA PLUS: 100% | MINUTE MAID TEPPY: 91% | | | |
+| COCA-COLA COFFEE: 100% | AQUARIUS: 91% | | | |
+| COCA-COLA CREATIONS: 100% | | | | |
+| THUMS UP: 100% | | | | |
+
+#### INDEX 1B: GOING FOR SILVER
+
+| ASM | G | E | G | W |
+|-----|---|---|---|---|
+| WESTERN | 92.42% | 95.69% | 97.50% | 95.20% |
+| MEKONG | 93.33% | 93.33% | 98.33% | 95.00% |
+| HCMC | 93.75% | 93.75% | 97.50% | 95.00% |
+| HPLT | 93.02% | 97.67% | 87.53% | 92.53% |
+| THANH HOA | 95.00% | 93.33% | 85.00% | 91.11% |
+| HANOI | 93.75% | 93.75% | 85.00% | 90.83% |
+| HIGHLAND | 93.06% | 93.06% | 85.42% | 90.51% |
+| LANGSON | 90.56% | 93.06% | 76.39% | 86.67% |
+
+#### INDEX 2B: ACTIVE OUTLET
+
+| DANANG | HCMC HUB | HPLT HUB | HANOI | HIGHLAND | MEKONG | LANGSON | THANH HOA | WESTERN |
+|--------|----------|----------|-------|----------|--------|---------|-----------|---------|
+| 93% | 97% | 93% | 94% | 96% | 96% | 94% | 96% | 96% |
+
+#### INDEX 1C: GOING FOR BRONZE
+
+| ASM | G | E | G | W |
+|-----|---|---|---|---|
+| WESTERN | 93.33% | 93.33% | 95.00% | 93.89% |
+| MEKONG | 93.33% | 93.33% | 93.33% | 93.33% |
+| HCMC | 92.86% | 92.86% | 94.29% | 93.33% |
+| HIGHLAND | 93.21% | 93.21% | 88.14% | 91.52% |
+| HPLT | 91.11% | 93.33% | 90.00% | 91.48% |
+| THANH HOA | 93.33% | 93.33% | 86.67% | 91.11% |
+| HANOI | 87.78% | 88.89% | 85.89% | 87.52% |
+| LANGSON | 86.67% | 86.67% | 80.00% | 84.44% |
+
+#### INDEX 3: SKU/ ORDER
+
+| 6.7 | 5.8 | 6.8 | 6.3 | 6.1 | 6.2 | 5.8 | 5.8 | 5.4 |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| WESTERN | MEKONG | HCMC | HPLT | THANH HOA | HANOI | LANGSON | HIGHLAND | Grand Total |
+
+#### INDEX 5: SKU/OUTLET
+
+| 10.8 | 13.6 | 10.9 | 10.5 | 9.1 | 10.9 | 10.0 | 10.5 | 9.7 |
+|------|------|------|------|-----|------|------|------|-----|
+| WESTERN | MEKONG | HCMC | HPLT | THANH HOA | HANOI | LANGSON | HIGHLAND | Grand Total |
+---
+### iii. Top TSM
+
+Last refreshed date: 28/08/2023 05:35:06
+
+## 5 FACTORS EXECUTION FOCUSES
+
+| YEAR | WEEK | CHANNEL | REGION |
+|------|------|---------|--------|
+| 2023 (year) | 3 | GT | 73 |
+
+Total ASM → Top ASM → Top TSM
+
+### INDEX 1A: GOING FOR GOLD
+
+| TSM | D | T | G | W |
+|-----|---|---|---|---|
+| ABCXYZ | 100.00% | 100.00% | 100.00% | 100% |
+| DEFUV | 100.00% | 100.00% | 100.00% | 100% |
+| GHIJKL | 100.00% | 100.00% | 100.00% | 100% |
+| MNOPQR | 100.00% | 100.00% | 100.00% | 100% |
+| STUVWX | 100.00% | 100.00% | 100.00% | 100% |
+| YZABCD | 100.00% | 100.00% | 100.00% | 100% |
+| EFGHIJ | 100.00% | 100.00% | 100.00% | 100% |
+| KLMNOP | 100.00% | 100.00% | 100.00% | 100% |
+
+### INDEX 2A: ACTIVE BY BRAND
+
+| COKE | NTB | SPRITE | TEA | ED |
+|------|-----|--------|-----|---|
+| 350 ml: 100% | 350ml: 100% | 390 ml PET: 100% | TH-TEA: 100% | MONSTER: 100% |
+| 390 ml: 100% | 500ml: 100% | 500 ml PET: 100% | TH-TEA+: 100% | SAMURAI: 100% |
+| 500 ml: 100% | 1.5L: 100% | 1.5L PET: 100% | FUZETEA: 100% | STING: 100% |
+| 1.5L: 100% | 24x330ml: 100% | 24x330ml: 100% | FUZETEA+: 100% | PREDATOR: 100% |
+| 24x330ml: 100% | 6x330ml: 100% | 6x330ml: 100% | LEMOR: 100% |  |
+| 6x330ml: 100% | 350ml CAN: 100% | 330ml CAN: 100% | SUNNOH: 100% |  |
+| 330ml CAN: 100% |  |  |  |  |
+
+### INDEX 1B: GOING FOR SILVER
+
+| TSM | D | T | G | W |
+|-----|---|---|---|---|
+| ZXCVBNM | 100.0% | 100.0% | 100.00% | 100% |
+| ASDFGHJ | 100.0% | 100.0% | 100.00% | 100% |
+| LKJHGF | 100.0% | 100.0% | 100.00% | 100% |
+| POIUYTR | 100.0% | 100.0% | 100.00% | 100% |
+| MNBVCXZ | 100.0% | 100.0% | 100.00% | 100% |
+
+### INDEX 2B: ACTIVE OUTLET
+
+(Bar chart showing 100% across all categories)
+
+### INDEX 1C: GOING FOR BRONZE
+
+| TSM | D | T | G | W |
+|-----|---|---|---|---|
+| ZXCVBNM | 100.00% | 100.00% | 100.00% | 100.0 |
+| POIUYTR | 100.00% | 100.00% | 100.00% | 100.0 |
+| MNBVCXZ | 100.00% | 100.00% | 100.00% | 100.0 |
+| LKJHGFD | 100.00% | 100.00% | 100.00% | 100.0 |
+| QWERTY | 100.00% | 100.00% | 100.00% | 100.0 |
+| ASDFGHJ | 98.77% | 98.24% | 98.53% | 98.0 |
+| UIOPLKJ | 100.00% | 100.00% | 100.00% | 100.0 |
+
+### INDEX 3: SKU/ ORDER
+
+(Bar chart showing values ranging from 3.3 to 5.8)
+
+### INDEX 3: SKU/OUTLET
+
+(Bar chart showing values ranging from 18.7 to 22.8)
+---
+iv.        Bottom ASM
+
+Last refreshed date: 29/03/2023 09:36:06
+
+5 FACTORS EXECUTION FOCUSES
+
+| YEAR | WEEK | CHANNEL | REGION |
+|------|------|---------|--------|
+| 2023 (year) | 13 (month) | All | All |
+
+Total ASM -> Bottom ASM -> Bottom Total
+
+### INDEX 1A: GOING FOR GOLD
+
+| ASM | G | S | B | % |
+|-----|---|---|---|---|
+| HUNGPP | 75.15% | 11.98% | 9.87% | 97% |
+| THUALTC | 73.08% | 13.85% | 10.77% | 98% |
+| THUALTN | 70.74% | 14.81% | 11.11% | 97% |
+| HUNGLTC | 67.38% | 16.28% | 12.24% | 96% |
+| HUNGLTN | 61.90% | 20.24% | 13.10% | 95% |
+| THLNC | 53.57% | 20.24% | 19.05% | 93% |
+| THLNTN | 53.57% | 20.24% | 19.05% | 93% |
+| THCXG | 51.79% | 22.62% | 18.45% | 93% |
+| HUNGXG | 50.00% | 22.62% | 20.24% | 93% |
+
+### INDEX 2A: ACTIVE BY BRAND
+
+| COKE | NTB | SPRITE | TEA | ED |
+|------|-----|--------|-----|---|
+| HUNGPP 94% | HUNGPP 94% | HUNGPP 89% | HUNGPP 91% | HUNGPP 87% |
+| THUALTC 92% | THUALTC 92% | THUALTC 88% | THUALTC 89% | THUALTC 86% |
+| THUALTN 91% | THUALTN 91% | THUALTN 87% | THUALTN 88% | THUALTN 85% |
+| HUNGLTC 89% | HUNGLTC 89% | HUNGLTC 85% | HUNGLTC 87% | HUNGLTC 84% |
+| HUNGLTN 87% | HUNGLTN 87% | HUNGLTN 83% | HUNGLTN 85% | HUNGLTN 82% |
+| THLNC 84% | THLNC 84% | THLNC 80% | THLNC 82% | THLNC 79% |
+| THLNTN 84% | THLNTN 84% | THLNTN 80% | THLNTN 82% | THLNTN 79% |
+| THCXG 83% | THCXG 83% | THCXG 79% | THCXG 81% | THCXG 78% |
+| HUNGXG 82% | HUNGXG 82% | HUNGXG 78% | HUNGXG 80% | HUNGXG 77% |
+
+### INDEX 1B: GOING FOR SILVER
+
+| ASM | G | S | B | % |
+|-----|---|---|---|---|
+| HUNGXG | 50.00% | 22.62% | 20.24% | 93% |
+| THCXG | 51.79% | 22.62% | 18.45% | 93% |
+| THLNTN | 53.57% | 20.24% | 19.05% | 93% |
+| THLNC | 53.57% | 20.24% | 19.05% | 93% |
+| HUNGLTN | 61.90% | 20.24% | 13.10% | 95% |
+| HUNGLTC | 67.38% | 16.28% | 12.24% | 96% |
+| THUALTN | 70.74% | 14.81% | 11.11% | 97% |
+| THUALTC | 73.08% | 13.85% | 10.77% | 98% |
+| HUNGPP | 75.15% | 11.98% | 9.87% | 97% |
+
+### INDEX 2B: ACTIVE OUTLET
+
+| HUNGPP | THUALTC | THUALTN | HUNGLTC | HUNGLTN | THLNC | THLNTN | THCXG | HUNGXG |
+|--------|---------|---------|---------|---------|-------|--------|-------|--------|
+| 92% | 90% | 89% | 88% | 86% | 82% | 82% | 81% | 79% |
+
+### INDEX 1C: GOING FOR BRONZE
+
+| ASM | G | S | B | % |
+|-----|---|---|---|---|
+| LNVPT | 75.46% | 20.55% | 3.99% | 100% |
+| SDHLB | 27.27% | 53.55% | 18.18% | 99% |
+| TONGTC | 25.00% | 15.00% | 56.00% | 96% |
+| SDCXG | 27.00% | 29.51% | 34.00% | 91% |
+| SDPPTN | 23.81% | 28.57% | 38.10% | 90% |
+| SDPPTC | 23.81% | 28.57% | 38.10% | 90% |
+| TONLTN | 21.00% | 14.00% | 45.14% | 80% |
+| TONLTC | 21.00% | 14.00% | 45.14% | 80% |
+| HNALTC | 5.56% | 4.63% | 75.00% | 85% |
+
+### INDEX 3: SKU/ ORDER
+
+| HUNGPP | THUALTC | THUALTN | HUNGLTC | HUNGLTN | THLNC | THLNTN | THCXG | HUNGXG |
+|--------|---------|---------|---------|---------|-------|--------|-------|--------|
+| 4.6 | 4.5 | 4.5 | 4.4 | 4.3 | 4.1 | 4.1 | 4.0 | 4.0 |
+
+### INDEX 3: SKU/OUTLET
+
+| HUNGPP | THUALTC | THUALTN | HUNGLTC | HUNGLTN | THLNC | THLNTN | THCXG | HUNGXG |
+|--------|---------|---------|---------|---------|-------|--------|-------|--------|
+| 7.0 | 6.8 | 6.7 | 6.6 | 6.4 | 6.1 | 6.1 | 6.0 | 5.9 |
+---
+v. Bottom TSM
+
+Last refreshed date: 28/03/2023 09:35:06
+
+## 5 FACTORS EXECUTION FOCUSES
+
+| YEAR | WEEK | CHANNEL | REGION | Total ASM | Bottom ASM | Bottom TSM |
+|------|------|---------|--------|-----------|------------|------------|
+| 2023 (Year) | 2 (month) |         |        |           |            |            |
+
+### INDEX 1A: GOING FOR GOLD
+
+| TSM | G | E | G |
+|-----|---|---|---|
+| GILTH | 20.4% | 0.0% | 20.4% |
+| DURGPO | 20.4% | 3.4% | 23.8% |
+| DUEGT | 20.4% | 11.2% | 31.6% |
+| DUNT | 18.4% | 23.9% | 42.2% |
+| DURG DV | 20.4% | 31.2% | 51.6% |
+| GUORG | 20.4% | 33.7% | 54.1% |
+| DONG CN | 18.4% | 35.7% | 54.1% |
+| DONG GT | 20.4% | 34.9% | 55.3% |
+| DONG DV | 20.4% | 36.7% | 57.1% |
+
+### INDEX 2A: ACTIVE BY BRAND
+
+| COKE | NTB | SPRITE | TEA |
+|------|-----|--------|-----|
+| 83.4% | 20.6% | 14.7% | 8.7% |
+| 83.0% | 19.5% | 14.3% | 8.4% |
+| 82.7% | 18.7% | 14.0% | 8.2% |
+| 82.4% | 18.1% | 13.8% | 8.0% |
+| 82.1% | 17.6% | 13.6% | 7.9% |
+| 81.9% | 17.2% | 13.4% | 7.8% |
+| 81.7% | 16.8% | 13.3% | 7.7% |
+| 81.5% | 16.5% | 13.1% | 7.6% |
+| 81.4% | 16.2% | 13.0% | 7.5% |
+
+### INDEX 1B: GOING FOR SILVER
+
+| TSM | G | E | G |
+|-----|---|---|---|
+| BENTN | | | 31.0% |
+| DALAT | | | 31.0% |
+| DNGN | | | 31.0% |
+| DONGCN | | | 31.0% |
+| DONGDV | | | 31.0% |
+| DUONG | | | 31.0% |
+| KGIANG | 3.0% | | |
+| LAMDG | 3.0% | | |
+| LONGAN | | | 31.0% |
+
+### INDEX 2B: ACTIVE OUTLET
+
+| V.LONG | KIEN GIANG | TIEN GIANG | AN GIANG | TIEN GIANG | TRAN GIANG | DONG THAP | BEN TRE | CAN THO | SOC TRANG |
+|--------|------------|------------|----------|------------|------------|-----------|---------|---------|-----------|
+| 96% | 96% | 93% | 93% | 91% | 90% | 83% | 75% | 62% | 58% |
+
+### INDEX 1C: GOING FOR BRONZE
+
+| TSM | G | E | G |
+|-----|---|---|---|
+| TIENGIANG | | 3.0% | 3.0% |
+| TRAVINH | 3.0% | 0.0% | 3.0% |
+| VINHLONG | 3.0% | 0.0% | 3.0% |
+| CAMAU | 3.0% | -1.0% | 2.0% |
+| CANTHO | 3.0% | -2.8% | 0.2% |
+| ANGIANG | 3.1% | -3.1% | 0.0% |
+| BACLIEU | 3.0% | -3.0% | 0.0% |
+| SOCTRANG | 3.0% | -3.0% | 0.0% |
+| HAUGIANG | 3.1% | -3.1% | 0.0% |
+
+### INDEX 3: SKU/ ORDER
+
+| DONG THAP | BEN TRE | CAN THO | KIEN GIANG | AN GIANG | TIEN GIANG | VINH LONG | SOC TRANG |
+|-----------|---------|---------|------------|----------|------------|-----------|-----------|
+| 5.4 | 3.9 | 3.8 | 3.5 | 3.2 | 3.1 | 2.8 | 2.4 |
+
+### INDEX 3: SKU/OUTLET
+
+| DONG THAP | CAN THO | BEN TRE | KIEN GIANG | AN GIANG | TIEN GIANG | VINH LONG | SOC TRANG |
+|-----------|---------|---------|------------|----------|------------|-----------|-----------|
+| 5.8 | 5.2 | 5.2 | 4.8 | 4.5 | 4.4 | 4.2 | 3.8 |
+---
+### 3.3 5 Factors by details
+
+Last refreshed date: 28/08/2023 09:30:36
+
+#### 5 FACTORS BY DETAILS
+
+| YEAR | MONTH | WEEK | CHANNEL | REGION | A&M | TSM |
+|------|--------|------|---------|--------|-----|-----|
+| 2023 | 8      | 1    | All     | All    | All | All |
+
+| Region | Service outlet | Service outlet Gold | Outlet G4 Gold | % Going for Gold | Service outlet Gold Drinking | Outlet G4 Gold Drinking | % G4 Gold Drinking | Service outlet Gold - Eating | Outlet G4 Gold - Eating | % G4 Gold - Eating |
+|--------|----------------|---------------------|----------------|------------------|------------------------------|-------------------------|--------------------|-----------------------------|------------------------|-------------------|
+| CP | 60,070 | 8,162 | 7,489 | 91.75% | 1,740 | 1,584 | 91.03% | 1,790 | 1,592 | 88.94% |
+| 10003404 - VU PHAN THE LAN | 14,538 | 1,953 | 1,884 | 96.47% | 565 | 547 | 96.81% | 541 | 529 | 97.78% |
+| 10002932 - PHAM THANH VINH | 2,718 | 404 | 403 | 99.75% | 110 | 110 | 100.00% | 92 | 92 | 100.00% |
+| VN130044 - NGUYEN VU VAN LOAN | 277 | 36 | 36 | 100.00% | 19 | 19 | 100.00% | 21 | 21 | 100.00% |
+| VN130045 - PHAM LY TRONG | 264 | 32 | 31 | 96.88% | 6 | 6 | 100.00% | 7 | 7 | 100.00% |
+| VN130046 - LE VAN CHINH | 280 | 50 | 50 | 100.00% | 19 | 19 | 100.00% | 8 | 8 | 100.00% |
+| VN130047 - HO VAN DUC | 314 | 49 | 49 | 100.00% | 11 | 11 | 100.00% | 9 | 9 | 100.00% |
+| VN130048 - NGUYEN VIET BAO | 298 | 48 | 48 | 100.00% | 13 | 13 | 100.00% | 14 | 14 | 100.00% |
+| VN130049 - NGUYEN DANG QUOC PHONG | 295 | 45 | 45 | 100.00% | 10 | 10 | 100.00% | 10 | 10 | 100.00% |
+| VN130050 - NGUYEN THI HANG | 271 | 37 | 37 | 100.00% | 11 | 11 | 100.00% | 8 | 8 | 100.00% |
+| VN130051 - NGUYEN TIEN LUC | 240 | 37 | 37 | 100.00% | 10 | 10 | 100.00% | 7 | 7 | 100.00% |
+| VN130064 - DOAN CONG MAN | 329 | 50 | 50 | 100.00% | 9 | 9 | 100.00% | 8 | 8 | 100.00% |
+| 10003007 - PHAM THI XUAN THUY | 1,666 | 277 | 264 | 95.31% | 76 | 71 | 93.42% | 99 | 97 | 97.98% |
+| VN130030 - HUYNH THANH TUNG | 261 | 42 | 41 | 97.62% | 9 | 9 | 100.00% | 8 | 8 | 100.00% |
+| VN130031 - TRUONG VAN HUY | 224 | 42 | 39 | 92.86% | 13 | 12 | 92.31% | 13 | 13 | 100.00% |
+| VN130032 - NGUYEN PHUC LAM | 278 | 49 | 45 | 91.84% | 22 | 19 | 86.36% | 11 | 10 | 90.91% |
+| VN130033 - NGUYEN THI THANH THAO | 235 | 38 | 35 | 92.11% | 8 | 7 | 87.50% | 19 | 18 | 94.74% |
+| VN130035 - PHAM QUANG LOI | 296 | 51 | 51 | 100.00% | 5 | 5 | 100.00% | 30 | 30 | 100.00% |
+| VN130036 - NGUYEN THAI SINH | 238 | 44 | 44 | 100.00% | 14 | 14 | 100.00% | 14 | 14 | 100.00% |
+| VN130039 - PHAN PHUOC AN | 223 | 11 | 11 | 100.00% | 5 | 5 | 100.00% | 4 | 4 | 100.00% |
+| 10003014 - TRAN VAN TIEN | 2,171 | 290 | 285 | 98.28% | 63 | 63 | 100.00% | 66 | 64 | 96.97% |
+| VN130052 - NGUYEN VAN BANG | 290 | 40 | 40 | 100.00% | 14 | 14 | 100.00% | 14 | 14 | 100.00% |
+| VN130053 - LE VAN PHUNG | 276 | 40 | 38 | 95.00% | 9 | 9 | 100.00% | 6 | 6 | 100.00% |
+| VN130054 - PHAM DUY TIEN | 238 | 35 | 33 | 94.29% | 7 | 7 | 100.00% | 14 | 13 | 92.86% |
+| VN130055 - TRIEU THI HONG NHUNG | 236 | 32 | 32 | 100.00% | 2 | 2 | 100.00% | 8 | 8 | 100.00% |
+| VN130056 - HO THI AI LOAN | 284 | 31 | 31 | 100.00% | 9 | 9 | 100.00% | 5 | 5 | 100.00% |
+| Total | 411,118 | 54,562 | 41,365 | 75.81% | 13,044 | 9,975 | 76.47% | 15,475 | 11,638 | 75.21% |
+---
+## 3.4 Core
+
+Last refreshed date: 28/08/2023 09:36:06
+
+### CORE DISTRIBUTION MAGIC
+
+| YEAR | MONTH | WEEK | CHANNEL | REGION | ASM | TSM |
+|------|-------|------|---------|--------|-----|-----|
+| 2023 | 8     | 2    | All     | All    | All | All |
+
+### TREND OF CORE TOTAL
+
+```mermaid
+graph LR
+    Apr[Apr] --> May[May]
+    May --> Jun[Jun]
+    Jun --> Jul[Jul]
+    Jul --> Aug[Aug]
+    Aug --> Sep[Sep]
+    
+    Apr --1.00--> May
+    May --0.84--> Jun
+    Jun --0.99--> Jul
+    Jul --1.01--> Aug
+    Aug --0.87--> Sep
+```
+
+### CORE TOTAL
+
+| Region | Drinking | Eating | Grocery | Wholesale | % CORE TOTAL |
+|--------|----------|--------|---------|-----------|--------------|
+| CP     | 14.24%   | 21.48% | 24.10%  | 40.18%    | 41.48%       |
+| HK     | 14.10%   | 21.25% | 24.10%  | 40.55%    | 34.56%       |
+| HN     | 14.33%   | 21.58% | 24.09%  | 40.00%    | 39.98%       |
+| MK     | 14.24%   | 21.44% | 24.32%  | 40.00%    | 34.69%       |
+| NE     | 14.24%   | 21.51% | 24.25%  | 40.00%    | 38.51%       |
+| NW     | 14.24%   | 21.44% | 24.32%  | 40.00%    | 41.85%       |
+| SP     | 14.24%   | 21.44% | 24.32%  | 40.00%    | 33.85%       |
+| VN     | 14.24%   | 21.44% | 24.32%  | 40.00%    | 54.56%       |
+
+### CORE GOLD
+
+| Region | Drinking | Eating | Grocery | Wholesale | % CORE GOLD |
+|--------|----------|--------|---------|-----------|-------------|
+| CP     | 18.85%   | 19.97% | 19.97%  | 41.21%    | 45.24%      |
+| HK     | 18.85%   | 19.97% | 19.97%  | 41.21%    | 37.29%      |
+| HN     | 18.85%   | 19.97% | 19.97%  | 41.21%    | 41.12%      |
+| MK     | 18.85%   | 19.97% | 19.97%  | 41.21%    | 34.73%      |
+| NE     | 18.85%   | 19.97% | 19.97%  | 41.21%    | 41.12%      |
+| NW     | 18.85%   | 19.97% | 19.97%  | 41.21%    | 42.98%      |
+| SP     | 18.85%   | 19.97% | 19.97%  | 41.21%    | 36.78%      |
+| VN     | 18.85%   | 19.97% | 19.97%  | 41.21%    | 45.91%      |
+
+### TOP 3 HIGHEST CORE TOTAL BY ASM
+
+1. 83% (Nguyen Thi Anh)
+2. 66% (Nguyen Van Quyet)
+3. 64% (Tran Van Lam)
+
+### CORE SILVER
+
+| Region | Drinking | Eating | Grocery | Wholesale | % CORE SILVER |
+|--------|----------|--------|---------|-----------|---------------|
+| CP     | 14.92%   | 22.52% | 25.25%  | 37.31%    | 41.07%        |
+| HK     | 14.75%   | 22.26% | 25.25%  | 37.74%    | 33.75%        |
+| HN     | 15.02%   | 22.63% | 25.25%  | 37.10%    | 40.20%        |
+| MK     | 14.92%   | 22.48% | 25.49%  | 37.11%    | 35.73%        |
+| NE     | 14.92%   | 22.55% | 25.42%  | 37.11%    | 38.01%        |
+| NW     | 14.92%   | 22.48% | 25.49%  | 37.11%    | 42.20%        |
+| SP     | 14.92%   | 22.48% | 25.49%  | 37.11%    | 25.73%        |
+| VN     | 14.92%   | 22.48% | 25.49%  | 37.11%    | 68.83%        |
+
+### CORE BRONZE
+
+| Region | Drinking | Eating | Grocery | Wholesale | % CORE BRONZE |
+|--------|----------|--------|---------|-----------|---------------|
+| CP     | 12.48%   | 21.24% | 24.96%  | 41.32%    | 40.24%        |
+| HK     | 12.36%   | 21.03% | 24.96%  | 41.65%    | 34.02%        |
+| HN     | 12.56%   | 21.33% | 24.96%  | 41.15%    | 38.91%        |
+| MK     | 12.48%   | 21.20% | 25.17%  | 41.15%    | 33.15%        |
+| NE     | 12.48%   | 21.26% | 25.11%  | 41.15%    | 37.51%        |
+| NW     | 12.48%   | 21.20% | 25.17%  | 41.15%    | 40.07%        |
+| SP     | 12.48%   | 21.20% | 25.17%  | 41.15%    | 34.10%        |
+| VN     | 12.48%   | 21.20% | 25.17%  | 41.15%    | 53.10%        |
+
+### TOP 3 LOWEST CORE TOTAL BY ASM
+
+1. 35% (Duong Thi Thuy)
+2. 31% (Le Van Hung)
+3. 21% (Bui Quang Huy)
+---
+### 3.5 Core by details
+
+Last refreshed date: 28/08/2023 09:36:36
+
+#### CORE BY DETAILS
+
+| YEAR | MONTH | WEEK | CHANNEL | REGION | ASM | TSM |
+|------|--------|------|---------|--------|-----|-----|
+| 2023 | 8      | 4    | All     | All    | All | All |
+
+| Region | Service outlet | Outlet G4 Core | % Going for Core | Service outlet Gold | Outlet G4 Core Gold | % Going For Core Gold | Service outlet Gold - Drinking | Outlet G4 Core Gold - Drinking | % G4 Core Gold - Drinking | Service outlet Gold - Eating |
+|--------|----------------|----------------|------------------|---------------------|---------------------|------------------------|--------------------------------|--------------------------------|---------------------------|------------------------------|
+| VN130053 - PHAN PHUOC AN | 233 | 58 | 0.19% | 11 | 13 | 100.00% | 4 | 4 | 100.00% | 4 |
+| 10003014 - TRAN VAN TIEN | 2,171 | 807 | 1.34% | 290 | 289 | 99.66% | 63 | 63 | 100.00% | 6 |
+| VN130052 - NGUYEN VAN BANG | 256 | 129 | 0.21% | 40 | 40 | 100.00% | 14 | 14 | 100.00% | 1 |
+| VN130053 - LE VAN PHUNG | 276 | 91 | 0.15% | 40 | 40 | 100.00% | 9 | 9 | 100.00% |  |
+| VN130054 - PHAM DUY TIEN | 228 | 64 | 0.11% | 35 | 34 | 97.14% | 7 | 7 | 100.00% | 1 |
+| VN130055 - TRIEU THI HONG NHUNG | 236 | 88 | 0.15% | 32 | 32 | 100.00% | 2 | 2 | 100.00% |  |
+| VN130056 - HO THI AI LIEN | 232 | 111 | 0.18% | 31 | 31 | 100.00% | 9 | 9 | 100.00% |  |
+| VN130057 - NGUYEN THI MAI | 287 | 122 | 0.20% | 42 | 42 | 100.00% | 9 | 9 | 100.00% |  |
+| VN130058 - LE QUOC HOE | 259 | 86 | 0.14% | 37 | 37 | 100.00% | 5 | 5 | 100.00% |  |
+| VN130065 - TRAN DINH CONG | 305 | 116 | 0.19% | 33 | 33 | 100.00% | 6 | 6 | 100.00% |  |
+| 10003216 - NGUYEN ANH THANH | 2,156 | 741 | 1.23% | 270 | 245 | 90.74% | 84 | 82 | 97.62% | 5 |
+| VN130059 - NGUYEN QUOC TRUNG | 266 | 96 | 0.16% | 35 | 35 | 100.00% | 12 | 12 | 100.00% |  |
+| VN130060 - TRAN THIEN NHAN | 275 | 56 | 0.09% | 34 | 30 | 78.47% | 4 | 4 | 68.67% |  |
+| VN130061 - PHAN DUC CUONG | 287 | 53 | 0.09% | 35 | 27 | 77.14% | 11 | 11 | 100.00% |  |
+| VN130062 - NGUYEN VIET THANG | 281 | 119 | 0.19% | 35 | 30 | 85.71% | 10 | 10 | 100.00% |  |
+| VN130075 - TRINH QUOC THINH | 264 | 108 | 0.18% | 35 | 35 | 100.00% | 14 | 14 | 100.00% |  |
+| VN130076 - PHAM THI HONG VAN | 290 | 111 | 0.18% | 34 | 34 | 100.00% | 11 | 11 | 100.00% |  |
+| VN130079 - NGUYEN VAN QUYNH | 275 | 97 | 0.16% | 36 | 33 | 91.67% | 10 | 10 | 100.00% | 1 |
+| VN130082 - LE TAN DAT | 243 | 106 | 0.18% | 24 | 25 | 95.15% | 10 | 10 | 100.00% |  |
+| 10003397 - LE QUOC THIEN | 1,631 | 265 | 0.44% | 223 | 220 | 98.65% | 59 | 59 | 100.00% | 4 |
+| VN130037 - VO VAN TRI | 242 | 34 | 0.06% | 34 | 34 | 100.00% | 6 | 6 | 100.00% | 1 |
+| VN130038 - LE VAN TRUONG VY | 260 | 43 | 0.07% | 42 | 41 | 97.62% | 16 | 16 | 100.00% |  |
+| VN130039 - LE NGUYEN NHIEM | 239 | 74 | 0.12% | 37 | 37 | 100.00% | 9 | 9 | 100.00% | 1 |
+| VN130040 - TRAN DIEU HUONG | 244 | 29 | 0.05% | 26 | 26 | 100.00% | 9 | 9 | 100.00% |  |
+| VN130041 - BUI VAN TAM | 260 | 33 | 0.05% | 32 | 32 | 100.00% | 9 | 9 | 100.00% |  |
+| VN130043 - DANG DUC SU | 286 | 48 | 0.08% | 51 | 49 | 96.08% | 9 | 9 | 100.00% | 2 |
+| VN130092 - PHAN PHUOC AN | 50 | 3 | 0.00% | 1 | 1 | 100.00% | 1 | 1 | 100.00% |  |
+| Total | 411,118 | 176,592 | 42.96% | 54,562 | 44,482 | 81.53% | 13,084 | 10,173 | 77.99% | 15,417 |
+---
+## 3.6 To-do list
+
+Last refreshed date: 29/08/2023 09:38:06
+
+To-do List
+
+| YEAR | CHANNEL | CLASSIFICATION | MHS GROUP | Outlets did not purchase | Outlets did not achieve |
+|------|---------|----------------|-----------|--------------------------|-------------------------|
+| 2023 (year) + Jul (month) | All | All | All | 37,222 | 202,633 |
+
+| REGION | ASM | TSM | DISTRIBUTOR |
+|--------|-----|-----|-------------|
+| All | All | All | All |
+
+MHS Segment
+
+| Region | COCA-COLA REG SLEEK CAN 235ML/320ML | COCA-COLA REG SS PET 300ML/390ML | FANTA ORANGE MS PET 1.5L | NUTRIBOOST (ORANGE/STRAWBERRY/COOKI |
+|--------|--------------------------------------|----------------------------------|--------------------------|-------------------------------------|
+| CP | 1097844 | 360663 | 21856 |  |
+| 10003404 - VU PHAN THE | 293173 | 48629 | 5340 |  |
+| 10002931 - PHAM THANH VINH | 13680 | 8037 | 1266 |  |
+| VM13004 - NGUYEN VU VAN LAM | 2060 | 563 | 102 |  |
+| Brunei | 1226 | 462 |  |  |
+| Drinking | 506 | 66 |  |  |
+| 0070003358 |  |  |  |  |
+| 0070004895 |  |  |  |  |
+| 0070006755 | 3 |  |  |  |
+| 0070007590 |  |  |  |  |
+| 0070007610 | 3 |  |  |  |
+| 0070008645 |  |  |  |  |
+| 0070008647 | 3 |  |  |  |
+| 0070008650 | 3 |  |  |  |
+| 0070010148 |  |  |  |  |
+| 0070010168 |  |  |  |  |
+| 0070010169 |  |  |  |  |
+| 0070010170 | 3 |  |  |  |
+| 0070010175 |  |  |  |  |
+| 0070010177 |  |  |  |  |
+| 0070010190 |  |  |  |  |
+| 0070010734 | 3 |  |  |  |
+| 0070010735 | 3 |  |  |  |
+---
+# 4. Appendix: Changes tracking
+
+## 4.1 Service Outlet
+
+| Index | KPI | Previous | Updated | Status |
+|-------|-----|----------|---------|--------|
+| Index 0: Service outlet | NSR | | Add 2 charts about Net Sales Revenue base on transaction and Route:<br>+ Pie chart: NSR by region<br>+ Bar chart: NSR by segment | New |
+
+## 4.2 5 Factors Execution Focus
+
+| Index | KPI | Previous | Updated | Status |
+|-------|-----|----------|---------|--------|
+| Index 1: Going For | % Going for by Channel | Present as bar charts | Change into tables with background color following the rule:<br>+ If the percentage <= 35% -> Red<br>+ If the percentage > 35% and < 75% -> Orange<br>+ If the percentage => 75% -> Green | Change |
+| Index 2A: Active by Brand | Active Outlet by Product Group | | Add a bar chart to describe KPI Active Outlet by Thums up | New |
+| All | All | | Create a new page 5 Factors with the information about ASM<br>+ Apply the change in Index 1<br>+ Index 2A: Change the bar charts into a stacked area chart<br>+ Add cards to display the total value by region to each KPI<br>+ Add buttons to navigate to 5 Factors by region, Top ASM, Bottom ASM<br>+ Combine the slicer Year, Month into one | New |
+| All | All | | Create new pages 5 Factors:<br>+ Top ASM: has buttons to navigate to ASM, Top TSM<br>+ Bottom ASM: has buttons to navigate to ASM, Bottom TSM<br>+ Top TSM: has buttons to navigate to ASM, Top ASM<br>+ Bottom TSM: has buttons to navigate to ASM, Bottom ASM<br>+ Combine the slicer Year, Month into one | New |
+
+### 4.3 5 Factors By Details
+
+| Index | KPI | Previous | Updated | Status |
+|-------|-----|----------|---------|--------|
+| All | All | | Add columns to describe the number of service outlets, the number of outlets going for, and the percentage of going for. These columns are classified by classification (Gold, Silver, Bronze) and channel (Drinking, Eating, Grocery, WS non-DSD) | New |
+
+### 4.4 Core By Details
+
+| Index | KPI | Previous | Updated | Status |
+|-------|-----|----------|---------|--------|
+| All | All | | Create a new page for Core by details. Add columns to describe the number of service outlets, the number of outlets going for, and the percentage of going for These columns are classified by classification (Gold, Silver, Bronze) and channel (Drinking, Eating, Grocery, WS non-DSD) | New |
+---
+### 4.5 To-do list
+
+| Index | KPI | Previous | Updated | Status |
+|-------|-----|----------|---------|--------|
+| MHS Invisible | Quantity check | | - Create a matrix:<br>+ Row: Region, ASM, TSM, SR, Outlet<br>+ Column: MHS Group, MHS<br>- Create 2 cards that represent the number of outlets that did not purchase and the number of outlets that did not achieve<br>- Create the slicer to show data about Inactive (Chưa mua hàng), Complete MHS (Mua đủ MHS) and Incomplete MHS (Chưa mua đủ MHS)<br>- Combine the slicer Year, Month into one | New |
+---
+# Contact us
+
+Vu Thai Ngoc
+
+Email: ngocvu@inter-k.com
+
+Tran Thi Thanh Ly
+
+Email: lyttt@inter-k.com
+
+Le Luu Viet Son
+
+Email: sonllv@inter-k.com
+
+Pham Thuy
+
+Email: thuyp@inter-k.com

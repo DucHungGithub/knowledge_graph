@@ -1,0 +1,3179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="description" attr.type="string"/>
+<key id="d4" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d3" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="COCA-COLA BEVERAGES VIETNAM LIMITED">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Coca-Cola Beverages Vietnam Limited is a subsidiary of The Coca-Cola Company, involved in the production and distribution of Coca-Cola products in Vietnam.</data>
+  <data key="d2">eb63940a335548c594499bcec2b8b727</data>
+</node>
+<node id="INTER-K JOINT STOCK COMPANY">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Inter-K Joint Stock Company is a company involved in various business activities, including collaboration with Coca-Cola Beverages Vietnam Limited.</data>
+  <data key="d2">eb63940a335548c594499bcec2b8b727</data>
+</node>
+<node id="NGUYEN VAN HUY">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Van Huy is an individual who contributed to the document by creating and updating it.</data>
+  <data key="d2">eb63940a335548c594499bcec2b8b727</data>
+</node>
+<node id="NGO DINH NHAT HUY">
+  <data key="d0">PERSON</data>
+  <data key="d1">Ngo Dinh Nhat Huy is an individual who updated the document's wording.</data>
+  <data key="d2">eb63940a335548c594499bcec2b8b727</data>
+</node>
+<node id="NGUYEN QUANG NHAT">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Quang Nhat is an individual who updated the document multiple times.</data>
+  <data key="d2">eb63940a335548c594499bcec2b8b727</data>
+</node>
+<node id="DANG THI CAM TIEN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Dang Thi Cam Tien is an individual who updated the document's wording.</data>
+  <data key="d2">eb63940a335548c594499bcec2b8b727</data>
+</node>
+<node id="LE PHAM NGOC TRAM">
+  <data key="d0">PERSON</data>
+  <data key="d1">Le Pham Ngoc Tram is an individual who updated the document's wording and logic.</data>
+  <data key="d2">eb63940a335548c594499bcec2b8b727</data>
+</node>
+<node id="PHAM THUY">
+  <data key="d0">PERSON</data>
+  <data key="d1">Pham Thuy is an individual who updated the document.Pham Thuy is a contact person with an email address thuyp@interk.com</data>
+  <data key="d2">eb63940a335548c594499bcec2b8b727,5885f3c8b107429a8a7ff5e3ff9714f8</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="LE LUU VIET SON">
+  <data key="d0">PERSON</data>
+  <data key="d1">Le Luu Viet Son is a contact person with an email address sonllv@interk.comLe Luu Viet Son is the Data Leader who reviewed and approved the document.</data>
+  <data key="d2">eb63940a335548c594499bcec2b8b727,5885f3c8b107429a8a7ff5e3ff9714f8</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="LE THANG LOI">
+  <data key="d0">PERSON</data>
+  <data key="d1">Le Thang Loi is the Digital Solution Delivery Manager for the Distribution Management System (DMS) who reviewed and approved the document.</data>
+  <data key="d2">eb63940a335548c594499bcec2b8b727</data>
+</node>
+<node id="DINH HOANG HAI">
+  <data key="d0">PERSON</data>
+  <data key="d1">Dinh Hoang Hai is an SFA Specialist who reviewed and approved the document.</data>
+  <data key="d2">eb63940a335548c594499bcec2b8b727</data>
+</node>
+<node id="HO NGOC NHU GUONG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Ho Ngoc Nhu Guong is an E-RTM Executive who reviewed and approved the document.</data>
+  <data key="d2">eb63940a335548c594499bcec2b8b727</data>
+</node>
+<node id="VU THAI NGOC">
+  <data key="d0"></data>
+  <data key="d1">Vu Thai Ngoc is a contact person with an email address ngocvu@interk.com</data>
+  <data key="d2">eb63940a335548c594499bcec2b8b727,5885f3c8b107429a8a7ff5e3ff9714f8</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="COKE">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">COKE is a brand referenced in the context of active brand performance data.Coke is a multinational corporation known for its beverage products and operates under a structured sales and distribution system.Coke is a brand referenced in the context of performance metrics for various product sizes.Coke is a brand of beverages that may be included in the active outlet metrics alongside Nutriboost.Coke is a popular beverage brand known for its carbonated soft drinks, particularly Coca-Cola.</data>
+  <data key="d2">73c77068e01e48438de3abb74f736af3,09f282e6aa5449afa1a56099c580eeaa,afac43fa2f364295b7364675c5518400,189704e0897640aa94c023351521d856,edf5c99c140d47569a2dd3824f41ac7c</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="KO_MONTH">
+  <data key="d0">EVENT</data>
+  <data key="d1">KO Month refers to the reporting period used by Coke for tracking sales and performance metrics.</data>
+  <data key="d2">09f282e6aa5449afa1a56099c580eeaa</data>
+</node>
+<node id="SERVICE OUTLET">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">The Service Outlet refers to various channels through which services are provided, including drinking, eating, grocery, and wholesale.Service Outlet is a KPI related to Net Sales Revenue in the documentService Outlet refers to the locations where Coke products are sold and monitored for sales performance.Service outlets are locations where products are sold or services are provided, with metrics tracked for performance analysis.</data>
+  <data key="d2">09f282e6aa5449afa1a56099c580eeaa,91434078c57b4f2f9c74ea580ac94e10,f7ea396c2cda4789bbe9a2bca7bcc3a8,5885f3c8b107429a8a7ff5e3ff9714f8</data>
+  <data key="d3">KPI</data>
+</node>
+<node id="SALES MANAGER">
+  <data key="d0">PERSON</data>
+  <data key="d1">Sales Manager is a role within Coke's organizational structure responsible for overseeing sales operations and strategies.</data>
+  <data key="d2">09f282e6aa5449afa1a56099c580eeaa</data>
+</node>
+<node id="SALES REP">
+  <data key="d0">PERSON</data>
+  <data key="d1">Sales Rep is a position within Coke responsible for direct sales and customer interactions.</data>
+  <data key="d2">09f282e6aa5449afa1a56099c580eeaa</data>
+</node>
+<node id="GOLD OUTLET">
+  <data key="d0">GEO</data>
+  <data key="d1">Gold Outlet is a classification of service outlets that meet specific performance criteria set by Coke.Gold Outlet is a classification of service outlets that achieve Must Have SKU (MHS) conditions for Nutriboost products.</data>
+  <data key="d2">73c77068e01e48438de3abb74f736af3,09f282e6aa5449afa1a56099c580eeaa</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="SILVER OUTLET">
+  <data key="d0">GEO</data>
+  <data key="d1">Silver Outlet is a classification of service outlets that meet moderate performance criteria set by Coke.Silver Outlet is a classification of service outlets that achieve Must Have SKU (MHS) conditions for Nutriboost products.</data>
+  <data key="d2">73c77068e01e48438de3abb74f736af3,09f282e6aa5449afa1a56099c580eeaa</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="BRONZE OUTLET">
+  <data key="d0">GEO</data>
+  <data key="d1">Bronze Outlet is a classification of service outlets that achieve Must Have SKU (MHS) conditions for Nutriboost products.Bronze Outlet is a classification of service outlets that meet basic performance criteria set by Coke.</data>
+  <data key="d2">73c77068e01e48438de3abb74f736af3,09f282e6aa5449afa1a56099c580eeaa</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="SALES ROUTE">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Sales Route refers to the designated paths taken by Sales Reps to visit Service Outlets for sales activities.</data>
+  <data key="d2">09f282e6aa5449afa1a56099c580eeaa</data>
+</node>
+<node id="SFA">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">SFA (Sales Force Automation) is a system used by Coke to manage sales routes and track sales activities.</data>
+  <data key="d2">09f282e6aa5449afa1a56099c580eeaa</data>
+</node>
+<node id="MUST HAVE SKU">
+  <data key="d0">PRODUCT</data>
+  <data key="d1">Must Have SKU refers to essential products that are required to be stocked by Service Outlets to meet performance standards.</data>
+  <data key="d2">09f282e6aa5449afa1a56099c580eeaa</data>
+</node>
+<node id="CONSUMER SKU">
+  <data key="d0">PRODUCT</data>
+  <data key="d1">Consumer SKU refers to specific products that are sold directly to consumers in Service Outlets.</data>
+  <data key="d2">09f282e6aa5449afa1a56099c580eeaa</data>
+</node>
+<node id="PACK TYPE">
+  <data key="d0">PRODUCT</data>
+  <data key="d1">Pack Type refers to the packaging format of products sold by Coke, such as bottles or cans.</data>
+  <data key="d2">09f282e6aa5449afa1a56099c580eeaa</data>
+</node>
+<node id="PACK SIZE">
+  <data key="d0">PRODUCT</data>
+  <data key="d1">Pack Size refers to the quantity or volume of products contained in a single package.</data>
+  <data key="d2">09f282e6aa5449afa1a56099c580eeaa</data>
+</node>
+<node id="NUTRIBOOST">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Nutriboost is a brand of consumer products that includes various flavors and is involved in sales through outlets classified as Gold, Silver, and Bronze.</data>
+  <data key="d2">73c77068e01e48438de3abb74f736af3</data>
+</node>
+<node id="MHS">
+  <data key="d0">EVENT</data>
+  <data key="d1">MHS refers to the Must Have SKU condition that outlets must meet to be classified as Gold, Silver, or Bronze.</data>
+  <data key="d2">73c77068e01e48438de3abb74f736af3</data>
+</node>
+<node id="SPRITE">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">SPRITE is a brand referenced in the context of active brand performance data.Sprite is a lemon-lime flavored soft drink brand owned by Coca-Cola Beverages.Sprite is a brand of beverages that may be included in the active outlet metrics alongside Nutriboost.Sprite is a lemon-lime flavored soft drink brand owned by Coca-Cola Company.Sprite is a brand referenced in the context of performance metrics for various product sizes.</data>
+  <data key="d2">730be08ff471429b9408ebb2d52db381,73c77068e01e48438de3abb74f736af3,afac43fa2f364295b7364675c5518400,189704e0897640aa94c023351521d856,edf5c99c140d47569a2dd3824f41ac7c</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="TEA">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Tea is a category of beverages that may be included in the active outlet metrics alongside Nutriboost.TEA is a category referenced in the context of active brand performance data.Tea is a category mentioned in the context of performance metrics for various product sizes.</data>
+  <data key="d2">189704e0897640aa94c023351521d856,73c77068e01e48438de3abb74f736af3,edf5c99c140d47569a2dd3824f41ac7c</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="NUTRIBOOST STRAWBERRY">
+  <data key="d0">PRODUCT</data>
+  <data key="d1">Nutriboost Strawberry is another specific flavor of Nutriboost consumer SKU available in various quantities for purchase.</data>
+  <data key="d2">73c77068e01e48438de3abb74f736af3</data>
+</node>
+<node id="NUTRIBOOST ORANGE">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">73c77068e01e48438de3abb74f736af3</data>
+</node>
+<node id="INDEX 2">
+  <data key="d0">EVENT</data>
+  <data key="d1">Index 2 is a report or metric related to the performance of various product groups in terms of active outlets and sales data.</data>
+  <data key="d2">deea2cbae880411a985815ea901ddebd</data>
+</node>
+<node id="INDEX 3">
+  <data key="d0">EVENT</data>
+  <data key="d1">Index 3 is a report that analyzes SKU performance by outlet and order metrics for consumer products.</data>
+  <data key="d2">deea2cbae880411a985815ea901ddebd</data>
+  <data key="d3">EVENT</data>
+</node>
+<node id="INDEX 4">
+  <data key="d0">EVENT</data>
+  <data key="d1">Index 4 focuses on tracking new and closed outlets within a specified time frame.</data>
+  <data key="d2">deea2cbae880411a985815ea901ddebd</data>
+  <data key="d3">EVENT</data>
+</node>
+<node id="INDEX 5">
+  <data key="d0">EVENT</data>
+  <data key="d1">Index 5 measures the purity of coolers based on product volume and cooler value.</data>
+  <data key="d2">deea2cbae880411a985815ea901ddebd</data>
+  <data key="d3">EVENT</data>
+</node>
+<node id="COCA-COLA">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Coca-Cola is a multinational corporation known for its beverages, possibly the context in which the sales data is being analyzed.Coca-Cola is a multinational corporation known for its beverage products, including soft drinks and energy drinks.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734,deea2cbae880411a985815ea901ddebd</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="CORE">
+  <data key="d0">EVENT</data>
+  <data key="d1">CORE refers to a set of metrics that assess the performance of outlets in achieving Must Have SKU standards.</data>
+  <data key="d2">deea2cbae880411a985815ea901ddebd</data>
+  <data key="d3">EVENT</data>
+</node>
+<node id="ASM">
+  <data key="d0">PERSON</data>
+  <data key="d1">ASM refers to Area Sales Managers responsible for overseeing sales operations in specific regions.</data>
+  <data key="d2">deea2cbae880411a985815ea901ddebd</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="TSM">
+  <data key="d0">PERSON</data>
+  <data key="d1">TSM refers to Territory Sales Managers who manage sales activities within designated territories.</data>
+  <data key="d2">deea2cbae880411a985815ea901ddebd</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="ACTIVE OUTLET">
+  <data key="d0">EVENT</data>
+  <data key="d1">Active Outlet refers to a service outlet that is currently operational and selling products.</data>
+  <data key="d2">deea2cbae880411a985815ea901ddebd</data>
+</node>
+<node id="PRODUCT GROUP">
+  <data key="d0">EVENT</data>
+  <data key="d1">Product Group refers to a category of products that are grouped together based on similar characteristics or market segment.</data>
+  <data key="d2">deea2cbae880411a985815ea901ddebd</data>
+</node>
+<node id="SKU">
+  <data key="d0">EVENT</data>
+  <data key="d1">SKU (Stock Keeping Unit) is a unique identifier for each distinct product and service that can be purchased.</data>
+  <data key="d2">deea2cbae880411a985815ea901ddebd</data>
+</node>
+<node id="NEW OUTLET">
+  <data key="d0">EVENT</data>
+  <data key="d1">New Outlet refers to a service outlet that has recently opened for business.</data>
+  <data key="d2">deea2cbae880411a985815ea901ddebd</data>
+</node>
+<node id="CLOSED OUTLET">
+  <data key="d0">EVENT</data>
+  <data key="d1">Closed Outlet refers to a service outlet that is no longer operational.</data>
+  <data key="d2">deea2cbae880411a985815ea901ddebd</data>
+</node>
+<node id="MHS GROUP">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">MHS Group is an organization involved in service outlet metrics and reporting, focusing on various performance indicators.MHS Group is an organization involved in sales and performance metrics, likely overseeing various sales representatives.</data>
+  <data key="d2">91434078c57b4f2f9c74ea580ac94e10,c5f6715ab31e48c9b1b1b5b8789a5734</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="COCA-COLA BEVERAGES VIETNAM LTD.">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Coca-Cola Beverages Vietnam Ltd. is a service outlet that was last refreshed on 28/08/2023 and has a total of 411,118 service outlets across various regions.</data>
+  <data key="d2">91434078c57b4f2f9c74ea580ac94e10</data>
+</node>
+<node id="REGION">
+  <data key="d0">GEO</data>
+  <data key="d1">Regions are geographical areas where service outlets are located, including CP, HC, HN, MK, NE, NW, and SP.</data>
+  <data key="d2">91434078c57b4f2f9c74ea580ac94e10</data>
+</node>
+<node id="MONTH">
+  <data key="d0">EVENT</data>
+  <data key="d1">Months are periods used to track the performance of service outlets over time, with data presented for each month from January to September.</data>
+  <data key="d2">91434078c57b4f2f9c74ea580ac94e10</data>
+</node>
+<node id="SERVICE OUTLET BY SEGMENT">
+  <data key="d0">EVENT</data>
+  <data key="d1">Service outlet by segment categorizes service outlets based on performance tiers such as Bronze, Silver, and Gold.</data>
+  <data key="d2">91434078c57b4f2f9c74ea580ac94e10</data>
+</node>
+<node id="SERVICE OUTLET BY CHANNEL">
+  <data key="d0">EVENT</data>
+  <data key="d1">Service outlet by channel refers to the classification of service outlets according to the sales channels through which they operate.</data>
+  <data key="d2">91434078c57b4f2f9c74ea580ac94e10</data>
+</node>
+<node id="TARGET NEW OUTLET">
+  <data key="d0">METRIC</data>
+  <data key="d1">Target new outlet indicates the goal for the number of new service outlets to be established within a specific timeframe.</data>
+  <data key="d2">91434078c57b4f2f9c74ea580ac94e10</data>
+</node>
+<node id="ACTUAL NEW OUTLET">
+  <data key="d0">METRIC</data>
+  <data key="d1">Actual new outlet represents the real number of new service outlets established, compared to the target.</data>
+  <data key="d2">91434078c57b4f2f9c74ea580ac94e10</data>
+</node>
+<node id="SERVICE OUTLET BY REGION">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">91434078c57b4f2f9c74ea580ac94e10</data>
+</node>
+<node id="MK">
+  <data key="d0">GEO</data>
+  <data key="d1">MK is a geographical region mentioned in the context of service outlet performance metrics.MK is a region with data reflecting beverage sales and consumer preferences.MK is a region featured in the CORE GOLD, CORE SILVER, and CORE BRONZE categories with specific consumption percentages.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400,36395c304d6d4f6fb8bc0c80e8483171,f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+  <data key="d3">REGION</data>
+</node>
+<node id="NE">
+  <data key="d0">GEO</data>
+  <data key="d1">NE is a geographical region mentioned in the context of service outlet performance metrics.NE is a region that presents statistics on beverage market trends and brand engagement.NE is a region that is part of the CORE GOLD, CORE SILVER, and CORE BRONZE categories, reflecting its market performance.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400,36395c304d6d4f6fb8bc0c80e8483171,f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+  <data key="d3">REGION</data>
+</node>
+<node id="NW">
+  <data key="d0">GEO</data>
+  <data key="d1">NW is a geographical region mentioned in the context of service outlet performance metrics.NW is a region that indicates beverage consumption patterns and brand performance metrics.NW is a region included in the CORE GOLD, CORE SILVER, and CORE BRONZE categories, indicating its consumption metrics.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400,36395c304d6d4f6fb8bc0c80e8483171,f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+  <data key="d3">REGION</data>
+</node>
+<node id="SP">
+  <data key="d0">GEO</data>
+  <data key="d1">SP is a geographical region mentioned in the context of service outlet performance metrics.SP is a region that showcases data on beverage sales and consumer behavior.SP is a region represented in the CORE GOLD, CORE SILVER, and CORE BRONZE categories with varying consumption percentages.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400,36395c304d6d4f6fb8bc0c80e8483171,f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+  <data key="d3">REGION</data>
+</node>
+<node id="CP">
+  <data key="d0">GEO</data>
+  <data key="d1">CP is a geographical region mentioned in the context of service outlet performance metrics.CP is a region that shows various statistics related to beverage consumption and market performance.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400,f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="HC">
+  <data key="d0">GEO</data>
+  <data key="d1">HC is a region with specific data on beverage consumption and brand performance.HC is a geographical region mentioned in the context of service outlet performance metrics.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400,f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="HYD">
+  <data key="d0">GEO</data>
+  <data key="d1">HYD is a geographical region mentioned in the context of service outlet performance metrics.HYD is a region that provides insights into beverage market dynamics and brand popularity.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400,f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="VN">
+  <data key="d0">GEO</data>
+  <data key="d1">VN is a region that reflects statistics related to beverage consumption and market analysis.VN is a geographical region mentioned in the context of service outlet performance metrics.VN is a region that appears in the CORE GOLD, CORE SILVER, and CORE BRONZE categories, showcasing its market performance.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400,36395c304d6d4f6fb8bc0c80e8483171,f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+  <data key="d3">REGION</data>
+</node>
+<node id="5 FACTORS EXECUTION FOCUSES">
+  <data key="d0">EVENT</data>
+  <data key="d1">5 Factors Execution Focuses refers to the strategic focus areas for improving service outlet performance across different regions.</data>
+  <data key="d2">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</node>
+<node id="GOING FOR GOLD">
+  <data key="d0">EVENT</data>
+  <data key="d1">Going for Gold is a strategic initiative aimed at maximizing service outlet performance in grocery and eating sectors.</data>
+  <data key="d2">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</node>
+<node id="GOING FOR SILVER">
+  <data key="d0">EVENT</data>
+  <data key="d1">Going for Silver is a strategic initiative aimed at improving service outlet performance in the grocery and eating sectors.</data>
+  <data key="d2">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</node>
+<node id="EATING">
+  <data key="d0">SERVICE OUTLET</data>
+  <data key="d1">Eating refers to the consumption of food, often analyzed in market studies related to consumer behavior.Eating is one of the service outlet channels through which services are provided.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400,f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+  <data key="d3">CATEGORY</data>
+</node>
+<node id="DRINKING">
+  <data key="d0">SERVICE OUTLET</data>
+  <data key="d1">Drinking is one of the service outlet channels through which services are provided.</data>
+  <data key="d2">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</node>
+<node id="WHOLESALE">
+  <data key="d0">SERVICE OUTLET</data>
+  <data key="d1">Wholesale is one of the service outlet channels through which services are provided.</data>
+  <data key="d2">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</node>
+<node id="BRONZE">
+  <data key="d0">SERVICE OUTLET</data>
+  <data key="d1">Bronze is a segment classification within service outlets based on performance metrics.</data>
+  <data key="d2">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</node>
+<node id="SILVER">
+  <data key="d0">SERVICE OUTLET</data>
+  <data key="d1">Silver is a segment classification within service outlets based on performance metrics.</data>
+  <data key="d2">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</node>
+<node id="GOLD">
+  <data key="d0">SERVICE OUTLET</data>
+  <data key="d1">Gold is a segment classification within service outlets based on performance metrics.</data>
+  <data key="d2">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</node>
+<node id="GROCERY">
+  <data key="d0"></data>
+  <data key="d1">Grocery refers to food and other products sold in grocery stores, often analyzed in market studies.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400,f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+  <data key="d3">CATEGORY</data>
+</node>
+<node id="THUMS UP">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Thums Up is a cola beverage brand owned by Coca-Cola, popular in India.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="GOING FOR BRONZE">
+  <data key="d0">EVENT</data>
+  <data key="d1">Going for Bronze is an event that likely relates to competition or performance metrics in the beverage industry.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400</data>
+  <data key="d3">EVENT</data>
+</node>
+<node id="GROCERY+EATING">
+  <data key="d0">CATEGORY</data>
+  <data key="d1">Grocery+Eating combines both grocery shopping and eating habits, often analyzed together in market studies.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400</data>
+</node>
+<node id="PERCENTAGE">
+  <data key="d0">METRIC</data>
+  <data key="d1">Percentage is a statistical measure used to express a proportion, often used in market analysis.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400</data>
+</node>
+<node id="SKU/ORDER">
+  <data key="d0">METRIC</data>
+  <data key="d1">SKU/ORDER refers to the number of Stock Keeping Units ordered, a metric used in inventory and sales analysis.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400</data>
+</node>
+<node id="SKU/OUTLET">
+  <data key="d0">METRIC</data>
+  <data key="d1">SKU/OUTLET refers to the number of Stock Keeping Units available at an outlet, a metric used in retail analysis.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400</data>
+</node>
+<node id="URBAN NEW OUTLET">
+  <data key="d0">METRIC</data>
+  <data key="d1">Urban new outlet refers to new retail locations established in urban areas, a metric used in market expansion analysis.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400</data>
+</node>
+<node id="RURAL NEW OUTLET">
+  <data key="d0">METRIC</data>
+  <data key="d1">Rural new outlet refers to new retail locations established in rural areas, a metric used in market expansion analysis.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400</data>
+</node>
+<node id="COOLER PURITY">
+  <data key="d0">METRIC</data>
+  <data key="d1">Cooler Purity refers to the cleanliness and operational efficiency of coolers used for beverage storage, a metric in retail analysis.</data>
+  <data key="d2">afac43fa2f364295b7364675c5518400</data>
+</node>
+<node id="COCA-COLA BEVERAGES">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Coca-Cola Beverages is a company involved in the beverage industry, known for its various soft drink brands including Coke, Sprite, and Fanta.</data>
+  <data key="d2">730be08ff471429b9408ebb2d52db381</data>
+</node>
+<node id="HANOI">
+  <data key="d0">GEO</data>
+  <data key="d1">Hanoi is the capital city of Vietnam, referenced in performance indexes.Hanoi is the capital city of Vietnam, known for its rich history and cultural heritage.Hanoi is the capital city of Vietnam, mentioned in the context of beverage distribution and market analysis.</data>
+  <data key="d2">730be08ff471429b9408ebb2d52db381,3379c950b18a47619846581a4e90576e,189704e0897640aa94c023351521d856</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="CUULONG">
+  <data key="d0">GEO</data>
+  <data key="d1">Cuulong is a region in Vietnam referenced in the context of market performance metrics for Coca-Cola Beverages.</data>
+  <data key="d2">730be08ff471429b9408ebb2d52db381</data>
+</node>
+<node id="DONGBAC">
+  <data key="d0">GEO</data>
+  <data key="d1">Dongbac is a region in Vietnam mentioned in the analysis of Coca-Cola Beverages' market performance.</data>
+  <data key="d2">730be08ff471429b9408ebb2d52db381</data>
+</node>
+<node id="DONGNAM">
+  <data key="d0">GEO</data>
+  <data key="d1">Dongnam is a region in Vietnam, significant for its economic development and urbanization.Dongnam is a region in Vietnam referenced in the context of market performance metrics for Coca-Cola Beverages.</data>
+  <data key="d2">3379c950b18a47619846581a4e90576e,730be08ff471429b9408ebb2d52db381</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="MIENNAM">
+  <data key="d0">GEO</data>
+  <data key="d1">Miennam is a region in southern Vietnam, known for its economic activities and diverse cultures.Miennam is a region in Vietnam mentioned in the analysis of Coca-Cola Beverages' market performance.</data>
+  <data key="d2">3379c950b18a47619846581a4e90576e,730be08ff471429b9408ebb2d52db381</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="MIENTRUNG">
+  <data key="d0">GEO</data>
+  <data key="d1">Mientrung is a central region in Vietnam, famous for its landscapes and historical significance.Mientrung is a region in Vietnam referenced in the context of market performance metrics for Coca-Cola Beverages.</data>
+  <data key="d2">3379c950b18a47619846581a4e90576e,730be08ff471429b9408ebb2d52db381</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="MIENTAY">
+  <data key="d0">GEO</data>
+  <data key="d1">Mientay is a region in Vietnam, recognized for its unique cultural heritage and agricultural production.Mientay is a region in Vietnam mentioned in the analysis of Coca-Cola Beverages' market performance.</data>
+  <data key="d2">3379c950b18a47619846581a4e90576e,730be08ff471429b9408ebb2d52db381</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="SAIGON">
+  <data key="d0">GEO</data>
+  <data key="d1">Saigon is a major city in Vietnam referenced in the context of beverage distribution and market analysis.Saigon is a major city in Vietnam, known for its vibrant culture and economic significance.</data>
+  <data key="d2">3379c950b18a47619846581a4e90576e,730be08ff471429b9408ebb2d52db381</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="INDEX 1A: GOING FOR GOLD">
+  <data key="d0">EVENT</data>
+  <data key="d1">An event or metric indicating the performance of Coca-Cola Beverages in various regions, with a focus on achieving high market activity.</data>
+  <data key="d2">730be08ff471429b9408ebb2d52db381</data>
+</node>
+<node id="INDEX 1B: GOING FOR SILVER">
+  <data key="d0">EVENT</data>
+  <data key="d1">An event or metric indicating the performance of Coca-Cola Beverages in various regions, focusing on secondary market activity.</data>
+  <data key="d2">730be08ff471429b9408ebb2d52db381</data>
+</node>
+<node id="INDEX 1C: GOING FOR BRONZE">
+  <data key="d0">EVENT</data>
+  <data key="d1">An event or metric indicating the performance of Coca-Cola Beverages in various regions, focusing on tertiary market activity.</data>
+  <data key="d2">730be08ff471429b9408ebb2d52db381</data>
+</node>
+<node id="INDEX 2A: ACTIVE BY BRAND">
+  <data key="d0">EVENT</data>
+  <data key="d1">An event or metric analyzing the activity levels of Coca-Cola Beverages' brands over time.</data>
+  <data key="d2">730be08ff471429b9408ebb2d52db381</data>
+</node>
+<node id="INDEX 2B: ACTIVE OUTLET">
+  <data key="d0">EVENT</data>
+  <data key="d1">An event or metric indicating the percentage of active outlets for Coca-Cola Beverages in different regions.</data>
+  <data key="d2">730be08ff471429b9408ebb2d52db381</data>
+</node>
+<node id="INDEX 3: SKU/ ORDER &amp; SKU/OUTLET">
+  <data key="d0">EVENT</data>
+  <data key="d1">An event or metric analyzing the SKU (Stock Keeping Unit) performance for Coca-Cola Beverages.</data>
+  <data key="d2">730be08ff471429b9408ebb2d52db381</data>
+</node>
+<node id="INDEX 4: NET NEW OUTLET">
+  <data key="d0">EVENT</data>
+  <data key="d1">An event or metric indicating the number of new and reopened outlets for Coca-Cola Beverages over time.</data>
+  <data key="d2">730be08ff471429b9408ebb2d52db381</data>
+</node>
+<node id="FANTA">
+  <data key="d0">BRAND</data>
+  <data key="d1">Fanta is a fruit-flavored carbonated soft drink brand owned by Coca-Cola Beverages.</data>
+  <data key="d2">730be08ff471429b9408ebb2d52db381</data>
+</node>
+<node id="MEKONG">
+  <data key="d0">GEO</data>
+  <data key="d1">Mekong is a river in Southeast Asia, important for trade and agriculture in the region.Mekong is a region in Vietnam, included in various performance indexes.</data>
+  <data key="d2">3379c950b18a47619846581a4e90576e,189704e0897640aa94c023351521d856</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="HCMC">
+  <data key="d0">GEO</data>
+  <data key="d1">HCMC, or Ho Chi Minh City, is a bustling metropolis in Vietnam, formerly known as Saigon.HCMC refers to Ho Chi Minh City, a major city in Vietnam, referenced in performance metrics.</data>
+  <data key="d2">3379c950b18a47619846581a4e90576e,189704e0897640aa94c023351521d856</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="THANH HOA">
+  <data key="d0">GEO</data>
+  <data key="d1">Thanh Hoa is a province in Vietnam, known for its historical sites and natural beauty.Thanh Hoa is a province in Vietnam, referenced in performance metrics.</data>
+  <data key="d2">3379c950b18a47619846581a4e90576e,189704e0897640aa94c023351521d856</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="DANANG">
+  <data key="d0">GEO</data>
+  <data key="d1">Danang is a coastal city in Vietnam, famous for its beaches and tourism.Danang is a city in Vietnam, mentioned in the context of various performance metrics.</data>
+  <data key="d2">3379c950b18a47619846581a4e90576e,189704e0897640aa94c023351521d856</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="HPLT">
+  <data key="d0">GEO</data>
+  <data key="d1">HPLT refers to a hub or region in Vietnam, significant for its economic activities.HPLT is a geographical area or hub mentioned in the context of performance metrics.</data>
+  <data key="d2">3379c950b18a47619846581a4e90576e,189704e0897640aa94c023351521d856</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="HCMC HUB">
+  <data key="d0">GEO</data>
+  <data key="d1">HCMC Hub refers to the Ho Chi Minh City hub, a significant location for distribution and logistics in Vietnam.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+</node>
+<node id="HPLT HUB">
+  <data key="d0">GEO</data>
+  <data key="d1">HPLT Hub is a logistics hub mentioned in the context of performance metrics.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+</node>
+<node id="HIGHLAND">
+  <data key="d0">GEO</data>
+  <data key="d1">Highland is a geographical region in Vietnam, noted for its performance metrics.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+</node>
+<node id="LANGSON">
+  <data key="d0">GEO</data>
+  <data key="d1">Langson is a province in Vietnam, mentioned in the context of performance metrics.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+</node>
+<node id="WESTERN">
+  <data key="d0">GEO</data>
+  <data key="d1">Western refers to a geographical area in Vietnam, noted in performance metrics.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="ABCXYZ">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">ABCXYZ is an organization mentioned in the context of performance metrics, achieving 100% across various categories.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+</node>
+<node id="DEFUV">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">DEFUV is an organization mentioned in the context of performance metrics, achieving 100% across various categories.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+</node>
+<node id="GHIJKL">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">GHIJKL is an organization mentioned in the context of performance metrics, achieving 100% across various categories.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+</node>
+<node id="MNOPQR">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">MNOPQR is an organization mentioned in the context of performance metrics, achieving 100% across various categories.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+</node>
+<node id="STUVWX">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">STUVWX is an organization mentioned in the context of performance metrics, achieving 100% across various categories.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+</node>
+<node id="YZABCD">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">YZABCD is an organization mentioned in the context of performance metrics, achieving 100% across various categories.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+</node>
+<node id="EFGHIJ">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">EFGHIJ is an organization mentioned in the context of performance metrics, achieving 100% across various categories.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+</node>
+<node id="KLMNOP">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">KLMNOP is an organization mentioned in the context of performance metrics, achieving 100% across various categories.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+</node>
+<node id="NTB">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">NTB is a brand referenced in the context of performance metrics for various product sizes.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+</node>
+<node id="ED">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">ED is a brand referenced in the context of performance metrics for various product sizes.</data>
+  <data key="d2">189704e0897640aa94c023351521d856</data>
+</node>
+<node id="A+">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">A+ is a brand associated with various beverage products, indicated by its presence in multiple product listings.</data>
+  <data key="d2">807ab2b7739147098735831faba6b880</data>
+</node>
+<node id="SAMURAI">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">SAMURAI is a brand associated with beverage products, as seen in the listings.</data>
+  <data key="d2">807ab2b7739147098735831faba6b880</data>
+</node>
+<node id="FUZETEA">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">FUZETEA is a beverage brand that appears in the product listings.</data>
+  <data key="d2">807ab2b7739147098735831faba6b880</data>
+</node>
+<node id="STING">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">STING is a beverage brand included in the product listings.</data>
+  <data key="d2">807ab2b7739147098735831faba6b880</data>
+</node>
+<node id="PREDATOR">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">PREDATOR is a brand associated with beverage products, as indicated in the listings.</data>
+  <data key="d2">807ab2b7739147098735831faba6b880</data>
+</node>
+<node id="LEMOR">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">LEMOR is a beverage brand mentioned in the product listings.</data>
+  <data key="d2">807ab2b7739147098735831faba6b880</data>
+</node>
+<node id="SUNNOH">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">SUNNOH is a brand associated with beverage products, as indicated in the listings.</data>
+  <data key="d2">807ab2b7739147098735831faba6b880</data>
+</node>
+<node id="HUNGPP">
+  <data key="d0">PERSON</data>
+  <data key="d1">HUNGPP is likely a brand or product line that has been evaluated across various performance metrics.HUNGPP is an organization referenced in the context of SKU/Outlet data.HUNGPP is an organization involved in various performance metrics, showing high percentages across different indices.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c,807ab2b7739147098735831faba6b880</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="THUALTC">
+  <data key="d0">PERSON</data>
+  <data key="d1">THUALTC is an organization referenced in the context of SKU/Outlet data.THUALTC is likely a brand or product line that has been evaluated across various performance metrics.THUALTC is an organization that has reported performance metrics, consistently achieving high percentages in various indices.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c,807ab2b7739147098735831faba6b880</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="THUALTN">
+  <data key="d0">PERSON</data>
+  <data key="d1">THUALTN is likely a brand or product line that has been evaluated across various performance metrics.THUALTN is an organization noted for its performance metrics, with high percentages across multiple indices.THUALTN is an organization referenced in the context of SKU/Outlet data.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c,807ab2b7739147098735831faba6b880</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="HUNGLTC">
+  <data key="d0">PERSON</data>
+  <data key="d1">HUNGLTC is an organization referenced in the context of SKU/Outlet data.HUNGLTC is an organization recognized for its performance metrics, showing significant percentages in various indices.HUNGLTC is likely a brand or product line that has been evaluated across various performance metrics.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c,807ab2b7739147098735831faba6b880</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="HUNGLTN">
+  <data key="d0">PERSON</data>
+  <data key="d1">HUNGLTN is an organization referenced in the context of SKU/Outlet data.HUNGLTN is an organization that has reported performance metrics, achieving notable percentages in various indices.HUNGLTN is likely a brand or product line that has been evaluated across various performance metrics.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c,807ab2b7739147098735831faba6b880</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="THLNC">
+  <data key="d0">PERSON</data>
+  <data key="d1">THLNC is likely a brand or product line that has been evaluated across various performance metrics.THLNC is an organization that has shown performance metrics with high percentages across different indices.THLNC is an organization referenced in the context of SKU/Outlet data.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c,807ab2b7739147098735831faba6b880</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="THLNTN">
+  <data key="d0">PERSON</data>
+  <data key="d1">THLNTN is likely a brand or product line that has been evaluated across various performance metrics.THLNTN is an organization that has reported performance metrics, achieving high percentages in various indices.THLNTN is an organization referenced in the context of SKU/Outlet data.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c,807ab2b7739147098735831faba6b880</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="THCXG">
+  <data key="d0">PERSON</data>
+  <data key="d1">THCXG is likely a brand or product line that has been evaluated across various performance metrics.THCXG is an organization referenced in the context of SKU/Outlet data.THCXG is an organization that has shown performance metrics, with notable percentages across various indices.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c,807ab2b7739147098735831faba6b880</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="HUNGXG">
+  <data key="d0">PERSON</data>
+  <data key="d1">HUNGXG is an organization referenced in the context of SKU/Outlet data.HUNGXG is likely a brand or product line that has been evaluated across various performance metrics.HUNGXG is an organization involved in performance metrics, consistently achieving high percentages across different indices.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c,807ab2b7739147098735831faba6b880</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="1.5L">
+  <data key="d0">PRODUCT</data>
+  <data key="d1">1.5L is a volume measurement commonly used for beverage packaging.</data>
+  <data key="d2">807ab2b7739147098735831faba6b880</data>
+</node>
+<node id="1.5L PET">
+  <data key="d0">PRODUCT</data>
+  <data key="d1">1.5L PET refers to a specific type of beverage packaging made from PET plastic.</data>
+  <data key="d2">807ab2b7739147098735831faba6b880</data>
+</node>
+<node id="24X330ML">
+  <data key="d0">PRODUCT</data>
+  <data key="d1">24x330ml indicates a packaging format containing 24 units of 330ml beverages.</data>
+  <data key="d2">807ab2b7739147098735831faba6b880</data>
+</node>
+<node id="6X330ML">
+  <data key="d0">PRODUCT</data>
+  <data key="d1">6x330ml indicates a packaging format containing 6 units of 330ml beverages.</data>
+  <data key="d2">807ab2b7739147098735831faba6b880</data>
+</node>
+<node id="350ML CAN">
+  <data key="d0">PRODUCT</data>
+  <data key="d1">350ml CAN refers to a beverage packaged in a 350ml can.</data>
+  <data key="d2">807ab2b7739147098735831faba6b880</data>
+</node>
+<node id="330ML CAN">
+  <data key="d0">PRODUCT</data>
+  <data key="d1">330ml CAN refers to a beverage packaged in a 330ml can.</data>
+  <data key="d2">807ab2b7739147098735831faba6b880</data>
+</node>
+<node id="500 ML">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">807ab2b7739147098735831faba6b880</data>
+</node>
+<node id="LNVPT">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">LNVPT is an organization that has reported very high performance metrics, achieving a 100% score in one index.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072</data>
+</node>
+<node id="SDHLB">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">SDHLB is an organization that has shown high performance metrics, with a 99% score in one index.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="TONGTC">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">TONGTC is an organization recognized for its performance metrics, achieving a 96% score in one index.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="SDCXG">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">SDCXG is an organization that has reported performance metrics, achieving a 91% score in one index.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="SDPPTN">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">SDPPTN is an organization that has shown performance metrics, achieving a 90% score in one index.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="SDPPTC">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">SDPPTC is an organization that has reported performance metrics, achieving a 90% score in one index.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="TONLTN">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">TONLTN is an organization recognized for its performance metrics, achieving an 80% score in one index.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="TONLTC">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">TONLTC is an organization that has shown performance metrics, achieving an 80% score in one index.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="HNALTC">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">HNALTC is an organization that has reported performance metrics, achieving an 85% score in one index.</data>
+  <data key="d2">753e94c93b9d47a594e3d045719e1072</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="DURGPO">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">DURGPO is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="DUEGT">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">DUEGT is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="DUNT">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">DUNT is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="DURG DV">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">DURG DV is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="GUORG">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">GUORG is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="DONG CN">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">DONG CN is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="DONG GT">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">DONG GT is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="DONG DV">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">DONG DV is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="DUONG">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">DUONG is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+  <data key="d3">ORGANIZATION</data>
+</node>
+<node id="KGIANG">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">KGIANG is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="LAMDG">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">LAMDG is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="LONGAN">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">LONGAN is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="V.LONG">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">V.LONG is an organization referenced in the context of active outlet performance.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="KIEN GIANG">
+  <data key="d0">GEO</data>
+  <data key="d1">Kien Giang is a province in Vietnam, known for its islands and tourism, particularly Phu Quoc.KIEN GIANG is a region referenced in the context of active outlet performance.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f,edf5c99c140d47569a2dd3824f41ac7c</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="TIEN GIANG">
+  <data key="d0">GEO</data>
+  <data key="d1">Tien Giang is a province in Vietnam, recognized for its fruit orchards and riverine culture.TIEN GIANG is a region referenced in the context of active outlet performance.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f,edf5c99c140d47569a2dd3824f41ac7c</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="AN GIANG">
+  <data key="d0">GEO</data>
+  <data key="d1">AN GIANG is a region referenced in the context of active outlet performance.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="TRAN GIANG">
+  <data key="d0">GEO</data>
+  <data key="d1">TRAN GIANG is a region referenced in the context of active outlet performance.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="DONG THAP">
+  <data key="d0">GEO</data>
+  <data key="d1">DONG THAP is a region referenced in the context of active outlet performance.Dong Thap is a province in Vietnam, known for its rich agricultural land and diverse flora and fauna.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f,edf5c99c140d47569a2dd3824f41ac7c</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="BEN TRE">
+  <data key="d0">GEO</data>
+  <data key="d1">Ben Tre is a province in Vietnam, famous for its coconut production and scenic waterways.BEN TRE is a region referenced in the context of active outlet performance.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f,edf5c99c140d47569a2dd3824f41ac7c</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="CAN THO">
+  <data key="d0">GEO</data>
+  <data key="d1">CAN THO is a region referenced in the context of active outlet performance.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="SOC TRANG">
+  <data key="d0">GEO</data>
+  <data key="d1">SOC TRANG is a region referenced in the context of active outlet performance.Soc Trang is a province in Vietnam, known for its vibrant Khmer culture and traditional festivals.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f,edf5c99c140d47569a2dd3824f41ac7c</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="DONGDV">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">DONGDV is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="BENTN">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">BENTN is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="DALAT">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">DALAT is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="DNGN">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">DNGN is an organization referenced in the context of performance metrics.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="VINHLONG">
+  <data key="d0">GEO</data>
+  <data key="d1">VINHLONG is a region referenced in the context of active outlet performance.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="CAMAU">
+  <data key="d0">GEO</data>
+  <data key="d1">CAMAU is a region referenced in the context of active outlet performance.</data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="DONGCN">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">edf5c99c140d47569a2dd3824f41ac7c</data>
+</node>
+<node id="CANTHO">
+  <data key="d0">GEO</data>
+  <data key="d1">Can Tho is a city in Vietnam, known for its agricultural production and as a regional economic center.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+</node>
+<node id="ANGIANG">
+  <data key="d0">GEO</data>
+  <data key="d1">An Giang is a province in Vietnam, located in the Mekong Delta, known for its rice production and cultural diversity.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="BACLIEU">
+  <data key="d0">GEO</data>
+  <data key="d1">Bac Lieu is a coastal province in Vietnam, recognized for its seafood industry and cultural heritage.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="SOCTRANG">
+  <data key="d0">GEO</data>
+  <data key="d1">Soc Trang is a province in Vietnam, famous for its Khmer culture and traditional festivals.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="HAUGIANG">
+  <data key="d0">GEO</data>
+  <data key="d1">Hau Giang is a province in Vietnam, part of the Mekong Delta, known for its agricultural activities.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="VINH LONG">
+  <data key="d0">GEO</data>
+  <data key="d1">Vinh Long is a province in Vietnam, located in the Mekong Delta, known for its agriculture and waterways.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">GEO</data>
+</node>
+<node id="VU PHAN THE LAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Vu Phan The Lan is a service outlet representative in the region, involved in sales and distribution.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="PHAM THANH VINH">
+  <data key="d0">PERSON</data>
+  <data key="d1">Pham Thanh Vinh is a service outlet representative known for high performance in sales.Pham Thanh Vinh is another individual linked to the data, possibly a sales representative.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f,c5f6715ab31e48c9b1b1b5b8789a5734</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="NGUYEN VU VAN LOAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Vu Van Loan is a service outlet representative with a strong sales record.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="PHAM LY TRONG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Pham Ly Trong is a service outlet representative recognized for excellent sales performance.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="LE VAN CHINH">
+  <data key="d0">PERSON</data>
+  <data key="d1">Le Van Chinh is a service outlet representative noted for consistent sales achievements.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="HO VAN DUC">
+  <data key="d0">PERSON</data>
+  <data key="d1">Ho Van Duc is a service outlet representative with a strong focus on customer service.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="NGUYEN VIET BAO">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Viet Bao is a service outlet representative known for high sales efficiency.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="NGUYEN DANG QUOC PHONG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Dang Quoc Phong is a service outlet representative recognized for outstanding sales performance.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="NGUYEN THI HANG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Thi Hang is a service outlet representative known for her contributions to sales growth.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="NGUYEN TIEN LUC">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Tien Luc is a service outlet representative noted for his effective sales strategies.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="DOAN CONG MAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Doan Cong Man is a service outlet representative recognized for his sales achievements.</data>
+  <data key="d2">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="PHAM THI XUAN THUY">
+  <data key="d0">PERSON</data>
+  <data key="d1">Pham Thi Xuan Thuy is an individual associated with the data provided, potentially indicating performance metrics or statistics related to their activities.Pham Thi Xuan Thuy is a service outlet representative known for her sales performance.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8,e8e436dd4b2f4ed595e48df5315a2f9f</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="HUYNH THANH TUNG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Huynh Thanh Tung is an individual associated with the data provided, potentially indicating performance metrics or statistics related to their activities.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+</node>
+<node id="TRUONG VAN HUY">
+  <data key="d0">PERSON</data>
+  <data key="d1">Truong Van Huy is an individual associated with the data provided, potentially indicating performance metrics or statistics related to their activities.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+</node>
+<node id="NGUYEN PHUC LAM">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Phuc Lam is an individual associated with the data provided, potentially indicating performance metrics or statistics related to their activities.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+</node>
+<node id="NGUYEN THI THANH THAO">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Thi Thanh Thao is an individual associated with the data provided, potentially indicating performance metrics or statistics related to their activities.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+</node>
+<node id="PHAM QUANG LOI">
+  <data key="d0">PERSON</data>
+  <data key="d1">Pham Quang Loi is an individual associated with the data provided, potentially indicating performance metrics or statistics related to their activities.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+</node>
+<node id="NGUYEN THAI SINH">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Thai Sinh is an individual associated with the data provided, potentially indicating performance metrics or statistics related to their activities.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+</node>
+<node id="PHAN PHUOC AN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Phan Phuoc An is mentioned in the performance metrics, likely a participant in sales activities.Phan Phuoc An is an individual associated with the data provided, potentially indicating performance metrics or statistics related to their activities.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8,c5f6715ab31e48c9b1b1b5b8789a5734</data>
+  <data key="d3">PERSON</data>
+</node>
+<node id="TRAN VAN TIEN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Tran Van Tien is an individual associated with the data provided, potentially indicating performance metrics or statistics related to their activities.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+</node>
+<node id="NGUYEN VAN BANG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Van Bang is an individual associated with the data provided, potentially indicating performance metrics or statistics related to their activities.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+</node>
+<node id="LE VAN PHUNG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Le Van Phung is an individual associated with the data provided, potentially indicating performance metrics or statistics related to their activities.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+</node>
+<node id="PHAM DUY TIEN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Pham Duy Tien is an individual associated with the data provided, potentially indicating performance metrics or statistics related to their activities.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+</node>
+<node id="TRIEU THI HONG NHUNG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Trieu Thi Hong Nhung is an individual associated with the data provided, potentially indicating performance metrics or statistics related to their activities.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+</node>
+<node id="HO THI AI LOAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Ho Thi Ai Loan is an individual associated with the data provided, potentially indicating performance metrics or statistics related to their activities.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+</node>
+<node id="CORE DISTRIBUTION MAGIC">
+  <data key="d0">EVENT</data>
+  <data key="d1">Core Distribution Magic refers to the analysis of core distribution metrics over time, potentially indicating trends in performance across various channels and regions.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+  <data key="d3">EVENT</data>
+</node>
+<node id="CORE TOTAL">
+  <data key="d0">EVENT</data>
+  <data key="d1">Core Total refers to the overall performance metrics aggregated across different regions and categories, indicating the total impact of core activities.</data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+  <data key="d3">EVENT</data>
+</node>
+<node id="CONG MAN">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">bc9b9822ef754af7a9c2cecd819258d8</data>
+</node>
+<node id="CORE GOLD">
+  <data key="d0">EVENT</data>
+  <data key="d1">CORE GOLD refers to a category of products with varying percentages of consumption across different regions, indicating their market performance in drinking, eating, grocery, and wholesale sectors.</data>
+  <data key="d2">36395c304d6d4f6fb8bc0c80e8483171</data>
+</node>
+<node id="CORE SILVER">
+  <data key="d0">EVENT</data>
+  <data key="d1">CORE SILVER is another category of products similar to CORE GOLD, showcasing different consumption percentages across regions.</data>
+  <data key="d2">36395c304d6d4f6fb8bc0c80e8483171</data>
+</node>
+<node id="CORE BRONZE">
+  <data key="d0">EVENT</data>
+  <data key="d1">CORE BRONZE represents a third category of products, also reflecting consumption metrics across various regions.</data>
+  <data key="d2">36395c304d6d4f6fb8bc0c80e8483171</data>
+</node>
+<node id="NGUYEN THI ANH">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Thi Anh is identified as having the highest core total percentage in CORE GOLD at 83%.</data>
+  <data key="d2">36395c304d6d4f6fb8bc0c80e8483171</data>
+</node>
+<node id="NGUYEN VAN QUYET">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Van Quyet ranks second with a core total percentage of 66% in CORE GOLD.</data>
+  <data key="d2">36395c304d6d4f6fb8bc0c80e8483171</data>
+</node>
+<node id="TRAN VAN LAM">
+  <data key="d0">PERSON</data>
+  <data key="d1">Tran Van Lam is noted for having a core total percentage of 64% in CORE GOLD.</data>
+  <data key="d2">36395c304d6d4f6fb8bc0c80e8483171</data>
+</node>
+<node id="HK">
+  <data key="d0">REGION</data>
+  <data key="d1">HK is a region that appears in the CORE GOLD, CORE SILVER, and CORE BRONZE categories, indicating its market performance.</data>
+  <data key="d2">36395c304d6d4f6fb8bc0c80e8483171</data>
+</node>
+<node id="HN">
+  <data key="d0">REGION</data>
+  <data key="d1">HN is a region included in the CORE GOLD, CORE SILVER, and CORE BRONZE categories, showcasing its consumption metrics.</data>
+  <data key="d2">36395c304d6d4f6fb8bc0c80e8483171</data>
+</node>
+<node id="DUONG THI THUY">
+  <data key="d0">PERSON</data>
+  <data key="d1">Duong Thi Thuy is an individual with a core total of 35%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="LE VAN HUNG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Le Van Hung is an individual with a core total of 31%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="BUI QUANG HUY">
+  <data key="d0">PERSON</data>
+  <data key="d1">Bui Quang Huy is an individual with a core total of 21%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130053 - PHAN PHUOC AN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Phan Phuoc An is associated with service outlet VN130053, showing a core percentage of 0.19%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="10003014 - TRAN VAN TIEN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Tran Van Tien is associated with service outlet 10003014, showing a core percentage of 1.34%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130052 - NGUYEN VAN BANG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Van Bang is associated with service outlet VN130052, showing a core percentage of 0.21%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130053 - LE VAN PHUNG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Le Van Phung is associated with service outlet VN130053, showing a core percentage of 0.15%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130054 - PHAM DUY TIEN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Pham Duy Tien is associated with service outlet VN130054, showing a core percentage of 0.11%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130055 - TRIEU THI HONG NHUNG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Trieu Thi Hong Nhung is associated with service outlet VN130055, showing a core percentage of 0.15%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130056 - HO THI AI LIEN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Ho Thi Ai Lien is associated with service outlet VN130056, showing a core percentage of 0.18%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130057 - NGUYEN THI MAI">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Thi Mai is associated with service outlet VN130057, showing a core percentage of 0.20%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130058 - LE QUOC HOE">
+  <data key="d0">PERSON</data>
+  <data key="d1">Le Quoc Hoe is associated with service outlet VN130058, showing a core percentage of 0.14%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130065 - TRAN DINH CONG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Tran Dinh Cong is associated with service outlet VN130065, showing a core percentage of 0.19%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="10003216 - NGUYEN ANH THANH">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Anh Thanh is associated with service outlet 10003216, showing a core percentage of 1.23%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130059 - NGUYEN QUOC TRUNG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Quoc Trung is associated with service outlet VN130059, showing a core percentage of 0.16%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130060 - TRAN THIEN NHAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Tran Thien Nhan is associated with service outlet VN130060, showing a core percentage of 0.09%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130061 - PHAN DUC CUONG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Phan Duc Cuong is associated with service outlet VN130061, showing a core percentage of 0.09%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130062 - NGUYEN VIET THANG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Viet Thang is associated with service outlet VN130062, showing a core percentage of 0.19%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130064 - NGUYEN THI THU">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Thi Thu is associated with service outlet VN130064, showing a core percentage of 0.22%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130066 - PHAN VAN HAI">
+  <data key="d0">PERSON</data>
+  <data key="d1">Phan Van Hai is associated with service outlet VN130066, showing a core percentage of 0.12%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130067 - NGUYEN VAN HAI">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Van Hai is associated with service outlet VN130067, showing a core percentage of 0.10%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130068 - TRAN QUOC TOAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Tran Quoc Toan is associated with service outlet VN130068, showing a core percentage of 0.14%.</data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="VN130063 - TRAN VAN HAI">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">ec60ec0595244691a546d243abbc1eb5</data>
+</node>
+<node id="PHAN DUC CUONG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Phan Duc Cuong is an individual associated with the data presented, possibly a participant in a business or sales context.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="NGUYEN VIET THANG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Viet Thang is another individual linked to the data, likely involved in sales or performance metrics.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="TRINH QUOC THINH">
+  <data key="d0">PERSON</data>
+  <data key="d1">Trinh Quoc Thinh is an individual mentioned in the context of performance metrics, possibly a sales representative.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="PHAM THI HONG VAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Pham Thi Hong Van is an individual noted in the performance data, likely a participant in sales activities.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="NGUYEN VAN QUYNH">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Van Quynh is an individual associated with the sales data, potentially a sales agent.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="LE TAN DAT">
+  <data key="d0">PERSON</data>
+  <data key="d1">Le Tan Dat is another individual mentioned in the performance metrics, possibly involved in sales.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="LE QUOC THIEN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Le Quoc Thien is an individual noted for their performance metrics in the sales context.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="VO VAN TRI">
+  <data key="d0">PERSON</data>
+  <data key="d1">Vo Van Tri is an individual associated with the sales data, likely a sales representative.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="LE VAN TRUONG VY">
+  <data key="d0">PERSON</data>
+  <data key="d1">Le Van Truong Vy is mentioned in the context of performance metrics, possibly a sales participant.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="LE NGUYEN NHIEM">
+  <data key="d0">PERSON</data>
+  <data key="d1">Le Nguyen Nhiem is an individual linked to the performance data, likely in a sales role.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="TRAN DIEU HUONG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Tran Dieu Huong is another individual associated with the sales data, possibly a sales representative.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="BUI VAN TAM">
+  <data key="d0">PERSON</data>
+  <data key="d1">Bui Van Tam is mentioned in the context of performance metrics, likely involved in sales activities.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="DANG DUC SU">
+  <data key="d0">PERSON</data>
+  <data key="d1">Dang Duc Su is an individual linked to the performance data, possibly a sales agent.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="NGUYEN VU VAN LAM">
+  <data key="d0">PERSON</data>
+  <data key="d1">Nguyen Vu Van Lam is an individual associated with the sales data, likely a sales agent.</data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="VU PHAN THE">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</node>
+<node id="TRAN THI THANH LY">
+  <data key="d0">PERSON</data>
+  <data key="d1">Tran Thi Thanh Ly is a contact person with an email address lyttt@interk.com</data>
+  <data key="d2">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</node>
+<node id="ACTIVE OUTLET BY PRODUCT GROUP">
+  <data key="d0">KPI</data>
+  <data key="d1">Active Outlet by Product Group is a KPI mentioned in the document</data>
+  <data key="d2">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</node>
+<node id="TOTAL VALUE BY REGION">
+  <data key="d0">KPI</data>
+  <data key="d1">Total value by region is a KPI mentioned in the document</data>
+  <data key="d2">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</node>
+<node id="GOING FOR BY CHANNEL">
+  <data key="d0">KPI</data>
+  <data key="d1">Going For by Channel is a KPI mentioned in the document</data>
+  <data key="d2">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</node>
+<node id="5 FACTORS EXECUTION FOCUS">
+  <data key="d0">KPI</data>
+  <data key="d1">5 Factors Execution Focus is a KPI category mentioned in the document</data>
+  <data key="d2">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</node>
+<node id="5 FACTORS BY DETAILS">
+  <data key="d0">KPI</data>
+  <data key="d1">5 Factors By Details is a KPI category mentioned in the document</data>
+  <data key="d2">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</node>
+<node id="CORE BY DETAILS">
+  <data key="d0">KPI</data>
+  <data key="d1">Core By Details is a KPI category mentioned in the document</data>
+  <data key="d2">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</node>
+<node id="MHS INVISIBLE">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</node>
+<edge source="COCA-COLA BEVERAGES VIETNAM LIMITED" target="NGUYEN VAN HUY">
+  <data key="d4">7.0</data>
+  <data key="d5">Nguyen Van Huy created and updated the document related to Coca-Cola Beverages Vietnam Limited</data>
+  <data key="d6">eb63940a335548c594499bcec2b8b727</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES VIETNAM LIMITED" target="NGO DINH NHAT HUY">
+  <data key="d4">6.0</data>
+  <data key="d5">Ngo Dinh Nhat Huy updated the document related to Coca-Cola Beverages Vietnam Limited</data>
+  <data key="d6">eb63940a335548c594499bcec2b8b727</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES VIETNAM LIMITED" target="NGUYEN QUANG NHAT">
+  <data key="d4">6.0</data>
+  <data key="d5">Nguyen Quang Nhat updated the document related to Coca-Cola Beverages Vietnam Limited</data>
+  <data key="d6">eb63940a335548c594499bcec2b8b727</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES VIETNAM LIMITED" target="DANG THI CAM TIEN">
+  <data key="d4">6.0</data>
+  <data key="d5">Dang Thi Cam Tien updated the document related to Coca-Cola Beverages Vietnam Limited</data>
+  <data key="d6">eb63940a335548c594499bcec2b8b727</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES VIETNAM LIMITED" target="LE PHAM NGOC TRAM">
+  <data key="d4">6.0</data>
+  <data key="d5">Le Pham Ngoc Tram updated the document related to Coca-Cola Beverages Vietnam Limited</data>
+  <data key="d6">eb63940a335548c594499bcec2b8b727</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES VIETNAM LIMITED" target="PHAM THUY">
+  <data key="d4">6.0</data>
+  <data key="d5">Pham Thuy updated the document related to Coca-Cola Beverages Vietnam Limited</data>
+  <data key="d6">eb63940a335548c594499bcec2b8b727</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES VIETNAM LIMITED" target="INTER-K JOINT STOCK COMPANY">
+  <data key="d4">1.0</data>
+  <data key="d5">Inter-K Joint Stock Company collaborated with Coca-Cola Beverages Vietnam Limited on the report</data>
+  <data key="d6">eb63940a335548c594499bcec2b8b727</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES VIETNAM LIMITED" target="VU THAI NGOC">
+  <data key="d4">6.0</data>
+  <data key="d5">Vu Thai Ngoc reviewed and approved the document related to Coca-Cola Beverages Vietnam Limited</data>
+  <data key="d6">eb63940a335548c594499bcec2b8b727</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES VIETNAM LIMITED" target="LE LUU VIET SON">
+  <data key="d4">6.0</data>
+  <data key="d5">Le Luu Viet Son reviewed and approved the document related to Coca-Cola Beverages Vietnam Limited</data>
+  <data key="d6">eb63940a335548c594499bcec2b8b727</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES VIETNAM LIMITED" target="LE THANG LOI">
+  <data key="d4">6.0</data>
+  <data key="d5">Le Thang Loi reviewed and approved the document related to Coca-Cola Beverages Vietnam Limited</data>
+  <data key="d6">eb63940a335548c594499bcec2b8b727</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES VIETNAM LIMITED" target="DINH HOANG HAI">
+  <data key="d4">6.0</data>
+  <data key="d5">Dinh Hoang Hai reviewed and approved the document related to Coca-Cola Beverages Vietnam Limited</data>
+  <data key="d6">eb63940a335548c594499bcec2b8b727</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES VIETNAM LIMITED" target="HO NGOC NHU GUONG">
+  <data key="d4">6.0</data>
+  <data key="d5">Ho Ngoc Nhu Guong reviewed and approved the document related to Coca-Cola Beverages Vietnam Limited</data>
+  <data key="d6">eb63940a335548c594499bcec2b8b727</data>
+</edge>
+<edge source="PHAM THUY" target="VU THAI NGOC">
+  <data key="d4">5.0</data>
+  <data key="d5">Vu Thai Ngoc and Pham Thuy are both contact persons listed in the document</data>
+  <data key="d6">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</edge>
+<edge source="PHAM THUY" target="TRAN THI THANH LY">
+  <data key="d4">5.0</data>
+  <data key="d5">Tran Thi Thanh Ly and Pham Thuy are both contact persons listed in the document</data>
+  <data key="d6">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</edge>
+<edge source="PHAM THUY" target="LE LUU VIET SON">
+  <data key="d4">1.0</data>
+  <data key="d5">Le Luu Viet Son and Pham Thuy are both contact persons listed in the document</data>
+  <data key="d6">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</edge>
+<edge source="PHAM THUY" target="SERVICE OUTLET">
+  <data key="d4">5.0</data>
+  <data key="d5">Pham Thuy is associated with the KPI Service Outlet in the document</data>
+  <data key="d6">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</edge>
+<edge source="PHAM THUY" target="CORE BY DETAILS">
+  <data key="d4">5.0</data>
+  <data key="d5">Pham Thuy is associated with the KPI Core By Details in the document</data>
+  <data key="d6">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</edge>
+<edge source="LE LUU VIET SON" target="VU THAI NGOC">
+  <data key="d4">5.0</data>
+  <data key="d5">Vu Thai Ngoc and Le Luu Viet Son are both contact persons listed in the document</data>
+  <data key="d6">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</edge>
+<edge source="LE LUU VIET SON" target="TRAN THI THANH LY">
+  <data key="d4">5.0</data>
+  <data key="d5">Tran Thi Thanh Ly and Le Luu Viet Son are both contact persons listed in the document</data>
+  <data key="d6">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</edge>
+<edge source="LE LUU VIET SON" target="TOTAL VALUE BY REGION">
+  <data key="d4">5.0</data>
+  <data key="d5">Le Luu Viet Son is associated with the KPI Total Value by Region in the document</data>
+  <data key="d6">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</edge>
+<edge source="LE LUU VIET SON" target="5 FACTORS BY DETAILS">
+  <data key="d4">5.0</data>
+  <data key="d5">Le Luu Viet Son is associated with the KPI 5 Factors By Details in the document</data>
+  <data key="d6">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</edge>
+<edge source="VU THAI NGOC" target="TRAN THI THANH LY">
+  <data key="d4">5.0</data>
+  <data key="d5">Vu Thai Ngoc and Tran Thi Thanh Ly are both contact persons listed in the document</data>
+  <data key="d6">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</edge>
+<edge source="VU THAI NGOC" target="MHS INVISIBLE">
+  <data key="d4">5.0</data>
+  <data key="d5">Vu Thai Ngoc is associated with the KPI MHS Invisible in the document</data>
+  <data key="d6">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</edge>
+<edge source="VU THAI NGOC" target="GOING FOR BY CHANNEL">
+  <data key="d4">5.0</data>
+  <data key="d5">Vu Thai Ngoc is associated with the KPI Going For by Channel in the document</data>
+  <data key="d6">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</edge>
+<edge source="COKE" target="NUTRIBOOST">
+  <data key="d4">5.0</data>
+  <data key="d5">Coke is included in the metrics for active outlets alongside Nutriboost</data>
+  <data key="d6">73c77068e01e48438de3abb74f736af3</data>
+</edge>
+<edge source="COKE" target="SPRITE">
+  <data key="d4">16.0</data>
+  <data key="d5">Sprite is a product line under the Coca-Cola brand, indicating a direct relationship between the two</data>
+  <data key="d6">afac43fa2f364295b7364675c5518400</data>
+</edge>
+<edge source="COKE" target="THUMS UP">
+  <data key="d4">16.0</data>
+  <data key="d5">Thums Up is owned by Coca-Cola, showing a corporate relationship between the two</data>
+  <data key="d6">afac43fa2f364295b7364675c5518400</data>
+</edge>
+<edge source="COKE" target="CP">
+  <data key="d4">12.0</data>
+  <data key="d5">CP region shows significant consumption of Coke products, indicating a market relationship</data>
+  <data key="d6">afac43fa2f364295b7364675c5518400</data>
+</edge>
+<edge source="COKE" target="HC">
+  <data key="d4">12.0</data>
+  <data key="d5">HC region demonstrates high engagement with Coke, suggesting a strong market presence</data>
+  <data key="d6">afac43fa2f364295b7364675c5518400</data>
+</edge>
+<edge source="COKE" target="HYD">
+  <data key="d4">12.0</data>
+  <data key="d5">Coke has a notable market share in the HYD region, indicating a strong relationship</data>
+  <data key="d6">afac43fa2f364295b7364675c5518400</data>
+</edge>
+<edge source="COKE" target="MK">
+  <data key="d4">10.0</data>
+  <data key="d5">Coke's performance metrics in MK region indicate a significant relationship</data>
+  <data key="d6">afac43fa2f364295b7364675c5518400</data>
+</edge>
+<edge source="COKE" target="NE">
+  <data key="d4">10.0</data>
+  <data key="d5">Coke's brand presence in NE region shows a direct market relationship</data>
+  <data key="d6">afac43fa2f364295b7364675c5518400</data>
+</edge>
+<edge source="COKE" target="NW">
+  <data key="d4">10.0</data>
+  <data key="d5">Coke's consumption data in NW region indicates a strong market relationship</data>
+  <data key="d6">afac43fa2f364295b7364675c5518400</data>
+</edge>
+<edge source="COKE" target="SP">
+  <data key="d4">10.0</data>
+  <data key="d5">Coke has a considerable market share in SP region, indicating a strong relationship</data>
+  <data key="d6">afac43fa2f364295b7364675c5518400</data>
+</edge>
+<edge source="COKE" target="VN">
+  <data key="d4">10.0</data>
+  <data key="d5">Coke's performance in VN region reflects a significant market relationship</data>
+  <data key="d6">afac43fa2f364295b7364675c5518400</data>
+</edge>
+<edge source="COKE" target="GOING FOR BRONZE">
+  <data key="d4">8.0</data>
+  <data key="d5">The event "Going for Bronze" may involve competition among beverage brands, including Coke, indicating a contextual relationship</data>
+  <data key="d6">afac43fa2f364295b7364675c5518400</data>
+</edge>
+<edge source="COKE" target="INDEX 2A: ACTIVE BY BRAND">
+  <data key="d4">5.0</data>
+  <data key="d5">The event "Active by Brand" includes analysis of the activity levels of the Coke brand over time</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COKE" target="NTB">
+  <data key="d4">4.0</data>
+  <data key="d5">Coke and NTB are brands referenced in performance metrics for various product sizes</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="COKE" target="ED">
+  <data key="d4">1.0</data>
+  <data key="d5">ED and Coke are brands referenced in performance metrics for various product sizes</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="KO_MONTH" target="SERVICE OUTLET">
+  <data key="d4">1.0</data>
+  <data key="d5">KO Month is the reporting period during which the performance of Service Outlets is evaluated</data>
+  <data key="d6">09f282e6aa5449afa1a56099c580eeaa</data>
+</edge>
+<edge source="SERVICE OUTLET" target="SALES MANAGER">
+  <data key="d4">7.0</data>
+  <data key="d5">Sales Manager oversees the performance and operations of Service Outlets</data>
+  <data key="d6">09f282e6aa5449afa1a56099c580eeaa</data>
+</edge>
+<edge source="SERVICE OUTLET" target="SALES REP">
+  <data key="d4">7.0</data>
+  <data key="d5">Sales Rep is responsible for sales activities at Service Outlets</data>
+  <data key="d6">09f282e6aa5449afa1a56099c580eeaa</data>
+</edge>
+<edge source="SERVICE OUTLET" target="GOLD OUTLET">
+  <data key="d4">8.0</data>
+  <data key="d5">Gold Outlet is a category of Service Outlet that has achieved high performance</data>
+  <data key="d6">09f282e6aa5449afa1a56099c580eeaa</data>
+</edge>
+<edge source="SERVICE OUTLET" target="SILVER OUTLET">
+  <data key="d4">8.0</data>
+  <data key="d5">Silver Outlet is a category of Service Outlet that has achieved moderate performance</data>
+  <data key="d6">09f282e6aa5449afa1a56099c580eeaa</data>
+</edge>
+<edge source="SERVICE OUTLET" target="BRONZE OUTLET">
+  <data key="d4">8.0</data>
+  <data key="d5">Bronze Outlet is a category of Service Outlet that has achieved basic performance</data>
+  <data key="d6">09f282e6aa5449afa1a56099c580eeaa</data>
+</edge>
+<edge source="SERVICE OUTLET" target="MUST HAVE SKU">
+  <data key="d4">8.0</data>
+  <data key="d5">Service Outlets are required to stock Must Have SKUs to maintain performance standards</data>
+  <data key="d6">09f282e6aa5449afa1a56099c580eeaa</data>
+</edge>
+<edge source="SERVICE OUTLET" target="CONSUMER SKU">
+  <data key="d4">8.0</data>
+  <data key="d5">Service Outlets sell Consumer SKUs to customers</data>
+  <data key="d6">09f282e6aa5449afa1a56099c580eeaa</data>
+</edge>
+<edge source="SERVICE OUTLET" target="PACK TYPE">
+  <data key="d4">8.0</data>
+  <data key="d5">Service Outlets offer products in various Pack Types</data>
+  <data key="d6">09f282e6aa5449afa1a56099c580eeaa</data>
+</edge>
+<edge source="SERVICE OUTLET" target="PACK SIZE">
+  <data key="d4">8.0</data>
+  <data key="d5">Service Outlets provide products in different Pack Sizes</data>
+  <data key="d6">09f282e6aa5449afa1a56099c580eeaa</data>
+</edge>
+<edge source="SERVICE OUTLET" target="COCA-COLA BEVERAGES VIETNAM LTD.">
+  <data key="d4">8.0</data>
+  <data key="d5">Coca-Cola Beverages Vietnam Ltd. manages multiple service outlets across various regions</data>
+  <data key="d6">91434078c57b4f2f9c74ea580ac94e10</data>
+</edge>
+<edge source="SERVICE OUTLET" target="REGION">
+  <data key="d4">6.0</data>
+  <data key="d5">Service outlets are categorized by region, indicating their geographical distribution</data>
+  <data key="d6">91434078c57b4f2f9c74ea580ac94e10</data>
+</edge>
+<edge source="SERVICE OUTLET" target="MONTH">
+  <data key="d4">1.0</data>
+  <data key="d5">Service outlet performance is tracked and reported on a monthly basis</data>
+  <data key="d6">91434078c57b4f2f9c74ea580ac94e10</data>
+</edge>
+<edge source="SERVICE OUTLET" target="SERVICE OUTLET BY REGION">
+  <data key="d4">9.0</data>
+  <data key="d5">Service outlet by region provides insights into the number of service outlets located in each geographical area</data>
+  <data key="d6">91434078c57b4f2f9c74ea580ac94e10</data>
+</edge>
+<edge source="SERVICE OUTLET" target="SERVICE OUTLET BY SEGMENT">
+  <data key="d4">10.0</data>
+  <data key="d5">Service outlet by segment categorizes the performance of service outlets into different tiers based on their metrics</data>
+  <data key="d6">91434078c57b4f2f9c74ea580ac94e10</data>
+</edge>
+<edge source="SERVICE OUTLET" target="SERVICE OUTLET BY CHANNEL">
+  <data key="d4">11.0</data>
+  <data key="d5">Service outlet by channel shows how service outlets are distributed across various sales channels</data>
+  <data key="d6">91434078c57b4f2f9c74ea580ac94e10</data>
+</edge>
+<edge source="SERVICE OUTLET" target="MK">
+  <data key="d4">5.0</data>
+  <data key="d5">MK is a region where service outlets are evaluated for performance metrics</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SERVICE OUTLET" target="NE">
+  <data key="d4">5.0</data>
+  <data key="d5">NE is a region where service outlets are evaluated for performance metrics</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SERVICE OUTLET" target="NW">
+  <data key="d4">5.0</data>
+  <data key="d5">NW is a region where service outlets are evaluated for performance metrics</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SERVICE OUTLET" target="SP">
+  <data key="d4">5.0</data>
+  <data key="d5">SP is a region where service outlets are evaluated for performance metrics</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SERVICE OUTLET" target="CP">
+  <data key="d4">5.0</data>
+  <data key="d5">CP is a region where service outlets are evaluated for performance metrics</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SERVICE OUTLET" target="HC">
+  <data key="d4">5.0</data>
+  <data key="d5">HC is a region where service outlets are evaluated for performance metrics</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SERVICE OUTLET" target="HYD">
+  <data key="d4">5.0</data>
+  <data key="d5">HYD is a region where service outlets are evaluated for performance metrics</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SERVICE OUTLET" target="VN">
+  <data key="d4">5.0</data>
+  <data key="d5">VN is a region where service outlets are evaluated for performance metrics</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SERVICE OUTLET" target="GROCERY">
+  <data key="d4">5.0</data>
+  <data key="d5">Grocery is a channel through which services are provided in the service outlet context</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SERVICE OUTLET" target="EATING">
+  <data key="d4">5.0</data>
+  <data key="d5">Eating is a channel through which services are provided in the service outlet context</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SERVICE OUTLET" target="DRINKING">
+  <data key="d4">5.0</data>
+  <data key="d5">Drinking is a channel through which services are provided in the service outlet context</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SERVICE OUTLET" target="WHOLESALE">
+  <data key="d4">5.0</data>
+  <data key="d5">Wholesale is a channel through which services are provided in the service outlet context</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SERVICE OUTLET" target="BRONZE">
+  <data key="d4">5.0</data>
+  <data key="d5">Bronze is a segment classification within service outlets</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SERVICE OUTLET" target="SILVER">
+  <data key="d4">5.0</data>
+  <data key="d5">Silver is a segment classification within service outlets</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SERVICE OUTLET" target="GOLD">
+  <data key="d4">5.0</data>
+  <data key="d5">Gold is a segment classification within service outlets</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="SALES REP" target="SALES ROUTE">
+  <data key="d4">7.0</data>
+  <data key="d5">Sales Rep is assigned to specific Sales Routes for managing their sales activities</data>
+  <data key="d6">09f282e6aa5449afa1a56099c580eeaa</data>
+</edge>
+<edge source="GOLD OUTLET" target="NUTRIBOOST">
+  <data key="d4">8.0</data>
+  <data key="d5">Gold Outlet achieves Must Have SKU conditions by selling Nutriboost products</data>
+  <data key="d6">73c77068e01e48438de3abb74f736af3</data>
+</edge>
+<edge source="GOLD OUTLET" target="MHS">
+  <data key="d4">7.0</data>
+  <data key="d5">Gold Outlet is classified based on achieving the MHS for Nutriboost products</data>
+  <data key="d6">73c77068e01e48438de3abb74f736af3</data>
+</edge>
+<edge source="SILVER OUTLET" target="NUTRIBOOST">
+  <data key="d4">8.0</data>
+  <data key="d5">Silver Outlet achieves Must Have SKU conditions by selling Nutriboost products</data>
+  <data key="d6">73c77068e01e48438de3abb74f736af3</data>
+</edge>
+<edge source="SILVER OUTLET" target="MHS">
+  <data key="d4">7.0</data>
+  <data key="d5">Silver Outlet is classified based on achieving the MHS for Nutriboost products</data>
+  <data key="d6">73c77068e01e48438de3abb74f736af3</data>
+</edge>
+<edge source="BRONZE OUTLET" target="NUTRIBOOST">
+  <data key="d4">8.0</data>
+  <data key="d5">Bronze Outlet achieves Must Have SKU conditions by selling Nutriboost products</data>
+  <data key="d6">73c77068e01e48438de3abb74f736af3</data>
+</edge>
+<edge source="BRONZE OUTLET" target="MHS">
+  <data key="d4">7.0</data>
+  <data key="d5">Bronze Outlet is classified based on achieving the MHS for Nutriboost products</data>
+  <data key="d6">73c77068e01e48438de3abb74f736af3</data>
+</edge>
+<edge source="NUTRIBOOST" target="SPRITE">
+  <data key="d4">5.0</data>
+  <data key="d5">Sprite is included in the metrics for active outlets alongside Nutriboost</data>
+  <data key="d6">73c77068e01e48438de3abb74f736af3</data>
+</edge>
+<edge source="NUTRIBOOST" target="TEA">
+  <data key="d4">1.0</data>
+  <data key="d5">Tea is included in the metrics for active outlets alongside Nutriboost</data>
+  <data key="d6">73c77068e01e48438de3abb74f736af3</data>
+</edge>
+<edge source="NUTRIBOOST" target="NUTRIBOOST ORANGE">
+  <data key="d4">6.0</data>
+  <data key="d5">Nutriboost Orange is a flavor variant of the Nutriboost product line</data>
+  <data key="d6">73c77068e01e48438de3abb74f736af3</data>
+</edge>
+<edge source="NUTRIBOOST" target="NUTRIBOOST STRAWBERRY">
+  <data key="d4">6.0</data>
+  <data key="d5">Nutriboost Strawberry is a flavor variant of the Nutriboost product line</data>
+  <data key="d6">73c77068e01e48438de3abb74f736af3</data>
+</edge>
+<edge source="SPRITE" target="THUMS UP">
+  <data key="d4">14.0</data>
+  <data key="d5">Both Sprite and Thums Up are beverage brands under the Coca-Cola umbrella, indicating a brand relationship</data>
+  <data key="d6">afac43fa2f364295b7364675c5518400</data>
+</edge>
+<edge source="SPRITE" target="GOING FOR BRONZE">
+  <data key="d4">8.0</data>
+  <data key="d5">Sprite's participation in the event "Going for Bronze" indicates a competitive relationship</data>
+  <data key="d6">afac43fa2f364295b7364675c5518400</data>
+</edge>
+<edge source="SPRITE" target="INDEX 2A: ACTIVE BY BRAND">
+  <data key="d4">5.0</data>
+  <data key="d5">The event "Active by Brand" includes analysis of the activity levels of the Sprite brand over time</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="SPRITE" target="TEA">
+  <data key="d4">4.0</data>
+  <data key="d5">Sprite and Tea are categories mentioned in performance metrics for various product sizes</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="INDEX 2" target="CORE">
+  <data key="d4">14.0</data>
+  <data key="d5">Index 2 provides metrics that are essential for evaluating the CORE performance of outlets</data>
+  <data key="d6">deea2cbae880411a985815ea901ddebd</data>
+</edge>
+<edge source="INDEX 2" target="ASM">
+  <data key="d4">12.0</data>
+  <data key="d5">ASM utilizes Index 2 metrics to guide sales strategies and improve outlet performance</data>
+  <data key="d6">deea2cbae880411a985815ea901ddebd</data>
+</edge>
+<edge source="INDEX 2" target="ACTIVE OUTLET">
+  <data key="d4">5.0</data>
+  <data key="d5">Index 2 tracks the performance of active outlets by product group</data>
+  <data key="d6">deea2cbae880411a985815ea901ddebd</data>
+</edge>
+<edge source="INDEX 2" target="PRODUCT GROUP">
+  <data key="d4">5.0</data>
+  <data key="d5">Index 2 analyzes the distribution of active outlets across various product groups</data>
+  <data key="d6">deea2cbae880411a985815ea901ddebd</data>
+</edge>
+<edge source="INDEX 3" target="CORE">
+  <data key="d4">14.0</data>
+  <data key="d5">Index 3 provides SKU metrics that contribute to the overall CORE assessment of product availability</data>
+  <data key="d6">deea2cbae880411a985815ea901ddebd</data>
+</edge>
+<edge source="INDEX 3" target="TSM">
+  <data key="d4">7.0</data>
+  <data key="d5">TSM uses Index 3 data to optimize SKU distribution and enhance sales effectiveness</data>
+  <data key="d6">deea2cbae880411a985815ea901ddebd</data>
+</edge>
+<edge source="INDEX 3" target="SKU">
+  <data key="d4">5.0</data>
+  <data key="d5">Index 3 evaluates SKU performance in relation to outlet sales and orders</data>
+  <data key="d6">deea2cbae880411a985815ea901ddebd</data>
+</edge>
+<edge source="INDEX 4" target="CORE">
+  <data key="d4">14.0</data>
+  <data key="d5">Index 4 tracks new and closed outlets, which is crucial for maintaining CORE standards</data>
+  <data key="d6">deea2cbae880411a985815ea901ddebd</data>
+</edge>
+<edge source="INDEX 4" target="NEW OUTLET">
+  <data key="d4">5.0</data>
+  <data key="d5">Index 4 monitors the addition of new outlets to the sales network</data>
+  <data key="d6">deea2cbae880411a985815ea901ddebd</data>
+</edge>
+<edge source="INDEX 4" target="CLOSED OUTLET">
+  <data key="d4">5.0</data>
+  <data key="d5">Index 4 assesses the impact of closed outlets on overall sales performance</data>
+  <data key="d6">deea2cbae880411a985815ea901ddebd</data>
+</edge>
+<edge source="INDEX 5" target="CORE">
+  <data key="d4">14.0</data>
+  <data key="d5">Index 5's cooler purity metrics are relevant for ensuring product quality in CORE outlets</data>
+  <data key="d6">deea2cbae880411a985815ea901ddebd</data>
+</edge>
+<edge source="COCA-COLA" target="MHS GROUP">
+  <data key="d4">1.0</data>
+  <data key="d5">MHS Group is likely a distributor or partner of Coca-Cola in sales activities</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="COCA-COLA BEVERAGES VIETNAM LTD.">
+  <data key="d4">7.0</data>
+  <data key="d5">MHS Group reports on the performance metrics of Coca-Cola Beverages Vietnam Ltd. service outlets</data>
+  <data key="d6">91434078c57b4f2f9c74ea580ac94e10</data>
+</edge>
+<edge source="MHS GROUP" target="PHAN DUC CUONG">
+  <data key="d4">7.0</data>
+  <data key="d5">Phan Duc Cuong is likely a sales representative working under MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="NGUYEN VIET THANG">
+  <data key="d4">7.0</data>
+  <data key="d5">Nguyen Viet Thang is likely a sales representative associated with MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="TRINH QUOC THINH">
+  <data key="d4">7.0</data>
+  <data key="d5">Trinh Quoc Thinh is likely a sales representative working for MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="PHAM THI HONG VAN">
+  <data key="d4">7.0</data>
+  <data key="d5">Pham Thi Hong Van is likely a sales representative under MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="NGUYEN VAN QUYNH">
+  <data key="d4">7.0</data>
+  <data key="d5">Nguyen Van Quynh is likely a sales representative associated with MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="LE TAN DAT">
+  <data key="d4">7.0</data>
+  <data key="d5">Le Tan Dat is likely a sales representative working for MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="LE QUOC THIEN">
+  <data key="d4">7.0</data>
+  <data key="d5">Le Quoc Thien is likely a sales representative associated with MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="VO VAN TRI">
+  <data key="d4">7.0</data>
+  <data key="d5">Vo Van Tri is likely a sales representative working under MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="LE VAN TRUONG VY">
+  <data key="d4">7.0</data>
+  <data key="d5">Le Van Truong Vy is likely a sales representative associated with MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="LE NGUYEN NHIEM">
+  <data key="d4">7.0</data>
+  <data key="d5">Le Nguyen Nhiem is likely a sales representative working for MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="TRAN DIEU HUONG">
+  <data key="d4">7.0</data>
+  <data key="d5">Tran Dieu Huong is likely a sales representative associated with MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="BUI VAN TAM">
+  <data key="d4">7.0</data>
+  <data key="d5">Bui Van Tam is likely a sales representative working under MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="DANG DUC SU">
+  <data key="d4">7.0</data>
+  <data key="d5">Dang Duc Su is likely a sales representative associated with MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="PHAN PHUOC AN">
+  <data key="d4">7.0</data>
+  <data key="d5">Phan Phuoc An is likely a sales representative working for MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="VU PHAN THE">
+  <data key="d4">7.0</data>
+  <data key="d5">Vu Phan The is likely a sales representative working under MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="PHAM THANH VINH">
+  <data key="d4">7.0</data>
+  <data key="d5">Pham Thanh Vinh is likely a sales representative associated with MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="MHS GROUP" target="NGUYEN VU VAN LAM">
+  <data key="d4">7.0</data>
+  <data key="d5">Nguyen Vu Van Lam is likely a sales representative working for MHS Group</data>
+  <data key="d6">c5f6715ab31e48c9b1b1b5b8789a5734</data>
+</edge>
+<edge source="5 FACTORS EXECUTION FOCUSES" target="GOING FOR GOLD">
+  <data key="d4">7.0</data>
+  <data key="d5">Going for Gold is part of the 5 Factors Execution Focuses aimed at enhancing service outlet performance</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="5 FACTORS EXECUTION FOCUSES" target="GOING FOR SILVER">
+  <data key="d4">1.0</data>
+  <data key="d5">Going for Silver is part of the 5 Factors Execution Focuses aimed at improving service outlet performance</data>
+  <data key="d6">f7ea396c2cda4789bbe9a2bca7bcc3a8</data>
+</edge>
+<edge source="THUMS UP" target="GOING FOR BRONZE">
+  <data key="d4">5.0</data>
+  <data key="d5">Thums Up's involvement in the event suggests a competitive relationship</data>
+  <data key="d6">afac43fa2f364295b7364675c5518400</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="HANOI">
+  <data key="d4">7.0</data>
+  <data key="d5">Coca-Cola Beverages operates in Hanoi, analyzing market performance in the capital city of Vietnam</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="CUULONG">
+  <data key="d4">7.0</data>
+  <data key="d5">Coca-Cola Beverages tracks market performance in the Cuulong region</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="DONGBAC">
+  <data key="d4">7.0</data>
+  <data key="d5">Coca-Cola Beverages tracks market performance in the Dongbac region</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="DONGNAM">
+  <data key="d4">7.0</data>
+  <data key="d5">Coca-Cola Beverages tracks market performance in the Dongnam region</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="MIENNAM">
+  <data key="d4">7.0</data>
+  <data key="d5">Coca-Cola Beverages tracks market performance in the Miennam region</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="MIENTRUNG">
+  <data key="d4">7.0</data>
+  <data key="d5">Coca-Cola Beverages tracks market performance in the Mientrung region</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="MIENTAY">
+  <data key="d4">7.0</data>
+  <data key="d5">Coca-Cola Beverages tracks market performance in the Mientay region</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="SAIGON">
+  <data key="d4">7.0</data>
+  <data key="d5">Coca-Cola Beverages operates in Saigon, analyzing market performance in this major city</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="INDEX 1A: GOING FOR GOLD">
+  <data key="d4">5.0</data>
+  <data key="d5">The event "Going for Gold" relates to Coca-Cola Beverages' market performance metrics</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="INDEX 1B: GOING FOR SILVER">
+  <data key="d4">5.0</data>
+  <data key="d5">The event "Going for Silver" relates to Coca-Cola Beverages' market performance metrics</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="INDEX 1C: GOING FOR BRONZE">
+  <data key="d4">5.0</data>
+  <data key="d5">The event "Going for Bronze" relates to Coca-Cola Beverages' market performance metrics</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="INDEX 2A: ACTIVE BY BRAND">
+  <data key="d4">5.0</data>
+  <data key="d5">The event "Active by Brand" analyzes the activity levels of Coca-Cola Beverages' brands</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="INDEX 2B: ACTIVE OUTLET">
+  <data key="d4">5.0</data>
+  <data key="d5">The event "Active Outlet" indicates the percentage of active outlets for Coca-Cola Beverages</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="INDEX 3: SKU/ ORDER &amp; SKU/OUTLET">
+  <data key="d4">5.0</data>
+  <data key="d5">The event "SKU/ Order &amp; SKU/Outlet" analyzes the SKU performance for Coca-Cola Beverages</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="COCA-COLA BEVERAGES" target="INDEX 4: NET NEW OUTLET">
+  <data key="d4">1.0</data>
+  <data key="d5">The event "Net New Outlet" indicates the number of new and reopened outlets for Coca-Cola Beverages</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="HANOI" target="SAIGON">
+  <data key="d4">7.0</data>
+  <data key="d5">Hanoi and Saigon are two major cities in Vietnam, serving as cultural and economic centers</data>
+  <data key="d6">3379c950b18a47619846581a4e90576e</data>
+</edge>
+<edge source="HANOI" target="MEKONG">
+  <data key="d4">5.0</data>
+  <data key="d5">The Mekong River flows through Vietnam, impacting the economy and culture of Hanoi</data>
+  <data key="d6">3379c950b18a47619846581a4e90576e</data>
+</edge>
+<edge source="HANOI" target="THANH HOA">
+  <data key="d4">4.0</data>
+  <data key="d5">Thanh Hoa is a province that is geographically close to Hanoi, influencing its economy</data>
+  <data key="d6">3379c950b18a47619846581a4e90576e</data>
+</edge>
+<edge source="HANOI" target="MIENTAY">
+  <data key="d4">3.0</data>
+  <data key="d5">Mientay is a region that influences the agricultural supply chain to Hanoi</data>
+  <data key="d6">3379c950b18a47619846581a4e90576e</data>
+</edge>
+<edge source="HANOI" target="DANANG">
+  <data key="d4">3.0</data>
+  <data key="d5">Danang and Hanoi are both cities in Vietnam referenced in performance metrics</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="HANOI" target="HCMC HUB">
+  <data key="d4">3.0</data>
+  <data key="d5">HCMC Hub and Hanoi are both significant locations in Vietnam mentioned in performance metrics</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="HANOI" target="HPLT">
+  <data key="d4">3.0</data>
+  <data key="d5">Hanoi and HPLT are both significant locations in Vietnam mentioned in performance metrics</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="CUULONG" target="SAIGON">
+  <data key="d4">3.0</data>
+  <data key="d5">Cuulong is a region that contributes to the agricultural economy surrounding Saigon</data>
+  <data key="d6">3379c950b18a47619846581a4e90576e</data>
+</edge>
+<edge source="DONGNAM" target="HCMC">
+  <data key="d4">4.0</data>
+  <data key="d5">Dongnam is a region that includes HCMC, playing a vital role in its urban development</data>
+  <data key="d6">3379c950b18a47619846581a4e90576e</data>
+</edge>
+<edge source="MIENNAM" target="HCMC">
+  <data key="d4">4.0</data>
+  <data key="d5">Miennam is a region that interacts economically with HCMC, contributing to its growth</data>
+  <data key="d6">3379c950b18a47619846581a4e90576e</data>
+</edge>
+<edge source="MIENTRUNG" target="DANANG">
+  <data key="d4">5.0</data>
+  <data key="d5">Mientrung is a central region that includes Danang, known for its tourism and trade</data>
+  <data key="d6">3379c950b18a47619846581a4e90576e</data>
+</edge>
+<edge source="SAIGON" target="HCMC">
+  <data key="d4">9.0</data>
+  <data key="d5">HCMC is the modern name for Saigon, representing the same city with historical significance</data>
+  <data key="d6">3379c950b18a47619846581a4e90576e</data>
+</edge>
+<edge source="INDEX 2A: ACTIVE BY BRAND" target="FANTA">
+  <data key="d4">5.0</data>
+  <data key="d5">The event "Active by Brand" includes analysis of the activity levels of the Fanta brand over time</data>
+  <data key="d6">730be08ff471429b9408ebb2d52db381</data>
+</edge>
+<edge source="MEKONG" target="HIGHLAND">
+  <data key="d4">3.0</data>
+  <data key="d5">Highland and Mekong are both geographical regions in Vietnam referenced in performance metrics</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="MEKONG" target="HCMC">
+  <data key="d4">3.0</data>
+  <data key="d5">Mekong and HCMC are both significant locations in Vietnam mentioned in performance metrics</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="HCMC" target="DANANG">
+  <data key="d4">6.0</data>
+  <data key="d5">Danang is a key city that connects with HCMC, important for trade and tourism</data>
+  <data key="d6">3379c950b18a47619846581a4e90576e</data>
+</edge>
+<edge source="HCMC" target="HPLT">
+  <data key="d4">4.0</data>
+  <data key="d5">HPLT is a hub within the region of HCMC, playing a role in its economic activitiesHCMC and HPLT are both significant locations in Vietnam mentioned in performance metrics</data>
+  <data key="d6">3379c950b18a47619846581a4e90576e,189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="HCMC" target="HIGHLAND">
+  <data key="d4">3.0</data>
+  <data key="d5">Highland and HCMC are both significant locations in Vietnam mentioned in performance metrics</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="THANH HOA" target="LANGSON">
+  <data key="d4">3.0</data>
+  <data key="d5">Langson and Thanh Hoa are both provinces in Vietnam mentioned in performance metrics</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="THANH HOA" target="HIGHLAND">
+  <data key="d4">3.0</data>
+  <data key="d5">Highland and Thanh Hoa are both provinces in Vietnam mentioned in performance metrics</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="DANANG" target="HCMC HUB">
+  <data key="d4">3.0</data>
+  <data key="d5">Danang and HCMC Hub are both locations in Vietnam mentioned in performance metrics</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="ABCXYZ" target="DEFUV">
+  <data key="d4">5.0</data>
+  <data key="d5">ABCXYZ and DEFUV are organizations achieving 100% across various performance metrics</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="GHIJKL" target="MNOPQR">
+  <data key="d4">5.0</data>
+  <data key="d5">GHIJKL and MNOPQR are organizations achieving 100% across various performance metrics</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="STUVWX" target="YZABCD">
+  <data key="d4">5.0</data>
+  <data key="d5">STUVWX and YZABCD are organizations achieving 100% across various performance metrics</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="EFGHIJ" target="KLMNOP">
+  <data key="d4">5.0</data>
+  <data key="d5">EFGHIJ and KLMNOP are organizations achieving 100% across various performance metrics</data>
+  <data key="d6">189704e0897640aa94c023351521d856</data>
+</edge>
+<edge source="A+" target="SAMURAI">
+  <data key="d4">3.0</data>
+  <data key="d5">Both A+ and SAMURAI are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="A+" target="FUZETEA">
+  <data key="d4">3.0</data>
+  <data key="d5">Both A+ and FUZETEA are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="A+" target="STING">
+  <data key="d4">3.0</data>
+  <data key="d5">Both A+ and STING are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="A+" target="PREDATOR">
+  <data key="d4">3.0</data>
+  <data key="d5">Both A+ and PREDATOR are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="A+" target="LEMOR">
+  <data key="d4">3.0</data>
+  <data key="d5">Both A+ and LEMOR are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="A+" target="SUNNOH">
+  <data key="d4">3.0</data>
+  <data key="d5">Both A+ and SUNNOH are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="A+" target="500 ML">
+  <data key="d4">3.0</data>
+  <data key="d5">A+ is associated with various beverage products, including those packaged in 500 ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="A+" target="1.5L">
+  <data key="d4">3.0</data>
+  <data key="d5">A+ is associated with various beverage products, including those packaged in 1.5L format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="A+" target="1.5L PET">
+  <data key="d4">3.0</data>
+  <data key="d5">A+ is associated with various beverage products, including those packaged in 1.5L PET format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="A+" target="24X330ML">
+  <data key="d4">3.0</data>
+  <data key="d5">A+ is associated with various beverage products, including those packaged in 24x330ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="A+" target="6X330ML">
+  <data key="d4">3.0</data>
+  <data key="d5">A+ is associated with various beverage products, including those packaged in 6x330ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="A+" target="350ML CAN">
+  <data key="d4">3.0</data>
+  <data key="d5">A+ is associated with various beverage products, including those packaged in 350ml can format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="A+" target="330ML CAN">
+  <data key="d4">3.0</data>
+  <data key="d5">A+ is associated with various beverage products, including those packaged in 330ml can format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="SAMURAI" target="FUZETEA">
+  <data key="d4">3.0</data>
+  <data key="d5">Both SAMURAI and FUZETEA are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="SAMURAI" target="STING">
+  <data key="d4">3.0</data>
+  <data key="d5">Both SAMURAI and STING are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="SAMURAI" target="PREDATOR">
+  <data key="d4">3.0</data>
+  <data key="d5">Both SAMURAI and PREDATOR are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="SAMURAI" target="LEMOR">
+  <data key="d4">3.0</data>
+  <data key="d5">Both SAMURAI and LEMOR are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="SAMURAI" target="SUNNOH">
+  <data key="d4">3.0</data>
+  <data key="d5">Both SAMURAI and SUNNOH are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="FUZETEA" target="STING">
+  <data key="d4">3.0</data>
+  <data key="d5">Both FUZETEA and STING are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="FUZETEA" target="PREDATOR">
+  <data key="d4">3.0</data>
+  <data key="d5">Both FUZETEA and PREDATOR are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="FUZETEA" target="LEMOR">
+  <data key="d4">3.0</data>
+  <data key="d5">Both FUZETEA and LEMOR are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="FUZETEA" target="SUNNOH">
+  <data key="d4">3.0</data>
+  <data key="d5">Both FUZETEA and SUNNOH are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="FUZETEA" target="500 ML">
+  <data key="d4">3.0</data>
+  <data key="d5">FUZETEA is associated with various beverage products, including those packaged in 500 ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="FUZETEA" target="1.5L">
+  <data key="d4">3.0</data>
+  <data key="d5">FUZETEA is associated with various beverage products, including those packaged in 1.5L format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="FUZETEA" target="1.5L PET">
+  <data key="d4">3.0</data>
+  <data key="d5">FUZETEA is associated with various beverage products, including those packaged in 1.5L PET format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="FUZETEA" target="24X330ML">
+  <data key="d4">3.0</data>
+  <data key="d5">FUZETEA is associated with various beverage products, including those packaged in 24x330ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="FUZETEA" target="6X330ML">
+  <data key="d4">3.0</data>
+  <data key="d5">FUZETEA is associated with various beverage products, including those packaged in 6x330ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="FUZETEA" target="350ML CAN">
+  <data key="d4">3.0</data>
+  <data key="d5">FUZETEA is associated with various beverage products, including those packaged in 350ml can format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="FUZETEA" target="330ML CAN">
+  <data key="d4">3.0</data>
+  <data key="d5">FUZETEA is associated with various beverage products, including those packaged in 330ml can format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="STING" target="PREDATOR">
+  <data key="d4">3.0</data>
+  <data key="d5">Both STING and PREDATOR are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="STING" target="LEMOR">
+  <data key="d4">3.0</data>
+  <data key="d5">Both STING and LEMOR are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="STING" target="SUNNOH">
+  <data key="d4">3.0</data>
+  <data key="d5">Both STING and SUNNOH are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="STING" target="500 ML">
+  <data key="d4">3.0</data>
+  <data key="d5">STING is associated with various beverage products, including those packaged in 500 ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="STING" target="1.5L">
+  <data key="d4">3.0</data>
+  <data key="d5">STING is associated with various beverage products, including those packaged in 1.5L format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="STING" target="1.5L PET">
+  <data key="d4">3.0</data>
+  <data key="d5">STING is associated with various beverage products, including those packaged in 1.5L PET format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="STING" target="24X330ML">
+  <data key="d4">3.0</data>
+  <data key="d5">STING is associated with various beverage products, including those packaged in 24x330ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="STING" target="6X330ML">
+  <data key="d4">3.0</data>
+  <data key="d5">STING is associated with various beverage products, including those packaged in 6x330ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="STING" target="350ML CAN">
+  <data key="d4">3.0</data>
+  <data key="d5">STING is associated with various beverage products, including those packaged in 350ml can format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="STING" target="330ML CAN">
+  <data key="d4">3.0</data>
+  <data key="d5">STING is associated with various beverage products, including those packaged in 330ml can format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="PREDATOR" target="LEMOR">
+  <data key="d4">3.0</data>
+  <data key="d5">Both PREDATOR and LEMOR are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="PREDATOR" target="SUNNOH">
+  <data key="d4">3.0</data>
+  <data key="d5">Both PREDATOR and SUNNOH are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="PREDATOR" target="500 ML">
+  <data key="d4">3.0</data>
+  <data key="d5">PREDATOR is associated with various beverage products, including those packaged in 500 ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="PREDATOR" target="1.5L">
+  <data key="d4">3.0</data>
+  <data key="d5">PREDATOR is associated with various beverage products, including those packaged in 1.5L format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="PREDATOR" target="1.5L PET">
+  <data key="d4">3.0</data>
+  <data key="d5">PREDATOR is associated with various beverage products, including those packaged in 1.5L PET format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="PREDATOR" target="24X330ML">
+  <data key="d4">3.0</data>
+  <data key="d5">PREDATOR is associated with various beverage products, including those packaged in 24x330ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="PREDATOR" target="6X330ML">
+  <data key="d4">3.0</data>
+  <data key="d5">PREDATOR is associated with various beverage products, including those packaged in 6x330ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="PREDATOR" target="350ML CAN">
+  <data key="d4">3.0</data>
+  <data key="d5">PREDATOR is associated with various beverage products, including those packaged in 350ml can format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="PREDATOR" target="330ML CAN">
+  <data key="d4">3.0</data>
+  <data key="d5">PREDATOR is associated with various beverage products, including those packaged in 330ml can format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="LEMOR" target="SUNNOH">
+  <data key="d4">1.0</data>
+  <data key="d5">Both LEMOR and SUNNOH are beverage brands listed in the same product context, indicating they may compete in the same market.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="LEMOR" target="500 ML">
+  <data key="d4">3.0</data>
+  <data key="d5">LEMOR is associated with various beverage products, including those packaged in 500 ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="LEMOR" target="1.5L">
+  <data key="d4">3.0</data>
+  <data key="d5">LEMOR is associated with various beverage products, including those packaged in 1.5L format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="LEMOR" target="1.5L PET">
+  <data key="d4">3.0</data>
+  <data key="d5">LEMOR is associated with various beverage products, including those packaged in 1.5L PET format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="LEMOR" target="24X330ML">
+  <data key="d4">3.0</data>
+  <data key="d5">LEMOR is associated with various beverage products, including those packaged in 24x330ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="LEMOR" target="6X330ML">
+  <data key="d4">3.0</data>
+  <data key="d5">LEMOR is associated with various beverage products, including those packaged in 6x330ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="LEMOR" target="350ML CAN">
+  <data key="d4">3.0</data>
+  <data key="d5">LEMOR is associated with various beverage products, including those packaged in 350ml can format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="LEMOR" target="330ML CAN">
+  <data key="d4">3.0</data>
+  <data key="d5">LEMOR is associated with various beverage products, including those packaged in 330ml can format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="SUNNOH" target="500 ML">
+  <data key="d4">3.0</data>
+  <data key="d5">SUNNOH is associated with various beverage products, including those packaged in 500 ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="SUNNOH" target="1.5L">
+  <data key="d4">3.0</data>
+  <data key="d5">SUNNOH is associated with various beverage products, including those packaged in 1.5L format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="SUNNOH" target="1.5L PET">
+  <data key="d4">3.0</data>
+  <data key="d5">SUNNOH is associated with various beverage products, including those packaged in 1.5L PET format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="SUNNOH" target="24X330ML">
+  <data key="d4">3.0</data>
+  <data key="d5">SUNNOH is associated with various beverage products, including those packaged in 24x330ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="SUNNOH" target="6X330ML">
+  <data key="d4">3.0</data>
+  <data key="d5">SUNNOH is associated with various beverage products, including those packaged in 6x330ml format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="SUNNOH" target="350ML CAN">
+  <data key="d4">3.0</data>
+  <data key="d5">SUNNOH is associated with various beverage products, including those packaged in 350ml can format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="SUNNOH" target="330ML CAN">
+  <data key="d4">3.0</data>
+  <data key="d5">SUNNOH is associated with various beverage products, including those packaged in 330ml can format.</data>
+  <data key="d6">807ab2b7739147098735831faba6b880</data>
+</edge>
+<edge source="HUNGPP" target="THUALTC">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGPP and THUALTC are organizations that have reported high performance metrics across various indices, indicating a potential competitive or collaborative relationshipBoth HUNGPP and THUALTC are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGPP" target="THUALTN">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGPP and THUALTN are organizations that have shown high performance metrics, suggesting they may operate in similar sectors or marketsBoth HUNGPP and THUALTN are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGPP" target="HUNGLTC">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGPP and HUNGLTC are organizations involved in SKU/Outlet performance metricsHUNGPP and HUNGLTC are organizations that have reported significant performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGPP" target="HUNGLTN">
+  <data key="d4">8.0</data>
+  <data key="d5">HUNGPP and HUNGLTN are organizations that have shown high performance metrics, suggesting potential competition or collaborationBoth HUNGPP and HUNGLTN are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGPP" target="THLNC">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGPP and THLNC are organizations involved in SKU/Outlet performance metricsBoth HUNGPP and THLNC are organizations involved in performance metrics, indicating a potential relationship in their operational domains</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGPP" target="THLNTN">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGPP and THLNTN are organizations involved in SKU/Outlet performance metricsHUNGPP and THLNTN are organizations that have reported high performance metrics, suggesting they may be in similar industries</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGPP" target="THCXG">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGPP and THCXG are organizations involved in SKU/Outlet performance metricsHUNGPP and THCXG are organizations that have shown notable performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGPP" target="HUNGXG">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGPP and HUNGXG are organizations that have reported high performance metrics, suggesting a competitive or collaborative relationshipBoth HUNGPP and HUNGXG are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THUALTC" target="THUALTN">
+  <data key="d4">8.0</data>
+  <data key="d5">Both THUALTC and THUALTN are organizations involved in SKU/Outlet performance metricsTHUALTC and THUALTN are organizations that have shown high performance metrics, indicating they may operate in similar sectors</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THUALTC" target="HUNGLTC">
+  <data key="d4">8.0</data>
+  <data key="d5">THUALTC and HUNGLTC are organizations that have reported significant performance metrics, suggesting potential competition or collaborationBoth THUALTC and HUNGLTC are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THUALTC" target="HUNGLTN">
+  <data key="d4">8.0</data>
+  <data key="d5">THUALTC and HUNGLTN are organizations that have shown high performance metrics, indicating they may be in similar industriesBoth THUALTC and HUNGLTN are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THUALTC" target="THLNC">
+  <data key="d4">8.0</data>
+  <data key="d5">Both THUALTC and THLNC are organizations involved in SKU/Outlet performance metricsBoth THUALTC and THLNC are organizations involved in performance metrics, indicating a potential relationship in their operational domains</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THUALTC" target="THLNTN">
+  <data key="d4">8.0</data>
+  <data key="d5">Both THUALTC and THLNTN are organizations involved in SKU/Outlet performance metricsTHUALTC and THLNTN are organizations that have reported high performance metrics, suggesting they may be in similar industries</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THUALTC" target="THCXG">
+  <data key="d4">8.0</data>
+  <data key="d5">THUALTC and THCXG are organizations that have shown notable performance metrics, indicating they may be competitors or collaboratorsBoth THUALTC and THCXG are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THUALTC" target="HUNGXG">
+  <data key="d4">8.0</data>
+  <data key="d5">Both THUALTC and HUNGXG are organizations involved in SKU/Outlet performance metricsBoth THUALTC and HUNGXG are organizations that have reported high performance metrics, suggesting a competitive or collaborative relationship</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THUALTN" target="HUNGLTC">
+  <data key="d4">8.0</data>
+  <data key="d5">Both THUALTN and HUNGLTC are organizations involved in SKU/Outlet performance metricsTHUALTN and HUNGLTC are organizations that have shown high performance metrics, indicating they may be in similar sectors</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THUALTN" target="HUNGLTN">
+  <data key="d4">8.0</data>
+  <data key="d5">THUALTN and HUNGLTN are organizations that have reported significant performance metrics, suggesting potential competition or collaborationBoth THUALTN and HUNGLTN are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THUALTN" target="THLNC">
+  <data key="d4">8.0</data>
+  <data key="d5">Both THUALTN and THLNC are organizations involved in performance metrics, indicating a potential relationship in their operational domainsBoth THUALTN and THLNC are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THUALTN" target="THLNTN">
+  <data key="d4">8.0</data>
+  <data key="d5">THUALTN and THLNTN are organizations that have shown high performance metrics, indicating they may be in similar industriesBoth THUALTN and THLNTN are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THUALTN" target="THCXG">
+  <data key="d4">8.0</data>
+  <data key="d5">Both THUALTN and THCXG are organizations involved in SKU/Outlet performance metricsTHUALTN and THCXG are organizations that have reported high performance metrics, suggesting they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THUALTN" target="HUNGXG">
+  <data key="d4">8.0</data>
+  <data key="d5">Both THUALTN and HUNGXG are organizations involved in SKU/Outlet performance metricsBoth THUALTN and HUNGXG are organizations that have shown notable performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGLTC" target="HUNGLTN">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGLTC and HUNGLTN are organizations involved in SKU/Outlet performance metricsHUNGLTC and HUNGLTN are organizations that have reported significant performance metrics, suggesting potential competition or collaboration</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGLTC" target="THLNC">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGLTC and THLNC are organizations involved in SKU/Outlet performance metricsBoth HUNGLTC and THLNC are organizations involved in performance metrics, indicating a potential relationship in their operational domains</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGLTC" target="THLNTN">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGLTC and THLNTN are organizations involved in SKU/Outlet performance metricsHUNGLTC and THLNTN are organizations that have shown high performance metrics, indicating they may be in similar industries</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGLTC" target="THCXG">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGLTC and THCXG are organizations involved in SKU/Outlet performance metricsHUNGLTC and THCXG are organizations that have reported high performance metrics, suggesting they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGLTC" target="HUNGXG">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGLTC and HUNGXG are organizations that have shown notable performance metrics, indicating they may be competitors or collaboratorsBoth HUNGLTC and HUNGXG are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGLTN" target="THLNC">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGLTN and THLNC are organizations involved in SKU/Outlet performance metricsHUNGLTN and THLNC are organizations that have reported high performance metrics, suggesting potential competition or collaboration</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGLTN" target="THLNTN">
+  <data key="d4">8.0</data>
+  <data key="d5">HUNGLTN and THLNTN are organizations that have shown high performance metrics, indicating they may be in similar sectorsBoth HUNGLTN and THLNTN are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGLTN" target="THCXG">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGLTN and THCXG are organizations involved in SKU/Outlet performance metricsHUNGLTN and THCXG are organizations that have reported high performance metrics, suggesting they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="HUNGLTN" target="HUNGXG">
+  <data key="d4">8.0</data>
+  <data key="d5">Both HUNGLTN and HUNGXG are organizations that have shown notable performance metrics, indicating they may be competitors or collaboratorsBoth HUNGLTN and HUNGXG are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THLNC" target="THLNTN">
+  <data key="d4">8.0</data>
+  <data key="d5">THLNC and THLNTN are organizations that have reported high performance metrics, suggesting potential competition or collaborationBoth THLNC and THLNTN are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THLNC" target="THCXG">
+  <data key="d4">8.0</data>
+  <data key="d5">Both THLNC and THCXG are organizations involved in SKU/Outlet performance metricsTHLNC and THCXG are organizations that have shown notable performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THLNC" target="HUNGXG">
+  <data key="d4">8.0</data>
+  <data key="d5">Both THLNC and HUNGXG are organizations involved in SKU/Outlet performance metricsBoth THLNC and HUNGXG are organizations that have reported high performance metrics, suggesting a competitive or collaborative relationship</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THLNTN" target="THCXG">
+  <data key="d4">8.0</data>
+  <data key="d5">THLNTN and THCXG are organizations that have shown notable performance metrics, indicating they may be competitors or collaboratorsBoth THLNTN and THCXG are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THLNTN" target="HUNGXG">
+  <data key="d4">8.0</data>
+  <data key="d5">Both THLNTN and HUNGXG are organizations that have reported high performance metrics, suggesting a competitive or collaborative relationshipBoth THLNTN and HUNGXG are organizations involved in SKU/Outlet performance metrics</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="THCXG" target="HUNGXG">
+  <data key="d4">2.0</data>
+  <data key="d5">Both THCXG and HUNGXG are organizations involved in SKU/Outlet performance metricsTHCXG and HUNGXG are organizations that have shown notable performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072,edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="LNVPT" target="SDHLB">
+  <data key="d4">5.0</data>
+  <data key="d5">LNVPT and SDHLB are organizations that have reported high performance metrics, suggesting they may operate in similar sectors or markets</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="LNVPT" target="TONGTC">
+  <data key="d4">5.0</data>
+  <data key="d5">LNVPT and TONGTC are organizations that have shown high performance metrics, indicating a potential competitive or collaborative relationship</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="LNVPT" target="SDCXG">
+  <data key="d4">5.0</data>
+  <data key="d5">Both LNVPT and SDCXG are organizations involved in performance metrics, indicating a potential relationship in their operational domains</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="LNVPT" target="SDPPTN">
+  <data key="d4">5.0</data>
+  <data key="d5">LNVPT and SDPPTN are organizations that have reported high performance metrics, suggesting they may be in similar industries</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="LNVPT" target="SDPPTC">
+  <data key="d4">5.0</data>
+  <data key="d5">LNVPT and SDPPTC are organizations that have shown notable performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="LNVPT" target="TONLTN">
+  <data key="d4">5.0</data>
+  <data key="d5">LNVPT and TONLTN are organizations that have reported high performance metrics, suggesting a competitive or collaborative relationship</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="LNVPT" target="TONLTC">
+  <data key="d4">5.0</data>
+  <data key="d5">Both LNVPT and TONLTC are organizations that have shown high performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="LNVPT" target="HNALTC">
+  <data key="d4">5.0</data>
+  <data key="d5">LNVPT and HNALTC are organizations that have reported significant performance metrics, suggesting potential competition or collaboration</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDHLB" target="TONGTC">
+  <data key="d4">5.0</data>
+  <data key="d5">SDHLB and TONGTC are organizations that have shown high performance metrics, indicating they may be in similar sectors</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDHLB" target="SDCXG">
+  <data key="d4">5.0</data>
+  <data key="d5">SDHLB and SDCXG are organizations that have reported high performance metrics, suggesting they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDHLB" target="SDPPTN">
+  <data key="d4">5.0</data>
+  <data key="d5">Both SDHLB and SDPPTN are organizations involved in performance metrics, indicating a potential relationship in their operational domains</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDHLB" target="SDPPTC">
+  <data key="d4">5.0</data>
+  <data key="d5">SDHLB and SDPPTC are organizations that have shown notable performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDHLB" target="TONLTN">
+  <data key="d4">5.0</data>
+  <data key="d5">SDHLB and TONLTN are organizations that have reported high performance metrics, suggesting a competitive or collaborative relationship</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDHLB" target="TONLTC">
+  <data key="d4">5.0</data>
+  <data key="d5">Both SDHLB and TONLTC are organizations that have shown high performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDHLB" target="HNALTC">
+  <data key="d4">5.0</data>
+  <data key="d5">SDHLB and HNALTC are organizations that have reported significant performance metrics, suggesting potential competition or collaboration</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="TONGTC" target="SDCXG">
+  <data key="d4">5.0</data>
+  <data key="d5">TONGTC and SDCXG are organizations that have shown notable performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="TONGTC" target="SDPPTN">
+  <data key="d4">5.0</data>
+  <data key="d5">TONGTC and SDPPTN are organizations that have reported high performance metrics, suggesting they may be in similar industries</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="TONGTC" target="SDPPTC">
+  <data key="d4">5.0</data>
+  <data key="d5">Both TONGTC and SDPPTC are organizations that have shown high performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="TONGTC" target="TONLTN">
+  <data key="d4">5.0</data>
+  <data key="d5">TONGTC and TONLTN are organizations that have reported high performance metrics, suggesting a competitive or collaborative relationship</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="TONGTC" target="TONLTC">
+  <data key="d4">5.0</data>
+  <data key="d5">Both TONGTC and TONLTC are organizations that have shown high performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="TONGTC" target="HNALTC">
+  <data key="d4">5.0</data>
+  <data key="d5">TONGTC and HNALTC are organizations that have reported significant performance metrics, suggesting potential competition or collaboration</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDCXG" target="SDPPTN">
+  <data key="d4">5.0</data>
+  <data key="d5">SDCXG and SDPPTN are organizations that have shown notable performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDCXG" target="SDPPTC">
+  <data key="d4">5.0</data>
+  <data key="d5">Both SDCXG and SDPPTC are organizations that have reported high performance metrics, suggesting a competitive or collaborative relationship</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDCXG" target="TONLTN">
+  <data key="d4">5.0</data>
+  <data key="d5">SDCXG and TONLTN are organizations that have shown high performance metrics, indicating they may be in similar sectors</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDCXG" target="TONLTC">
+  <data key="d4">5.0</data>
+  <data key="d5">Both SDCXG and TONLTC are organizations that have reported high performance metrics, suggesting potential competition or collaboration</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDCXG" target="HNALTC">
+  <data key="d4">5.0</data>
+  <data key="d5">SDCXG and HNALTC are organizations that have shown notable performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDPPTN" target="SDPPTC">
+  <data key="d4">5.0</data>
+  <data key="d5">SDPPTN and SDPPTC are organizations that have reported high performance metrics, suggesting they may be in similar industries</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDPPTN" target="TONLTN">
+  <data key="d4">5.0</data>
+  <data key="d5">SDPPTN and TONLTN are organizations that have shown high performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDPPTN" target="TONLTC">
+  <data key="d4">5.0</data>
+  <data key="d5">Both SDPPTN and TONLTC are organizations that have reported significant performance metrics, suggesting potential competition or collaboration</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDPPTN" target="HNALTC">
+  <data key="d4">5.0</data>
+  <data key="d5">SDPPTN and HNALTC are organizations that have shown notable performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDPPTC" target="TONLTN">
+  <data key="d4">5.0</data>
+  <data key="d5">SDPPTC and TONLTN are organizations that have reported high performance metrics, suggesting they may be in similar industries</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDPPTC" target="TONLTC">
+  <data key="d4">5.0</data>
+  <data key="d5">Both SDPPTC and TONLTC are organizations that have shown high performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="SDPPTC" target="HNALTC">
+  <data key="d4">5.0</data>
+  <data key="d5">SDPPTC and HNALTC are organizations that have reported significant performance metrics, suggesting potential competition or collaboration</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="TONLTN" target="TONLTC">
+  <data key="d4">5.0</data>
+  <data key="d5">TONLTN and TONLTC are organizations that have shown high performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="TONLTN" target="HNALTC">
+  <data key="d4">5.0</data>
+  <data key="d5">TONLTN and HNALTC are organizations that have reported significant performance metrics, suggesting potential competition or collaboration</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="TONLTC" target="HNALTC">
+  <data key="d4">5.0</data>
+  <data key="d5">TONLTC and HNALTC are organizations that have shown notable performance metrics, indicating they may be competitors or collaborators</data>
+  <data key="d6">753e94c93b9d47a594e3d045719e1072</data>
+</edge>
+<edge source="DUONG" target="VINHLONG">
+  <data key="d4">3.0</data>
+  <data key="d5">Both DUONG and VINHLONG are organizations involved in performance metrics</data>
+  <data key="d6">edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="DUONG" target="CAMAU">
+  <data key="d4">3.0</data>
+  <data key="d5">Both DUONG and CAMAU are organizations involved in performance metrics</data>
+  <data key="d6">edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="KIEN GIANG" target="PHAM LY TRONG">
+  <data key="d4">14.0</data>
+  <data key="d5">Pham Ly Trong is associated with the service outlet in Kien Giang, contributing to its sales performance.</data>
+  <data key="d6">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+</edge>
+<edge source="TIEN GIANG" target="LE VAN CHINH">
+  <data key="d4">14.0</data>
+  <data key="d5">Le Van Chinh is associated with the service outlet in Tien Giang, contributing to its sales performance.</data>
+  <data key="d6">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+</edge>
+<edge source="AN GIANG" target="NGUYEN DANG QUOC PHONG">
+  <data key="d4">14.0</data>
+  <data key="d5">Nguyen Dang Quoc Phong is associated with the service outlet in An Giang, contributing to its sales performance.</data>
+  <data key="d6">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+</edge>
+<edge source="DONG THAP" target="VU PHAN THE LAN">
+  <data key="d4">14.0</data>
+  <data key="d5">Vu Phan The Lan is associated with the service outlet in Dong Thap, contributing to its sales performance.</data>
+  <data key="d6">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+</edge>
+<edge source="BEN TRE" target="PHAM THANH VINH">
+  <data key="d4">14.0</data>
+  <data key="d5">Pham Thanh Vinh is associated with the service outlet in Ben Tre, contributing to its sales performance.</data>
+  <data key="d6">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+</edge>
+<edge source="CAN THO" target="NGUYEN VU VAN LOAN">
+  <data key="d4">14.0</data>
+  <data key="d5">Nguyen Vu Van Loan is associated with the service outlet in Can Tho, contributing to its sales performance.</data>
+  <data key="d6">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+</edge>
+<edge source="SOC TRANG" target="NGUYEN VIET BAO">
+  <data key="d4">14.0</data>
+  <data key="d5">Nguyen Viet Bao is associated with the service outlet in Soc Trang, contributing to its sales performance.</data>
+  <data key="d6">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+</edge>
+<edge source="DONGDV" target="DONGCN">
+  <data key="d4">3.0</data>
+  <data key="d5">Both DONGCN and DONGDV are organizations involved in performance metrics</data>
+  <data key="d6">edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="DONGDV" target="BENTN">
+  <data key="d4">3.0</data>
+  <data key="d5">Both BENTN and DONGDV are organizations involved in performance metrics</data>
+  <data key="d6">edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="DONGDV" target="DALAT">
+  <data key="d4">3.0</data>
+  <data key="d5">Both DALAT and DONGDV are organizations involved in performance metrics</data>
+  <data key="d6">edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="DONGDV" target="DNGN">
+  <data key="d4">3.0</data>
+  <data key="d5">Both DNGN and DONGDV are organizations involved in performance metrics</data>
+  <data key="d6">edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="BENTN" target="DALAT">
+  <data key="d4">3.0</data>
+  <data key="d5">Both BENTN and DALAT are organizations involved in performance metrics</data>
+  <data key="d6">edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="BENTN" target="DNGN">
+  <data key="d4">3.0</data>
+  <data key="d5">Both BENTN and DNGN are organizations involved in performance metrics</data>
+  <data key="d6">edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="BENTN" target="DONGCN">
+  <data key="d4">3.0</data>
+  <data key="d5">Both BENTN and DONGCN are organizations involved in performance metrics</data>
+  <data key="d6">edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="DALAT" target="DNGN">
+  <data key="d4">3.0</data>
+  <data key="d5">Both DALAT and DNGN are organizations involved in performance metrics</data>
+  <data key="d6">edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="DALAT" target="DONGCN">
+  <data key="d4">3.0</data>
+  <data key="d5">Both DALAT and DONGCN are organizations involved in performance metrics</data>
+  <data key="d6">edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="DNGN" target="DONGCN">
+  <data key="d4">3.0</data>
+  <data key="d5">Both DNGN and DONGCN are organizations involved in performance metrics</data>
+  <data key="d6">edf5c99c140d47569a2dd3824f41ac7c</data>
+</edge>
+<edge source="BACLIEU" target="NGUYEN TIEN LUC">
+  <data key="d4">14.0</data>
+  <data key="d5">Nguyen Tien Luc is associated with the service outlet in Bac Lieu, contributing to its sales performance.</data>
+  <data key="d6">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+</edge>
+<edge source="HAUGIANG" target="NGUYEN THI HANG">
+  <data key="d4">14.0</data>
+  <data key="d5">Nguyen Thi Hang is associated with the service outlet in Hau Giang, contributing to its sales performance.</data>
+  <data key="d6">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+</edge>
+<edge source="VINH LONG" target="HO VAN DUC">
+  <data key="d4">14.0</data>
+  <data key="d5">Ho Van Duc is associated with the service outlet in Vinh Long, contributing to its sales performance.</data>
+  <data key="d6">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+</edge>
+<edge source="DOAN CONG MAN" target="PHAM THI XUAN THUY">
+  <data key="d4">6.0</data>
+  <data key="d5">Doan Cong Man and Pham Thi Xuan Thuy are both service outlet representatives, contributing to their respective outlets' sales performance.</data>
+  <data key="d6">e8e436dd4b2f4ed595e48df5315a2f9f</data>
+</edge>
+<edge source="PHAM THI XUAN THUY" target="CORE TOTAL">
+  <data key="d4">7.0</data>
+  <data key="d5">Pham Thi Xuan Thuy's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="HUYNH THANH TUNG" target="CORE TOTAL">
+  <data key="d4">7.0</data>
+  <data key="d5">Huynh Thanh Tung's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="TRUONG VAN HUY" target="CORE TOTAL">
+  <data key="d4">7.0</data>
+  <data key="d5">Truong Van Huy's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="NGUYEN PHUC LAM" target="CORE TOTAL">
+  <data key="d4">7.0</data>
+  <data key="d5">Nguyen Phuc Lam's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="NGUYEN THI THANH THAO" target="CORE TOTAL">
+  <data key="d4">7.0</data>
+  <data key="d5">Nguyen Thi Thanh Thao's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="PHAM QUANG LOI" target="CORE TOTAL">
+  <data key="d4">7.0</data>
+  <data key="d5">Pham Quang Loi's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="NGUYEN THAI SINH" target="CORE TOTAL">
+  <data key="d4">7.0</data>
+  <data key="d5">Nguyen Thai Sinh's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="PHAN PHUOC AN" target="CORE TOTAL">
+  <data key="d4">7.0</data>
+  <data key="d5">Phan Phuoc An's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="TRAN VAN TIEN" target="CORE TOTAL">
+  <data key="d4">7.0</data>
+  <data key="d5">Tran Van Tien's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="NGUYEN VAN BANG" target="CORE TOTAL">
+  <data key="d4">7.0</data>
+  <data key="d5">Nguyen Van Bang's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="LE VAN PHUNG" target="CORE TOTAL">
+  <data key="d4">7.0</data>
+  <data key="d5">Le Van Phung's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="PHAM DUY TIEN" target="CORE TOTAL">
+  <data key="d4">7.0</data>
+  <data key="d5">Pham Duy Tien's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="TRIEU THI HONG NHUNG" target="CORE TOTAL">
+  <data key="d4">7.0</data>
+  <data key="d5">Trieu Thi Hong Nhung's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="HO THI AI LOAN" target="CORE TOTAL">
+  <data key="d4">1.0</data>
+  <data key="d5">Ho Thi Ai Loan's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="CORE TOTAL" target="CONG MAN">
+  <data key="d4">7.0</data>
+  <data key="d5">Cong Man's performance metrics contribute to the overall core total metrics</data>
+  <data key="d6">bc9b9822ef754af7a9c2cecd819258d8</data>
+</edge>
+<edge source="CORE GOLD" target="NGUYEN THI ANH">
+  <data key="d4">9.0</data>
+  <data key="d5">Nguyen Thi Anh has the highest core total percentage in CORE GOLD, indicating a strong performance in this category</data>
+  <data key="d6">36395c304d6d4f6fb8bc0c80e8483171</data>
+</edge>
+<edge source="CORE GOLD" target="NGUYEN VAN QUYET">
+  <data key="d4">8.0</data>
+  <data key="d5">Nguyen Van Quyet ranks second in CORE GOLD, showing significant performance in this product category</data>
+  <data key="d6">36395c304d6d4f6fb8bc0c80e8483171</data>
+</edge>
+<edge source="CORE GOLD" target="TRAN VAN LAM">
+  <data key="d4">7.0</data>
+  <data key="d5">Tran Van Lam is noted for his performance in CORE GOLD, ranking third</data>
+  <data key="d6">36395c304d6d4f6fb8bc0c80e8483171</data>
+</edge>
+<edge source="CORE GOLD" target="CORE SILVER">
+  <data key="d4">5.0</data>
+  <data key="d5">CORE SILVER is another product category that can be compared with CORE GOLD in terms of market performance</data>
+  <data key="d6">36395c304d6d4f6fb8bc0c80e8483171</data>
+</edge>
+<edge source="CORE GOLD" target="CORE BRONZE">
+  <data key="d4">5.0</data>
+  <data key="d5">CORE BRONZE is yet another product category that can be analyzed alongside CORE GOLD</data>
+  <data key="d6">36395c304d6d4f6fb8bc0c80e8483171</data>
+</edge>
+<edge source="CORE SILVER" target="CORE BRONZE">
+  <data key="d4">1.0</data>
+  <data key="d5">CORE SILVER and CORE BRONZE are both product categories that reflect different levels of market performance</data>
+  <data key="d6">36395c304d6d4f6fb8bc0c80e8483171</data>
+</edge>
+<edge source="DUONG THI THUY" target="VN130053 - PHAN PHUOC AN">
+  <data key="d4">3.0</data>
+  <data key="d5">Both Duong Thi Thuy and Phan Phuoc An are part of the same dataset indicating performance metrics</data>
+  <data key="d6">ec60ec0595244691a546d243abbc1eb5</data>
+</edge>
+<edge source="DUONG THI THUY" target="LE VAN HUNG">
+  <data key="d4">5.0</data>
+  <data key="d5">Both Duong Thi Thuy and Le Van Hung are individuals listed with core totals</data>
+  <data key="d6">ec60ec0595244691a546d243abbc1eb5</data>
+</edge>
+<edge source="DUONG THI THUY" target="BUI QUANG HUY">
+  <data key="d4">5.0</data>
+  <data key="d5">Both Duong Thi Thuy and Bui Quang Huy are individuals listed with core totals</data>
+  <data key="d6">ec60ec0595244691a546d243abbc1eb5</data>
+</edge>
+<edge source="DUONG THI THUY" target="VN130063 - TRAN VAN HAI">
+  <data key="d4">3.0</data>
+  <data key="d5">Both Duong Thi Thuy and Tran Van Hai are part of the same dataset indicating performance metrics</data>
+  <data key="d6">ec60ec0595244691a546d243abbc1eb5</data>
+</edge>
+<edge source="LE VAN HUNG" target="VN130053 - PHAN PHUOC AN">
+  <data key="d4">3.0</data>
+  <data key="d5">Both Le Van Hung and Phan Phuoc An are part of the same dataset indicating performance metrics</data>
+  <data key="d6">ec60ec0595244691a546d243abbc1eb5</data>
+</edge>
+<edge source="LE VAN HUNG" target="BUI QUANG HUY">
+  <data key="d4">1.0</data>
+  <data key="d5">Both Le Van Hung and Bui Quang Huy are individuals listed with core totals</data>
+  <data key="d6">ec60ec0595244691a546d243abbc1eb5</data>
+</edge>
+<edge source="LE VAN HUNG" target="VN130063 - TRAN VAN HAI">
+  <data key="d4">3.0</data>
+  <data key="d5">Both Le Van Hung and Tran Van Hai are part of the same dataset indicating performance metrics</data>
+  <data key="d6">ec60ec0595244691a546d243abbc1eb5</data>
+</edge>
+<edge source="BUI QUANG HUY" target="VN130053 - PHAN PHUOC AN">
+  <data key="d4">3.0</data>
+  <data key="d5">Both Bui Quang Huy and Phan Phuoc An are part of the same dataset indicating performance metrics</data>
+  <data key="d6">ec60ec0595244691a546d243abbc1eb5</data>
+</edge>
+<edge source="BUI QUANG HUY" target="VN130063 - TRAN VAN HAI">
+  <data key="d4">3.0</data>
+  <data key="d5">Both Bui Quang Huy and Tran Van Hai are part of the same dataset indicating performance metrics</data>
+  <data key="d6">ec60ec0595244691a546d243abbc1eb5</data>
+</edge>
+<edge source="VN130053 - PHAN PHUOC AN" target="VN130063 - TRAN VAN HAI">
+  <data key="d4">3.0</data>
+  <data key="d5">Both Phan Phuoc An and Tran Van Hai are part of the same dataset indicating performance metrics</data>
+  <data key="d6">ec60ec0595244691a546d243abbc1eb5</data>
+</edge>
+<edge source="VN130052 - NGUYEN VAN BANG" target="VN130064 - NGUYEN THI THU">
+  <data key="d4">3.0</data>
+  <data key="d5">Both Nguyen Van Bang and Nguyen Thi Thu are part of the same dataset indicating performance metrics</data>
+  <data key="d6">ec60ec0595244691a546d243abbc1eb5</data>
+</edge>
+<edge source="TRAN THI THANH LY" target="ACTIVE OUTLET BY PRODUCT GROUP">
+  <data key="d4">5.0</data>
+  <data key="d5">Tran Thi Thanh Ly is associated with the KPI Active Outlet by Product Group in the document</data>
+  <data key="d6">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</edge>
+<edge source="TRAN THI THANH LY" target="5 FACTORS EXECUTION FOCUS">
+  <data key="d4">5.0</data>
+  <data key="d5">Tran Thi Thanh Ly is associated with the KPI 5 Factors Execution Focus in the document</data>
+  <data key="d6">5885f3c8b107429a8a7ff5e3ff9714f8</data>
+</edge>
+</graph></graphml>
